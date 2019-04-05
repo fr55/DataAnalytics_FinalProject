@@ -1,0 +1,21 @@
+Title:               Burdened Households in Caswell County, NC
+Series ID:           DP04ACS037033
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  33.341463414634150
+2011-01-01  34.278318747688900
+2012-01-01  32.261256803562596
+2013-01-01  34.123686140307990
+2014-01-01  31.773613007322826
+2015-01-01  30.785199658077910
+2016-01-01  30.822080075811420

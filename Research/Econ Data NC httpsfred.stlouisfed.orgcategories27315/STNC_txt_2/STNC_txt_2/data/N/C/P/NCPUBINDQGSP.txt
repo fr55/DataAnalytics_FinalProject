@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Information: Publishing Industries, Except Internet (Includes Software) for North Carolina
+Series ID:           NCPUBINDQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   50.391
+1998-01-01   59.138
+1999-01-01   70.889
+2000-01-01   60.286
+2001-01-01   58.783
+2002-01-01   70.597
+2003-01-01   73.931
+2004-01-01  101.453
+2005-01-01  100.122
+2006-01-01   95.094
+2007-01-01  100.478
+2008-01-01   95.416
+2009-01-01   81.611
+2010-01-01   91.497
+2011-01-01   91.102
+2012-01-01  100.000
+2013-01-01  106.992
+2014-01-01  126.963
+2015-01-01  134.554
+2016-01-01  153.962

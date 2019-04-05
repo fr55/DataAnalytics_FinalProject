@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Alleghany County, NC
+Series ID:           PEAANC37005A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:04 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1433
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1390
+1994-01-01     .
+1995-01-01  1413
+1996-01-01     .
+1997-01-01  1385
+1998-01-01  1524
+1999-01-01  1475
+2000-01-01  1449
+2001-01-01  1544
+2002-01-01  1644
+2003-01-01  1681
+2004-01-01  1780
+2005-01-01  2069
+2006-01-01  2321
+2007-01-01  1796
+2008-01-01  1990
+2009-01-01  2086
+2010-01-01  2541
+2011-01-01  2220
+2012-01-01  2263
+2013-01-01  2287
+2014-01-01  2205
+2015-01-01  2451
+2016-01-01  2203
+2017-01-01  2274

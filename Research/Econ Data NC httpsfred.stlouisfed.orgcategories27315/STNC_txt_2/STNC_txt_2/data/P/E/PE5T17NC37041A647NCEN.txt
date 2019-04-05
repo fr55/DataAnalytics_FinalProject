@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Chowan County, NC
+Series ID:           PE5T17NC37041A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   629
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   631
+1994-01-01     .
+1995-01-01   741
+1996-01-01     .
+1997-01-01   726
+1998-01-01   781
+1999-01-01   675
+2000-01-01   549
+2001-01-01   524
+2002-01-01   552
+2003-01-01   562
+2004-01-01   571
+2005-01-01   687
+2006-01-01   624
+2007-01-01   641
+2008-01-01   659
+2009-01-01   722
+2010-01-01   699
+2011-01-01   820
+2012-01-01   693
+2013-01-01   738
+2014-01-01   754
+2015-01-01   679
+2016-01-01   638
+2017-01-01   596

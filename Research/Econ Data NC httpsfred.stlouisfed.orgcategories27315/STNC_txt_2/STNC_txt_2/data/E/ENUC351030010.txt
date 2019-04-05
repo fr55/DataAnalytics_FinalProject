@@ -1,0 +1,35 @@
+Title:               Total Quarterly Wages in New Bern, NC (MSA)
+Series ID:           ENUC351030010
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars
+Date Range:          2013-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:21 AM CDT
+Notes:               Total wages are the wages paid by Unemployment Insurance covered
+                     employers during the calendar quarter, regardless of when the services
+                     were performed.
+
+DATE            VALUE
+2013-01-01  403563451
+2013-04-01  390999691
+2013-07-01  396879051
+2013-10-01  414875604
+2014-01-01  403672082
+2014-04-01  399326552
+2014-07-01  421303898
+2014-10-01  440037568
+2015-01-01  418303735
+2015-04-01  410945867
+2015-07-01  437541206
+2015-10-01  467670847
+2016-01-01  408085293
+2016-04-01  424095212
+2016-07-01  458898925
+2016-10-01  479381174
+2017-01-01  435213529
+2017-04-01  450595496
+2017-07-01  440652591
+2017-10-01  483337123
+2018-01-01  446995219

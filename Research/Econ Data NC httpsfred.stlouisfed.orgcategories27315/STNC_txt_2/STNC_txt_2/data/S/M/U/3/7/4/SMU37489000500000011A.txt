@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in Wilmington, NC (MSA)
+Series ID:           SMU37489000500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  648.75
+2008-01-01  672.18
+2009-01-01  713.52
+2010-01-01  707.88
+2011-01-01  650.24
+2012-01-01  666.54
+2013-01-01  615.35
+2014-01-01  576.82
+2015-01-01  618.47
+2016-01-01  710.49
+2017-01-01  732.11

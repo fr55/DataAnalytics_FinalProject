@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Orange County, NC
+Series ID:           MHICIUBNC37135A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  32118
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  37937
+1994-01-01      .
+1995-01-01  40871
+1996-01-01      .
+1997-01-01  42388
+1998-01-01  45160
+1999-01-01  45058
+2000-01-01  46839
+2001-01-01  47331
+2002-01-01  47940
+2003-01-01  48515
+2004-01-01  49681
+2005-01-01  48253
+2006-01-01  50290
+2007-01-01  59085
+2008-01-01  59063
+2009-01-01  55243
+2010-01-01  54611
+2011-01-01  60873
+2012-01-01  56250
+2013-01-01  62431
+2014-01-01  64774
+2015-01-01  65279
+2016-01-01  69665
+2017-01-01  73317

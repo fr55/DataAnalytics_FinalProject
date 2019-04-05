@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Buncombe County, NC
+Series ID:           PECIUB5T17NC37021A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  5117
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  5968
+1994-01-01     .
+1995-01-01  6230
+1996-01-01     .
+1997-01-01  6685
+1998-01-01  7318
+1999-01-01  6631
+2000-01-01  5717
+2001-01-01  5918
+2002-01-01  6646
+2003-01-01  7157
+2004-01-01  7396
+2005-01-01  7265
+2006-01-01  6813
+2007-01-01  7467
+2008-01-01  7082
+2009-01-01  8110
+2010-01-01  9150
+2011-01-01  9707
+2012-01-01  9800
+2013-01-01  8922
+2014-01-01  8376
+2015-01-01  9113
+2016-01-01  7811
+2017-01-01  7178

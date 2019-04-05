@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Bladen County, NC
+Series ID:           MHINC37017A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18140
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  21370
+1994-01-01      .
+1995-01-01  25326
+1996-01-01      .
+1997-01-01  26984
+1998-01-01  27440
+1999-01-01  26829
+2000-01-01  28009
+2001-01-01  27275
+2002-01-01  27451
+2003-01-01  28278
+2004-01-01  28803
+2005-01-01  29488
+2006-01-01  30688
+2007-01-01  32376
+2008-01-01  29043
+2009-01-01  31248
+2010-01-01  31637
+2011-01-01  33138
+2012-01-01  32766
+2013-01-01  33971
+2014-01-01  33521
+2015-01-01  33882
+2016-01-01  33621
+2017-01-01  38059

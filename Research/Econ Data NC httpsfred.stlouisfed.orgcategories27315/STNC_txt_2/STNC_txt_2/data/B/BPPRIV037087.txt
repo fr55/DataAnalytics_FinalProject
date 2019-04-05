@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Haywood County, NC
+Series ID:           BPPRIV037087
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   261
+1991-01-01   286
+1992-01-01   294
+1993-01-01   291
+1994-01-01   303
+1995-01-01   350
+1996-01-01   379
+1997-01-01   374
+1998-01-01   398
+1999-01-01   436
+2000-01-01   393
+2001-01-01   424
+2002-01-01   479
+2003-01-01   464
+2004-01-01   443
+2005-01-01   509
+2006-01-01   504
+2007-01-01   350
+2008-01-01   210
+2009-01-01   174
+2010-01-01   166
+2011-01-01   146
+2012-01-01    95
+2013-01-01   119
+2014-01-01   118
+2015-01-01   119
+2016-01-01   147
+2017-01-01   184

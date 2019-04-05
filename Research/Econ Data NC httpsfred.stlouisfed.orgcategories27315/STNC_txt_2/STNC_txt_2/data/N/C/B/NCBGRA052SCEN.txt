@@ -1,0 +1,41 @@
+Title:               Value of Exports to Bulgaria from North Carolina
+Series ID:           NCBGRA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE            VALUE
+1992-01-01      63241
+1993-01-01          .
+1994-01-01          .
+1995-01-01          .
+1996-01-01          .
+1997-01-01     937364
+1998-01-01          .
+1999-01-01          .
+2000-01-01          .
+2001-01-01          .
+2002-01-01    6047297
+2003-01-01   12402655
+2004-01-01   12271016
+2005-01-01    5534838
+2006-01-01   18982183
+2007-01-01    5575079
+2008-01-01    5535414
+2009-01-01    8039148
+2010-01-01    7408491
+2011-01-01   12048625
+2012-01-01   13159846
+2013-01-01   11867423
+2014-01-01    6622596
+2015-01-01    2233036
+2016-01-01    2126317

@@ -1,0 +1,22 @@
+Title:               Income Inequality in Avery County, NC
+Series ID:           2020RATIO037011
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  17.408765366114377
+2011-01-01  17.285370195832023
+2012-01-01  18.286130405556800
+2013-01-01  14.586983599750882
+2014-01-01  15.475637302355599
+2015-01-01  14.866310699173887
+2016-01-01  15.288179293930980
+2017-01-01  14.137732222934016

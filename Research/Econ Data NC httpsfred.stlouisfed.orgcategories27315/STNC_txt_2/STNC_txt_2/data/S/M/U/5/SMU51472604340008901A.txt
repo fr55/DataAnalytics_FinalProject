@@ -1,0 +1,27 @@
+Title:               All Employees: Transportation and Warehousing in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472604340008901A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          2003-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:08 PM CDT
+Notes:               
+
+DATE       VALUE
+2003-01-01  22.9
+2004-01-01  23.4
+2005-01-01  23.9
+2006-01-01  23.6
+2007-01-01  23.3
+2008-01-01  22.6
+2009-01-01  21.0
+2010-01-01  21.3
+2011-01-01  21.2
+2012-01-01  21.4
+2013-01-01  21.4
+2014-01-01  21.9
+2015-01-01  22.8
+2016-01-01  24.0
+2017-01-01  24.5

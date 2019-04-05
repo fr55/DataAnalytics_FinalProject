@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Clay County, NC
+Series ID:           PE5T17NC37043A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   252
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   256
+1994-01-01     .
+1995-01-01   316
+1996-01-01     .
+1997-01-01   333
+1998-01-01   356
+1999-01-01   199
+2000-01-01   210
+2001-01-01   205
+2002-01-01   239
+2003-01-01   237
+2004-01-01   224
+2005-01-01   250
+2006-01-01   252
+2007-01-01   243
+2008-01-01   273
+2009-01-01   351
+2010-01-01   408
+2011-01-01   451
+2012-01-01   419
+2013-01-01   411
+2014-01-01   388
+2015-01-01   390
+2016-01-01   349
+2017-01-01   366

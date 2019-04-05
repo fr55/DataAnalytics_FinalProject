@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Tyrrell County, NC
+Series ID:           MHICILBNC37177A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  14164
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  16768
+1994-01-01      .
+1995-01-01  16276
+1996-01-01      .
+1997-01-01  18482
+1998-01-01  18893
+1999-01-01  22368
+2000-01-01  23950
+2001-01-01  23290
+2002-01-01  22913
+2003-01-01  24206
+2004-01-01  24518
+2005-01-01  24804
+2006-01-01  27010
+2007-01-01  27515
+2008-01-01  28532
+2009-01-01  26935
+2010-01-01  29333
+2011-01-01  30256
+2012-01-01  27716
+2013-01-01  29537
+2014-01-01  29242
+2015-01-01  30781
+2016-01-01  29972
+2017-01-01  31291

@@ -1,0 +1,22 @@
+Title:               Income Inequality in Moore County, NC
+Series ID:           2020RATIO037125
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.997137404580153
+2011-01-01  14.010815525512430
+2012-01-01  15.169636556104447
+2013-01-01  15.225978803538583
+2014-01-01  16.235501673753730
+2015-01-01  15.126950474898235
+2016-01-01  14.096630125862768
+2017-01-01  14.355480967274392

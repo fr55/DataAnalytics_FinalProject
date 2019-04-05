@@ -1,0 +1,43 @@
+Title:               Poverty Tax Exemptions Under Age 65 for North Carolina
+Series ID:           PLT65EXMNC37A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Exemptions
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 2:55 PM CST
+Notes:               Poverty Tax Exemptions under age 65 - algebraic operation of poor
+                     exemptions minus poor age exemptions as defined above. For more
+                     information please visit,
+                     http://www.census.gov/did/www/saipe/data/model/irs.html.
+
+DATE          VALUE
+1989-01-01   764718
+1990-01-01   827948
+1991-01-01   934030
+1992-01-01   901958
+1993-01-01   930284
+1994-01-01   877384
+1995-01-01   903148
+1996-01-01   950213
+1997-01-01   921950
+1998-01-01   879146
+1999-01-01   889539
+2000-01-01   909215
+2001-01-01   955765
+2002-01-01  1007280
+2003-01-01  1076817
+2004-01-01  1103177
+2005-01-01  1162940
+2006-01-01  1182941
+2007-01-01  1586453
+2008-01-01  1343197
+2009-01-01  1432055
+2010-01-01  1421537
+2011-01-01  1501852
+2012-01-01  1477116
+2013-01-01  1489126
+2014-01-01  1487123
+2015-01-01  1425968
+2016-01-01  1384188

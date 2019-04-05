@@ -1,0 +1,42 @@
+Title:               Estimated Percent of Related Children Age 5-17 in Families in Poverty for Wilkes County, NC
+Series ID:           PP5T17NC37193A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:55 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  14.9
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  15.9
+1994-01-01     .
+1995-01-01  16.9
+1996-01-01     .
+1997-01-01  17.3
+1998-01-01  17.4
+1999-01-01  15.3
+2000-01-01  14.7
+2001-01-01  15.7
+2002-01-01  16.8
+2003-01-01  16.4
+2004-01-01  16.5
+2005-01-01  19.8
+2006-01-01  19.3
+2007-01-01  18.5
+2008-01-01  25.2
+2009-01-01  26.6
+2010-01-01  24.2
+2011-01-01  31.7
+2012-01-01  25.6
+2013-01-01  27.2
+2014-01-01  28.1
+2015-01-01  24.9
+2016-01-01  23.1
+2017-01-01  23.3

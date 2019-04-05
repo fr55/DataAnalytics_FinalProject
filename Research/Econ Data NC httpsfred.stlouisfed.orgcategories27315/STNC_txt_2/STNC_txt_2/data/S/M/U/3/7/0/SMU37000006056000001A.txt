@@ -1,0 +1,40 @@
+Title:               All Employees: Administrative and Support and Waste Management and Remediation Services in North Carolina
+Series ID:           SMU37000006056000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  107.8
+1991-01-01  104.6
+1992-01-01  117.3
+1993-01-01  131.8
+1994-01-01  142.7
+1995-01-01  150.2
+1996-01-01  164.1
+1997-01-01  179.9
+1998-01-01  191.0
+1999-01-01  202.2
+2000-01-01  209.5
+2001-01-01  203.4
+2002-01-01  207.6
+2003-01-01  209.4
+2004-01-01  214.7
+2005-01-01  221.9
+2006-01-01  236.6
+2007-01-01  243.8
+2008-01-01  239.5
+2009-01-01  214.2
+2010-01-01  230.9
+2011-01-01  247.9
+2012-01-01  258.8
+2013-01-01  270.1
+2014-01-01  281.0
+2015-01-01  288.8
+2016-01-01  292.8
+2017-01-01  295.4

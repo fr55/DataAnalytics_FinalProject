@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Jacksonville, NC (MSA)
+Series ID:           SMU37273400000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  31.5
+1991-01-01  31.2
+1992-01-01  32.1
+1993-01-01  33.3
+1994-01-01  34.5
+1995-01-01  35.3
+1996-01-01  36.4
+1997-01-01  37.5
+1998-01-01  38.5
+1999-01-01  40.2
+2000-01-01  40.9
+2001-01-01  41.1
+2002-01-01  40.1
+2003-01-01  39.2
+2004-01-01  40.9
+2005-01-01  41.6
+2006-01-01  43.4
+2007-01-01  45.6
+2008-01-01  47.2
+2009-01-01  47.5
+2010-01-01  47.9
+2011-01-01  47.4
+2012-01-01  47.9
+2013-01-01  48.7
+2014-01-01  49.0
+2015-01-01  49.0
+2016-01-01  49.0
+2017-01-01  49.2

@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Truck Transportation for North Carolina
+Series ID:           NCTRUCKTRANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  2763.3
+1998-01-01  3087.4
+1999-01-01  3255.6
+2000-01-01  3361.2
+2001-01-01  3216.9
+2002-01-01  3099.9
+2003-01-01  3219.1
+2004-01-01  3438.3
+2005-01-01  3634.2
+2006-01-01  3873.3
+2007-01-01  3767.8
+2008-01-01  3578.5
+2009-01-01  3152.1
+2010-01-01  3144.0
+2011-01-01  3289.9
+2012-01-01  3330.4
+2013-01-01  3387.2
+2014-01-01  3684.7
+2015-01-01  3998.9
+2016-01-01  4000.4

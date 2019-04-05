@@ -1,0 +1,40 @@
+Title:               All Employees: Services to Buildings and Dwellings in North Carolina
+Series ID:           SMU37000006056170001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  33.6
+1991-01-01  33.3
+1992-01-01  34.5
+1993-01-01  35.7
+1994-01-01  38.1
+1995-01-01  39.9
+1996-01-01  42.5
+1997-01-01  45.4
+1998-01-01  46.9
+1999-01-01  47.7
+2000-01-01  49.4
+2001-01-01  49.0
+2002-01-01  48.3
+2003-01-01  48.7
+2004-01-01  49.4
+2005-01-01  50.5
+2006-01-01  54.5
+2007-01-01  57.5
+2008-01-01  58.4
+2009-01-01  54.7
+2010-01-01  54.6
+2011-01-01  57.0
+2012-01-01  59.2
+2013-01-01  61.9
+2014-01-01  63.9
+2015-01-01  66.2
+2016-01-01  67.6
+2017-01-01  70.6

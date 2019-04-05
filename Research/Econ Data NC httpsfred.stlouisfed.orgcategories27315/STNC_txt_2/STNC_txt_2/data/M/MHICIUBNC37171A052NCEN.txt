@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Surry County, NC
+Series ID:           MHICIUBNC37171A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  25041
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28810
+1994-01-01      .
+1995-01-01  31833
+1996-01-01      .
+1997-01-01  33913
+1998-01-01  35286
+1999-01-01  34412
+2000-01-01  36345
+2001-01-01  34884
+2002-01-01  34216
+2003-01-01  33843
+2004-01-01  35499
+2005-01-01  37331
+2006-01-01  38311
+2007-01-01  38915
+2008-01-01  39562
+2009-01-01  36449
+2010-01-01  39133
+2011-01-01  38128
+2012-01-01  39543
+2013-01-01  38040
+2014-01-01  40958
+2015-01-01  40777
+2016-01-01  41710
+2017-01-01  46439

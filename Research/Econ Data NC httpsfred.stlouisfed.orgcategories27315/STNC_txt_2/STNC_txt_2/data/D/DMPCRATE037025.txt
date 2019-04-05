@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Cabarrus County, NC
+Series ID:           DMPCRATE037025
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  76.0099999904633
+2009-01-01  74.9099998474121
+2010-01-01  74.2799999713898
+2011-01-01  61.6489999997430
+2012-01-01  61.0229999995790
+2013-01-01  52.6829999997281
+2014-01-01  50.5659999996424
+2015-01-01  55.9369999999180

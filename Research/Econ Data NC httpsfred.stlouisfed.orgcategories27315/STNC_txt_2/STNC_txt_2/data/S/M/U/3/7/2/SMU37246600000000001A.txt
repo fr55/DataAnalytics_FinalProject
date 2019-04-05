@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Greensboro-High Point, NC (MSA)
+Series ID:           SMU37246600000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  308.7
+1991-01-01  303.7
+1992-01-01  306.8
+1993-01-01  316.3
+1994-01-01  327.7
+1995-01-01  339.4
+1996-01-01  345.6
+1997-01-01  352.3
+1998-01-01  360.4
+1999-01-01  367.3
+2000-01-01  373.1
+2001-01-01  365.8
+2002-01-01  357.9
+2003-01-01  352.8
+2004-01-01  354.6
+2005-01-01  360.5
+2006-01-01  367.5
+2007-01-01  370.0
+2008-01-01  365.1
+2009-01-01  340.8
+2010-01-01  336.6
+2011-01-01  339.1
+2012-01-01  341.6
+2013-01-01  345.5
+2014-01-01  348.1
+2015-01-01  354.5
+2016-01-01  358.0
+2017-01-01  359.0

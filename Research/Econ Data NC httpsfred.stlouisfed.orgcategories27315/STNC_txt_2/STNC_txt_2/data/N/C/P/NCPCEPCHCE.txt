@@ -1,0 +1,38 @@
+Title:               Per Capita Personal Consumption Expenditures: Services: Household Consumption Expenditures for Services for North Carolina
+Series ID:           NCPCEPCHCE
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:23 PM CDT
+Notes:               Personal consumption expenditures of a given area divided by the
+                     resident population of the area.
+                     
+                     Consists of actual and imputed consumption expenditures for services
+                     by resident households.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm.
+
+DATE        VALUE
+1997-01-01  10384
+1998-01-01  10961
+1999-01-01  11483
+2000-01-01  12235
+2001-01-01  12665
+2002-01-01  13021
+2003-01-01  13580
+2004-01-01  14315
+2005-01-01  15085
+2006-01-01  15720
+2007-01-01  16412
+2008-01-01  16742
+2009-01-01  16885
+2010-01-01  17229
+2011-01-01  17663
+2012-01-01  18090
+2013-01-01  18445
+2014-01-01  19012
+2015-01-01  19880
+2016-01-01  20702
+2017-01-01  21611

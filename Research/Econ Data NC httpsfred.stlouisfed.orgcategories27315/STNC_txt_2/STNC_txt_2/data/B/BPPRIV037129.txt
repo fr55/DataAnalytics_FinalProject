@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for New Hanover County, NC
+Series ID:           BPPRIV037129
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   1241
+1991-01-01   1192
+1992-01-01   1415
+1993-01-01   1863
+1994-01-01   2372
+1995-01-01   2486
+1996-01-01   2378
+1997-01-01   2812
+1998-01-01   2014
+1999-01-01   1786
+2000-01-01   1444
+2001-01-01   1604
+2002-01-01   1893
+2003-01-01   2132
+2004-01-01   2601
+2005-01-01   2560
+2006-01-01   1526
+2007-01-01   1166
+2008-01-01    685
+2009-01-01    337
+2010-01-01    420
+2011-01-01    452
+2012-01-01    711
+2013-01-01   1007
+2014-01-01    948
+2015-01-01   1182
+2016-01-01   1272
+2017-01-01   2258

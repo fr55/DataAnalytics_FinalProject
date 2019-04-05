@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Watauga County, NC
+Series ID:           CDC20N2U037189
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:21 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  290.1
+2000-01-01  295.6
+2001-01-01  268.6
+2002-01-01  259.5
+2003-01-01  291.7
+2004-01-01  289.4
+2005-01-01  254.5
+2006-01-01  311.3
+2007-01-01  276.8
+2008-01-01  243.4
+2009-01-01  258.0
+2010-01-01  274.9
+2011-01-01  305.0
+2012-01-01  247.6
+2013-01-01  270.9
+2014-01-01  277.2
+2015-01-01  282.3
+2016-01-01  253.9

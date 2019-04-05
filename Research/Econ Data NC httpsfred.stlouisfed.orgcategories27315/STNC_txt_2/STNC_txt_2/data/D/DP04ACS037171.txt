@@ -1,0 +1,21 @@
+Title:               Burdened Households in Surry County, NC
+Series ID:           DP04ACS037171
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  27.481614412892785
+2011-01-01  28.509431981241030
+2012-01-01  28.970146617205440
+2013-01-01  28.995806978892760
+2014-01-01  28.822565969062786
+2015-01-01  27.380558921817045
+2016-01-01  26.159458051068263

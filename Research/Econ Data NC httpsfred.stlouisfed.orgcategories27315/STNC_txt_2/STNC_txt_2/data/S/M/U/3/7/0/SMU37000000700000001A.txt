@@ -1,0 +1,40 @@
+Title:               All Employees: Service-Providing in North Carolina
+Series ID:           SMU37000000700000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+1990-01-01  2125.1
+1991-01-01  2128.2
+1992-01-01  2181.4
+1993-01-01  2257.0
+1994-01-01  2351.8
+1995-01-01  2438.0
+1996-01-01  2528.2
+1997-01-01  2638.4
+1998-01-01  2736.0
+1999-01-01  2833.9
+2000-01-01  2914.9
+2001-01-01  2948.3
+2002-01-01  2963.5
+2003-01-01  2966.9
+2004-01-01  3028.6
+2005-01-01  3106.8
+2006-01-01  3228.7
+2007-01-01  3338.5
+2008-01-01  3370.6
+2009-01-01  3255.8
+2010-01-01  3253.4
+2011-01-01  3302.6
+2012-01-01  3367.8
+2013-01-01  3434.7
+2014-01-01  3505.7
+2015-01-01  3584.1
+2016-01-01  3670.3
+2017-01-01  3733.2

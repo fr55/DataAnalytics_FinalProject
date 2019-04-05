@@ -1,0 +1,40 @@
+Title:               All Employees: Non-Durable Goods: Fiber, Yarn, and Thread Mills in North Carolina
+Series ID:           SMU37000003231310001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  54.2
+1991-01-01  50.5
+1992-01-01  49.1
+1993-01-01  48.3
+1994-01-01  47.4
+1995-01-01  45.8
+1996-01-01  42.4
+1997-01-01  40.8
+1998-01-01  36.6
+1999-01-01  33.7
+2000-01-01  31.5
+2001-01-01  26.9
+2002-01-01  23.4
+2003-01-01  20.5
+2004-01-01  18.2
+2005-01-01  16.9
+2006-01-01  14.8
+2007-01-01  13.0
+2008-01-01  11.9
+2009-01-01   9.4
+2010-01-01   8.9
+2011-01-01   9.2
+2012-01-01   9.0
+2013-01-01   8.7
+2014-01-01   8.7
+2015-01-01   9.1
+2016-01-01   9.1
+2017-01-01   9.2

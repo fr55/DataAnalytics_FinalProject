@@ -1,0 +1,40 @@
+Title:               All Employees: Wholesale Trade in Wilmington, NC (MSA)
+Series ID:           SMU37489004100000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   2.6
+1991-01-01   2.7
+1992-01-01   2.6
+1993-01-01   2.7
+1994-01-01   2.8
+1995-01-01   2.8
+1996-01-01   2.9
+1997-01-01   3.1
+1998-01-01   3.0
+1999-01-01   3.0
+2000-01-01   3.1
+2001-01-01   3.0
+2002-01-01   2.7
+2003-01-01   2.9
+2004-01-01   3.5
+2005-01-01   4.1
+2006-01-01   4.2
+2007-01-01   4.5
+2008-01-01   4.4
+2009-01-01   3.9
+2010-01-01   3.8
+2011-01-01   3.7
+2012-01-01   3.7
+2013-01-01   3.8
+2014-01-01   3.9
+2015-01-01   4.1
+2016-01-01   4.2
+2017-01-01   4.4

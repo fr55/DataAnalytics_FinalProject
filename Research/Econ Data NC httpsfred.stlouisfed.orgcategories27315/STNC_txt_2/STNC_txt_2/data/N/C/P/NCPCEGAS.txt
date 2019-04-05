@@ -1,0 +1,39 @@
+Title:               Personal Consumption Expenditures: Nondurable Goods: Gasoline and Other Energy Goods for North Carolina
+Series ID:           NCPCEGAS
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Purchases of motor vehicle fuels, lubricants, and fluids, and fuel
+                     oils and other fuels.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   4577
+1998-01-01   4089
+1999-01-01   4535
+2000-01-01   5911
+2001-01-01   5706
+2002-01-01   5370
+2003-01-01   6289
+2004-01-01   7477
+2005-01-01   9024
+2006-01-01  10310
+2007-01-01  10816
+2008-01-01  12296
+2009-01-01   9093
+2010-01-01  10889
+2011-01-01  13166
+2012-01-01  13534
+2013-01-01  13436
+2014-01-01  12957
+2015-01-01   9665
+2016-01-01   8775
+2017-01-01   9898

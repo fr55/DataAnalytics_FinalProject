@@ -1,0 +1,34 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Construction for North Carolina
+Series ID:           NCCONSTQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  158.825
+1998-01-01  169.931
+1999-01-01  173.197
+2000-01-01  173.526
+2001-01-01  166.733
+2002-01-01  158.225
+2003-01-01  155.348
+2004-01-01  157.625
+2005-01-01  160.964
+2006-01-01  161.431
+2007-01-01  162.193
+2008-01-01  141.455
+2009-01-01  113.620
+2010-01-01   98.289
+2011-01-01   95.778
+2012-01-01  100.000
+2013-01-01  102.903
+2014-01-01  103.592
+2015-01-01  108.969
+2016-01-01  115.011
+2017-01-01  117.100

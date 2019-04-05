@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Motor Vehicles, Bodies and Trailers, and Parts Manufacturing for North Carolina
+Series ID:           NCMVEHMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   46.076
+1998-01-01   51.865
+1999-01-01   52.679
+2000-01-01   61.766
+2001-01-01   53.170
+2002-01-01   61.978
+2003-01-01   61.235
+2004-01-01   78.623
+2005-01-01   88.455
+2006-01-01  112.273
+2007-01-01   91.678
+2008-01-01   67.318
+2009-01-01   46.974
+2010-01-01   63.222
+2011-01-01   99.022
+2012-01-01  100.000
+2013-01-01  101.479
+2014-01-01   98.903
+2015-01-01   91.670
+2016-01-01   99.437

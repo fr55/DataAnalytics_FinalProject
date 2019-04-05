@@ -1,0 +1,21 @@
+Title:               Burdened Households in Bertie County, NC
+Series ID:           DP04ACS037015
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  37.129870129870130
+2011-01-01  35.912698412698410
+2012-01-01  34.980566352026656
+2013-01-01  35.563430191353650
+2014-01-01  40.611664295874824
+2015-01-01  39.979200713118410
+2016-01-01  37.517892928714570

@@ -1,0 +1,29 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in New Hanover County, NC
+Series ID:           FBITC037129
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2017-01-01
+Last Updated:        2018-09-27 10:21 AM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   2939
+2005-01-01   2872
+2006-01-01   2996
+2007-01-01   2945
+2008-01-01   2819
+2009-01-01   2868
+2010-01-01      .
+2011-01-01   2737
+2012-01-01   2352
+2013-01-01   2351
+2014-01-01   2419
+2015-01-01   2165
+2016-01-01   1934
+2017-01-01   1709

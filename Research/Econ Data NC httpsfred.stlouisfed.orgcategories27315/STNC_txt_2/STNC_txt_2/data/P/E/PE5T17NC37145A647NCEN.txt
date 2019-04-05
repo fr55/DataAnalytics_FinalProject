@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Person County, NC
+Series ID:           PE5T17NC37145A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:36 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   896
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   971
+1994-01-01     .
+1995-01-01  1021
+1996-01-01     .
+1997-01-01  1027
+1998-01-01  1110
+1999-01-01   953
+2000-01-01   826
+2001-01-01   827
+2002-01-01   877
+2003-01-01  1000
+2004-01-01  1062
+2005-01-01  1082
+2006-01-01  1118
+2007-01-01  1018
+2008-01-01  1045
+2009-01-01  1176
+2010-01-01  1442
+2011-01-01  1497
+2012-01-01  1408
+2013-01-01  1522
+2014-01-01  1495
+2015-01-01  1441
+2016-01-01  1329
+2017-01-01  1212

@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Davidson County, NC
+Series ID:           DMPCRATE037057
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  77.9699997901917
+2009-01-01  82.8099999427795
+2010-01-01  78.3899998664856
+2011-01-01  69.4709999999031
+2012-01-01  69.4819999998435
+2013-01-01  54.9839999997057
+2014-01-01  54.7399999997579
+2015-01-01  57.8609999995679

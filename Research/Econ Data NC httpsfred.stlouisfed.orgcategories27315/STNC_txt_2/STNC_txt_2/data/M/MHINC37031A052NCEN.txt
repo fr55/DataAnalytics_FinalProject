@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Carteret County, NC
+Series ID:           MHINC37031A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  23610
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28201
+1994-01-01      .
+1995-01-01  31746
+1996-01-01      .
+1997-01-01  34348
+1998-01-01  35359
+1999-01-01  36614
+2000-01-01  38728
+2001-01-01  37869
+2002-01-01  38155
+2003-01-01  39115
+2004-01-01  40423
+2005-01-01  42615
+2006-01-01  44176
+2007-01-01  47064
+2008-01-01  49443
+2009-01-01  44036
+2010-01-01  43356
+2011-01-01  45507
+2012-01-01  48930
+2013-01-01  46227
+2014-01-01  48824
+2015-01-01  50837
+2016-01-01  51557
+2017-01-01  53192

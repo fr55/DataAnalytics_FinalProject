@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Wood Products Manufacturing for North Carolina
+Series ID:           NCWPMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  100.360
+1998-01-01  101.133
+1999-01-01   99.807
+2000-01-01   88.217
+2001-01-01   91.646
+2002-01-01   92.798
+2003-01-01   85.828
+2004-01-01   89.868
+2005-01-01  100.703
+2006-01-01  103.993
+2007-01-01  107.082
+2008-01-01   96.566
+2009-01-01   81.097
+2010-01-01   78.583
+2011-01-01   83.326
+2012-01-01  100.000
+2013-01-01  102.994
+2014-01-01   94.344
+2015-01-01  106.083
+2016-01-01   97.511

@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Graham County, NC
+Series ID:           B080ACS037075
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  17.035500995355010
+2010-01-01  17.793234271261460
+2011-01-01  19.562986003110420
+2012-01-01  19.881851000984575
+2013-01-01  19.712738017071570
+2014-01-01  22.733948087431695
+2015-01-01  24.233524355300858
+2016-01-01  24.808301090397467
+2017-01-01  27.492244053774560

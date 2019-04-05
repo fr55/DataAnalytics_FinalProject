@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Rowan County, NC
+Series ID:           PEU18NC37159A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3711
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  4569
+1994-01-01     .
+1995-01-01  5080
+1996-01-01     .
+1997-01-01  5596
+1998-01-01  5400
+1999-01-01  5102
+2000-01-01  4919
+2001-01-01  5067
+2002-01-01  4994
+2003-01-01  5700
+2004-01-01  5811
+2005-01-01  7214
+2006-01-01  6159
+2007-01-01  5471
+2008-01-01  6875
+2009-01-01  7891
+2010-01-01  9352
+2011-01-01  9292
+2012-01-01  8500
+2013-01-01  8625
+2014-01-01  8878
+2015-01-01  8132
+2016-01-01  7994
+2017-01-01  6943

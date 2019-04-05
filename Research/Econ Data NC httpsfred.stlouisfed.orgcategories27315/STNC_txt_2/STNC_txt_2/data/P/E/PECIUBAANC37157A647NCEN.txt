@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Rockingham County, NC
+Series ID:           PECIUBAANC37157A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  12198
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  14072
+1994-01-01      .
+1995-01-01  13753
+1996-01-01      .
+1997-01-01  13319
+1998-01-01  13652
+1999-01-01  13636
+2000-01-01  12974
+2001-01-01  13101
+2002-01-01  14390
+2003-01-01  14600
+2004-01-01  15265
+2005-01-01  15414
+2006-01-01  16534
+2007-01-01  15949
+2008-01-01  16859
+2009-01-01  15898
+2010-01-01  19427
+2011-01-01  17959
+2012-01-01  19879
+2013-01-01  21633
+2014-01-01  19864
+2015-01-01  19169
+2016-01-01  18636
+2017-01-01  17204

@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Durham-Chapel Hill, NC (MSA)
+Series ID:           DURH537PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  31283
+2002-01-01  30994
+2003-01-01  31671
+2004-01-01  35151
+2005-01-01  37083
+2006-01-01  39319
+2007-01-01  41684
+2008-01-01  42666
+2009-01-01  41084
+2010-01-01  42173
+2011-01-01  43538
+2012-01-01  45150
+2013-01-01  44583
+2014-01-01  47056
+2015-01-01  49142
+2016-01-01  50620
+2017-01-01  52277

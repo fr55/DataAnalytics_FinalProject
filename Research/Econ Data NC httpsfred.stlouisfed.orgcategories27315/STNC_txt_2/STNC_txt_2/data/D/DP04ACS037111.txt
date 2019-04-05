@@ -1,0 +1,21 @@
+Title:               Burdened Households in McDowell County, NC
+Series ID:           DP04ACS037111
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  19.788436987050883
+2011-01-01  22.680286256040123
+2012-01-01  24.176233322991003
+2013-01-01  25.764705882352940
+2014-01-01  24.848331648129424
+2015-01-01  23.857518467509703
+2016-01-01  22.995044962378420

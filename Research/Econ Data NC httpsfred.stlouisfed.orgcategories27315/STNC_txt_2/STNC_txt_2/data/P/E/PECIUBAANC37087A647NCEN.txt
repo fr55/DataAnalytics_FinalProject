@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Haywood County, NC
+Series ID:           PECIUBAANC37087A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   7309
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   8179
+1994-01-01      .
+1995-01-01   8332
+1996-01-01      .
+1997-01-01   8524
+1998-01-01   8782
+1999-01-01   8407
+2000-01-01   8164
+2001-01-01   8575
+2002-01-01   9173
+2003-01-01   9167
+2004-01-01   9500
+2005-01-01   9405
+2006-01-01   8789
+2007-01-01   8812
+2008-01-01   9531
+2009-01-01  10154
+2010-01-01  10206
+2011-01-01  12490
+2012-01-01  11068
+2013-01-01  13375
+2014-01-01  10705
+2015-01-01  12086
+2016-01-01  10938
+2017-01-01  10327

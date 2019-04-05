@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Macon County, NC
+Series ID:           PECIUBU18NC37113A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1023
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1367
+1994-01-01     .
+1995-01-01  1494
+1996-01-01     .
+1997-01-01  1492
+1998-01-01  1610
+1999-01-01  1460
+2000-01-01  1485
+2001-01-01  1526
+2002-01-01  1544
+2003-01-01  1700
+2004-01-01  1667
+2005-01-01  1810
+2006-01-01  1688
+2007-01-01  1891
+2008-01-01  1906
+2009-01-01  2402
+2010-01-01  2433
+2011-01-01  2412
+2012-01-01  2622
+2013-01-01  2448
+2014-01-01  2478
+2015-01-01  2230
+2016-01-01  2049
+2017-01-01  2097

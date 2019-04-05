@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Iredell County, NC
+Series ID:           PECILBU18NC37097A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2186
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2840
+1994-01-01     .
+1995-01-01  2950
+1996-01-01     .
+1997-01-01  3027
+1998-01-01  3354
+1999-01-01  2980
+2000-01-01  3039
+2001-01-01  3272
+2002-01-01  3430
+2003-01-01  3734
+2004-01-01  3381
+2005-01-01  4769
+2006-01-01  4098
+2007-01-01  4123
+2008-01-01  4493
+2009-01-01  6152
+2010-01-01  5702
+2011-01-01  6826
+2012-01-01  6725
+2013-01-01  5747
+2014-01-01  6087
+2015-01-01  6650
+2016-01-01  4512
+2017-01-01  5637

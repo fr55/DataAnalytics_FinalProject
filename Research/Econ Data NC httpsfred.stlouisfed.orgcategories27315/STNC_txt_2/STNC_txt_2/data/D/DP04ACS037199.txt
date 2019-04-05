@@ -1,0 +1,21 @@
+Title:               Burdened Households in Yancey County, NC
+Series ID:           DP04ACS037199
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  28.090844570617456
+2011-01-01  26.345899955992376
+2012-01-01  26.865235800846836
+2013-01-01  26.791141988710375
+2014-01-01  26.900754497968660
+2015-01-01  27.082152974504247
+2016-01-01  24.960686204431738

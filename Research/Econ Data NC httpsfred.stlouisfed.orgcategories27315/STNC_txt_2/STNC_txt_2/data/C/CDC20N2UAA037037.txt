@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Chatham County, NC
+Series ID:           CDC20N2UAA037037
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  387.5
+2000-01-01  402.7
+2001-01-01  357.3
+2002-01-01  366.5
+2003-01-01  355.2
+2004-01-01  343.2
+2005-01-01  344.6
+2006-01-01  331.8
+2007-01-01  316.2
+2008-01-01  317.9
+2009-01-01  273.6
+2010-01-01  280.4
+2011-01-01  291.9
+2012-01-01  251.9
+2013-01-01  274.3
+2014-01-01  275.6
+2015-01-01  254.3
+2016-01-01  262.7

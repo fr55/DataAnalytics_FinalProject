@@ -1,0 +1,34 @@
+Title:               Gross Domestic Product by Industry: Government for North Carolina
+Series ID:           NCGOVNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  29517.6
+1998-01-01  31170.1
+1999-01-01  33134.7
+2000-01-01  35136.9
+2001-01-01  37311.0
+2002-01-01  38862.0
+2003-01-01  41331.6
+2004-01-01  44195.5
+2005-01-01  47564.0
+2006-01-01  50746.3
+2007-01-01  54786.6
+2008-01-01  58695.5
+2009-01-01  60902.1
+2010-01-01  62907.9
+2011-01-01  63735.5
+2012-01-01  63088.3
+2013-01-01  64018.4
+2014-01-01  65395.9
+2015-01-01  68336.0
+2016-01-01  69682.5
+2017-01-01  71114.6

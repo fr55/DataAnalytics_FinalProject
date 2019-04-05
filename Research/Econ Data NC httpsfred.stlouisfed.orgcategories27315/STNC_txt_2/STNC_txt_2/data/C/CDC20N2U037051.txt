@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Cumberland County, NC
+Series ID:           CDC20N2U037051
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:21 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  407.6
+2000-01-01  406.1
+2001-01-01  409.6
+2002-01-01  405.9
+2003-01-01  414.8
+2004-01-01  399.5
+2005-01-01  419.7
+2006-01-01  427.1
+2007-01-01  412.2
+2008-01-01  411.0
+2009-01-01  412.8
+2010-01-01  412.9
+2011-01-01  416.9
+2012-01-01  448.4
+2013-01-01  429.1
+2014-01-01  443.0
+2015-01-01  433.7
+2016-01-01  468.8

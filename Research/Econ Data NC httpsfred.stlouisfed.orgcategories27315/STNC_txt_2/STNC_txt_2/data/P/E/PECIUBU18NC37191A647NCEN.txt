@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Wayne County, NC
+Series ID:           PECIUBU18NC37191A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   8073
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   8554
+1994-01-01      .
+1995-01-01   8598
+1996-01-01      .
+1997-01-01   8229
+1998-01-01   8559
+1999-01-01   7633
+2000-01-01   7125
+2001-01-01   7096
+2002-01-01   7471
+2003-01-01   7972
+2004-01-01   7901
+2005-01-01   8829
+2006-01-01   7637
+2007-01-01   7691
+2008-01-01   8261
+2009-01-01   9404
+2010-01-01   9838
+2011-01-01  11116
+2012-01-01  11767
+2013-01-01  10929
+2014-01-01  11982
+2015-01-01   9695
+2016-01-01   9843
+2017-01-01  10118

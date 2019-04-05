@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Davie County, NC
+Series ID:           CDC20N2U037059
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  419.7
+2000-01-01  456.8
+2001-01-01  383.7
+2002-01-01  419.0
+2003-01-01  392.0
+2004-01-01  403.1
+2005-01-01  391.9
+2006-01-01  431.4
+2007-01-01  448.2
+2008-01-01  446.1
+2009-01-01  338.8
+2010-01-01  410.6
+2011-01-01  455.3
+2012-01-01  467.8
+2013-01-01  522.5
+2014-01-01  496.5
+2015-01-01  487.4
+2016-01-01  638.1

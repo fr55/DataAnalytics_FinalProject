@@ -1,0 +1,40 @@
+Title:               All Employees: Total Private in Goldsboro, NC (MSA)
+Series ID:           SMU37241400500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  29.7
+1991-01-01  28.5
+1992-01-01  29.0
+1993-01-01  30.0
+1994-01-01  31.4
+1995-01-01  31.6
+1996-01-01  32.0
+1997-01-01  33.2
+1998-01-01  33.0
+1999-01-01  33.3
+2000-01-01  33.7
+2001-01-01  33.4
+2002-01-01  32.6
+2003-01-01  32.3
+2004-01-01  32.4
+2005-01-01  32.7
+2006-01-01  33.6
+2007-01-01  34.8
+2008-01-01  34.7
+2009-01-01  33.8
+2010-01-01  32.6
+2011-01-01  32.9
+2012-01-01  33.5
+2013-01-01  33.1
+2014-01-01  32.8
+2015-01-01  32.9
+2016-01-01  32.8
+2017-01-01  32.7

@@ -1,0 +1,28 @@
+Title:               Real Personal Income for Durham-Chapel Hill, NC (MSA)
+Series ID:           RPI20500
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:53 AM CDT
+Notes:               Real personal income is personal income at RPPs divided by the
+                     national PCE price index. It is estimated for states, state
+                     metro/nonmetro portions, metropolitan statistical areas, and the
+                     combined nonmetropolitan portion of the United States.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE           VALUE
+2008-01-01  21793450
+2009-01-01  21420714
+2010-01-01  22060548
+2011-01-01  22592181
+2012-01-01  23386518
+2013-01-01  23213384
+2014-01-01  24416759
+2015-01-01  25690265
+2016-01-01  26311494

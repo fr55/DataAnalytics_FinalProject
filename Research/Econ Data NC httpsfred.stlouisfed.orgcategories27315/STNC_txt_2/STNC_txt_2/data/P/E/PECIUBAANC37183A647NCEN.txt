@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Wake County, NC
+Series ID:           PECIUBAANC37183A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE         VALUE
+1989-01-01   38909
+1990-01-01       .
+1991-01-01       .
+1992-01-01       .
+1993-01-01   53368
+1994-01-01       .
+1995-01-01   48543
+1996-01-01       .
+1997-01-01   53322
+1998-01-01   52705
+1999-01-01   55185
+2000-01-01   51361
+2001-01-01   54546
+2002-01-01   64865
+2003-01-01   74991
+2004-01-01   82096
+2005-01-01   82213
+2006-01-01   76790
+2007-01-01   76499
+2008-01-01   85548
+2009-01-01   96345
+2010-01-01  114087
+2011-01-01  114661
+2012-01-01  117496
+2013-01-01  112214
+2014-01-01  120339
+2015-01-01  118777
+2016-01-01  102619
+2017-01-01  102085

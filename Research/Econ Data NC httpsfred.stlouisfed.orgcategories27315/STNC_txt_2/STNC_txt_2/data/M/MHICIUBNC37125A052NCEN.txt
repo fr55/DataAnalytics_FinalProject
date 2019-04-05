@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Moore County, NC
+Series ID:           MHICIUBNC37125A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  28606
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  32272
+1994-01-01      .
+1995-01-01  37426
+1996-01-01      .
+1997-01-01  39754
+1998-01-01  41741
+1999-01-01  42533
+2000-01-01  45024
+2001-01-01  43589
+2002-01-01  43617
+2003-01-01  43873
+2004-01-01  45658
+2005-01-01  43515
+2006-01-01  49573
+2007-01-01  53984
+2008-01-01  51470
+2009-01-01  48505
+2010-01-01  51348
+2011-01-01  51173
+2012-01-01  53115
+2013-01-01  53222
+2014-01-01  55474
+2015-01-01  54886
+2016-01-01  59075
+2017-01-01  66453

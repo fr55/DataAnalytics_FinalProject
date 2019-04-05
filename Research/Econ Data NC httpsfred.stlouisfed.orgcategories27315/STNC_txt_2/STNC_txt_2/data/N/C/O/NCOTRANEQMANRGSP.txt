@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Other Transportation Equipment Manufacturing for North Carolina
+Series ID:           NCOTRANEQMANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01   483.8
+1998-01-01   523.3
+1999-01-01   571.8
+2000-01-01   653.6
+2001-01-01   852.7
+2002-01-01   748.3
+2003-01-01   890.7
+2004-01-01   800.8
+2005-01-01  1055.3
+2006-01-01   968.8
+2007-01-01  1450.4
+2008-01-01  1583.5
+2009-01-01  1385.6
+2010-01-01  1731.7
+2011-01-01  1670.9
+2012-01-01  1720.2
+2013-01-01  3393.1
+2014-01-01  4727.9
+2015-01-01  5081.0
+2016-01-01  5546.1

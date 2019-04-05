@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Gates County, NC
+Series ID:           B080ACS037073
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  38.349362558711700
+2010-01-01  39.226519337016576
+2011-01-01  39.170144157814870
+2012-01-01  38.516268130145040
+2013-01-01  36.561203319502080
+2014-01-01  35.571811250772720
+2015-01-01  36.375288926245010
+2016-01-01  36.726757139963540
+2017-01-01  36.474266967397990

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Gaston County, NC
+Series ID:           BPPRIV037071
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01    727
+1991-01-01    621
+1992-01-01    716
+1993-01-01    670
+1994-01-01    633
+1995-01-01    619
+1996-01-01    698
+1997-01-01    736
+1998-01-01    877
+1999-01-01    914
+2000-01-01   1093
+2001-01-01    961
+2002-01-01    998
+2003-01-01   1143
+2004-01-01   1230
+2005-01-01   1292
+2006-01-01   1425
+2007-01-01   1446
+2008-01-01    793
+2009-01-01    577
+2010-01-01    441
+2011-01-01    369
+2012-01-01    426
+2013-01-01    390
+2014-01-01    668
+2015-01-01    867
+2016-01-01   1041
+2017-01-01   1136

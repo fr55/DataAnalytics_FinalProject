@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Private Establishments in Durham, NC (MSA)
+Series ID:           ENUC205040510SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:24 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE         VALUE
+1990-01-01   454.6
+1990-04-01   471.9
+1990-07-01   454.7
+1990-10-01   460.4
+1991-01-01   495.7
+1991-04-01   495.5
+1991-07-01   499.7
+1991-10-01   506.3
+1992-01-01   510.6
+1992-04-01   524.7
+1992-07-01   554.8
+1992-10-01   547.2
+1993-01-01   505.8
+1993-04-01   547.6
+1993-07-01   550.0
+1993-10-01   564.1
+1994-01-01   548.0
+1994-04-01   548.5
+1994-07-01   578.3
+1994-10-01   558.2
+1995-01-01   579.3
+1995-04-01   587.7
+1995-07-01   596.8
+1995-10-01   599.1
+1996-01-01   592.2
+1996-04-01   611.9
+1996-07-01   616.4
+1996-10-01   629.5
+1997-01-01   670.2
+1997-04-01   653.7
+1997-07-01   665.8
+1997-10-01   705.5
+1998-01-01   670.4
+1998-04-01   659.7
+1998-07-01   681.0
+1998-10-01   727.2
+1999-01-01   733.7
+1999-04-01   748.6
+1999-07-01   757.5
+1999-10-01   775.8
+2000-01-01   819.3
+2000-04-01   840.4
+2000-07-01   880.3
+2000-10-01   822.2
+2001-01-01   839.6
+2001-04-01   848.3
+2001-07-01   819.0
+2001-10-01   836.5
+2002-01-01   828.1
+2002-04-01   832.0
+2002-07-01   829.9
+2002-10-01   824.3
+2003-01-01   833.0
+2003-04-01   844.4
+2003-07-01   859.5
+2003-10-01   870.0
+2004-01-01   878.4
+2004-04-01   870.4
+2004-07-01   883.2
+2004-10-01   932.5
+2005-01-01   855.5
+2005-04-01   924.9
+2005-07-01   935.8
+2005-10-01   916.3
+2006-01-01   945.6
+2006-04-01   945.2
+2006-07-01   957.6
+2006-10-01   972.0
+2007-01-01   999.7
+2007-04-01  1006.4
+2007-07-01  1019.7
+2007-10-01  1045.4
+2008-01-01  1053.8
+2008-04-01  1060.3
+2008-07-01  1046.7
+2008-10-01  1026.5
+2009-01-01  1041.5
+2009-04-01  1044.2
+2009-07-01  1076.4
+2009-10-01  1104.6
+2010-01-01  1088.1
+2010-04-01  1096.6
+2010-07-01  1092.9
+2010-10-01  1150.9
+2011-01-01  1090.2
+2011-04-01  1155.3
+2011-07-01  1174.0
+2011-10-01  1095.7
+2012-01-01  1180.9
+2012-04-01  1131.1
+2012-07-01  1146.0
+2012-10-01  1129.2
+2013-01-01  1125.3
+2013-04-01  1149.6
+2013-07-01  1125.6
+2013-10-01  1148.2
+2014-01-01  1168.1
+2014-04-01  1155.1
+2014-07-01  1148.9
+2014-10-01  1164.7
+2015-01-01  1158.4
+2015-04-01  1157.4
+2015-07-01  1163.9
+2015-10-01  1179.9
+2016-01-01  1115.1
+2016-04-01  1157.2
+2016-07-01  1194.1
+2016-10-01  1164.1
+2017-01-01  1183.7
+2017-04-01  1187.2
+2017-07-01  1187.9
+2017-10-01  1198.2
+2018-01-01  1218.8

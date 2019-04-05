@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Scotland County, NC
+Series ID:           MHICILBNC37165A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  20295
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  23114
+1994-01-01      .
+1995-01-01  25557
+1996-01-01      .
+1997-01-01  26218
+1998-01-01  26699
+1999-01-01  28059
+2000-01-01  28896
+2001-01-01  27957
+2002-01-01  27503
+2003-01-01  27946
+2004-01-01  28247
+2005-01-01  28984
+2006-01-01  29441
+2007-01-01  30076
+2008-01-01  30150
+2009-01-01  29163
+2010-01-01  29093
+2011-01-01  30767
+2012-01-01  29063
+2013-01-01  29257
+2014-01-01  30377
+2015-01-01  32406
+2016-01-01  31963
+2017-01-01  34835

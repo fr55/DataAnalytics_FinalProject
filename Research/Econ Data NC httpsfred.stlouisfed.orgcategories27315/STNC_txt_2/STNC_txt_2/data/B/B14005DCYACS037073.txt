@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Gates County, NC
+Series ID:           B14005DCYACS037073
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  7.4257425742574250
+2010-01-01  5.0903119868637114
+2011-01-01  5.6231003039513680
+2012-01-01 10.3626943005181340
+2013-01-01 21.6998191681735970
+2014-01-01 13.7802607076350090
+2015-01-01 19.2644483362521870
+2016-01-01 22.1797323135755240
+2017-01-01 16.9625246548323470

@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Chatham County, NC
+Series ID:           PEU18NC37037A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1137
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1488
+1994-01-01     .
+1995-01-01  1285
+1996-01-01     .
+1997-01-01  1400
+1998-01-01  1848
+1999-01-01  1473
+2000-01-01  1570
+2001-01-01  1599
+2002-01-01  1576
+2003-01-01  1839
+2004-01-01  1942
+2005-01-01  2046
+2006-01-01  2313
+2007-01-01  2058
+2008-01-01  2234
+2009-01-01  2463
+2010-01-01  2952
+2011-01-01  2597
+2012-01-01  2788
+2013-01-01  2968
+2014-01-01  2893
+2015-01-01  2506
+2016-01-01  2462
+2017-01-01  2307

@@ -1,0 +1,119 @@
+Title:               CredAbility Consumer Distress Index for Virginia Beach-Norfolk-Newport News, VA-NC (MSA) (DISCONTINUED)
+Series ID:           CCDIOA47260Q156N
+Source:              CredAbility Nonprofit Credit Counseling & Education
+Release:             CredAbility Consumer Distress Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Percent
+Date Range:          2005-01-01 to 2013-01-01
+Last Updated:        2013-05-17 2:01 PM CDT
+Notes:               Overview of the Index
+                     The Index is a quarterly comprehensive picture of the average American
+                     household’s financial condition. Built by assessing the key elements
+                     of financial health and distress, it converts a complex set of factors
+                     into a single, easy to understand number.
+                     
+                     Scope and History
+                     The index measures the U.S., all 50 states and more than 70 MSAs. The
+                     national and state versions date back to 1980 and the MSA versions
+                     date back to 1990.
+                     
+                     Public Data and Proprietary Methodology
+                     We use more than 65 data points from government, public and private
+                     data and a proprietary methodology for compiling, combining and
+                     evaluating data. With nearly 50 years of experience and insight into
+                     helping consumers in financial distress, we know the biggest causes of
+                     distress, how people react to financial challenges and proven
+                     strategies for regaining control. (Note: Our client data is not a data
+                     source for the Index)
+                     
+                     Measured on a 100 Point Scale
+                     Financial distress is measured on a 100 point scale and a score under
+                     70 indicates financial distress. The lower the score equals more
+                     distress, a weaker financial position, more urgency to act, takes
+                     longer and is harder to resolve, and increases the probability of
+                     needing a third party help to resolve.
+                     
+                     The Index score is tied to one of 5 general rating categories, which
+                     reflect the strength and stability of the consumer’s position.
+                     Less than 60 Emergency / Crisis
+                     60 – 69 Distressed / Unstable
+                     70 – 79 Weakening / At-Risk
+                     80 – 89 Good / Stable
+                     90 and Above Excellent / Secure
+                     
+                     What Does the Index Measure?
+                     We measure the 5 categories of personal finance that reflect or lead
+                     to a secure, stable financial life—Employment, Housing, Credit,
+                     Household Budget and Net Worth. All are equally important, so have
+                     given each category equal weighting.
+                     
+                     Employment. Stable income is the foundation of any family’s
+                     finances. This category measures the impact of unemployment and
+                     underemployment on financial health.
+                     Key Measures: Unemployment, Underemployment
+                     Sample Data Source: Department of Labor, Bureau of Labor Statistics
+                     
+                     Housing. Safe, affordable housing is a priority for all families. This
+                     category measures how consumers are paying their mortgage/rent and the
+                     impact of housing costs on their finances.
+                     Key Measures: Mortgage and Rental Delinquencies, Housing as Percent of
+                     Budget
+                     Sample Data Source: National Delinquency Survey
+                     
+                     Credit. Responsible use of credit creates more borrowing options and
+                     lower costs. This category assesses the strength of credit scores and
+                     how well families manage their credit.
+                     Key Measures: Credit Scores, Trade Line Utilization, Credit
+                     Delinquencies, Per Capita Bankruptcies
+                     Sample Data Source: National Credit Bureau
+                     
+                     Household Budget. Spending less than you make is the daily choice that
+                     leads to long-term success. This category measures families’
+                     spending patterns and saving for emergencies.
+                     Key Measures: Disposable Income, Savings, Consumer Confidence
+                     Sample Data Source: Department of Commerce, Bureau of Economic
+                     Analysis
+                     
+                     Net Worth. Strong, positive net worth creates options and
+                     independence. This category measures how well consumers are
+                     strengthening their personal balance sheets.
+                     Key Measures: Household Net Worth, Net Worth versus Funds Required for
+                     Long-Term Needs (e.g. retirement)
+                     Sample Data Source: Federal Reserve Flow of Funds, Survey of Consumer
+                     Finances
+
+DATE                  VALUE
+2005-01-01  78.952724149570
+2005-04-01  79.291000077551
+2005-07-01  78.754074713282
+2005-10-01  78.081981279738
+2006-01-01  82.686135207076
+2006-04-01  82.437819227161
+2006-07-01  81.894803534245
+2006-10-01  82.779488879458
+2007-01-01  82.414356374940
+2007-04-01  81.820930404279
+2007-07-01  81.154983836623
+2007-10-01  79.570600513532
+2008-01-01  77.248696510120
+2008-04-01  79.250372479686
+2008-07-01  77.877914361685
+2008-10-01  78.279263044239
+2009-01-01  70.305388898934
+2009-04-01  73.035029642372
+2009-07-01  70.834867457109
+2009-10-01  70.164549943537
+2010-01-01  69.832767826977
+2010-04-01  71.059780530086
+2010-07-01  69.618909787444
+2010-10-01  69.602946995153
+2011-01-01  70.295040165572
+2011-04-01  71.350668191416
+2011-07-01  68.365738244965
+2011-10-01  68.141806129631
+2012-01-01  69.734510773927
+2012-04-01  69.020087305556
+2012-07-01  69.836210000000
+2012-10-01  72.751483322843
+2013-01-01  70.715095626451

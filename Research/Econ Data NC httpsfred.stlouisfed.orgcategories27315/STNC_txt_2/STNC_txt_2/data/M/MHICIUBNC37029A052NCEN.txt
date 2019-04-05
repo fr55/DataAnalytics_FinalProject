@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Camden County, NC
+Series ID:           MHICIUBNC37029A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  26002
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  32093
+1994-01-01      .
+1995-01-01  36008
+1996-01-01      .
+1997-01-01  38478
+1998-01-01  39289
+1999-01-01  41245
+2000-01-01  44227
+2001-01-01  44004
+2002-01-01  46423
+2003-01-01  49562
+2004-01-01  51646
+2005-01-01  51504
+2006-01-01  54319
+2007-01-01  60029
+2008-01-01  62101
+2009-01-01  61823
+2010-01-01  64770
+2011-01-01  62529
+2012-01-01  58591
+2013-01-01  65756
+2014-01-01  66793
+2015-01-01  68006
+2016-01-01  71553
+2017-01-01  70434

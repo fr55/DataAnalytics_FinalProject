@@ -1,0 +1,53 @@
+Title:               All-Transactions House Price Index for Northampton County, NC
+Series ID:           ATNHPIUS37131A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1993-01-01 to 2017-01-01
+Last Updated:        2018-02-27 10:03 AM CST
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1993-01-01   70.12
+1994-01-01   76.98
+1995-01-01   80.76
+1996-01-01   85.77
+1997-01-01   89.79
+1998-01-01   89.72
+1999-01-01   95.94
+2000-01-01  100.00
+2001-01-01  104.01
+2002-01-01  112.87
+2003-01-01  105.52
+2004-01-01  126.47
+2005-01-01  134.77
+2006-01-01  149.80
+2007-01-01  157.99
+2008-01-01  156.05
+2009-01-01  150.71
+2010-01-01  146.10
+2011-01-01  136.83
+2012-01-01  129.96
+2013-01-01  131.14
+2014-01-01  134.34
+2015-01-01  128.59
+2016-01-01  126.89
+2017-01-01  121.22

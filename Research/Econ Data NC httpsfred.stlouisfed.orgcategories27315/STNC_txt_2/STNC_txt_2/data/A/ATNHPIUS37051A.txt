@@ -1,0 +1,64 @@
+Title:               All-Transactions House Price Index for Cumberland County, NC
+Series ID:           ATNHPIUS37051A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1982-01-01 to 2017-01-01
+Last Updated:        2018-02-27 10:02 AM CST
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1982-01-01   57.34
+1983-01-01   56.84
+1984-01-01   63.64
+1985-01-01   66.38
+1986-01-01   67.67
+1987-01-01   71.29
+1988-01-01   73.10
+1989-01-01   76.16
+1990-01-01   77.66
+1991-01-01   79.65
+1992-01-01   81.62
+1993-01-01   84.46
+1994-01-01   87.77
+1995-01-01   92.03
+1996-01-01   94.03
+1997-01-01   96.34
+1998-01-01   97.31
+1999-01-01   97.86
+2000-01-01  100.00
+2001-01-01  102.56
+2002-01-01  103.92
+2003-01-01  104.30
+2004-01-01  107.38
+2005-01-01  113.49
+2006-01-01  121.22
+2007-01-01  126.86
+2008-01-01  128.41
+2009-01-01  129.25
+2010-01-01  128.58
+2011-01-01  127.74
+2012-01-01  124.32
+2013-01-01  122.35
+2014-01-01  120.41
+2015-01-01  120.70
+2016-01-01  121.36
+2017-01-01  119.04

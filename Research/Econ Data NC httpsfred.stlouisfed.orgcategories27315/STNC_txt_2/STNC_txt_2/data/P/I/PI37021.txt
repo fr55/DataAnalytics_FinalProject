@@ -1,0 +1,39 @@
+Title:               Personal Income in Buncombe County, NC
+Series ID:           PI37021
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:02 PM CST
+Notes:               Personal Income is the income that is received by all persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. The personal income of
+                     an area is the income that is received by, or on behalf of, all the
+                     individuals who live in the area; therefore, the estimates of personal
+                     income are presented by the place of residence of the income
+                     recipients.
+
+DATE           VALUE
+2001-01-01   5835092
+2002-01-01   5933740
+2003-01-01   6061737
+2004-01-01   6547149
+2005-01-01   6939082
+2006-01-01   7631211
+2007-01-01   8131154
+2008-01-01   8343543
+2009-01-01   8047698
+2010-01-01   8229192
+2011-01-01   8662882
+2012-01-01   9274475
+2013-01-01   9340058
+2014-01-01  10111137
+2015-01-01  10881137
+2016-01-01  11345512
+2017-01-01  11876263

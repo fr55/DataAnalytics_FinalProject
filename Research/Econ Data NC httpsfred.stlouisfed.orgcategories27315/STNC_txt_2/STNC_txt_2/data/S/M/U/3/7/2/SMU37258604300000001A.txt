@@ -1,0 +1,40 @@
+Title:               All Employees: Transportation and Utilities: Transportation, Warehousing, and Utilities in Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           SMU37258604300000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   4.5
+1991-01-01   4.5
+1992-01-01   4.9
+1993-01-01   4.9
+1994-01-01   5.4
+1995-01-01   5.5
+1996-01-01   5.8
+1997-01-01   6.0
+1998-01-01   5.9
+1999-01-01   6.0
+2000-01-01   6.0
+2001-01-01   5.7
+2002-01-01   5.6
+2003-01-01   5.7
+2004-01-01   5.7
+2005-01-01   5.9
+2006-01-01   6.1
+2007-01-01   6.2
+2008-01-01   5.9
+2009-01-01   5.3
+2010-01-01   5.3
+2011-01-01   5.3
+2012-01-01   5.1
+2013-01-01   5.1
+2014-01-01   5.1
+2015-01-01   5.2
+2016-01-01   5.6
+2017-01-01   5.8

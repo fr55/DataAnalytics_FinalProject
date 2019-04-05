@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Granville County, NC
+Series ID:           B080ACS037077
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  26.568392759648900
+2010-01-01  27.529431135259735
+2011-01-01  27.221667083021067
+2012-01-01  27.687565747948664
+2013-01-01  27.633772221483355
+2014-01-01  28.213919707703962
+2015-01-01  28.628911744022503
+2016-01-01  28.707484461325970
+2017-01-01  28.627705093392578

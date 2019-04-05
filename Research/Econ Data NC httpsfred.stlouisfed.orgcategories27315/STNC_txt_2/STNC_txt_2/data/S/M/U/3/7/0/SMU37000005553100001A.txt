@@ -1,0 +1,40 @@
+Title:               All Employees: Real Estate in North Carolina
+Series ID:           SMU37000005553100001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  21.2
+1991-01-01  20.8
+1992-01-01  21.2
+1993-01-01  22.0
+1994-01-01  22.9
+1995-01-01  23.6
+1996-01-01  25.2
+1997-01-01  26.6
+1998-01-01  27.7
+1999-01-01  28.9
+2000-01-01  29.9
+2001-01-01  29.9
+2002-01-01  30.9
+2003-01-01  31.2
+2004-01-01  32.2
+2005-01-01  33.8
+2006-01-01  35.7
+2007-01-01  37.7
+2008-01-01  37.2
+2009-01-01  35.1
+2010-01-01  34.2
+2011-01-01  34.5
+2012-01-01  35.8
+2013-01-01  37.4
+2014-01-01  39.9
+2015-01-01  41.5
+2016-01-01  43.1
+2017-01-01  44.5

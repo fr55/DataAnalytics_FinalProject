@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Warren County, NC
+Series ID:           PEU18NC37185A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2148
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1559
+1994-01-01     .
+1995-01-01  1657
+1996-01-01     .
+1997-01-01  1392
+1998-01-01  1308
+1999-01-01  1179
+2000-01-01  1139
+2001-01-01  1053
+2002-01-01  1162
+2003-01-01  1245
+2004-01-01  1268
+2005-01-01  1464
+2006-01-01  1298
+2007-01-01  1339
+2008-01-01  1201
+2009-01-01  1419
+2010-01-01  1505
+2011-01-01  1540
+2012-01-01  1404
+2013-01-01  1553
+2014-01-01  1297
+2015-01-01  1385
+2016-01-01  1443
+2017-01-01  1185

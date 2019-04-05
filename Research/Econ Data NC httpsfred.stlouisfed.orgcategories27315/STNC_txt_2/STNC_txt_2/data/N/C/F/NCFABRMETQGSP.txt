@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Fabricated Metal Products for North Carolina
+Series ID:           NCFABRMETQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  102.499
+1998-01-01  103.067
+1999-01-01  115.811
+2000-01-01  118.735
+2001-01-01  109.173
+2002-01-01  107.297
+2003-01-01  111.193
+2004-01-01  123.810
+2005-01-01  129.325
+2006-01-01  138.725
+2007-01-01  137.318
+2008-01-01  130.909
+2009-01-01   90.980
+2010-01-01   94.716
+2011-01-01   97.856
+2012-01-01  100.000
+2013-01-01  103.578
+2014-01-01   99.787
+2015-01-01  103.105
+2016-01-01  103.238

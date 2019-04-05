@@ -1,0 +1,40 @@
+Title:               All Employees: Manufacturing: Durable Goods in Raleigh, NC (MSA)
+Series ID:           SMU37395803100000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  23.2
+1991-01-01  21.4
+1992-01-01  21.3
+1993-01-01  22.1
+1994-01-01  23.0
+1995-01-01  23.2
+1996-01-01  23.3
+1997-01-01  24.3
+1998-01-01  25.4
+1999-01-01  26.0
+2000-01-01  27.2
+2001-01-01  26.4
+2002-01-01  23.4
+2003-01-01  21.9
+2004-01-01  21.7
+2005-01-01  22.2
+2006-01-01  22.6
+2007-01-01  22.8
+2008-01-01  22.0
+2009-01-01  19.3
+2010-01-01  19.1
+2011-01-01  19.9
+2012-01-01  20.4
+2013-01-01  21.0
+2014-01-01  22.4
+2015-01-01  23.3
+2016-01-01  23.5
+2017-01-01  24.0

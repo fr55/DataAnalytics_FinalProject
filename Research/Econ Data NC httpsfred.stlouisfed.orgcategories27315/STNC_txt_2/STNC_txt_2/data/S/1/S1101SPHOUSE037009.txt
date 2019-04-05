@@ -1,0 +1,28 @@
+Title:               Single-parent Households with Children as a Percentage of Households with Children in Ashe County, NC
+Series ID:           S1101SPHOUSE037009
+Source:              U.S. Bureau of the Census
+Release:             Single Parent Households with Children (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 12:21 PM CST
+Notes:               These data represent single-parent households with their own children
+                     who are younger than 18-years of age as percentage of total households
+                     with their own children who are younger than 18-years of age.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+                     
+                     American Community Survey Table S1101.
+
+DATE                     VALUE
+2009-01-01  31.749241658240646
+2010-01-01  29.708932753429240
+2011-01-01  23.921168875297315
+2012-01-01  29.405666897028333
+2013-01-01  30.769230769230770
+2014-01-01  30.530226274907125
+2015-01-01  31.034482758620690
+2016-01-01  36.405045550105115
+2017-01-01  35.410764872521240

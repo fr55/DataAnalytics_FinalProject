@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Forsyth County, NC
+Series ID:           CDC20N2U037067
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  421.5
+2000-01-01  440.2
+2001-01-01  409.4
+2002-01-01  422.9
+2003-01-01  424.8
+2004-01-01  408.1
+2005-01-01  400.9
+2006-01-01  406.8
+2007-01-01  413.7
+2008-01-01  402.3
+2009-01-01  394.3
+2010-01-01  379.4
+2011-01-01  418.6
+2012-01-01  406.3
+2013-01-01  414.0
+2014-01-01  406.6
+2015-01-01  430.4
+2016-01-01  423.8

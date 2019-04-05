@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Swain County, NC
+Series ID:           CDC20N2U037173
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  554.3
+2000-01-01  645.9
+2001-01-01  625.3
+2002-01-01  727.0
+2003-01-01  689.3
+2004-01-01  654.7
+2005-01-01  684.8
+2006-01-01  633.5
+2007-01-01  726.8
+2008-01-01  639.9
+2009-01-01  699.2
+2010-01-01  782.6
+2011-01-01  768.0
+2012-01-01  750.3
+2013-01-01  753.7
+2014-01-01  664.9
+2015-01-01  779.8
+2016-01-01  627.6

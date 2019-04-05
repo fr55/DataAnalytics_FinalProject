@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Northampton County, NC
+Series ID:           MHICILBNC37131A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:39 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  14674
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  18160
+1994-01-01      .
+1995-01-01  19505
+1996-01-01      .
+1997-01-01  20996
+1998-01-01  23112
+1999-01-01  24256
+2000-01-01  25432
+2001-01-01  24654
+2002-01-01  24437
+2003-01-01  25532
+2004-01-01  26889
+2005-01-01  27037
+2006-01-01  25028
+2007-01-01  31594
+2008-01-01  28120
+2009-01-01  28727
+2010-01-01  29567
+2011-01-01  28744
+2012-01-01  28421
+2013-01-01  28699
+2014-01-01  29448
+2015-01-01  30053
+2016-01-01  32796
+2017-01-01  32298

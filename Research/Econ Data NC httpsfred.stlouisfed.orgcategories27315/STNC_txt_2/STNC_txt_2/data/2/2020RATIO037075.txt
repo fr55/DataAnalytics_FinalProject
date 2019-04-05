@@ -1,0 +1,22 @@
+Title:               Income Inequality in Graham County, NC
+Series ID:           2020RATIO037075
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  14.348804891606449
+2011-01-01  14.911037234042553
+2012-01-01  14.838803792851932
+2013-01-01  13.658744235544520
+2014-01-01  15.839365329137163
+2015-01-01  16.564329573040126
+2016-01-01  14.871573464912280
+2017-01-01  13.058183596137392

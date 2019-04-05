@@ -1,0 +1,21 @@
+Title:               Burdened Households in Davie County, NC
+Series ID:           DP04ACS037059
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  25.081945719155630
+2011-01-01  25.879380708686924
+2012-01-01  25.105189340813467
+2013-01-01  24.594145468490350
+2014-01-01  24.680768734683348
+2015-01-01  22.218564845292956
+2016-01-01  22.289318303811058

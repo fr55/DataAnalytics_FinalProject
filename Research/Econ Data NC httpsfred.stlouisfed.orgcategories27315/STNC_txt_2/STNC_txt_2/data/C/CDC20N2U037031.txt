@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Carteret County, NC
+Series ID:           CDC20N2U037031
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  550.8
+2000-01-01  549.4
+2001-01-01  581.3
+2002-01-01  557.2
+2003-01-01  611.9
+2004-01-01  556.2
+2005-01-01  568.8
+2006-01-01  523.0
+2007-01-01  479.7
+2008-01-01  524.0
+2009-01-01  600.6
+2010-01-01  562.2
+2011-01-01  560.3
+2012-01-01  506.3
+2013-01-01  556.0
+2014-01-01  581.0
+2015-01-01  618.3
+2016-01-01  603.6

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Hertford County, NC
+Series ID:           MHICIUBNC37091A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  20669
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  22700
+1994-01-01      .
+1995-01-01  26254
+1996-01-01      .
+1997-01-01  26845
+1998-01-01  28087
+1999-01-01  27176
+2000-01-01  29020
+2001-01-01  27762
+2002-01-01  28220
+2003-01-01  28740
+2004-01-01  30096
+2005-01-01  31756
+2006-01-01  31432
+2007-01-01  33180
+2008-01-01  37329
+2009-01-01  33734
+2010-01-01  35340
+2011-01-01  34645
+2012-01-01  34862
+2013-01-01  36107
+2014-01-01  32021
+2015-01-01  37106
+2016-01-01  38904
+2017-01-01  41660

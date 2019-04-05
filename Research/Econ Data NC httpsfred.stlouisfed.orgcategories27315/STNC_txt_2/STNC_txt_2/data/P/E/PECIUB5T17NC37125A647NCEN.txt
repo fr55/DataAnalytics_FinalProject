@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Moore County, NC
+Series ID:           PECIUB5T17NC37125A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1430
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2136
+1994-01-01     .
+1995-01-01  2311
+1996-01-01     .
+1997-01-01  2516
+1998-01-01  2757
+1999-01-01  2454
+2000-01-01  2387
+2001-01-01  2479
+2002-01-01  2492
+2003-01-01  2636
+2004-01-01  2600
+2005-01-01  2894
+2006-01-01  2763
+2007-01-01  2531
+2008-01-01  2635
+2009-01-01  3042
+2010-01-01  3788
+2011-01-01  3430
+2012-01-01  4036
+2013-01-01  3615
+2014-01-01  3901
+2015-01-01  3349
+2016-01-01  3008
+2017-01-01  2665

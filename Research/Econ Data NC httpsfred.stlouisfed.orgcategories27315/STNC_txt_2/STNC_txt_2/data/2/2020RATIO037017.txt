@@ -1,0 +1,22 @@
+Title:               Income Inequality in Bladen County, NC
+Series ID:           2020RATIO037017
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  16.881691899484938
+2011-01-01  16.133779264214050
+2012-01-01  17.010722679200940
+2013-01-01  17.539853446986690
+2014-01-01  17.927916731396614
+2015-01-01  16.994057595611764
+2016-01-01  18.876222011983600
+2017-01-01  17.581745806084733

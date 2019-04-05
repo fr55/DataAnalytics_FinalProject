@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Transylvania County, NC
+Series ID:           MHICIUBNC37175A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  29748
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  30901
+1994-01-01      .
+1995-01-01  34883
+1996-01-01      .
+1997-01-01  37628
+1998-01-01  39576
+1999-01-01  39976
+2000-01-01  42236
+2001-01-01  40255
+2002-01-01  39628
+2003-01-01  38671
+2004-01-01  39453
+2005-01-01  42849
+2006-01-01  43764
+2007-01-01  46129
+2008-01-01  46403
+2009-01-01  39831
+2010-01-01  43974
+2011-01-01  44786
+2012-01-01  43819
+2013-01-01  43639
+2014-01-01  48187
+2015-01-01  49588
+2016-01-01  48283
+2017-01-01  52109

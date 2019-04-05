@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           VIRG251PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  29265
+2002-01-01  30428
+2003-01-01  32438
+2004-01-01  34177
+2005-01-01  35736
+2006-01-01  37779
+2007-01-01  39486
+2008-01-01  40444
+2009-01-01  39722
+2010-01-01  40584
+2011-01-01  42187
+2012-01-01  43490
+2013-01-01  43291
+2014-01-01  44721
+2015-01-01  46650
+2016-01-01  46960
+2017-01-01  48502

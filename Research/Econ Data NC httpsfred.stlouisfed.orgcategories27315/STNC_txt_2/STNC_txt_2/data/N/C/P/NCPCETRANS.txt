@@ -1,0 +1,42 @@
+Title:               Personal Consumption Expenditures: Services: Transportation Services for North Carolina
+Series ID:           NCPCETRANS
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Spending on motor vehicle services and public transportation. Motor
+                     vehicle services consist of motor vehicle maintenance and repair and
+                     other motor vehicle services. Public transportation consists of ground
+                     transportation, air transportation, and water transportation.For more
+                     information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01  3555
+1998-01-01  3858
+1999-01-01  4219
+2000-01-01  4572
+2001-01-01  4463
+2002-01-01  4294
+2003-01-01  4419
+2004-01-01  4646
+2005-01-01  4908
+2006-01-01  5146
+2007-01-01  5435
+2008-01-01  5397
+2009-01-01  5116
+2010-01-01  5305
+2011-01-01  5726
+2012-01-01  5891
+2013-01-01  6311
+2014-01-01  6695
+2015-01-01  7198
+2016-01-01  7658
+2017-01-01  7984

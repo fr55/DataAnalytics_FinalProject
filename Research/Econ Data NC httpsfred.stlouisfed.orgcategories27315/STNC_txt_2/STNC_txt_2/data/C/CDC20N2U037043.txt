@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Clay County, NC
+Series ID:           CDC20N2U037043
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  581.2
+2000-01-01  560.2
+2001-01-01  492.4
+2002-01-01  505.2
+2003-01-01  531.9
+2004-01-01  454.9
+2005-01-01  555.2
+2006-01-01  482.7
+2007-01-01  471.3
+2008-01-01  548.9
+2009-01-01  632.2
+2010-01-01  619.7
+2011-01-01  595.2
+2012-01-01  552.5
+2013-01-01  660.7
+2014-01-01  538.3
+2015-01-01  600.1
+2016-01-01  695.7

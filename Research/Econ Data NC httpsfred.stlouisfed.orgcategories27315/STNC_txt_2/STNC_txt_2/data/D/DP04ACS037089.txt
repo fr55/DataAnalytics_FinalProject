@@ -1,0 +1,21 @@
+Title:               Burdened Households in Henderson County, NC
+Series ID:           DP04ACS037089
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  28.648735044296280
+2011-01-01  28.910719576960776
+2012-01-01  30.051575931232094
+2013-01-01  30.378673268234540
+2014-01-01  30.179975457892105
+2015-01-01  29.415457745689366
+2016-01-01  28.306030128683734

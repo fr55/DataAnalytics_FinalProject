@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Bertie County, NC
+Series ID:           PECILBU18NC37015A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1697
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1619
+1994-01-01     .
+1995-01-01  1698
+1996-01-01     .
+1997-01-01  1427
+1998-01-01  1452
+1999-01-01  1108
+2000-01-01  1110
+2001-01-01  1089
+2002-01-01  1076
+2003-01-01  1119
+2004-01-01  1054
+2005-01-01  1273
+2006-01-01  1181
+2007-01-01  1179
+2008-01-01  1064
+2009-01-01  1160
+2010-01-01  1366
+2011-01-01  1139
+2012-01-01  1213
+2013-01-01  1107
+2014-01-01  1156
+2015-01-01  1019
+2016-01-01   928
+2017-01-01  1046

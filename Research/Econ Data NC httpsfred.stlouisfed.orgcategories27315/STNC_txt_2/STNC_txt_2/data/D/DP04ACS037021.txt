@@ -1,0 +1,21 @@
+Title:               Burdened Households in Buncombe County, NC
+Series ID:           DP04ACS037021
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  33.077719773609380
+2011-01-01  33.754990587699886
+2012-01-01  34.340432557371635
+2013-01-01  34.064077448511040
+2014-01-01  33.368893995035190
+2015-01-01  32.963898289488480
+2016-01-01  32.226028793996490

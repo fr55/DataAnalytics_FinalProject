@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Finance, Insurance, Real Estate, Rental, and Leasing: Finance and Insurance: Funds, Trusts, and Other Financial Vehicles for North Carolina
+Series ID:           NCFNDTRSTQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   41.226
+1998-01-01   57.457
+1999-01-01   72.298
+2000-01-01   48.397
+2001-01-01   93.750
+2002-01-01  163.405
+2003-01-01  206.184
+2004-01-01  320.494
+2005-01-01  346.845
+2006-01-01  235.818
+2007-01-01  727.894
+2008-01-01  773.133
+2009-01-01  329.756
+2010-01-01  660.882
+2011-01-01  462.597
+2012-01-01  100.000
+2013-01-01  389.049
+2014-01-01  439.277
+2015-01-01   83.942
+2016-01-01  107.662

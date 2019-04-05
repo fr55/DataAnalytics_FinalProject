@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Rutherford County, NC
+Series ID:           PECILBAANC37161A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   5636
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6628
+1994-01-01      .
+1995-01-01   6459
+1996-01-01      .
+1997-01-01   6592
+1998-01-01   6758
+1999-01-01   6605
+2000-01-01   6718
+2001-01-01   6749
+2002-01-01   7285
+2003-01-01   7326
+2004-01-01   7736
+2005-01-01   8657
+2006-01-01   9451
+2007-01-01   8079
+2008-01-01   8769
+2009-01-01  11700
+2010-01-01  14822
+2011-01-01  11399
+2012-01-01   9724
+2013-01-01  13355
+2014-01-01  11850
+2015-01-01  10145
+2016-01-01   9950
+2017-01-01   8357

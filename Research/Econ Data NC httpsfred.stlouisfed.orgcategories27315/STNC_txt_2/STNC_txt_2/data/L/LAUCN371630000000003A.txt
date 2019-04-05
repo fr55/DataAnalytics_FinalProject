@@ -1,0 +1,40 @@
+Title:               Unemployment Rate in Sampson County, NC
+Series ID:           LAUCN371630000000003A
+Source:              U.S. Bureau of Labor Statistics
+Release:             Unemployment in States and Local Areas (all other areas) (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-02 3:22 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   4.6
+1991-01-01   7.4
+1992-01-01   6.8
+1993-01-01   7.0
+1994-01-01   5.5
+1995-01-01   5.7
+1996-01-01   6.3
+1997-01-01   5.3
+1998-01-01   5.1
+1999-01-01   4.7
+2000-01-01   3.5
+2001-01-01   6.1
+2002-01-01   6.8
+2003-01-01   5.7
+2004-01-01   4.8
+2005-01-01   4.9
+2006-01-01   4.6
+2007-01-01   4.0
+2008-01-01   5.3
+2009-01-01   8.8
+2010-01-01   9.7
+2011-01-01   9.8
+2012-01-01   9.3
+2013-01-01   8.1
+2014-01-01   6.5
+2015-01-01   5.9
+2016-01-01   5.5
+2017-01-01   4.8

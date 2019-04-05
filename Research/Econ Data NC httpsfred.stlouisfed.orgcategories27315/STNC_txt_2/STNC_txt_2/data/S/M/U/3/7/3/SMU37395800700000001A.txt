@@ -1,0 +1,40 @@
+Title:               All Employees: Service-Providing in Raleigh, NC (MSA)
+Series ID:           SMU37395800700000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  239.3
+1991-01-01  243.3
+1992-01-01  253.0
+1993-01-01  265.8
+1994-01-01  280.9
+1995-01-01  294.4
+1996-01-01  312.9
+1997-01-01  330.2
+1998-01-01  342.9
+1999-01-01  355.6
+2000-01-01  365.5
+2001-01-01  368.1
+2002-01-01  366.4
+2003-01-01  372.3
+2004-01-01  382.9
+2005-01-01  398.0
+2006-01-01  418.2
+2007-01-01  441.0
+2008-01-01  450.6
+2009-01-01  439.4
+2010-01-01  441.9
+2011-01-01  450.8
+2012-01-01  465.1
+2013-01-01  479.3
+2014-01-01  496.0
+2015-01-01  513.2
+2016-01-01  530.5
+2017-01-01  543.6

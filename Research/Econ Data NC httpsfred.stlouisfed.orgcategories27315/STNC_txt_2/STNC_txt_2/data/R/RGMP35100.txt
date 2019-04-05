@@ -1,0 +1,36 @@
+Title:               Total Real Gross Domestic Product for New Bern, NC (MSA)
+Series ID:           RGMP35100
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE       VALUE
+2001-01-01  3916
+2002-01-01  3890
+2003-01-01  4031
+2004-01-01  4208
+2005-01-01  4478
+2006-01-01  4514
+2007-01-01  4425
+2008-01-01  4338
+2009-01-01  4361
+2010-01-01  4491
+2011-01-01  4399
+2012-01-01  4407
+2013-01-01  4384
+2014-01-01  4349
+2015-01-01  4352
+2016-01-01  4349
+2017-01-01  4301

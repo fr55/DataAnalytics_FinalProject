@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Hoke County, NC
+Series ID:           BPPRIV037093
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    55
+1991-01-01    73
+1992-01-01   195
+1993-01-01   248
+1994-01-01   261
+1995-01-01   235
+1996-01-01   272
+1997-01-01   381
+1998-01-01   406
+1999-01-01   302
+2000-01-01   261
+2001-01-01   318
+2002-01-01   467
+2003-01-01   523
+2004-01-01   523
+2005-01-01   660
+2006-01-01   686
+2007-01-01   554
+2008-01-01   503
+2009-01-01   468
+2010-01-01   555
+2011-01-01   406
+2012-01-01   408
+2013-01-01   328
+2014-01-01   219
+2015-01-01   226
+2016-01-01   213
+2017-01-01   219

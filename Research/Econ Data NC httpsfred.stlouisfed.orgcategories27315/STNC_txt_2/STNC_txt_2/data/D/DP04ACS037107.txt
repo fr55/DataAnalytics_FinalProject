@@ -1,0 +1,21 @@
+Title:               Burdened Households in Lenoir County, NC
+Series ID:           DP04ACS037107
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  38.284564580326290
+2011-01-01  39.002356637863315
+2012-01-01  37.895433487756450
+2013-01-01  35.533336322467830
+2014-01-01  36.187082405345210
+2015-01-01  35.754415928805790
+2016-01-01  33.300135808057945

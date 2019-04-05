@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Halifax County, NC
+Series ID:           PECIUBAANC37083A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  17782
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  17974
+1994-01-01      .
+1995-01-01  17035
+1996-01-01      .
+1997-01-01  15989
+1998-01-01  15742
+1999-01-01  14963
+2000-01-01  14200
+2001-01-01  13971
+2002-01-01  15016
+2003-01-01  14955
+2004-01-01  15573
+2005-01-01  17876
+2006-01-01  14716
+2007-01-01  16054
+2008-01-01  14558
+2009-01-01  16152
+2010-01-01  15976
+2011-01-01  16343
+2012-01-01  17346
+2013-01-01  18533
+2014-01-01  14372
+2015-01-01  16251
+2016-01-01  15778
+2017-01-01  16005

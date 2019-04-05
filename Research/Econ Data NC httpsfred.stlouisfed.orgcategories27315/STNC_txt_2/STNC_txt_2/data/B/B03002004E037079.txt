@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Black or African-American Persons in Greene County, NC
+Series ID:           B03002004E037079
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:56 AM CST
+Notes:               
+
+DATE        VALUE
+2009-01-01   7817
+2010-01-01   7905
+2011-01-01   7891
+2012-01-01   7902
+2013-01-01   7647
+2014-01-01   7640
+2015-01-01   7589
+2016-01-01   7496
+2017-01-01   7452

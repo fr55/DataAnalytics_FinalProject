@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Harnett County, NC
+Series ID:           MHICILBNC37085A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19533
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  23823
+1994-01-01      .
+1995-01-01  26139
+1996-01-01      .
+1997-01-01  28979
+1998-01-01  30779
+1999-01-01  31531
+2000-01-01  33101
+2001-01-01  32992
+2002-01-01  32491
+2003-01-01  33625
+2004-01-01  34195
+2005-01-01  35744
+2006-01-01  38126
+2007-01-01  37492
+2008-01-01  40496
+2009-01-01  39483
+2010-01-01  38145
+2011-01-01  38185
+2012-01-01  42518
+2013-01-01  42844
+2014-01-01  42124
+2015-01-01  45175
+2016-01-01  48976
+2017-01-01  49281

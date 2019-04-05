@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Haywood County, NC
+Series ID:           B14005DCYACS037087
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01 14.5378151260504220
+2010-01-01 12.5205254515599350
+2011-01-01  9.1420007493443250
+2012-01-01  9.0317919075144510
+2013-01-01  8.7228560912771440
+2014-01-01  7.0106761565836300
+2015-01-01  8.8153310104529620
+2016-01-01  7.9177769318614395
+2017-01-01  9.4186046511627900

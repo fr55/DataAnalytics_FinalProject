@@ -1,0 +1,85 @@
+Title:               Total Unemployed, Plus All Marginally Attached Workers, Plus Total Employed Part Time for Economic Reasons, as a Percent of the Civilian Labor Force Plus All Marginally Attached Workers for North Carolina
+Series ID:           U6UNEM6NC
+Source:              U.S. Bureau of Labor Statistics
+Release:             Alternative Measures of Labor Underutilization for States
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Percent, 4-Quarter Moving Average
+Date Range:          2003-10-01 to 2018-01-01
+Last Updated:        2018-04-27 10:31 AM CDT
+Notes:               U-6 unemployment rate, as defined by the Bureau of Labor
+                     Statistics(BLS).
+                     
+                     The BLS defines marginally attached workers as persons who are not in
+                     the labor force, want and are available for work, and had looked for a
+                     job sometime in the prior 12 months. They are not counted as
+                     unemployed because they had not searched for work in the prior 4
+                     weeks, for any reason whatsoever. The marginally attached are a group
+                     that includes discouraged workers.
+                     
+                     Persons employed part time for economic reasons are those working less
+                     than 35 hours per week who want to work full time, are available to do
+                     so, and gave an economic reason (their hours had been cut back or they
+                     were unable to find a full time job) for working part time. These
+                     individuals are sometimes referred to as involuntary part-time
+                     workers.
+
+DATE       VALUE
+2003-10-01  11.1
+2004-01-01  11.0
+2004-04-01  10.7
+2004-07-01  10.2
+2004-10-01   9.9
+2005-01-01   9.7
+2005-04-01   9.5
+2005-07-01  10.2
+2005-10-01   9.9
+2006-01-01   9.5
+2006-04-01   9.1
+2006-07-01   8.6
+2006-10-01   8.6
+2007-01-01   8.8
+2007-04-01   9.1
+2007-07-01   8.7
+2007-10-01   8.5
+2008-01-01   8.8
+2008-04-01   9.1
+2008-07-01  10.0
+2008-10-01  11.3
+2009-01-01  13.3
+2009-04-01  14.8
+2009-07-01  16.5
+2009-10-01  17.7
+2010-01-01  17.5
+2010-04-01  17.8
+2010-07-01  17.6
+2010-10-01  17.4
+2011-01-01  17.5
+2011-04-01  17.5
+2011-07-01  17.9
+2011-10-01  17.9
+2012-01-01  17.6
+2012-04-01  17.5
+2012-07-01  17.0
+2012-10-01  16.3
+2013-01-01  16.2
+2013-04-01  15.6
+2013-07-01  14.9
+2013-10-01  14.7
+2014-01-01  13.6
+2014-04-01  13.0
+2014-07-01  12.6
+2014-10-01  12.1
+2015-01-01  11.8
+2015-04-01  11.6
+2015-07-01  11.5
+2015-10-01  11.3
+2016-01-01  11.0
+2016-04-01  10.2
+2016-07-01   9.8
+2016-10-01   9.4
+2017-01-01   9.4
+2017-04-01   9.0
+2017-07-01   8.6
+2017-10-01   8.2
+2018-01-01   7.7

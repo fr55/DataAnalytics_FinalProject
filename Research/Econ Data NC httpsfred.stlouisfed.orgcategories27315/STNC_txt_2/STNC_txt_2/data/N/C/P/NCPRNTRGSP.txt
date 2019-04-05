@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Printing and Related Support Activities for North Carolina
+Series ID:           NCPRNTRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01   733.6
+1998-01-01   818.0
+1999-01-01   744.1
+2000-01-01   777.8
+2001-01-01   790.0
+2002-01-01   925.2
+2003-01-01   907.1
+2004-01-01   941.0
+2005-01-01   954.7
+2006-01-01   992.6
+2007-01-01  1141.4
+2008-01-01  1097.5
+2009-01-01   931.5
+2010-01-01   974.9
+2011-01-01   975.7
+2012-01-01   937.9
+2013-01-01  1004.1
+2014-01-01   987.9
+2015-01-01   934.3
+2016-01-01   981.2

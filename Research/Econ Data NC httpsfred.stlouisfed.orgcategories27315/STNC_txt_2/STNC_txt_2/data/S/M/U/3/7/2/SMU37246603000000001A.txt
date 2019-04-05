@@ -1,0 +1,40 @@
+Title:               All Employees: Manufacturing in Greensboro-High Point, NC (MSA)
+Series ID:           SMU37246603000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  87.8
+1991-01-01  83.4
+1992-01-01  82.8
+1993-01-01  83.1
+1994-01-01  84.4
+1995-01-01  86.9
+1996-01-01  85.2
+1997-01-01  83.9
+1998-01-01  82.3
+1999-01-01  81.3
+2000-01-01  80.8
+2001-01-01  75.2
+2002-01-01  72.5
+2003-01-01  68.4
+2004-01-01  66.1
+2005-01-01  66.1
+2006-01-01  64.1
+2007-01-01  62.8
+2008-01-01  60.3
+2009-01-01  52.3
+2010-01-01  50.9
+2011-01-01  51.8
+2012-01-01  52.6
+2013-01-01  53.2
+2014-01-01  53.4
+2015-01-01  54.8
+2016-01-01  55.7
+2017-01-01  55.7

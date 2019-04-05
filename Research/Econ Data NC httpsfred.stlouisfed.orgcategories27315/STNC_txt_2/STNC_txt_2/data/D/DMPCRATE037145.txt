@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Person County, NC
+Series ID:           DMPCRATE037145
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  81.8099999427795
+2009-01-01  78.1999998092651
+2010-01-01  84.4099998474121
+2011-01-01  75.9639999996871
+2012-01-01  80.7189999995753
+2013-01-01  64.5249999994412
+2014-01-01  65.9909999994561
+2015-01-01  62.0869999998249

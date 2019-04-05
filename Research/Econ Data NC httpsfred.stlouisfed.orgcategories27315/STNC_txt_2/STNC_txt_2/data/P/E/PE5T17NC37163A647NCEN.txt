@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Sampson County, NC
+Series ID:           PE5T17NC37163A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2407
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2309
+1994-01-01     .
+1995-01-01  2443
+1996-01-01     .
+1997-01-01  2382
+1998-01-01  2524
+1999-01-01  2341
+2000-01-01  2304
+2001-01-01  2305
+2002-01-01  2492
+2003-01-01  2480
+2004-01-01  2479
+2005-01-01  2881
+2006-01-01  2753
+2007-01-01  3005
+2008-01-01  3234
+2009-01-01  3087
+2010-01-01  3362
+2011-01-01  3292
+2012-01-01  3587
+2013-01-01  3405
+2014-01-01  4031
+2015-01-01  3274
+2016-01-01  3034
+2017-01-01  3195

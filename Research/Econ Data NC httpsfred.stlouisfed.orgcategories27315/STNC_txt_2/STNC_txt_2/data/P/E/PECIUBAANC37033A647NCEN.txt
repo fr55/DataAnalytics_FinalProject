@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Caswell County, NC
+Series ID:           PECIUBAANC37033A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3699
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3999
+1994-01-01     .
+1995-01-01  3701
+1996-01-01     .
+1997-01-01  3708
+1998-01-01  3891
+1999-01-01  3879
+2000-01-01  3552
+2001-01-01  3618
+2002-01-01  3833
+2003-01-01  4116
+2004-01-01  4507
+2005-01-01  4585
+2006-01-01  4724
+2007-01-01  4173
+2008-01-01  4946
+2009-01-01  5603
+2010-01-01  5519
+2011-01-01  5264
+2012-01-01  5353
+2013-01-01  6343
+2014-01-01  5220
+2015-01-01  5206
+2016-01-01  5077
+2017-01-01  4894

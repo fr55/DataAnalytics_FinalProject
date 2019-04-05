@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Robeson County, NC
+Series ID:           RACEDISPARITY037155
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:33 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  30.089263656302150
+2010-01-01  32.968552644544985
+2011-01-01  31.459945407246703
+2012-01-01  30.668891071959415
+2013-01-01  32.011789561931550
+2014-01-01  30.364894682922560
+2015-01-01  30.702558314777300
+2016-01-01  29.010919756867548
+2017-01-01  27.482872070855250

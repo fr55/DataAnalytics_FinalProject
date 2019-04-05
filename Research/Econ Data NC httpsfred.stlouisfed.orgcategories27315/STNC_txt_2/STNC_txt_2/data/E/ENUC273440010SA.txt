@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Total Covered Establishments in Jacksonville, NC (MSA)
+Series ID:           ENUC273440010SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:23 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE        VALUE
+1990-01-01  279.0
+1990-04-01  280.2
+1990-07-01  278.4
+1990-10-01  288.0
+1991-01-01  286.3
+1991-04-01  290.4
+1991-07-01  286.1
+1991-10-01  285.3
+1992-01-01  301.6
+1992-04-01  297.7
+1992-07-01  305.7
+1992-10-01  304.1
+1993-01-01  296.0
+1993-04-01  305.4
+1993-07-01  309.3
+1993-10-01  312.9
+1994-01-01  311.1
+1994-04-01  311.6
+1994-07-01  319.6
+1994-10-01  312.6
+1995-01-01  324.3
+1995-04-01  324.7
+1995-07-01  324.3
+1995-10-01  330.1
+1996-01-01  333.9
+1996-04-01  332.4
+1996-07-01  337.2
+1996-10-01  345.1
+1997-01-01  355.1
+1997-04-01  365.0
+1997-07-01  364.3
+1997-10-01  375.2
+1998-01-01  368.7
+1998-04-01  381.7
+1998-07-01  381.9
+1998-10-01  395.4
+1999-01-01  380.1
+1999-04-01  386.7
+1999-07-01  395.5
+1999-10-01  397.5
+2000-01-01  413.0
+2000-04-01  400.6
+2000-07-01  409.2
+2000-10-01  403.6
+2001-01-01  412.0
+2001-04-01  409.8
+2001-07-01  406.7
+2001-10-01  417.4
+2002-01-01  416.7
+2002-04-01  431.4
+2002-07-01  436.0
+2002-10-01  430.0
+2003-01-01  444.0
+2003-04-01  441.9
+2003-07-01  444.0
+2003-10-01  453.8
+2004-01-01  455.9
+2004-04-01  448.8
+2004-07-01  461.8
+2004-10-01  474.6
+2005-01-01  450.0
+2005-04-01  481.8
+2005-07-01  492.1
+2005-10-01  483.0
+2006-01-01  489.0
+2006-04-01  499.0
+2006-07-01  493.5
+2006-10-01  503.9
+2007-01-01  512.6
+2007-04-01  513.7
+2007-07-01  522.7
+2007-10-01  525.2
+2008-01-01  529.2
+2008-04-01  531.2
+2008-07-01  536.5
+2008-10-01  547.0
+2009-01-01  546.2
+2009-04-01  553.4
+2009-07-01  542.2
+2009-10-01  587.0
+2010-01-01  557.2
+2010-04-01  576.5
+2010-07-01  574.2
+2010-10-01  609.2
+2011-01-01  574.2
+2011-04-01  605.2
+2011-07-01  615.5
+2011-10-01  586.7
+2012-01-01  613.9
+2012-04-01  590.6
+2012-07-01  597.9
+2012-10-01  594.8
+2013-01-01  615.3
+2013-04-01  606.7
+2013-07-01  608.2
+2013-10-01  602.5
+2014-01-01  614.5
+2014-04-01  611.5
+2014-07-01  610.7
+2014-10-01  613.5
+2015-01-01  617.2
+2015-04-01  613.9
+2015-07-01  626.2
+2015-10-01  641.3
+2016-01-01  606.5
+2016-04-01  626.9
+2016-07-01  660.2
+2016-10-01  655.1
+2017-01-01  649.0
+2017-04-01  658.3
+2017-07-01  638.5
+2017-10-01  658.8
+2018-01-01  663.0

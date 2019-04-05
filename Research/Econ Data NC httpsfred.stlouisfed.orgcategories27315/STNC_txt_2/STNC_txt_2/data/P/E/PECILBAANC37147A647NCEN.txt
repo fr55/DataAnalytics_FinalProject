@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Pitt County, NC
+Series ID:           PECILBAANC37147A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18921
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  19632
+1994-01-01      .
+1995-01-01  18389
+1996-01-01      .
+1997-01-01  17217
+1998-01-01  17552
+1999-01-01  17121
+2000-01-01  17421
+2001-01-01  17629
+2002-01-01  19108
+2003-01-01  18513
+2004-01-01  19018
+2005-01-01  26634
+2006-01-01  26690
+2007-01-01  28680
+2008-01-01  29398
+2009-01-01  36206
+2010-01-01  30992
+2011-01-01  36863
+2012-01-01  36442
+2013-01-01  38572
+2014-01-01  35589
+2015-01-01  40434
+2016-01-01  32526
+2017-01-01  33471

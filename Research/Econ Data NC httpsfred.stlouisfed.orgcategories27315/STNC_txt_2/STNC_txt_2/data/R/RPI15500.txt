@@ -1,0 +1,28 @@
+Title:               Real Personal Income for Burlington, NC (MSA)
+Series ID:           RPI15500
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:51 AM CDT
+Notes:               Real personal income is personal income at RPPs divided by the
+                     national PCE price index. It is estimated for states, state
+                     metro/nonmetro portions, metropolitan statistical areas, and the
+                     combined nonmetropolitan portion of the United States.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE          VALUE
+2008-01-01  5279875
+2009-01-01  5165798
+2010-01-01  5219795
+2011-01-01  5339263
+2012-01-01  5482375
+2013-01-01  5394414
+2014-01-01  5557196
+2015-01-01  5801137
+2016-01-01  5878415

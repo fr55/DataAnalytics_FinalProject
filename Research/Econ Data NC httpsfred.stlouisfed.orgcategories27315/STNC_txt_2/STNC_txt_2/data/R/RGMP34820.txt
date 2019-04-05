@@ -1,0 +1,36 @@
+Title:               Total Real Gross Domestic Product for Myrtle Beach-Conway-North Myrtle Beach, SC-NC (MSA)
+Series ID:           RGMP34820
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  11335
+2002-01-01  11886
+2003-01-01  12114
+2004-01-01  12981
+2005-01-01  14465
+2006-01-01  14501
+2007-01-01  14347
+2008-01-01  13449
+2009-01-01  12951
+2010-01-01  12922
+2011-01-01  13201
+2012-01-01  13485
+2013-01-01  13818
+2014-01-01  14064
+2015-01-01  14400
+2016-01-01  14587
+2017-01-01  14844

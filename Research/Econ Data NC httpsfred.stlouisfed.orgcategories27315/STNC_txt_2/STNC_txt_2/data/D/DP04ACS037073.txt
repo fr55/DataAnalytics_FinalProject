@@ -1,0 +1,21 @@
+Title:               Burdened Households in Gates County, NC
+Series ID:           DP04ACS037073
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  30.342187126106722
+2011-01-01  29.204383039542640
+2012-01-01  32.663551401869160
+2013-01-01  32.330119915353870
+2014-01-01  29.681321237497095
+2015-01-01  29.856459330143544
+2016-01-01  29.635684259691730

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Beaufort County, NC
+Series ID:           PECIUBAANC37013A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   8540
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  10087
+1994-01-01      .
+1995-01-01  10175
+1996-01-01      .
+1997-01-01   9488
+1998-01-01  10384
+1999-01-01  10453
+2000-01-01   9365
+2001-01-01   9209
+2002-01-01   9448
+2003-01-01   9789
+2004-01-01   9969
+2005-01-01   9765
+2006-01-01   8828
+2007-01-01   8969
+2008-01-01  10001
+2009-01-01  10369
+2010-01-01  11497
+2011-01-01  12094
+2012-01-01  10531
+2013-01-01  11354
+2014-01-01  10459
+2015-01-01  10662
+2016-01-01  10643
+2017-01-01  11791

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Davie County, NC
+Series ID:           MHICIUBNC37059A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:39 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  31917
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  36077
+1994-01-01      .
+1995-01-01  40141
+1996-01-01      .
+1997-01-01  42907
+1998-01-01  46270
+1999-01-01  44178
+2000-01-01  46200
+2001-01-01  44811
+2002-01-01  45040
+2003-01-01  45796
+2004-01-01  47470
+2005-01-01  49565
+2006-01-01  52047
+2007-01-01  53924
+2008-01-01  56477
+2009-01-01  52575
+2010-01-01  50902
+2011-01-01  53394
+2012-01-01  53547
+2013-01-01  52602
+2014-01-01  51127
+2015-01-01  57372
+2016-01-01  58012
+2017-01-01  62618

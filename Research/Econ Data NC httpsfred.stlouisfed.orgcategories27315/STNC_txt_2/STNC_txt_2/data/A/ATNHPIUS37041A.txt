@@ -1,0 +1,54 @@
+Title:               All-Transactions House Price Index for Chowan County, NC
+Series ID:           ATNHPIUS37041A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1992-01-01 to 2017-01-01
+Last Updated:        2018-02-27 10:03 AM CST
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1992-01-01   74.70
+1993-01-01   71.62
+1994-01-01   74.51
+1995-01-01   76.07
+1996-01-01   83.59
+1997-01-01   86.29
+1998-01-01   89.23
+1999-01-01   93.80
+2000-01-01  100.00
+2001-01-01  104.49
+2002-01-01  108.82
+2003-01-01  110.85
+2004-01-01  121.14
+2005-01-01  140.92
+2006-01-01  159.68
+2007-01-01  159.80
+2008-01-01  163.92
+2009-01-01  155.84
+2010-01-01  147.06
+2011-01-01  135.23
+2012-01-01  133.67
+2013-01-01  128.39
+2014-01-01  127.18
+2015-01-01  130.94
+2016-01-01  133.56
+2017-01-01  134.74

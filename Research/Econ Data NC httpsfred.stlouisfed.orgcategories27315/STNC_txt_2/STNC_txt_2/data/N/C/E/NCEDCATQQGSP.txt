@@ -1,0 +1,67 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Educational Services, Health Care, and Social Assistance: Educational Services for North Carolina
+Series ID:           NCEDCATQQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Seasonally Adjusted Annual Rate
+Frequency:           Quarterly
+Units:               Index 2012=100
+Date Range:          2005-01-01 to 2018-04-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+2005-01-01   70.687
+2005-04-01   70.860
+2005-07-01   71.702
+2005-10-01   72.437
+2006-01-01   75.396
+2006-04-01   76.473
+2006-07-01   77.785
+2006-10-01   78.106
+2007-01-01   77.708
+2007-04-01   78.477
+2007-07-01   80.288
+2007-10-01   83.625
+2008-01-01   83.720
+2008-04-01   85.362
+2008-07-01   87.890
+2008-10-01   89.628
+2009-01-01   96.019
+2009-04-01   96.506
+2009-07-01   96.947
+2009-10-01   96.379
+2010-01-01   98.472
+2010-04-01   99.350
+2010-07-01   99.595
+2010-10-01   98.281
+2011-01-01  100.072
+2011-04-01  100.023
+2011-07-01   99.077
+2011-10-01  101.134
+2012-01-01  101.759
+2012-04-01  102.263
+2012-07-01   99.739
+2012-10-01   96.239
+2013-01-01   91.128
+2013-04-01   88.401
+2013-07-01   85.986
+2013-10-01   87.764
+2014-01-01   88.570
+2014-04-01   88.855
+2014-07-01   92.350
+2014-10-01   94.775
+2015-01-01  100.304
+2015-04-01  104.529
+2015-07-01  106.512
+2015-10-01  105.836
+2016-01-01  107.359
+2016-04-01  106.086
+2016-07-01  102.199
+2016-10-01  101.259
+2017-01-01   97.180
+2017-04-01   96.854
+2017-07-01   98.685
+2017-10-01  101.529
+2018-01-01  102.911
+2018-04-01  102.479

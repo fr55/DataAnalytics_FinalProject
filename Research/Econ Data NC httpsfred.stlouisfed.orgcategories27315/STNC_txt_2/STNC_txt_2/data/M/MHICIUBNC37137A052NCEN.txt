@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Pamlico County, NC
+Series ID:           MHICIUBNC37137A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  21940
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  26313
+1994-01-01      .
+1995-01-01  29426
+1996-01-01      .
+1997-01-01  31701
+1998-01-01  33085
+1999-01-01  34280
+2000-01-01  36664
+2001-01-01  35374
+2002-01-01  35279
+2003-01-01  35972
+2004-01-01  37485
+2005-01-01  39003
+2006-01-01  38416
+2007-01-01  44509
+2008-01-01  46492
+2009-01-01  43969
+2010-01-01  45238
+2011-01-01  45075
+2012-01-01  44201
+2013-01-01  47183
+2014-01-01  47525
+2015-01-01  44559
+2016-01-01  48455
+2017-01-01  53192

@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Professional and Business Services in North Carolina
+Series ID:           SMU37000006000000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE          VALUE
+2007-01-01   860.61
+2008-01-01   866.62
+2009-01-01   945.47
+2010-01-01   918.91
+2011-01-01   933.86
+2012-01-01   953.64
+2013-01-01   938.39
+2014-01-01   958.78
+2015-01-01   966.40
+2016-01-01  1009.27
+2017-01-01  1031.04

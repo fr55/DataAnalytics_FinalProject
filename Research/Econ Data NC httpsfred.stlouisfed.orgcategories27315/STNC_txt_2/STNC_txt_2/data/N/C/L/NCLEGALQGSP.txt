@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Professional and Business Services: Professional, Scientific, and Technical Services: Legal Services for North Carolina
+Series ID:           NCLEGALQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   98.616
+1998-01-01  110.374
+1999-01-01  110.057
+2000-01-01  109.703
+2001-01-01  109.576
+2002-01-01  110.448
+2003-01-01  112.302
+2004-01-01  111.137
+2005-01-01  105.520
+2006-01-01  109.953
+2007-01-01  114.218
+2008-01-01  124.145
+2009-01-01  111.941
+2010-01-01  103.655
+2011-01-01  103.018
+2012-01-01  100.000
+2013-01-01   96.911
+2014-01-01   95.771
+2015-01-01   93.808
+2016-01-01   96.426

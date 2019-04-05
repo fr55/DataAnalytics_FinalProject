@@ -1,0 +1,27 @@
+Title:               Implicit Regional Price Deflator for Goldsboro, NC (MSA)
+Series ID:           IRPD24140
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               US PCE Index 2009 =100
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:53 AM CDT
+Notes:               The Implicit Regional Price Deflator (IRPD) is the ratio of the
+                     current-dollar value of a series, such as regional personal income, to
+                     its corresponding chained-dollar value, multiplied by 100.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE       VALUE
+2008-01-01  85.1
+2009-01-01  85.3
+2010-01-01  88.1
+2011-01-01  90.1
+2012-01-01  91.7
+2013-01-01  93.6
+2014-01-01  95.0
+2015-01-01  95.4
+2016-01-01  95.7

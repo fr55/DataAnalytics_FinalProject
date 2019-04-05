@@ -1,0 +1,29 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Halifax County, NC
+Series ID:           FBITC037083
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2017-01-01
+Last Updated:        2018-09-27 10:22 AM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   1126
+2005-01-01   1184
+2006-01-01   1215
+2007-01-01   1186
+2008-01-01   1264
+2009-01-01   1128
+2010-01-01   1105
+2011-01-01   1069
+2012-01-01    974
+2013-01-01    914
+2014-01-01    917
+2015-01-01    813
+2016-01-01     69
+2017-01-01    553

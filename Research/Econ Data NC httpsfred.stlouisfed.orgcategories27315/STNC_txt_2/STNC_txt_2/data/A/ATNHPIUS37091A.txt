@@ -1,0 +1,60 @@
+Title:               All-Transactions House Price Index for Hertford County, NC
+Series ID:           ATNHPIUS37091A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1986-01-01 to 2017-01-01
+Last Updated:        2018-02-27 10:03 AM CST
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1986-01-01   64.23
+1987-01-01   58.27
+1988-01-01   66.42
+1989-01-01   70.09
+1990-01-01   70.85
+1991-01-01   75.12
+1992-01-01   70.92
+1993-01-01   73.41
+1994-01-01   76.37
+1995-01-01   75.11
+1996-01-01   79.25
+1997-01-01   81.96
+1998-01-01   87.70
+1999-01-01   92.91
+2000-01-01  100.00
+2001-01-01  101.78
+2002-01-01  102.66
+2003-01-01  105.56
+2004-01-01  107.54
+2005-01-01  116.61
+2006-01-01  130.45
+2007-01-01  128.74
+2008-01-01  136.96
+2009-01-01  133.39
+2010-01-01  127.66
+2011-01-01  125.63
+2012-01-01  118.90
+2013-01-01  122.17
+2014-01-01  113.21
+2015-01-01  124.26
+2016-01-01  112.53
+2017-01-01  131.79

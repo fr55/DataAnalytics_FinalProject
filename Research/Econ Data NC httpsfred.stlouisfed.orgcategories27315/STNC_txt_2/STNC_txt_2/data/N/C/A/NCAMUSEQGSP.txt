@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Arts, Entertainment, Recreation, Accommodation, and Food Services: Arts, Entertainment, and Recreation: Amusements, Gambling, and Recreation Industries for North Carolina
+Series ID:           NCAMUSEQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   78.512
+1998-01-01   75.998
+1999-01-01   80.188
+2000-01-01   81.561
+2001-01-01   73.886
+2002-01-01   77.067
+2003-01-01   79.048
+2004-01-01   83.771
+2005-01-01   85.777
+2006-01-01   86.839
+2007-01-01   90.192
+2008-01-01   90.957
+2009-01-01   94.585
+2010-01-01  100.411
+2011-01-01  101.020
+2012-01-01  100.000
+2013-01-01   97.704
+2014-01-01  100.302
+2015-01-01   96.903
+2016-01-01  103.416

@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Harnett County, NC
+Series ID:           PE5T17NC37085A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3578
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2983
+1994-01-01     .
+1995-01-01  2886
+1996-01-01     .
+1997-01-01  2967
+1998-01-01  3360
+1999-01-01  3158
+2000-01-01  3091
+2001-01-01  3166
+2002-01-01  3599
+2003-01-01  3593
+2004-01-01  3600
+2005-01-01  3868
+2006-01-01  4089
+2007-01-01  4091
+2008-01-01  3927
+2009-01-01  4576
+2010-01-01  5440
+2011-01-01  5532
+2012-01-01  5898
+2013-01-01  5353
+2014-01-01  6227
+2015-01-01  5495
+2016-01-01  4916
+2017-01-01  5478

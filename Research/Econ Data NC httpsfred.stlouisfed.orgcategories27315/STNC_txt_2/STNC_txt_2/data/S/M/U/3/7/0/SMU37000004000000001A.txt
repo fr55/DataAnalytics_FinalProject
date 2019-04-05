@@ -1,0 +1,40 @@
+Title:               All Employees: Trade, Transportation, and Utilities in North Carolina
+Series ID:           SMU37000004000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  634.0
+1991-01-01  618.3
+1992-01-01  617.4
+1993-01-01  631.2
+1994-01-01  647.2
+1995-01-01  671.1
+1996-01-01  690.3
+1997-01-01  710.4
+1998-01-01  718.3
+1999-01-01  736.5
+2000-01-01  752.1
+2001-01-01  742.7
+2002-01-01  725.3
+2003-01-01  718.5
+2004-01-01  726.5
+2005-01-01  740.6
+2006-01-01  759.1
+2007-01-01  778.4
+2008-01-01  769.3
+2009-01-01  720.8
+2010-01-01  713.8
+2011-01-01  727.6
+2012-01-01  743.6
+2013-01-01  757.1
+2014-01-01  775.6
+2015-01-01  796.7
+2016-01-01  815.1
+2017-01-01  827.1

@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Guilford County, NC
+Series ID:           PCPI37081
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  31118
+2002-01-01  31061
+2003-01-01  31328
+2004-01-01  33136
+2005-01-01  34517
+2006-01-01  36577
+2007-01-01  37386
+2008-01-01  37895
+2009-01-01  35803
+2010-01-01  36480
+2011-01-01  37567
+2012-01-01  39464
+2013-01-01  39015
+2014-01-01  41019
+2015-01-01  43195
+2016-01-01  43405
+2017-01-01  45034

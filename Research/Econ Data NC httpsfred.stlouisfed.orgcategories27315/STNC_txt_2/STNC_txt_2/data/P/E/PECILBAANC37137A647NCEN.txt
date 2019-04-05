@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Pamlico County, NC
+Series ID:           PECILBAANC37137A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1798
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1803
+1994-01-01     .
+1995-01-01  1700
+1996-01-01     .
+1997-01-01  1635
+1998-01-01  1765
+1999-01-01  1536
+2000-01-01  1547
+2001-01-01  1572
+2002-01-01  1517
+2003-01-01  1463
+2004-01-01  1452
+2005-01-01  1623
+2006-01-01  1515
+2007-01-01  1331
+2008-01-01  1542
+2009-01-01  1719
+2010-01-01  1399
+2011-01-01  1833
+2012-01-01  1689
+2013-01-01  1833
+2014-01-01  1692
+2015-01-01  1304
+2016-01-01  1809
+2017-01-01  1646

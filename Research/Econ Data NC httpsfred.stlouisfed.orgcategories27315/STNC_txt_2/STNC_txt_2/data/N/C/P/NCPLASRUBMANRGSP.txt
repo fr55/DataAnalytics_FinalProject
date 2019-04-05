@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Plastics and Rubber Products Manufacturing for North Carolina
+Series ID:           NCPLASRUBMANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  3136.8
+1998-01-01  2858.5
+1999-01-01  3083.1
+2000-01-01  3077.7
+2001-01-01  3239.6
+2002-01-01  3353.5
+2003-01-01  3514.8
+2004-01-01  3640.0
+2005-01-01  3562.7
+2006-01-01  3162.8
+2007-01-01  3338.7
+2008-01-01  3028.4
+2009-01-01  3189.3
+2010-01-01  3230.3
+2011-01-01  3566.3
+2012-01-01  3749.9
+2013-01-01  3583.6
+2014-01-01  3283.8
+2015-01-01  3377.7
+2016-01-01  3498.2

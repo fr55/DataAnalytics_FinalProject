@@ -1,0 +1,25 @@
+Title:               Value of Exports to Gambia from North Carolina
+Series ID:           NCGMBA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE          VALUE
+2008-01-01   229562
+2009-01-01    94150
+2010-01-01   469065
+2011-01-01   327400
+2012-01-01   390700
+2013-01-01   265555
+2014-01-01   371157
+2015-01-01   253055
+2016-01-01   614004

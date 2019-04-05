@@ -1,0 +1,71 @@
+Title:               All-Transactions House Price Index for Alamance County, NC
+Series ID:           ATNHPIUS37001A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1975-01-01 to 2017-01-01
+Last Updated:        2018-03-22 4:04 PM CDT
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1975-01-01   28.80
+1976-01-01   29.23
+1977-01-01   30.51
+1978-01-01   35.10
+1979-01-01   40.16
+1980-01-01       .
+1981-01-01       .
+1982-01-01       .
+1983-01-01   46.41
+1984-01-01   47.81
+1985-01-01   53.70
+1986-01-01   56.82
+1987-01-01   60.50
+1988-01-01   68.34
+1989-01-01   69.41
+1990-01-01   71.11
+1991-01-01   72.86
+1992-01-01   74.06
+1993-01-01   75.17
+1994-01-01   77.92
+1995-01-01   82.41
+1996-01-01   86.10
+1997-01-01   89.31
+1998-01-01   93.10
+1999-01-01   95.97
+2000-01-01  100.00
+2001-01-01  103.83
+2002-01-01  105.56
+2003-01-01  106.67
+2004-01-01  106.48
+2005-01-01  108.83
+2006-01-01  110.91
+2007-01-01  112.03
+2008-01-01  112.34
+2009-01-01  111.73
+2010-01-01  107.25
+2011-01-01  103.63
+2012-01-01  101.74
+2013-01-01  102.70
+2014-01-01  101.87
+2015-01-01  105.08
+2016-01-01  107.45
+2017-01-01  112.21

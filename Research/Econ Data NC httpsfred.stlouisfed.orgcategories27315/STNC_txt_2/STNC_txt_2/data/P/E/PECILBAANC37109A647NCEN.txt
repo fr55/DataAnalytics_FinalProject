@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Lincoln County, NC
+Series ID:           PECILBAANC37109A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   3143
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   4136
+1994-01-01      .
+1995-01-01   4221
+1996-01-01      .
+1997-01-01   4589
+1998-01-01   4104
+1999-01-01   3902
+2000-01-01   4775
+2001-01-01   4967
+2002-01-01   5172
+2003-01-01   5557
+2004-01-01   5925
+2005-01-01   7018
+2006-01-01   7231
+2007-01-01   6054
+2008-01-01   7593
+2009-01-01   9180
+2010-01-01   9890
+2011-01-01   9100
+2012-01-01   9678
+2013-01-01   9657
+2014-01-01  10988
+2015-01-01   8995
+2016-01-01   8597
+2017-01-01   8695

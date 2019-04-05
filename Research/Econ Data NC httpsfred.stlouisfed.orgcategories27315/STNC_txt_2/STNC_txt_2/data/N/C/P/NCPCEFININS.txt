@@ -1,0 +1,43 @@
+Title:               Personal Consumption Expenditures: Services: Financial Services and Insurance for North Carolina
+Series ID:           NCPCEFININS
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Spending on financial services and insurance. Financial services
+                     consist of financial services furnished without payment, and financial
+                     service charges, fees, and commissions. Insurance consists of life
+                     insurance, net household insurance, net health insurance, net motor
+                     vehicle and other transportation insurance.For more information about
+                     this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   9294
+1998-01-01  10446
+1999-01-01  11618
+2000-01-01  13153
+2001-01-01  12696
+2002-01-01  12811
+2003-01-01  13385
+2004-01-01  14380
+2005-01-01  15645
+2006-01-01  16532
+2007-01-01  17774
+2008-01-01  18210
+2009-01-01  17423
+2010-01-01  18125
+2011-01-01  18720
+2012-01-01  18745
+2013-01-01  19457
+2014-01-01  20234
+2015-01-01  21892
+2016-01-01  22678
+2017-01-01  24367

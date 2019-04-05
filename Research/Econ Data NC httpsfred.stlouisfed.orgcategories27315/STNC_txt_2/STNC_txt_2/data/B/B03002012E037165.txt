@@ -1,0 +1,21 @@
+Title:               Population Estimate of Hispanic or Latino Persons in Scotland County, NC
+Series ID:           B03002012E037165
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:53 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01   518
+2010-01-01   801
+2011-01-01   807
+2012-01-01   806
+2013-01-01   861
+2014-01-01   919
+2015-01-01   960
+2016-01-01   977
+2017-01-01  1004

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Halifax County, NC
+Series ID:           DP04ACS037083
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  40.770441798681490
+2011-01-01  40.710624876798740
+2012-01-01  40.118900173396085
+2013-01-01  41.228200924131760
+2014-01-01  40.576551587498145
+2015-01-01  39.768878262602115
+2016-01-01  38.631335478680610

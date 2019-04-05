@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Paper Products Manufacturing for North Carolina
+Series ID:           NCPAPMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  133.760
+1998-01-01  128.990
+1999-01-01  126.813
+2000-01-01  120.708
+2001-01-01  101.286
+2002-01-01  112.523
+2003-01-01   98.184
+2004-01-01  107.841
+2005-01-01  115.981
+2006-01-01  121.995
+2007-01-01  126.573
+2008-01-01   97.427
+2009-01-01  107.495
+2010-01-01   93.859
+2011-01-01   98.274
+2012-01-01  100.000
+2013-01-01  102.144
+2014-01-01  103.309
+2015-01-01  112.528
+2016-01-01  108.518

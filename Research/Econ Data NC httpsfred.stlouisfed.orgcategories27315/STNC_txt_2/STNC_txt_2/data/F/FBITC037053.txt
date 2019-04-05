@@ -1,0 +1,29 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Currituck County, NC
+Series ID:           FBITC037053
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2017-01-01
+Last Updated:        2018-09-27 10:21 AM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE       VALUE
+2004-01-01   676
+2005-01-01   627
+2006-01-01   565
+2007-01-01   577
+2008-01-01   558
+2009-01-01   688
+2010-01-01   687
+2011-01-01   804
+2012-01-01   581
+2013-01-01   478
+2014-01-01   401
+2015-01-01   425
+2016-01-01   393
+2017-01-01   347

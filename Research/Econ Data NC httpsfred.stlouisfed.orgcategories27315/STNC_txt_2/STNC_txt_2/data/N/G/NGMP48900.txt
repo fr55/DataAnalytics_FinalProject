@@ -1,0 +1,43 @@
+Title:               Total Gross Domestic Product for Wilmington, NC (MSA)
+Series ID:           NGMP48900
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Gross domestic product (GDP) by metropolitan area is the measure of
+                     the market value of all final goods and services produced within a
+                     metropolitan area in a particular period of time. In concept, an
+                     industry's GDP by metropolitan area, referred to as its "value added",
+                     is equivalent to its gross output (sales or receipts and other
+                     operating income, commodity taxes, and inventory change) minus its
+                     intermediate inputs (consumption of goods and services purchased from
+                     other U.S. industries or imported). GDP by metropolitan area is the
+                     metropolitan area counterpart of the nation's, BEA's featured measure
+                     of U.S. production.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01   6809
+2002-01-01   7106
+2003-01-01   7345
+2004-01-01   7947
+2005-01-01   9043
+2006-01-01   9795
+2007-01-01  10182
+2008-01-01  10462
+2009-01-01  10524
+2010-01-01  10614
+2011-01-01  11048
+2012-01-01  10852
+2013-01-01  11885
+2014-01-01  12762
+2015-01-01  13484
+2016-01-01  13705
+2017-01-01  14350

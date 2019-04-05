@@ -1,0 +1,144 @@
+Title:               Net Income for Commercial Banks with Assets under $5B in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           NICGR
+Source:              Federal Financial Institutions Examination Council (US)
+Release:             Reports of Condition and Income for All Insured U.S. Commercial Banks
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Thousands of Dollars
+Date Range:          1989-01-01 to 2018-07-01
+Last Updated:        2018-12-13 11:02 AM CST
+Notes:               This series represents Net Income (Loss) call item RIAD4340.
+                     
+                     The asset class is determined by using Total Assets call item RCFD2170
+                     less than or equal to $5B. Geographic location is determined by
+                     Abbreviated State Name call item RSSD9200 and County Code call item
+                     RSSD9150, which is mapped to the proper Core Based Statistical Area
+                     (CBSA) defined by the Office of Management and Budget (OMB).
+                     
+                     For more information and definition about the specific call item
+                     codes, please see
+                     http://www.federalreserve.gov/apps/mdrm/data-dictionary.
+                     This series is calculated by the Federal Reserve Bank of St. Louis
+                     using raw data that are collected by the FFIEC. Raw data can be found
+                     at https://cdr.ffiec.gov/public/.
+
+DATE         VALUE
+1989-01-01    5766
+1989-04-01   11149
+1989-07-01   16792
+1989-10-01   18822
+1990-01-01    5840
+1990-04-01   12433
+1990-07-01   18637
+1990-10-01   19401
+1991-01-01    7777
+1991-04-01   14788
+1991-07-01   18613
+1991-10-01   22441
+1992-01-01    7329
+1992-04-01    9496
+1992-07-01   18115
+1992-10-01   28322
+1993-01-01   11797
+1993-04-01   24580
+1993-07-01   43907
+1993-10-01   66930
+1994-01-01   16801
+1994-04-01   32123
+1994-07-01   38044
+1994-10-01   52870
+1995-01-01   17357
+1995-04-01   29377
+1995-07-01   40013
+1995-10-01   62188
+1996-01-01   15273
+1996-04-01   35540
+1996-07-01   46994
+1996-10-01   86018
+1997-01-01   16672
+1997-04-01   56338
+1997-07-01   96564
+1997-10-01  126136
+1998-01-01   53476
+1998-04-01  131741
+1998-07-01  215849
+1998-10-01  254272
+1999-01-01  102978
+1999-04-01  153271
+1999-07-01  287087
+1999-10-01  228405
+2000-01-01   73761
+2000-04-01  108838
+2000-07-01  165944
+2000-10-01  219845
+2001-01-01   56334
+2001-04-01  109192
+2001-07-01   62524
+2001-10-01   47022
+2002-01-01   15153
+2002-04-01   16115
+2002-07-01   13684
+2002-10-01   61670
+2003-01-01   14463
+2003-04-01   15593
+2003-07-01   28420
+2003-10-01   32471
+2004-01-01   13570
+2004-04-01   27056
+2004-07-01   42176
+2004-10-01   58434
+2005-01-01   14189
+2005-04-01   31237
+2005-07-01   49030
+2005-10-01   45261
+2006-01-01   16879
+2006-04-01   34945
+2006-07-01   50742
+2006-10-01   64982
+2007-01-01   19923
+2007-04-01   37242
+2007-07-01   57098
+2007-10-01   71977
+2008-01-01   11873
+2008-04-01   11243
+2008-07-01   12175
+2008-10-01    7034
+2009-01-01   -1865
+2009-04-01   -2953
+2009-07-01   -5913
+2009-10-01  -13520
+2010-01-01    2994
+2010-04-01   -3509
+2010-07-01  -15906
+2010-10-01  -49465
+2011-01-01    3789
+2011-04-01    -778
+2011-07-01   -2607
+2011-10-01   -4170
+2012-01-01    2737
+2012-04-01    6021
+2012-07-01   -1316
+2012-10-01    2019
+2013-01-01    5829
+2013-04-01   16665
+2013-07-01   24555
+2013-10-01   35166
+2014-01-01   10957
+2014-04-01   22757
+2014-07-01   27659
+2014-10-01   48576
+2015-01-01   19033
+2015-04-01   37944
+2015-07-01   59452
+2015-10-01   75835
+2016-01-01    7915
+2016-04-01   19339
+2016-07-01   30937
+2016-10-01   41746
+2017-01-01   13540
+2017-04-01   28672
+2017-07-01   44605
+2017-10-01   20690
+2018-01-01    6992
+2018-04-01   16481
+2018-07-01   21027

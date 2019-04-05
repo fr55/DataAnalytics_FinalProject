@@ -1,0 +1,26 @@
+Title:               Value of Exports to Tokelau from North Carolina
+Series ID:           NCTKLA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2003-01-01 to 2012-01-01
+Last Updated:        2015-08-27 6:37 PM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE         VALUE
+2003-01-01   75336
+2004-01-01   51391
+2005-01-01  170717
+2006-01-01  357826
+2007-01-01  471349
+2008-01-01  134902
+2009-01-01  240583
+2010-01-01   64855
+2011-01-01       .
+2012-01-01  131823

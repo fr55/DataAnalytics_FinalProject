@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Currituck County, NC
+Series ID:           PECILBU18NC37053A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   385
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   546
+1994-01-01     .
+1995-01-01   571
+1996-01-01     .
+1997-01-01   607
+1998-01-01   594
+1999-01-01   593
+2000-01-01   601
+2001-01-01   536
+2002-01-01   473
+2003-01-01   537
+2004-01-01   541
+2005-01-01   600
+2006-01-01   614
+2007-01-01   601
+2008-01-01   660
+2009-01-01   757
+2010-01-01   771
+2011-01-01   777
+2012-01-01   872
+2013-01-01   801
+2014-01-01   720
+2015-01-01   738
+2016-01-01   687
+2017-01-01   662

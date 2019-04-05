@@ -1,0 +1,40 @@
+Title:               All Employees: Local Government in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472609093000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:08 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  63.7
+1991-01-01  64.8
+1992-01-01  66.3
+1993-01-01  68.4
+1994-01-01  69.9
+1995-01-01  71.1
+1996-01-01  72.3
+1997-01-01  74.6
+1998-01-01  77.4
+1999-01-01  78.7
+2000-01-01  80.3
+2001-01-01  82.3
+2002-01-01  83.6
+2003-01-01  83.8
+2004-01-01  85.4
+2005-01-01  86.0
+2006-01-01  86.8
+2007-01-01  87.9
+2008-01-01  89.0
+2009-01-01  88.8
+2010-01-01  87.8
+2011-01-01  86.8
+2012-01-01  85.8
+2013-01-01  85.0
+2014-01-01  83.4
+2015-01-01  81.9
+2016-01-01  81.5
+2017-01-01  81.7

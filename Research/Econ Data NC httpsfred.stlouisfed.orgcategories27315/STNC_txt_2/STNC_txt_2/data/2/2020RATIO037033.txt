@@ -1,0 +1,22 @@
+Title:               Income Inequality in Caswell County, NC
+Series ID:           2020RATIO037033
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.574526052900442
+2011-01-01  11.271586799276673
+2012-01-01  11.887346564184925
+2013-01-01  12.305843928613088
+2014-01-01  11.695869172772646
+2015-01-01  11.960749237083027
+2016-01-01  12.237556324007125
+2017-01-01  13.664889647083910

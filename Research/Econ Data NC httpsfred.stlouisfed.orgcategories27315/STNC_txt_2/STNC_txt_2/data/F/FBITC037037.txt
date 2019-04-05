@@ -1,0 +1,29 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Chatham County, NC
+Series ID:           FBITC037037
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2017-01-01
+Last Updated:        2018-09-27 10:22 AM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   1011
+2005-01-01      .
+2006-01-01   1015
+2007-01-01      .
+2008-01-01      .
+2009-01-01    891
+2010-01-01    901
+2011-01-01   1002
+2012-01-01    849
+2013-01-01    943
+2014-01-01    836
+2015-01-01    813
+2016-01-01    657
+2017-01-01    602

@@ -1,0 +1,41 @@
+Title:               Personal Consumption Expenditures: Nondurable Goods: Clothing and Footwear for North Carolina
+Series ID:           NCPCECLTH
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Purchases of garments and other clothing materials and footwear.
+                     Garments consist of women's and girl's clothing, men's and boy's
+                     clothing, and children's and infant's clothing.For more information
+                     about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   6604
+1998-01-01   6906
+1999-01-01   7366
+2000-01-01   7694
+2001-01-01   7749
+2002-01-01   7428
+2003-01-01   7587
+2004-01-01   7785
+2005-01-01   8268
+2006-01-01   8591
+2007-01-01   8867
+2008-01-01   8594
+2009-01-01   8329
+2010-01-01   8663
+2011-01-01   8936
+2012-01-01   9175
+2013-01-01   9492
+2014-01-01   9749
+2015-01-01  10070
+2016-01-01  10444
+2017-01-01  10697

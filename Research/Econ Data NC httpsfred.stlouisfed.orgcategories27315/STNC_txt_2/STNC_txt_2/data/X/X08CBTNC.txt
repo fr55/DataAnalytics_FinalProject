@@ -1,0 +1,46 @@
+Title:               Number of Commercial Banks in North Carolina
+Series ID:           X08CBTNC
+Source:              Board of Governors of the Federal Reserve System (US)
+Release:             Banking and Monetary Statistics, 1914-1941 (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual, End of Period
+Units:               Number
+Date Range:          1914-01-01 to 1941-01-01
+Last Updated:        2016-06-29 10:12 AM CDT
+Notes:               This series may have irregularities or important features that are not
+                     disclosed here. To see whether this is the case, please consult Part
+                     1, Section 1, Table 8 in the original source at
+                     https://fraser.stlouisfed.org/scribd/?item_id=6408&filepath=%2Fdocs%2Fpublications%2Fbms%2F1914-1941%2FBMS14-41_complete.pdf&start_page=1
+                     
+                     Relevant details can be found in the footnotes of each table as well
+                     as the introductory material for Section 1.
+
+DATE       VALUE
+1914-01-01   476
+1915-01-01     .
+1916-01-01     .
+1917-01-01     .
+1918-01-01     .
+1919-01-01   523
+1920-01-01     .
+1921-01-01     .
+1922-01-01     .
+1923-01-01     .
+1924-01-01   554
+1925-01-01     .
+1926-01-01     .
+1927-01-01     .
+1928-01-01     .
+1929-01-01   428
+1930-01-01     .
+1931-01-01     .
+1932-01-01     .
+1933-01-01     .
+1934-01-01   243
+1935-01-01     .
+1936-01-01     .
+1937-01-01     .
+1938-01-01     .
+1939-01-01     .
+1940-01-01     .
+1941-01-01   228

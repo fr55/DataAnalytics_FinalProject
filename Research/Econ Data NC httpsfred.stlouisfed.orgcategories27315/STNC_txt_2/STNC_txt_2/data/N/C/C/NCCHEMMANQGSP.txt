@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Chemical Products Manufacturing for North Carolina
+Series ID:           NCCHEMMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   91.997
+1998-01-01   84.326
+1999-01-01   93.583
+2000-01-01   86.526
+2001-01-01  103.039
+2002-01-01  121.703
+2003-01-01  120.450
+2004-01-01   95.008
+2005-01-01   97.369
+2006-01-01  103.138
+2007-01-01  119.165
+2008-01-01  118.170
+2009-01-01  121.485
+2010-01-01  114.451
+2011-01-01  136.343
+2012-01-01  100.000
+2013-01-01  113.527
+2014-01-01  106.856
+2015-01-01  109.108
+2016-01-01  101.895

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Bertie County, NC
+Series ID:           BPPRIV037015
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:03 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    50
+1991-01-01    40
+1992-01-01   154
+1993-01-01   175
+1994-01-01   117
+1995-01-01    36
+1996-01-01    28
+1997-01-01    23
+1998-01-01    33
+1999-01-01    24
+2000-01-01    28
+2001-01-01    36
+2002-01-01    77
+2003-01-01    43
+2004-01-01    63
+2005-01-01    36
+2006-01-01    23
+2007-01-01    41
+2008-01-01    37
+2009-01-01    19
+2010-01-01    22
+2011-01-01    29
+2012-01-01    21
+2013-01-01    14
+2014-01-01    20
+2015-01-01    18
+2016-01-01    25
+2017-01-01    12

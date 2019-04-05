@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Franklin County, NC
+Series ID:           MHICILBNC37069A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19267
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  25059
+1994-01-01      .
+1995-01-01  28236
+1996-01-01      .
+1997-01-01  30597
+1998-01-01  32819
+1999-01-01  34633
+2000-01-01  36267
+2001-01-01  35859
+2002-01-01  35487
+2003-01-01  37234
+2004-01-01  37690
+2005-01-01  36733
+2006-01-01  38232
+2007-01-01  41160
+2008-01-01  43097
+2009-01-01  40104
+2010-01-01  43445
+2011-01-01  39034
+2012-01-01  39254
+2013-01-01  36465
+2014-01-01  45538
+2015-01-01  44245
+2016-01-01  45584
+2017-01-01  47813

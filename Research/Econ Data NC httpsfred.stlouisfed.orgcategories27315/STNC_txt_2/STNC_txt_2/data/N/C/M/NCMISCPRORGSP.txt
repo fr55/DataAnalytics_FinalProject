@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Professional and Business Services: Professional, Scientific, and Technical Services: Miscellaneous Professional, Scientific, and Technical Services for North Carolina
+Series ID:           NCMISCPRORGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   9929.2
+1998-01-01  10198.3
+1999-01-01  10538.5
+2000-01-01  10617.4
+2001-01-01  11245.7
+2002-01-01  11797.4
+2003-01-01  11700.8
+2004-01-01  12150.8
+2005-01-01  12695.1
+2006-01-01  13404.0
+2007-01-01  14303.6
+2008-01-01  15103.1
+2009-01-01  14182.2
+2010-01-01  15184.7
+2011-01-01  15768.5
+2012-01-01  16502.3
+2013-01-01  16481.0
+2014-01-01  17510.9
+2015-01-01  18509.7
+2016-01-01  18952.6

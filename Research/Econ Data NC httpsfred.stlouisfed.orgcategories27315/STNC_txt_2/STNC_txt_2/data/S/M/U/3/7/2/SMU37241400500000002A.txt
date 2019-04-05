@@ -1,0 +1,23 @@
+Title:               Average Weekly Hours of All Employees: Total Private in Goldsboro, NC (MSA)
+Series ID:           SMU37241400500000002A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Hours per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+2007-01-01  35.1
+2008-01-01  34.9
+2009-01-01  35.1
+2010-01-01  34.3
+2011-01-01  34.9
+2012-01-01  37.0
+2013-01-01  35.9
+2014-01-01  35.3
+2015-01-01  35.5
+2016-01-01  35.9
+2017-01-01  37.5

@@ -1,0 +1,34 @@
+Title:               Gross Domestic Product by Industry: Private services-providing industries for North Carolina
+Series ID:           NCPRISERVPRONGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE           VALUE
+1997-01-01  126030.4
+1998-01-01  135522.6
+1999-01-01  144768.8
+2000-01-01  151719.2
+2001-01-01  161858.1
+2002-01-01  172839.6
+2003-01-01  180475.8
+2004-01-01  194283.0
+2005-01-01  209716.5
+2006-01-01  222954.7
+2007-01-01  229292.7
+2008-01-01  247950.4
+2009-01-01  238570.6
+2010-01-01  248662.6
+2011-01-01  259406.7
+2012-01-01  274077.4
+2013-01-01  279869.3
+2014-01-01  297422.4
+2015-01-01  315736.1
+2016-01-01  329580.9
+2017-01-01  344265.7

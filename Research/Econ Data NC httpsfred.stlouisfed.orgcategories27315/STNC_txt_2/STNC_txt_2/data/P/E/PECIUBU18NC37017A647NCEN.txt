@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Bladen County, NC
+Series ID:           PECIUBU18NC37017A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3197
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2965
+1994-01-01     .
+1995-01-01  2920
+1996-01-01     .
+1997-01-01  2953
+1998-01-01  3539
+1999-01-01  2734
+2000-01-01  2493
+2001-01-01  2557
+2002-01-01  2719
+2003-01-01  2936
+2004-01-01  2830
+2005-01-01  3339
+2006-01-01  3077
+2007-01-01  3027
+2008-01-01  3227
+2009-01-01  2780
+2010-01-01  3040
+2011-01-01  3126
+2012-01-01  3176
+2013-01-01  3239
+2014-01-01  3098
+2015-01-01  3003
+2016-01-01  2942
+2017-01-01  2458

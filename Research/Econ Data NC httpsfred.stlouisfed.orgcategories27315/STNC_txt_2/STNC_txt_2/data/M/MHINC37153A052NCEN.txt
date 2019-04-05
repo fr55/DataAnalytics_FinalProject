@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Richmond County, NC
+Series ID:           MHINC37153A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  21314
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  24142
+1994-01-01      .
+1995-01-01  25888
+1996-01-01      .
+1997-01-01  27349
+1998-01-01  27904
+1999-01-01  27945
+2000-01-01  29367
+2001-01-01  28127
+2002-01-01  27966
+2003-01-01  28347
+2004-01-01  29111
+2005-01-01  30280
+2006-01-01  30133
+2007-01-01  31944
+2008-01-01  30743
+2009-01-01  30449
+2010-01-01  31568
+2011-01-01  32932
+2012-01-01  30726
+2013-01-01  32825
+2014-01-01  34665
+2015-01-01  33017
+2016-01-01  35367
+2017-01-01  36401

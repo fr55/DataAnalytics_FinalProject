@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Air Transportation for North Carolina
+Series ID:           NCAIRTRANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  1364.9
+1998-01-01  1326.9
+1999-01-01  1359.7
+2000-01-01  1395.2
+2001-01-01   524.0
+2002-01-01   844.5
+2003-01-01  1139.6
+2004-01-01  1146.4
+2005-01-01  1262.7
+2006-01-01  1233.0
+2007-01-01  1349.5
+2008-01-01  1510.6
+2009-01-01  1562.3
+2010-01-01  2022.0
+2011-01-01  1889.0
+2012-01-01  2198.1
+2013-01-01  2206.8
+2014-01-01  2602.3
+2015-01-01  2843.5
+2016-01-01  2878.6

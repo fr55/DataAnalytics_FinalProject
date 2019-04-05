@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Durham-Chapel Hill, NC (MSA)
+Series ID:           SMU37205000000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  218.5
+1991-01-01  220.3
+1992-01-01  223.5
+1993-01-01  225.0
+1994-01-01  226.6
+1995-01-01  237.6
+1996-01-01  243.0
+1997-01-01  246.6
+1998-01-01  249.5
+1999-01-01  255.1
+2000-01-01  255.2
+2001-01-01  259.4
+2002-01-01  259.3
+2003-01-01  253.5
+2004-01-01  257.5
+2005-01-01  262.0
+2006-01-01  271.6
+2007-01-01  279.2
+2008-01-01  282.4
+2009-01-01  274.3
+2010-01-01  270.7
+2011-01-01  273.1
+2012-01-01  278.9
+2013-01-01  283.6
+2014-01-01  289.7
+2015-01-01  295.8
+2016-01-01  305.5
+2017-01-01  310.6

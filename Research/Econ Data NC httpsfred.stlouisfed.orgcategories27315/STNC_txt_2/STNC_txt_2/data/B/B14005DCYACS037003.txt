@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Alexander County, NC
+Series ID:           B14005DCYACS037003
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  9.4007696536558550
+2010-01-01  8.0312325711098720
+2011-01-01  6.2726801451529280
+2012-01-01  3.4482758620689653
+2013-01-01  3.3950617283950617
+2014-01-01  2.2335025380710660
+2015-01-01  3.3243967828418230
+2016-01-01  6.1538461538461540
+2017-01-01  9.8115299334811520

@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Macon County, NC
+Series ID:           CDC20N2U037113
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  533.0
+2000-01-01  523.1
+2001-01-01  497.0
+2002-01-01  547.0
+2003-01-01  522.0
+2004-01-01  603.4
+2005-01-01  536.4
+2006-01-01  561.2
+2007-01-01  553.1
+2008-01-01  496.9
+2009-01-01  488.1
+2010-01-01  547.3
+2011-01-01  585.8
+2012-01-01  587.6
+2013-01-01  592.8
+2014-01-01  635.8
+2015-01-01  519.9
+2016-01-01  589.3

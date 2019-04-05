@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Chatham County, NC
+Series ID:           BPPRIV037037
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   108
+1991-01-01   225
+1992-01-01   285
+1993-01-01   371
+1994-01-01   452
+1995-01-01   403
+1996-01-01   423
+1997-01-01   449
+1998-01-01   467
+1999-01-01   508
+2000-01-01   418
+2001-01-01   498
+2002-01-01   549
+2003-01-01   641
+2004-01-01   663
+2005-01-01   667
+2006-01-01   605
+2007-01-01   614
+2008-01-01   362
+2009-01-01   231
+2010-01-01   263
+2011-01-01   311
+2012-01-01   365
+2013-01-01   492
+2014-01-01   587
+2015-01-01   592
+2016-01-01   707
+2017-01-01   748

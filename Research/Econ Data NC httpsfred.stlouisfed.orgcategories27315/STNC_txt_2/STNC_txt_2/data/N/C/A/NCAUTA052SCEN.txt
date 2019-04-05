@@ -1,0 +1,41 @@
+Title:               Value of Exports to Austria from North Carolina
+Series ID:           NCAUTA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE             VALUE
+1992-01-01    25778650
+1993-01-01           .
+1994-01-01           .
+1995-01-01           .
+1996-01-01           .
+1997-01-01    14782221
+1998-01-01           .
+1999-01-01           .
+2000-01-01           .
+2001-01-01           .
+2002-01-01    25313220
+2003-01-01    28701817
+2004-01-01    23210137
+2005-01-01    27672268
+2006-01-01    23371238
+2007-01-01    40817393
+2008-01-01    24896560
+2009-01-01    45070402
+2010-01-01    39177859
+2011-01-01    52857800
+2012-01-01    28292787
+2013-01-01    27731582
+2014-01-01    32895126
+2015-01-01    89508451
+2016-01-01   205906185

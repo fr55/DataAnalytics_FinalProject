@@ -1,0 +1,22 @@
+Title:               Income Inequality in Lincoln County, NC
+Series ID:           2020RATIO037109
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.522797842784769
+2011-01-01  12.321417297979798
+2012-01-01  12.859127308383723
+2013-01-01  12.884125810955080
+2014-01-01  13.213088786994580
+2015-01-01  13.903830141548710
+2016-01-01  13.161194509111343
+2017-01-01  13.263785976132906

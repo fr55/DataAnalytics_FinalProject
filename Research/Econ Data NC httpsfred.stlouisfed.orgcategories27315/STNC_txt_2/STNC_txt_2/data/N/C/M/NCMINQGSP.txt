@@ -1,0 +1,34 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Mining for North Carolina
+Series ID:           NCMINQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  335.306
+1998-01-01  399.786
+1999-01-01  452.489
+2000-01-01  440.050
+2001-01-01  463.107
+2002-01-01  379.160
+2003-01-01  415.944
+2004-01-01  468.023
+2005-01-01  420.767
+2006-01-01  395.708
+2007-01-01  443.327
+2008-01-01  273.436
+2009-01-01  240.928
+2010-01-01  189.422
+2011-01-01  127.570
+2012-01-01  100.000
+2013-01-01  115.103
+2014-01-01  132.456
+2015-01-01  146.292
+2016-01-01  164.326
+2017-01-01  150.585

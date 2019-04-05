@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Private Establishments in Rocky Mount, NC (MSA)
+Series ID:           ENUC405840510SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:21 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE        VALUE
+1990-01-01  351.8
+1990-04-01  355.9
+1990-07-01  356.9
+1990-10-01  357.5
+1991-01-01  368.9
+1991-04-01  371.2
+1991-07-01  377.5
+1991-10-01  380.6
+1992-01-01  377.1
+1992-04-01  376.1
+1992-07-01  381.1
+1992-10-01  392.6
+1993-01-01  372.8
+1993-04-01  394.9
+1993-07-01  402.9
+1993-10-01  410.8
+1994-01-01  431.1
+1994-04-01  404.4
+1994-07-01  421.3
+1994-10-01  413.9
+1995-01-01  427.9
+1995-04-01  430.4
+1995-07-01  428.6
+1995-10-01  439.1
+1996-01-01  442.2
+1996-04-01  446.0
+1996-07-01  427.2
+1996-10-01  446.0
+1997-01-01  465.6
+1997-04-01  466.7
+1997-07-01  493.3
+1997-10-01  478.4
+1998-01-01  468.5
+1998-04-01  490.3
+1998-07-01  512.6
+1998-10-01  513.1
+1999-01-01  494.4
+1999-04-01  506.7
+1999-07-01  503.7
+1999-10-01  526.7
+2000-01-01  534.2
+2000-04-01  523.8
+2000-07-01  526.8
+2000-10-01  520.9
+2001-01-01  537.4
+2001-04-01  577.0
+2001-07-01  540.4
+2001-10-01  533.7
+2002-01-01  547.1
+2002-04-01  534.3
+2002-07-01  560.7
+2002-10-01  543.8
+2003-01-01  556.7
+2003-04-01  562.1
+2003-07-01  563.2
+2003-10-01  566.5
+2004-01-01  563.1
+2004-04-01  582.3
+2004-07-01  589.8
+2004-10-01  595.4
+2005-01-01  565.3
+2005-04-01  579.8
+2005-07-01  605.9
+2005-10-01  601.7
+2006-01-01  603.5
+2006-04-01  601.2
+2006-07-01  589.5
+2006-10-01  600.8
+2007-01-01  616.0
+2007-04-01  607.9
+2007-07-01  609.2
+2007-10-01  622.7
+2008-01-01  627.7
+2008-04-01  624.8
+2008-07-01  617.4
+2008-10-01  631.3
+2009-01-01  619.4
+2009-04-01  631.6
+2009-07-01  627.9
+2009-10-01  657.6
+2010-01-01  641.9
+2010-04-01  646.9
+2010-07-01  647.6
+2010-10-01  656.7
+2011-01-01  646.2
+2011-04-01  662.4
+2011-07-01  678.5
+2011-10-01  666.8
+2012-01-01  699.5
+2012-04-01  664.9
+2012-07-01  750.2
+2012-10-01  656.6
+2013-01-01  646.2
+2013-04-01  644.1
+2013-07-01  634.4
+2013-10-01  642.1
+2014-01-01  684.3
+2014-04-01  666.9
+2014-07-01  669.8
+2014-10-01  693.4
+2015-01-01  694.9
+2015-04-01  693.4
+2015-07-01  725.2
+2015-10-01  715.4
+2016-01-01  681.3
+2016-04-01  700.6
+2016-07-01  714.3
+2016-10-01  701.3
+2017-01-01  713.5
+2017-04-01  731.3
+2017-07-01  693.9
+2017-10-01  723.7
+2018-01-01  764.8

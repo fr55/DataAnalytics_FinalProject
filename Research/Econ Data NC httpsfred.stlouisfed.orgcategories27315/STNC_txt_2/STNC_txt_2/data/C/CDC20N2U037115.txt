@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Madison County, NC
+Series ID:           CDC20N2U037115
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  452.7
+2000-01-01  529.3
+2001-01-01  398.1
+2002-01-01  456.8
+2003-01-01  495.9
+2004-01-01  482.2
+2005-01-01  495.5
+2006-01-01  384.4
+2007-01-01  592.7
+2008-01-01  536.1
+2009-01-01  417.8
+2010-01-01  422.6
+2011-01-01  436.9
+2012-01-01  415.6
+2013-01-01  431.3
+2014-01-01  553.3
+2015-01-01  504.8
+2016-01-01  596.3

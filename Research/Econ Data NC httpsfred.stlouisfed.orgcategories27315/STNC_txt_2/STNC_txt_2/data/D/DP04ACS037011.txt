@@ -1,0 +1,21 @@
+Title:               Burdened Households in Avery County, NC
+Series ID:           DP04ACS037011
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  37.237325495958856
+2011-01-01  36.329531812725094
+2012-01-01  34.931912374185906
+2013-01-01  34.141624516512940
+2014-01-01  32.630181442690660
+2015-01-01  27.563602309973470
+2016-01-01  27.706365185070464

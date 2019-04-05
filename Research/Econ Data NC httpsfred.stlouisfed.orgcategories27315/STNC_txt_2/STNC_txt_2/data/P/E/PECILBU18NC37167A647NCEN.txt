@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Stanly County, NC
+Series ID:           PECILBU18NC37167A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1090
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1651
+1994-01-01     .
+1995-01-01  1806
+1996-01-01     .
+1997-01-01  1762
+1998-01-01  1927
+1999-01-01  1737
+2000-01-01  1716
+2001-01-01  1695
+2002-01-01  1715
+2003-01-01  1919
+2004-01-01  1852
+2005-01-01  2349
+2006-01-01  2098
+2007-01-01  2071
+2008-01-01  2024
+2009-01-01  2309
+2010-01-01  2362
+2011-01-01  2724
+2012-01-01  2774
+2013-01-01  2735
+2014-01-01  2206
+2015-01-01  2729
+2016-01-01  2183
+2017-01-01  2050

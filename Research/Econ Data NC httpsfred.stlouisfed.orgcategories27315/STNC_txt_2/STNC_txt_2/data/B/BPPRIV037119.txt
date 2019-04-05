@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Mecklenburg County, NC
+Series ID:           BPPRIV037119
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE         VALUE
+1990-01-01    4108
+1991-01-01    3507
+1992-01-01    4610
+1993-01-01    5232
+1994-01-01    5635
+1995-01-01    5154
+1996-01-01    6636
+1997-01-01    7288
+1998-01-01    8975
+1999-01-01   10082
+2000-01-01    8977
+2001-01-01    8777
+2002-01-01    8530
+2003-01-01    7761
+2004-01-01    8734
+2005-01-01    8598
+2006-01-01    9513
+2007-01-01    7051
+2008-01-01    2687
+2009-01-01    1380
+2010-01-01    1963
+2011-01-01    2035
+2012-01-01    3390
+2013-01-01    4070
+2014-01-01    4069
+2015-01-01    4169
+2016-01-01    5003
+2017-01-01   11216

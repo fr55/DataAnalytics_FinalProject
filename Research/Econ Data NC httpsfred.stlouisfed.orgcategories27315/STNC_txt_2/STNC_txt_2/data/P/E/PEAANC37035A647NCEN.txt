@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Catawba County, NC
+Series ID:           PEAANC37035A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:36 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   8504
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  11961
+1994-01-01      .
+1995-01-01  11881
+1996-01-01      .
+1997-01-01  12365
+1998-01-01  13239
+1999-01-01  13967
+2000-01-01  12806
+2001-01-01  13744
+2002-01-01  14878
+2003-01-01  16105
+2004-01-01  17116
+2005-01-01  19611
+2006-01-01  17482
+2007-01-01  16996
+2008-01-01  21344
+2009-01-01  22556
+2010-01-01  21950
+2011-01-01  22001
+2012-01-01  28114
+2013-01-01  25169
+2014-01-01  24642
+2015-01-01  23050
+2016-01-01  19537
+2017-01-01  19427

@@ -1,0 +1,40 @@
+Title:               All Employees: Construction: Construction of Buildings in North Carolina
+Series ID:           SMU37000002023600001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  45.9
+1991-01-01  39.7
+1992-01-01  39.6
+1993-01-01  43.0
+1994-01-01  45.1
+1995-01-01  46.8
+1996-01-01  49.2
+1997-01-01  51.6
+1998-01-01  53.7
+1999-01-01  56.3
+2000-01-01  56.8
+2001-01-01  54.8
+2002-01-01  53.0
+2003-01-01  50.6
+2004-01-01  50.9
+2005-01-01  54.0
+2006-01-01  56.4
+2007-01-01  57.7
+2008-01-01  51.7
+2009-01-01  40.9
+2010-01-01  36.9
+2011-01-01  35.8
+2012-01-01  36.2
+2013-01-01  36.1
+2014-01-01  37.4
+2015-01-01  40.1
+2016-01-01  42.9
+2017-01-01  43.7

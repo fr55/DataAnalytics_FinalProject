@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Hyde County, NC
+Series ID:           PECILBU18NC37095A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   433
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   409
+1994-01-01     .
+1995-01-01   430
+1996-01-01     .
+1997-01-01   333
+1998-01-01   319
+1999-01-01   231
+2000-01-01   226
+2001-01-01   203
+2002-01-01   203
+2003-01-01   228
+2004-01-01   193
+2005-01-01   239
+2006-01-01   259
+2007-01-01   215
+2008-01-01   200
+2009-01-01   217
+2010-01-01   240
+2011-01-01   248
+2012-01-01   262
+2013-01-01   259
+2014-01-01   221
+2015-01-01   229
+2016-01-01   210
+2017-01-01   209

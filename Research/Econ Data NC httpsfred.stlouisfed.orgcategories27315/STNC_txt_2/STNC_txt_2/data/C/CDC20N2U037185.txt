@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Warren County, NC
+Series ID:           CDC20N2U037185
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  514.9
+2000-01-01  521.0
+2001-01-01  637.3
+2002-01-01  512.0
+2003-01-01  657.5
+2004-01-01  482.1
+2005-01-01  598.8
+2006-01-01  597.9
+2007-01-01  609.0
+2008-01-01  510.5
+2009-01-01  613.3
+2010-01-01  561.3
+2011-01-01  499.9
+2012-01-01  529.9
+2013-01-01  594.3
+2014-01-01  508.1
+2015-01-01  691.2
+2016-01-01  714.3

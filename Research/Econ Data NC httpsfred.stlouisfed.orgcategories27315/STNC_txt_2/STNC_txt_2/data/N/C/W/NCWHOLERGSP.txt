@@ -1,0 +1,34 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Wholesale Trade for North Carolina
+Series ID:           NCWHOLERGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  17182.1
+1998-01-01  18851.9
+1999-01-01  19342.5
+2000-01-01  19682.7
+2001-01-01  19646.7
+2002-01-01  20490.0
+2003-01-01  22235.1
+2004-01-01  23550.0
+2005-01-01  24588.4
+2006-01-01  25382.7
+2007-01-01  26502.4
+2008-01-01  25983.8
+2009-01-01  22832.9
+2010-01-01  24352.9
+2011-01-01  24512.3
+2012-01-01  25588.3
+2013-01-01  26330.1
+2014-01-01  27908.7
+2015-01-01  28823.5
+2016-01-01  29279.9
+2017-01-01  30581.0

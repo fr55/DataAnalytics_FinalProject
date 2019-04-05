@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Greensboro-High Point, NC (MSA)
+Series ID:           GREE637PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  28740
+2002-01-01  28706
+2003-01-01  29060
+2004-01-01  30735
+2005-01-01  31975
+2006-01-01  33710
+2007-01-01  34652
+2008-01-01  35253
+2009-01-01  33615
+2010-01-01  34308
+2011-01-01  35283
+2012-01-01  37013
+2013-01-01  36667
+2014-01-01  38573
+2015-01-01  40387
+2016-01-01  40760
+2017-01-01  42356

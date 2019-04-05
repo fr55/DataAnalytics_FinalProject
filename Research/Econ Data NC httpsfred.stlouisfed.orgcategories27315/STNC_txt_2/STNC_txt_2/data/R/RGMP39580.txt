@@ -1,0 +1,36 @@
+Title:               Total Real Gross Domestic Product for Raleigh, NC (MSA)
+Series ID:           RGMP39580
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  45328
+2002-01-01  43507
+2003-01-01  44538
+2004-01-01  47286
+2005-01-01  49795
+2006-01-01  52672
+2007-01-01  56435
+2008-01-01  56514
+2009-01-01  55860
+2010-01-01  57181
+2011-01-01  58462
+2012-01-01  59932
+2013-01-01  60609
+2014-01-01  63565
+2015-01-01  68143
+2016-01-01  70688
+2017-01-01  72626

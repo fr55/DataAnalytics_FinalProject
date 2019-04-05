@@ -1,0 +1,19 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in New Bern, NC (MSA)
+Series ID:           SMU37351000500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2011-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2011-01-01  573.87
+2012-01-01  617.19
+2013-01-01  575.94
+2014-01-01  587.08
+2015-01-01  678.83
+2016-01-01  714.00
+2017-01-01  719.40

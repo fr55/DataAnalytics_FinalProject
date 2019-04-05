@@ -1,0 +1,21 @@
+Title:               Burdened Households in Edgecombe County, NC
+Series ID:           DP04ACS037065
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  40.002985668789810
+2011-01-01  39.137579046955130
+2012-01-01  38.472782258064510
+2013-01-01  38.925903492832624
+2014-01-01  38.565315882204880
+2015-01-01  39.255738699565170
+2016-01-01  38.452661682805676

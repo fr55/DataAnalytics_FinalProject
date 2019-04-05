@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Davie County, NC
+Series ID:           PEU18NC37059A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   659
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   742
+1994-01-01     .
+1995-01-01   723
+1996-01-01     .
+1997-01-01   932
+1998-01-01  1071
+1999-01-01  1077
+2000-01-01  1049
+2001-01-01   978
+2002-01-01   996
+2003-01-01  1186
+2004-01-01  1171
+2005-01-01  1400
+2006-01-01  1262
+2007-01-01  1251
+2008-01-01  1446
+2009-01-01  1736
+2010-01-01  2089
+2011-01-01  1709
+2012-01-01  1771
+2013-01-01  1755
+2014-01-01  1919
+2015-01-01  1649
+2016-01-01  1562
+2017-01-01  1541

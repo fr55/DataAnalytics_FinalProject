@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Henderson County, NC
+Series ID:           BPPRIV037089
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   487
+1991-01-01   483
+1992-01-01   577
+1993-01-01   631
+1994-01-01   704
+1995-01-01   580
+1996-01-01   636
+1997-01-01   684
+1998-01-01   723
+1999-01-01   816
+2000-01-01   680
+2001-01-01   737
+2002-01-01   853
+2003-01-01   872
+2004-01-01   910
+2005-01-01   931
+2006-01-01  1025
+2007-01-01  1248
+2008-01-01   444
+2009-01-01   311
+2010-01-01   226
+2011-01-01   198
+2012-01-01   462
+2013-01-01   339
+2014-01-01   339
+2015-01-01   570
+2016-01-01   480
+2017-01-01   596

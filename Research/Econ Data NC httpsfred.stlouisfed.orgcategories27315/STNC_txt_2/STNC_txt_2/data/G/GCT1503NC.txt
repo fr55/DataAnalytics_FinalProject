@@ -1,0 +1,23 @@
+Title:               People 25 Years and Over Who Have Completed an Advanced Degree for North Carolina
+Series ID:           GCT1503NC
+Source:              U.S. Bureau of the Census
+Release:             Educational Attainment (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2006-01-01 to 2016-01-01
+Last Updated:        2018-07-31 12:58 PM CDT
+Notes:               
+
+DATE       VALUE
+2006-01-01   8.3
+2007-01-01   8.6
+2008-01-01   8.6
+2009-01-01   8.8
+2010-01-01   8.7
+2011-01-01   9.2
+2012-01-01   9.3
+2013-01-01   9.9
+2014-01-01  10.1
+2015-01-01  10.6
+2016-01-01  10.8

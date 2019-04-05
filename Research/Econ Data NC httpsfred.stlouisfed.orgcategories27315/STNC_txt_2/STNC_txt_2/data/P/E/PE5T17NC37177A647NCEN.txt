@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Tyrrell County, NC
+Series ID:           PE5T17NC37177A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   243
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   245
+1994-01-01     .
+1995-01-01   263
+1996-01-01     .
+1997-01-01   260
+1998-01-01   289
+1999-01-01   231
+2000-01-01   211
+2001-01-01   192
+2002-01-01   193
+2003-01-01   179
+2004-01-01   169
+2005-01-01   218
+2006-01-01   213
+2007-01-01   186
+2008-01-01   191
+2009-01-01   206
+2010-01-01   233
+2011-01-01   218
+2012-01-01   220
+2013-01-01   208
+2014-01-01   193
+2015-01-01   194
+2016-01-01   206
+2017-01-01   193

@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Duplin County, NC
+Series ID:           B080ACS037061
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  23.912632113352103
+2010-01-01  23.826616198546173
+2011-01-01  22.870784840346165
+2012-01-01  22.609995728321230
+2013-01-01  23.810239052253014
+2014-01-01  24.496253651102737
+2015-01-01  25.343752632909258
+2016-01-01  26.780833654628797
+2017-01-01  26.124507352629570

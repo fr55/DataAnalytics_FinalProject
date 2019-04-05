@@ -1,0 +1,17 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Jones County, NC
+Series ID:           FBITC037103
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2006-01-01 to 2007-01-01
+Last Updated:        2017-08-31 1:08 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE       VALUE
+2006-01-01   274
+2007-01-01   238

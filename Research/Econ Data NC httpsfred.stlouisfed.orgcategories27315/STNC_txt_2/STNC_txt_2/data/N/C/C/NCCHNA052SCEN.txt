@@ -1,0 +1,41 @@
+Title:               Value of Exports to China from North Carolina
+Series ID:           NCCHNA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:41 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE              VALUE
+1992-01-01     66790032
+1993-01-01            .
+1994-01-01            .
+1995-01-01            .
+1996-01-01            .
+1997-01-01    309900515
+1998-01-01            .
+1999-01-01            .
+2000-01-01            .
+2001-01-01            .
+2002-01-01    337141502
+2003-01-01    614360055
+2004-01-01    596696613
+2005-01-01    730077551
+2006-01-01   1259933170
+2007-01-01   1688706482
+2008-01-01   1848322397
+2009-01-01   1706628861
+2010-01-01   2165242500
+2011-01-01   2512003010
+2012-01-01   2368166868
+2013-01-01   2611430919
+2014-01-01   2607951235
+2015-01-01   2041820519
+2016-01-01   2108525032

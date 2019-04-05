@@ -1,0 +1,40 @@
+Title:               All Employees: Religious, Grantmaking, Civic, Professional, and Similar Organizations in North Carolina
+Series ID:           SMU37000008081300001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  28.4
+1991-01-01  31.1
+1992-01-01  23.1
+1993-01-01  14.4
+1994-01-01  40.6
+1995-01-01  43.7
+1996-01-01  41.4
+1997-01-01  41.9
+1998-01-01  53.0
+1999-01-01  63.6
+2000-01-01  72.6
+2001-01-01  77.1
+2002-01-01  76.3
+2003-01-01  74.3
+2004-01-01  78.5
+2005-01-01  82.1
+2006-01-01  84.9
+2007-01-01  87.3
+2008-01-01  91.7
+2009-01-01  80.1
+2010-01-01  74.7
+2011-01-01  73.8
+2012-01-01  76.2
+2013-01-01  79.5
+2014-01-01  78.9
+2015-01-01  77.5
+2016-01-01  75.9
+2017-01-01  75.6

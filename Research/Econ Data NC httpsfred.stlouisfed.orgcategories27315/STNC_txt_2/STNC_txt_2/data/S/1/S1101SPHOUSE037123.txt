@@ -1,0 +1,28 @@
+Title:               Single-parent Households with Children as a Percentage of Households with Children in Montgomery County, NC
+Series ID:           S1101SPHOUSE037123
+Source:              U.S. Bureau of the Census
+Release:             Single Parent Households with Children (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 12:21 PM CST
+Notes:               These data represent single-parent households with their own children
+                     who are younger than 18-years of age as percentage of total households
+                     with their own children who are younger than 18-years of age.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+                     
+                     American Community Survey Table S1101.
+
+DATE                     VALUE
+2009-01-01  28.256946950559364
+2010-01-01  31.344984802431615
+2011-01-01  33.879003558718864
+2012-01-01  37.445095168374810
+2013-01-01  42.173590504451035
+2014-01-01  34.252113193678795
+2015-01-01  35.440613026819925
+2016-01-01  36.545454545454550
+2017-01-01  39.200561009817670

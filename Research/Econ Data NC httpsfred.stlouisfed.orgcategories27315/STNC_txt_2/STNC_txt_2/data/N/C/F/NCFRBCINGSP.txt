@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Finance, Insurance, Real Estate, Rental, and Leasing: Finance and Insurance: Federal Reserve Banks, Credit Intermediation, and Related Services for North Carolina
+Series ID:           NCFRBCINGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   5456.2
+1998-01-01   6059.1
+1999-01-01   7409.7
+2000-01-01   8159.3
+2001-01-01  13611.7
+2002-01-01  17445.9
+2003-01-01  19386.3
+2004-01-01  21090.0
+2005-01-01  25001.9
+2006-01-01  24628.9
+2007-01-01  18514.0
+2008-01-01  28243.9
+2009-01-01  20819.8
+2010-01-01  20208.9
+2011-01-01  24120.9
+2012-01-01  27031.4
+2013-01-01  24898.8
+2014-01-01  27356.3
+2015-01-01  29416.2
+2016-01-01  30010.6

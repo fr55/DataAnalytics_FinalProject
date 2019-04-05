@@ -1,0 +1,21 @@
+Title:               Percent of Population Below the Poverty Level in Martin County, NC
+Series ID:           S1701ACS037117
+Source:              U.S. Bureau of the Census
+Release:             County Poverty Status (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2012-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:52 AM CST
+Notes:               This data comes from Table S1701 of the American Community Survey.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE       VALUE
+2012-01-01  24.9
+2013-01-01  23.2
+2014-01-01  22.5
+2015-01-01  21.3
+2016-01-01  20.2
+2017-01-01  19.2

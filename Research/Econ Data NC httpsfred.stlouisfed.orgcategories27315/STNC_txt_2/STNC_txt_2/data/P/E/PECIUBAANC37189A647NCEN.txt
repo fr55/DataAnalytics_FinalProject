@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Watauga County, NC
+Series ID:           PECIUBAANC37189A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   6857
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6973
+1994-01-01      .
+1995-01-01   6949
+1996-01-01      .
+1997-01-01   6606
+1998-01-01   6410
+1999-01-01   6230
+2000-01-01   6575
+2001-01-01   6858
+2002-01-01   7286
+2003-01-01   6927
+2004-01-01   6923
+2005-01-01   9179
+2006-01-01   9372
+2007-01-01   8541
+2008-01-01   8751
+2009-01-01   9744
+2010-01-01  12649
+2011-01-01  13282
+2012-01-01  14880
+2013-01-01  13866
+2014-01-01  13377
+2015-01-01  13093
+2016-01-01  12859
+2017-01-01  11331

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Robeson County, NC
+Series ID:           BPPRIV037155
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   153
+1991-01-01   158
+1992-01-01   194
+1993-01-01   197
+1994-01-01   219
+1995-01-01   187
+1996-01-01   201
+1997-01-01   192
+1998-01-01   207
+1999-01-01   237
+2000-01-01   405
+2001-01-01   238
+2002-01-01   272
+2003-01-01   302
+2004-01-01   328
+2005-01-01   391
+2006-01-01   311
+2007-01-01   243
+2008-01-01   157
+2009-01-01   108
+2010-01-01   160
+2011-01-01    97
+2012-01-01   115
+2013-01-01    99
+2014-01-01   129
+2015-01-01   100
+2016-01-01    85
+2017-01-01   123

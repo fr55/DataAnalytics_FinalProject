@@ -1,0 +1,27 @@
+Title:               Implicit Regional Price Deflator for North Carolina
+Series ID:           NCIRPD
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               US PCE Index 2009 =100
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:51 AM CDT
+Notes:               The Implicit Regional Price Deflator (IRPD) is the ratio of the
+                     current-dollar value of a series, such as regional personal income, to
+                     its corresponding chained-dollar value, multiplied by 100.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE        VALUE
+2008-01-01   91.8
+2009-01-01   91.8
+2010-01-01   92.6
+2011-01-01   95.0
+2012-01-01   97.1
+2013-01-01   98.5
+2014-01-01   99.6
+2015-01-01   99.5
+2016-01-01  100.4

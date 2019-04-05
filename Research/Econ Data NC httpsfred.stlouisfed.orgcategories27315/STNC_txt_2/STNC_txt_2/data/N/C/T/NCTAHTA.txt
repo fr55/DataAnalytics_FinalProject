@@ -1,0 +1,65 @@
+Title:               Total Assets Held in Trading Accounts for Commercial Banks in North Carolina (DISCONTINUED)
+Series ID:           NCTAHTA
+Source:              Federal Financial Institutions Examination Council (US)
+Release:             Reports of Condition and Income for All Insured U.S. Commercial Banks
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Thousands of Dollars
+Date Range:          1984-01-01 to 1993-10-01
+Last Updated:        2014-05-22 10:54 AM CDT
+Notes:               This series represents Total Assets Held in Trading Accounts call item
+                     RCFD2146.
+                     
+                     Geographic location is determined by Abbreviated State Name call item
+                     RSSD9200 = 'NC' representing two character state abbreviation of North
+                     Carolina.
+                     
+                     For more information and definition about the specific call item
+                     codes, please see
+                     http://www.federalreserve.gov/apps/mdrm/data-dictionary.
+                     
+                     This series is calculated by the Federal Reserve Bank of St. Louis
+                     using raw data that are collected by the FFIEC. Raw data can be found
+                     at https://cdr.ffiec.gov/public/.
+
+DATE          VALUE
+1984-01-01   472844
+1984-04-01   280689
+1984-07-01   242968
+1984-10-01   466239
+1985-01-01   383032
+1985-04-01   439170
+1985-07-01   489124
+1985-10-01   610927
+1986-01-01   621483
+1986-04-01   563626
+1986-07-01   494058
+1986-10-01   682811
+1987-01-01   507864
+1987-04-01   398310
+1987-07-01   521188
+1987-10-01   515054
+1988-01-01   474054
+1988-04-01   432968
+1988-07-01   449548
+1988-10-01   601685
+1989-01-01   653416
+1989-04-01   907041
+1989-07-01   825585
+1989-10-01   820089
+1990-01-01  1269119
+1990-04-01  1428460
+1990-07-01  1025164
+1990-10-01   981189
+1991-01-01   814810
+1991-04-01  1793901
+1991-07-01  2274349
+1991-10-01  1394524
+1992-01-01  3093345
+1992-04-01  2183647
+1992-07-01  2360068
+1992-10-01  1624084
+1993-01-01  1692150
+1993-04-01  1790408
+1993-07-01  3918268
+1993-10-01  4729142

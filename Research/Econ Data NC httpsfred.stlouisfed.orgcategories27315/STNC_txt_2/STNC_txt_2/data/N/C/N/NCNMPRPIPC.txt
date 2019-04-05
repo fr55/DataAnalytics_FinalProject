@@ -1,0 +1,32 @@
+Title:               Real Per Capita Personal Income: Nonmetropolitan Portion for North Carolina
+Series ID:           NCNMPRPIPC
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Chained 2009 Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:53 AM CDT
+Notes:               Real per capita personal income is the real personal income divided by
+                     midyear population. Real personal income is personal income at RPPs
+                     divided by the national PCE price index. It is estimated for states,
+                     state metro/nonmetro portions, metropolitan statistical areas, and the
+                     combined nonmetropolitan portion of the United States.
+                     
+                     Nonmetropolitan portion consists of all counties in a state or the US
+                     that are outside of metropolitan statistical areas. 
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE        VALUE
+2008-01-01  34999
+2009-01-01  34429
+2010-01-01  34252
+2011-01-01  34140
+2012-01-01  34697
+2013-01-01  34370
+2014-01-01  35611
+2015-01-01  36723
+2016-01-01  37509

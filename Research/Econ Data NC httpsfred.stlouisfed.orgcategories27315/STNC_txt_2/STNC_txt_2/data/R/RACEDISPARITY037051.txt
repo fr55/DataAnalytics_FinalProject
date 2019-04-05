@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Cumberland County, NC
+Series ID:           RACEDISPARITY037051
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:31 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  31.117713980812270
+2010-01-01  30.819957383126017
+2011-01-01  30.853225774820313
+2012-01-01  30.565145599325650
+2013-01-01  29.092259000574717
+2014-01-01  28.231843296699880
+2015-01-01  27.725545686591545
+2016-01-01  27.460261655468482
+2017-01-01  27.315866061339932

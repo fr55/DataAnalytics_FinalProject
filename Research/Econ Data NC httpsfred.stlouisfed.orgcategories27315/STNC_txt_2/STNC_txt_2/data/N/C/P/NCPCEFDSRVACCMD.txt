@@ -1,0 +1,40 @@
+Title:               Personal Consumption Expenditures: Services: Food Services and Accommodations for North Carolina
+Series ID:           NCPCEFDSRVACCMD
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Spending on food services and accommodations. Food services consist of
+                     purchased meals and beverages and food furnished to employees
+                     (including military).For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   8936
+1998-01-01   9416
+1999-01-01  10027
+2000-01-01  10904
+2001-01-01  11033
+2002-01-01  11568
+2003-01-01  12287
+2004-01-01  13361
+2005-01-01  14404
+2006-01-01  15618
+2007-01-01  16881
+2008-01-01  17393
+2009-01-01  17290
+2010-01-01  17977
+2011-01-01  18637
+2012-01-01  19593
+2013-01-01  20234
+2014-01-01  21294
+2015-01-01  22805
+2016-01-01  24032
+2017-01-01  24813

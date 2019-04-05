@@ -1,0 +1,43 @@
+Title:               Child Tax Exemptions for North Carolina
+Series ID:           CHEXMNC37A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Exemptions
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 2:40 PM CST
+Notes:               Child Tax Exemptions - the number of exemptions on IRS returns
+                     identified as child exemptions (including children at or away from
+                     home). For more information please visit,
+                     http://www.census.gov/did/www/saipe/data/model/irs.html.
+
+DATE          VALUE
+1989-01-01  1749976
+1990-01-01  1801063
+1991-01-01  1842716
+1992-01-01  1879450
+1993-01-01  1913497
+1994-01-01  1879277
+1995-01-01  1912233
+1996-01-01  1954892
+1997-01-01  1963942
+1998-01-01  1986808
+1999-01-01  2059037
+2000-01-01  2098262
+2001-01-01  2137883
+2002-01-01  2178946
+2003-01-01  2223224
+2004-01-01  2270237
+2005-01-01  2321724
+2006-01-01  2371338
+2007-01-01  2470224
+2008-01-01  2458378
+2009-01-01  2473576
+2010-01-01  2492906
+2011-01-01  2490947
+2012-01-01  2493113
+2013-01-01  2490508
+2014-01-01  2481612
+2015-01-01  2490748
+2016-01-01  2487696

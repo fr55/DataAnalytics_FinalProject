@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Private Establishments in Charlotte-Gastonia-Rock Hill, NC-SC (MSA)
+Series ID:           ENUC167440510SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:22 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE         VALUE
+1990-01-01   442.5
+1990-04-01   436.9
+1990-07-01   445.8
+1990-10-01   449.5
+1991-01-01   454.1
+1991-04-01   486.5
+1991-07-01   471.9
+1991-10-01   468.2
+1992-01-01   482.0
+1992-04-01   480.9
+1992-07-01   489.4
+1992-10-01   512.9
+1993-01-01   475.2
+1993-04-01   495.5
+1993-07-01   509.1
+1993-10-01   520.8
+1994-01-01   503.9
+1994-04-01   512.1
+1994-07-01   529.2
+1994-10-01   526.5
+1995-01-01   540.5
+1995-04-01   546.8
+1995-07-01   547.0
+1995-10-01   556.1
+1996-01-01   568.4
+1996-04-01   573.0
+1996-07-01   578.8
+1996-10-01   589.5
+1997-01-01   597.0
+1997-04-01   597.8
+1997-07-01   614.4
+1997-10-01   628.8
+1998-01-01   642.3
+1998-04-01   643.4
+1998-07-01   655.9
+1998-10-01   677.7
+1999-01-01   649.2
+1999-04-01   677.6
+1999-07-01   689.6
+1999-10-01   706.6
+2000-01-01   707.3
+2000-04-01   711.4
+2000-07-01   719.7
+2000-10-01   732.6
+2001-01-01   732.0
+2001-04-01   740.8
+2001-07-01   738.0
+2001-10-01   740.2
+2002-01-01   757.0
+2002-04-01   766.7
+2002-07-01   761.0
+2002-10-01   756.5
+2003-01-01   763.9
+2003-04-01   770.1
+2003-07-01   796.1
+2003-10-01   797.6
+2004-01-01   792.7
+2004-04-01   804.0
+2004-07-01   816.9
+2004-10-01   860.6
+2005-01-01   849.2
+2005-04-01   848.7
+2005-07-01   864.8
+2005-10-01   855.5
+2006-01-01   904.8
+2006-04-01   890.7
+2006-07-01   887.1
+2006-10-01   887.5
+2007-01-01   946.9
+2007-04-01   904.5
+2007-07-01   894.0
+2007-10-01   905.8
+2008-01-01   922.1
+2008-04-01   915.6
+2008-07-01   924.0
+2008-10-01   907.6
+2009-01-01   843.2
+2009-04-01   900.3
+2009-07-01   912.9
+2009-10-01   926.1
+2010-01-01   915.0
+2010-04-01   946.0
+2010-07-01   933.2
+2010-10-01   969.4
+2011-01-01   971.3
+2011-04-01   962.1
+2011-07-01   985.5
+2011-10-01   952.5
+2012-01-01   990.3
+2012-04-01   978.7
+2012-07-01   997.3
+2012-10-01  1004.7
+2013-01-01   967.2
+2013-04-01   973.3
+2013-07-01   966.7
+2013-10-01   977.9
+2014-01-01  1006.4
+2014-04-01   994.1
+2014-07-01   995.8
+2014-10-01  1007.5
+2015-01-01  1023.3
+2015-04-01  1028.8
+2015-07-01  1035.5
+2015-10-01  1066.9
+2016-01-01  1007.1
+2016-04-01  1057.4
+2016-07-01  1100.9
+2016-10-01  1060.2
+2017-01-01  1077.3
+2017-04-01  1084.0
+2017-07-01  1076.0
+2017-10-01  1094.2
+2018-01-01  1109.3

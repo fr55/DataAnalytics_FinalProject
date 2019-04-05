@@ -1,0 +1,30 @@
+Title:               Value of Exports to Mali from North Carolina
+Series ID:           NCMLIA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2003-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE           VALUE
+2003-01-01    341580
+2004-01-01         .
+2005-01-01     90098
+2006-01-01         .
+2007-01-01     91465
+2008-01-01   2537906
+2009-01-01   1139554
+2010-01-01    500263
+2011-01-01    917025
+2012-01-01    433105
+2013-01-01   1824519
+2014-01-01    757397
+2015-01-01   1214201
+2016-01-01   2813040

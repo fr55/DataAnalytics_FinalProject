@@ -1,0 +1,40 @@
+Title:               All Employees: Service-Providing in Winston-Salem, NC (MSA)
+Series ID:           SMU37491800700000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  151.3
+1991-01-01  151.4
+1992-01-01  153.9
+1993-01-01  157.6
+1994-01-01  163.1
+1995-01-01  166.6
+1996-01-01  171.7
+1997-01-01  177.2
+1998-01-01  181.6
+1999-01-01  186.5
+2000-01-01  190.7
+2001-01-01  190.4
+2002-01-01  192.4
+2003-01-01  192.3
+2004-01-01  194.2
+2005-01-01  198.0
+2006-01-01  204.4
+2007-01-01  209.7
+2008-01-01  211.3
+2009-01-01  204.1
+2010-01-01  202.1
+2011-01-01  203.2
+2012-01-01  208.2
+2013-01-01  211.9
+2014-01-01  213.5
+2015-01-01  215.9
+2016-01-01  219.3
+2017-01-01  220.4

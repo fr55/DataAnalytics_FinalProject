@@ -1,0 +1,27 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Caswell County, NC
+Series ID:           FBITC037033
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2005-01-01 to 2016-01-01
+Last Updated:        2017-10-12 3:02 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE       VALUE
+2005-01-01   451
+2006-01-01   508
+2007-01-01   508
+2008-01-01     .
+2009-01-01     .
+2010-01-01   560
+2011-01-01   538
+2012-01-01   581
+2013-01-01   495
+2014-01-01   519
+2015-01-01   487
+2016-01-01   454

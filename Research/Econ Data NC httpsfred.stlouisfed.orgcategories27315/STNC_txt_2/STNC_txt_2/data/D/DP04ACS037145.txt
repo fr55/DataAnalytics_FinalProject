@@ -1,0 +1,21 @@
+Title:               Burdened Households in Person County, NC
+Series ID:           DP04ACS037145
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  28.106045116881344
+2011-01-01  29.247065173390908
+2012-01-01  30.574900996859210
+2013-01-01  31.293121114830246
+2014-01-01  32.362172489082965
+2015-01-01  32.985801495301460
+2016-01-01  32.710089747076424

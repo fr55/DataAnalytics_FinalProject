@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Transit and Ground Passenger Transportation for North Carolina
+Series ID:           NCTRANGRNDTRANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE        VALUE
+1997-01-01  145.0
+1998-01-01  169.1
+1999-01-01  183.2
+2000-01-01  193.5
+2001-01-01  202.4
+2002-01-01  200.1
+2003-01-01  236.2
+2004-01-01  266.4
+2005-01-01  280.2
+2006-01-01  306.7
+2007-01-01  296.8
+2008-01-01  330.3
+2009-01-01  352.7
+2010-01-01  390.7
+2011-01-01  433.9
+2012-01-01  455.0
+2013-01-01  468.3
+2014-01-01  498.5
+2015-01-01  513.5
+2016-01-01  472.5

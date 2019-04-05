@@ -1,0 +1,24 @@
+Title:               All Employees: Health Care in Greensboro-High Point, NC (MSA)
+Series ID:           SMU37246606562001301A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          2004-01-01 to 2015-01-01
+Last Updated:        2016-03-15 12:02 PM CDT
+Notes:               
+
+DATE       VALUE
+2004-01-01  30.5
+2005-01-01  31.7
+2006-01-01  32.7
+2007-01-01  33.2
+2008-01-01  33.5
+2009-01-01  34.4
+2010-01-01  34.3
+2011-01-01  35.4
+2012-01-01  36.6
+2013-01-01  37.2
+2014-01-01  36.6
+2015-01-01  37.7

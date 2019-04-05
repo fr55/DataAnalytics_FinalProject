@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in Fayetteville, NC (MSA)
+Series ID:           SMU37221800500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  484.61
+2008-01-01  507.19
+2009-01-01  495.07
+2010-01-01  527.11
+2011-01-01  575.96
+2012-01-01  719.78
+2013-01-01  670.80
+2014-01-01  617.93
+2015-01-01  626.94
+2016-01-01  614.63
+2017-01-01  576.43

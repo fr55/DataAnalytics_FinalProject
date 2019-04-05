@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Person County, NC
+Series ID:           BPPRIV037145
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   134
+1991-01-01   127
+1992-01-01   111
+1993-01-01   175
+1994-01-01   169
+1995-01-01   159
+1996-01-01   163
+1997-01-01   173
+1998-01-01   155
+1999-01-01   186
+2000-01-01   174
+2001-01-01   178
+2002-01-01   215
+2003-01-01   244
+2004-01-01   262
+2005-01-01   233
+2006-01-01   223
+2007-01-01   174
+2008-01-01   123
+2009-01-01    74
+2010-01-01    68
+2011-01-01    52
+2012-01-01    51
+2013-01-01    46
+2014-01-01    48
+2015-01-01    64
+2016-01-01    78
+2017-01-01    90

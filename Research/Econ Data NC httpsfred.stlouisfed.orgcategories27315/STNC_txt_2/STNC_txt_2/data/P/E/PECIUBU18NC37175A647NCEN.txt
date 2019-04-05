@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Transylvania County, NC
+Series ID:           PECIUBU18NC37175A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1057
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1479
+1994-01-01     .
+1995-01-01  1606
+1996-01-01     .
+1997-01-01  1592
+1998-01-01  1627
+1999-01-01  1334
+2000-01-01  1197
+2001-01-01  1229
+2002-01-01  1344
+2003-01-01  1542
+2004-01-01  1489
+2005-01-01  1559
+2006-01-01  1538
+2007-01-01  1541
+2008-01-01  1567
+2009-01-01  2299
+2010-01-01  2035
+2011-01-01  2102
+2012-01-01  1999
+2013-01-01  1975
+2014-01-01  1896
+2015-01-01  1913
+2016-01-01  1899
+2017-01-01  1591

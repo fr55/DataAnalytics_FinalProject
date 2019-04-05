@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Montgomery County, NC
+Series ID:           B14005DCYACS037123
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:03 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  19.228554979850315
+2010-01-01  20.140216698534097
+2011-01-01   9.228901032179720
+2012-01-01  12.738461538461538
+2013-01-01  13.284864507600794
+2014-01-01  10.332871012482663
+2015-01-01  15.562174236783320
+2016-01-01  17.680000000000000
+2017-01-01  15.707620528771384

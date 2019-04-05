@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Orange County, NC
+Series ID:           PECIUBAANC37135A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   9582
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  12098
+1994-01-01      .
+1995-01-01  12687
+1996-01-01      .
+1997-01-01  13533
+1998-01-01  12961
+1999-01-01  13896
+2000-01-01  13471
+2001-01-01  13051
+2002-01-01  13962
+2003-01-01  15591
+2004-01-01  16908
+2005-01-01  16969
+2006-01-01  17537
+2007-01-01  18304
+2008-01-01  18369
+2009-01-01  21920
+2010-01-01  24122
+2011-01-01  23746
+2012-01-01  23245
+2013-01-01  22561
+2014-01-01  20741
+2015-01-01  21389
+2016-01-01  19504
+2017-01-01  20500

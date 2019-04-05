@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Agriculture, Forestry, Fishing, and Hunting: Forestry, Fishing, and Related Activities for North Carolina
+Series ID:           NCFRSTFISHNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE        VALUE
+1997-01-01  491.2
+1998-01-01  498.3
+1999-01-01  497.7
+2000-01-01  506.2
+2001-01-01  510.6
+2002-01-01  524.1
+2003-01-01  552.1
+2004-01-01  560.6
+2005-01-01  544.9
+2006-01-01  657.0
+2007-01-01  658.4
+2008-01-01  640.9
+2009-01-01  701.5
+2010-01-01  755.2
+2011-01-01  734.7
+2012-01-01  802.5
+2013-01-01  817.1
+2014-01-01  877.8
+2015-01-01  900.4
+2016-01-01  884.4

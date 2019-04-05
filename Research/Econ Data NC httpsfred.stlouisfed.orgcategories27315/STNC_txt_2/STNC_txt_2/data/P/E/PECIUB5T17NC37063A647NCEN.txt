@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Durham County, NC
+Series ID:           PECIUB5T17NC37063A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   5194
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6602
+1994-01-01      .
+1995-01-01   6531
+1996-01-01      .
+1997-01-01   7236
+1998-01-01   7933
+1999-01-01   7684
+2000-01-01   6814
+2001-01-01   7016
+2002-01-01   7680
+2003-01-01   8823
+2004-01-01   9334
+2005-01-01   8407
+2006-01-01   8898
+2007-01-01   8803
+2008-01-01   8315
+2009-01-01   9974
+2010-01-01  10485
+2011-01-01  12580
+2012-01-01  12431
+2013-01-01  11280
+2014-01-01  11792
+2015-01-01  11911
+2016-01-01  12430
+2017-01-01  12575

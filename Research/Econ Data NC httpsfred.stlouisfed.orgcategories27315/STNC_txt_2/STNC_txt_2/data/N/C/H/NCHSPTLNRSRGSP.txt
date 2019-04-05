@@ -1,0 +1,35 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Educational Services, Health Care, and Social Assistance: Health Care and Social Assistance: Hospitals and Nursing and Residential Care Facilities for North Carolina (DISCONTINUED)
+Series ID:           NCHSPTLNRSRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-05-04 2:41 PM CDT
+Notes:               This series was discontinued as the source split the industry
+                     components into individual series.
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE        VALUE
+1997-01-01   7964
+1998-01-01   8154
+1999-01-01   8579
+2000-01-01   8577
+2001-01-01   8836
+2002-01-01   9167
+2003-01-01   9463
+2004-01-01   9875
+2005-01-01   9987
+2006-01-01  10815
+2007-01-01  11083
+2008-01-01  11651
+2009-01-01  11899
+2010-01-01  11696
+2011-01-01  11583
+2012-01-01  11972
+2013-01-01  11823
+2014-01-01  11976
+2015-01-01  11805
+2016-01-01  11604

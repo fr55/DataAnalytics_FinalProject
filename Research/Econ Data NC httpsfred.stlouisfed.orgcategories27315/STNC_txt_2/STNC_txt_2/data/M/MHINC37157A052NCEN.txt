@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Rockingham County, NC
+Series ID:           MHINC37157A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  24272
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28054
+1994-01-01      .
+1995-01-01  29571
+1996-01-01      .
+1997-01-01  32305
+1998-01-01  33300
+1999-01-01  33170
+2000-01-01  34672
+2001-01-01  33757
+2002-01-01  33757
+2003-01-01  34502
+2004-01-01  35539
+2005-01-01  35620
+2006-01-01  37382
+2007-01-01  39413
+2008-01-01  38267
+2009-01-01  36104
+2010-01-01  38063
+2011-01-01  36746
+2012-01-01  37577
+2013-01-01  40446
+2014-01-01  39606
+2015-01-01  40148
+2016-01-01  41620
+2017-01-01  46247

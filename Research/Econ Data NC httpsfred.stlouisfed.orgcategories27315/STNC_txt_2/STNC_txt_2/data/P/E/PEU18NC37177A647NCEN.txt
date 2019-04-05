@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Tyrrell County, NC
+Series ID:           PEU18NC37177A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   382
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   358
+1994-01-01     .
+1995-01-01   377
+1996-01-01     .
+1997-01-01   375
+1998-01-01   371
+1999-01-01   284
+2000-01-01   300
+2001-01-01   281
+2002-01-01   266
+2003-01-01   269
+2004-01-01   258
+2005-01-01   311
+2006-01-01   310
+2007-01-01   270
+2008-01-01   279
+2009-01-01   308
+2010-01-01   341
+2011-01-01   313
+2012-01-01   311
+2013-01-01   289
+2014-01-01   272
+2015-01-01   273
+2016-01-01   290
+2017-01-01   268

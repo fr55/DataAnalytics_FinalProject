@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Chowan County, NC
+Series ID:           PECILBAANC37041A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2020
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2121
+1994-01-01     .
+1995-01-01  2144
+1996-01-01     .
+1997-01-01  2070
+1998-01-01  2059
+1999-01-01  1908
+2000-01-01  1846
+2001-01-01  1700
+2002-01-01  1726
+2003-01-01  1755
+2004-01-01  1855
+2005-01-01  2220
+2006-01-01  2043
+2007-01-01  1945
+2008-01-01  2121
+2009-01-01  2360
+2010-01-01  2460
+2011-01-01  3069
+2012-01-01  2451
+2013-01-01  2621
+2014-01-01  2729
+2015-01-01  2169
+2016-01-01  2128
+2017-01-01  1868

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Cleveland County, NC
+Series ID:           PECILBAANC37045A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   7428
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   9454
+1994-01-01      .
+1995-01-01   9364
+1996-01-01      .
+1997-01-01   9642
+1998-01-01  10471
+1999-01-01  10355
+2000-01-01  10222
+2001-01-01  10604
+2002-01-01  11362
+2003-01-01  11125
+2004-01-01  11505
+2005-01-01  14967
+2006-01-01  13749
+2007-01-01  16076
+2008-01-01  14637
+2009-01-01  14265
+2010-01-01  17461
+2011-01-01  15996
+2012-01-01  19454
+2013-01-01  15860
+2014-01-01  17346
+2015-01-01  15974
+2016-01-01  17102
+2017-01-01  15523

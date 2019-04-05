@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Wayne County, NC
+Series ID:           BPPRIV037191
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   313
+1991-01-01   304
+1992-01-01   421
+1993-01-01   474
+1994-01-01   518
+1995-01-01   469
+1996-01-01   438
+1997-01-01   440
+1998-01-01   348
+1999-01-01   540
+2000-01-01   380
+2001-01-01   421
+2002-01-01   427
+2003-01-01   638
+2004-01-01   535
+2005-01-01   605
+2006-01-01   518
+2007-01-01   469
+2008-01-01   332
+2009-01-01   259
+2010-01-01   251
+2011-01-01   205
+2012-01-01   232
+2013-01-01   275
+2014-01-01   257
+2015-01-01   246
+2016-01-01   263
+2017-01-01   280

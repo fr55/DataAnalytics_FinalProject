@@ -1,0 +1,21 @@
+Title:               Population Estimate of Hispanic or Latino Persons in Caswell County, NC
+Series ID:           B03002012E037033
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:53 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01   608
+2010-01-01   743
+2011-01-01   755
+2012-01-01   757
+2013-01-01   763
+2014-01-01   787
+2015-01-01   796
+2016-01-01   823
+2017-01-01   857

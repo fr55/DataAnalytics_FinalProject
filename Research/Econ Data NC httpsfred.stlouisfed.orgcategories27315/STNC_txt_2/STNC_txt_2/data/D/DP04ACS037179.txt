@@ -1,0 +1,21 @@
+Title:               Burdened Households in Union County, NC
+Series ID:           DP04ACS037179
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  31.269565756439267
+2011-01-01  31.665014110289068
+2012-01-01  31.652847545845187
+2013-01-01  31.048930121203050
+2014-01-01  31.224738752774144
+2015-01-01  29.412277262231516
+2016-01-01  27.954038026706860

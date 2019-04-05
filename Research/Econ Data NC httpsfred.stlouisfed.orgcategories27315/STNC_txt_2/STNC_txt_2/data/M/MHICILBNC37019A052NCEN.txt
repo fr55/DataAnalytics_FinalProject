@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Brunswick County, NC
+Series ID:           MHICILBNC37019A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19227
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  23442
+1994-01-01      .
+1995-01-01  26653
+1996-01-01      .
+1997-01-01  27572
+1998-01-01  28768
+1999-01-01  31536
+2000-01-01  33304
+2001-01-01  32611
+2002-01-01  33346
+2003-01-01  35245
+2004-01-01  36908
+2005-01-01  35963
+2006-01-01  43887
+2007-01-01  39125
+2008-01-01  44189
+2009-01-01  41948
+2010-01-01  42323
+2011-01-01  39277
+2012-01-01  46238
+2013-01-01  44732
+2014-01-01  44564
+2015-01-01  45087
+2016-01-01  48203
+2017-01-01  52923

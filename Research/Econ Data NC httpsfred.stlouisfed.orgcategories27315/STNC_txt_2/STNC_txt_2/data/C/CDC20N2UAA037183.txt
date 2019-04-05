@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Wake County, NC
+Series ID:           CDC20N2UAA037183
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  345.5
+2000-01-01  331.3
+2001-01-01  318.8
+2002-01-01  306.3
+2003-01-01  309.3
+2004-01-01  298.9
+2005-01-01  287.5
+2006-01-01  284.0
+2007-01-01  279.9
+2008-01-01  265.5
+2009-01-01  256.8
+2010-01-01  252.0
+2011-01-01  245.0
+2012-01-01  236.0
+2013-01-01  237.4
+2014-01-01  237.6
+2015-01-01  234.3
+2016-01-01  243.3

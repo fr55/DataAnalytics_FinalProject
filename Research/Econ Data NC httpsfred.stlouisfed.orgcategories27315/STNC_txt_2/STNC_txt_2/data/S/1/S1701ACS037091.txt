@@ -1,0 +1,21 @@
+Title:               Percent of Population Below the Poverty Level in Hertford County, NC
+Series ID:           S1701ACS037091
+Source:              U.S. Bureau of the Census
+Release:             County Poverty Status (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2012-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:51 AM CST
+Notes:               This data comes from Table S1701 of the American Community Survey.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE       VALUE
+2012-01-01  25.0
+2013-01-01  26.0
+2014-01-01  26.3
+2015-01-01  25.6
+2016-01-01  24.4
+2017-01-01  23.3

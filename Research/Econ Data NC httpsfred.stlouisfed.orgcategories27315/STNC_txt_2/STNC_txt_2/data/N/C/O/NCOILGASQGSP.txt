@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Mining: Oil and Gas Extraction for North Carolina
+Series ID:           NCOILGASQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE           VALUE
+1997-01-01   161.053
+1998-01-01   282.145
+1999-01-01   255.576
+2000-01-01   136.140
+2001-01-01  1061.923
+2002-01-01    65.105
+2003-01-01     0.000
+2004-01-01     0.000
+2005-01-01     0.000
+2006-01-01    22.013
+2007-01-01    36.767
+2008-01-01    13.465
+2009-01-01    51.563
+2010-01-01    51.967
+2011-01-01    40.249
+2012-01-01   100.000
+2013-01-01    76.067
+2014-01-01    75.096
+2015-01-01   172.983
+2016-01-01   161.376

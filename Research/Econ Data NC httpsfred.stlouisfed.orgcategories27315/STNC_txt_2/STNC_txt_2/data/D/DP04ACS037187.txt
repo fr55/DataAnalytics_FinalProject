@@ -1,0 +1,21 @@
+Title:               Burdened Households in Washington County, NC
+Series ID:           DP04ACS037187
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  39.125634797968644
+2011-01-01  35.241918444960910
+2012-01-01  38.254332846105660
+2013-01-01  37.096774193548384
+2014-01-01  38.375527426160340
+2015-01-01  34.894857380803664
+2016-01-01  36.873533802516526

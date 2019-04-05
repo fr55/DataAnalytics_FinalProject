@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Randolph County, NC
+Series ID:           PEAANC37151A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:04 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   8009
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  10155
+1994-01-01      .
+1995-01-01  10531
+1996-01-01      .
+1997-01-01  10767
+1998-01-01  11194
+1999-01-01  11183
+2000-01-01  11780
+2001-01-01  13206
+2002-01-01  14887
+2003-01-01  14951
+2004-01-01  15867
+2005-01-01  19872
+2006-01-01  19576
+2007-01-01  23300
+2008-01-01  19649
+2009-01-01  22526
+2010-01-01  25478
+2011-01-01  22893
+2012-01-01  25220
+2013-01-01  27857
+2014-01-01  23570
+2015-01-01  23195
+2016-01-01  20481
+2017-01-01  22342

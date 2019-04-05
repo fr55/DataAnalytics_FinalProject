@@ -1,0 +1,22 @@
+Title:               Income Inequality in Brunswick County, NC
+Series ID:           2020RATIO037019
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.213142662580864
+2011-01-01  12.779905584751047
+2012-01-01  12.489652283200670
+2013-01-01  12.722724944510842
+2014-01-01  12.745362563237775
+2015-01-01  13.080593491822627
+2016-01-01  13.325718620922196
+2017-01-01  13.261254551473023

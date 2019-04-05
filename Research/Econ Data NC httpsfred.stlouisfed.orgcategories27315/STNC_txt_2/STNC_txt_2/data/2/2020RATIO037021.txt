@@ -1,0 +1,22 @@
+Title:               Income Inequality in Buncombe County, NC
+Series ID:           2020RATIO037021
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.978137297770004
+2011-01-01  13.485322723253757
+2012-01-01  14.200653900046706
+2013-01-01  13.811680572109655
+2014-01-01  14.015399855907780
+2015-01-01  13.987964601769912
+2016-01-01  13.571181982574387
+2017-01-01  13.226793005161390

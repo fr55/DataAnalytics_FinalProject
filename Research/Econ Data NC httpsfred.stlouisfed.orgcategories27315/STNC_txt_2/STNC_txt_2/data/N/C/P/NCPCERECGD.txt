@@ -1,0 +1,41 @@
+Title:               Personal Consumption Expenditures: Goods: Durable Goods: Recreational Goods and Vehicles for North Carolina
+Series ID:           NCPCERECGD
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:23 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Purchases of video, audio, photographic, and information processing
+                     equipment and media, sporting equipment supplies, guns, and
+                     ammunition, sports and recreational vehicles, recreational books, and
+                     musical instruments.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   4552
+1998-01-01   4963
+1999-01-01   5621
+2000-01-01   5844
+2001-01-01   5898
+2002-01-01   6097
+2003-01-01   6760
+2004-01-01   7431
+2005-01-01   7919
+2006-01-01   8377
+2007-01-01   8731
+2008-01-01   8623
+2009-01-01   7763
+2010-01-01   7686
+2011-01-01   8016
+2012-01-01   8432
+2013-01-01   9184
+2014-01-01   9926
+2015-01-01  10348
+2016-01-01  10870
+2017-01-01  11818

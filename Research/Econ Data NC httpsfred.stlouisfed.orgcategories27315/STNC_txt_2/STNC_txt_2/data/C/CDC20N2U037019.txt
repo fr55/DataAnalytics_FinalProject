@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Brunswick County, NC
+Series ID:           CDC20N2U037019
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  588.9
+2000-01-01  573.5
+2001-01-01  556.9
+2002-01-01  526.6
+2003-01-01  547.6
+2004-01-01  554.7
+2005-01-01  572.5
+2006-01-01  574.4
+2007-01-01  519.5
+2008-01-01  554.0
+2009-01-01  543.6
+2010-01-01  552.5
+2011-01-01  564.5
+2012-01-01  606.1
+2013-01-01  581.0
+2014-01-01  580.4
+2015-01-01  598.6
+2016-01-01  631.7

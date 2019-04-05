@@ -1,0 +1,28 @@
+Title:               Single-parent Households with Children as a Percentage of Households with Children in Gates County, NC
+Series ID:           S1101SPHOUSE037073
+Source:              U.S. Bureau of the Census
+Release:             Single Parent Households with Children (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 12:21 PM CST
+Notes:               These data represent single-parent households with their own children
+                     who are younger than 18-years of age as percentage of total households
+                     with their own children who are younger than 18-years of age.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+                     
+                     American Community Survey Table S1101.
+
+DATE                     VALUE
+2009-01-01  29.487179487179490
+2010-01-01  37.170805116629050
+2011-01-01  37.045813586097950
+2012-01-01  35.330739299610900
+2013-01-01  37.819420783645654
+2014-01-01  37.247706422018354
+2015-01-01  30.791229742612014
+2016-01-01  28.347183748845800
+2017-01-01  29.709364908503765

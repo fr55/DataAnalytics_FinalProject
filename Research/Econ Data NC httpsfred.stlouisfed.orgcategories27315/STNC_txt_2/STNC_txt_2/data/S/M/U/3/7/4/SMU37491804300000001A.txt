@@ -1,0 +1,40 @@
+Title:               All Employees: Transportation and Utilities: Transportation, Warehousing, and Utilities in Winston-Salem, NC (MSA)
+Series ID:           SMU37491804300000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  11.1
+1991-01-01  11.5
+1992-01-01  11.7
+1993-01-01  12.5
+1994-01-01  12.9
+1995-01-01  12.5
+1996-01-01  12.7
+1997-01-01  12.5
+1998-01-01  12.3
+1999-01-01  12.1
+2000-01-01  12.4
+2001-01-01  12.4
+2002-01-01  11.5
+2003-01-01  11.4
+2004-01-01  11.1
+2005-01-01  10.8
+2006-01-01  10.5
+2007-01-01  10.1
+2008-01-01   9.9
+2009-01-01   8.8
+2010-01-01   8.3
+2011-01-01   9.0
+2012-01-01   9.2
+2013-01-01   9.6
+2014-01-01   9.5
+2015-01-01   9.6
+2016-01-01   9.8
+2017-01-01   9.6

@@ -1,0 +1,219 @@
+Title:               CredAbility Consumer Distress Index for North Carolina (DISCONTINUED)
+Series ID:           CCDIOANCQ156N
+Source:              CredAbility Nonprofit Credit Counseling & Education
+Release:             CredAbility Consumer Distress Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Percent
+Date Range:          1980-01-01 to 2013-01-01
+Last Updated:        2013-05-17 1:18 PM CDT
+Notes:               Overview of the Index
+                     The Index is a quarterly comprehensive picture of the average American
+                     household’s financial condition. Built by assessing the key elements
+                     of financial health and distress, it converts a complex set of factors
+                     into a single, easy to understand number.
+                     
+                     Scope and History
+                     The index measures the U.S., all 50 states and more than 70 MSAs. The
+                     national and state versions date back to 1980 and the MSA versions
+                     date back to 1990.
+                     
+                     Public Data and Proprietary Methodology
+                     We use more than 65 data points from government, public and private
+                     data and a proprietary methodology for compiling, combining and
+                     evaluating data. With nearly 50 years of experience and insight into
+                     helping consumers in financial distress, we know the biggest causes of
+                     distress, how people react to financial challenges and proven
+                     strategies for regaining control. (Note: Our client data is not a data
+                     source for the Index)
+                     
+                     Measured on a 100 Point Scale
+                     Financial distress is measured on a 100 point scale and a score under
+                     70 indicates financial distress. The lower the score equals more
+                     distress, a weaker financial position, more urgency to act, takes
+                     longer and is harder to resolve, and increases the probability of
+                     needing a third party help to resolve.
+                     
+                     The Index score is tied to one of 5 general rating categories, which
+                     reflect the strength and stability of the consumer’s position.
+                     Less than 60 Emergency / Crisis
+                     60 – 69 Distressed / Unstable
+                     70 – 79 Weakening / At-Risk
+                     80 – 89 Good / Stable
+                     90 and Above Excellent / Secure
+                     
+                     What Does the Index Measure?
+                     We measure the 5 categories of personal finance that reflect or lead
+                     to a secure, stable financial life—Employment, Housing, Credit,
+                     Household Budget and Net Worth. All are equally important, so have
+                     given each category equal weighting.
+                     
+                     Employment. Stable income is the foundation of any family’s
+                     finances. This category measures the impact of unemployment and
+                     underemployment on financial health.
+                     Key Measures: Unemployment, Underemployment
+                     Sample Data Source: Department of Labor, Bureau of Labor Statistics
+                     
+                     Housing. Safe, affordable housing is a priority for all families. This
+                     category measures how consumers are paying their mortgage/rent and the
+                     impact of housing costs on their finances.
+                     Key Measures: Mortgage and Rental Delinquencies, Housing as Percent of
+                     Budget
+                     Sample Data Source: National Delinquency Survey
+                     
+                     Credit. Responsible use of credit creates more borrowing options and
+                     lower costs. This category assesses the strength of credit scores and
+                     how well families manage their credit.
+                     Key Measures: Credit Scores, Trade Line Utilization, Credit
+                     Delinquencies, Per Capita Bankruptcies
+                     Sample Data Source: National Credit Bureau
+                     
+                     Household Budget. Spending less than you make is the daily choice that
+                     leads to long-term success. This category measures families’
+                     spending patterns and saving for emergencies.
+                     Key Measures: Disposable Income, Savings, Consumer Confidence
+                     Sample Data Source: Department of Commerce, Bureau of Economic
+                     Analysis
+                     
+                     Net Worth. Strong, positive net worth creates options and
+                     independence. This category measures how well consumers are
+                     strengthening their personal balance sheets.
+                     Key Measures: Household Net Worth, Net Worth versus Funds Required for
+                     Long-Term Needs (e.g. retirement)
+                     Sample Data Source: Federal Reserve Flow of Funds, Survey of Consumer
+                     Finances
+
+DATE                  VALUE
+1980-01-01  84.611021224881
+1980-04-01  80.984733596640
+1980-07-01  79.481005063963
+1980-10-01  80.554684200018
+1981-01-01  81.226079185691
+1981-04-01  83.055078809447
+1981-07-01  83.016595462372
+1981-10-01  77.246325174922
+1982-01-01  77.391746295541
+1982-04-01  76.804344089623
+1982-07-01  75.948353943278
+1982-10-01  75.829630372181
+1983-01-01  78.101399920477
+1983-04-01  79.288091791001
+1983-07-01  79.838091684487
+1983-10-01  79.688571367913
+1984-01-01  82.491846969607
+1984-04-01  83.094717337301
+1984-07-01  81.477959539299
+1984-10-01  81.189436668974
+1985-01-01  83.043706754500
+1985-04-01  83.808677247284
+1985-07-01  84.105586109339
+1985-10-01  84.898112436429
+1986-01-01  85.110400571077
+1986-04-01  85.193768762668
+1986-07-01  84.815844961897
+1986-10-01  84.144817945760
+1987-01-01  85.960359911666
+1987-04-01  87.845101554923
+1987-07-01  87.074076929544
+1987-10-01  86.078294604389
+1988-01-01  87.404343605535
+1988-04-01  88.128258395219
+1988-07-01  87.961723195059
+1988-10-01  87.320877449688
+1989-01-01  87.850108611325
+1989-04-01  88.121707700672
+1989-07-01  86.145801567625
+1989-10-01  85.490921756560
+1990-01-01  86.631164798523
+1990-04-01  86.145300902076
+1990-07-01  83.528511708234
+1990-10-01  80.992995693995
+1991-01-01  79.105207166145
+1991-04-01  78.945922908937
+1991-07-01  79.428198156950
+1991-10-01  78.273499255918
+1992-01-01  78.608558320887
+1992-04-01  80.223470607679
+1992-07-01  80.177799145252
+1992-10-01  81.546094808260
+1993-01-01  83.661612388653
+1993-04-01  83.913093901196
+1993-07-01  85.083587412763
+1993-10-01  86.129639871613
+1994-01-01  87.793517913169
+1994-04-01  88.029496123898
+1994-07-01  87.974851482935
+1994-10-01  86.861623451607
+1995-01-01  88.337279613668
+1995-04-01  87.037746520106
+1995-07-01  85.969221690007
+1995-10-01  85.027724386102
+1996-01-01  86.505580339073
+1996-04-01  85.638361956637
+1996-07-01  85.133336487575
+1996-10-01  84.144564101913
+1997-01-01  85.404889780664
+1997-04-01  86.242102436724
+1997-07-01  84.154558692792
+1997-10-01  83.239714830824
+1998-01-01  85.570931286868
+1998-04-01  84.773180282438
+1998-07-01  83.773993719891
+1998-10-01  83.378416532080
+1999-01-01  85.278795330379
+1999-04-01  82.971451222883
+1999-07-01  81.346302769803
+1999-10-01  81.918752499598
+2000-01-01  83.987823983900
+2000-04-01  82.610352487962
+2000-07-01  81.211143402865
+2000-10-01  79.915999509477
+2001-01-01  77.995015842335
+2001-04-01  76.361281127154
+2001-07-01  76.262680940693
+2001-10-01  70.612816110027
+2002-01-01  74.934926005513
+2002-04-01  75.665592610353
+2002-07-01  73.107211645127
+2002-10-01  73.366587278982
+2003-01-01  70.984212041307
+2003-04-01  71.704534699667
+2003-07-01  72.335645649433
+2003-10-01  72.763760301075
+2004-01-01  75.627074397350
+2004-04-01  76.203406006166
+2004-07-01  75.749010051384
+2004-10-01  76.474847931647
+2005-01-01  75.112138117730
+2005-04-01  73.450283888872
+2005-07-01  73.251394953661
+2005-10-01  73.658097093603
+2006-01-01  77.364605110204
+2006-04-01  77.348535005266
+2006-07-01  76.775899733433
+2006-10-01  76.077673335483
+2007-01-01  76.865641260393
+2007-04-01  76.127061875611
+2007-07-01  75.311957858010
+2007-10-01  74.090322937124
+2008-01-01  70.630674235466
+2008-04-01  70.424449208127
+2008-07-01  67.868993929402
+2008-10-01  67.681125583935
+2009-01-01  62.432331233623
+2009-04-01  64.807139618040
+2009-07-01  62.651153428352
+2009-10-01  63.041570285343
+2010-01-01  63.970743172876
+2010-04-01  64.957114409661
+2010-07-01  65.257393763765
+2010-10-01  65.699858521850
+2011-01-01  66.005906708835
+2011-04-01  67.066659403734
+2011-07-01  63.535886210492
+2011-10-01  64.373982850644
+2012-01-01  67.067253074013
+2012-04-01  67.416701371417
+2012-07-01  66.438630000000
+2012-10-01  68.482651009005
+2013-01-01  67.237320000000

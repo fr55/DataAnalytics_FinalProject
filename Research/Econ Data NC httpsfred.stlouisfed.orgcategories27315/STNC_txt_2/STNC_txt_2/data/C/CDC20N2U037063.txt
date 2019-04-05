@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Durham County, NC
+Series ID:           CDC20N2U037063
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  401.1
+2000-01-01  360.7
+2001-01-01  350.1
+2002-01-01  353.7
+2003-01-01  357.6
+2004-01-01  336.0
+2005-01-01  324.8
+2006-01-01  340.1
+2007-01-01  331.1
+2008-01-01  334.4
+2009-01-01  316.4
+2010-01-01  348.3
+2011-01-01  312.7
+2012-01-01  307.9
+2013-01-01  319.3
+2014-01-01  321.5
+2015-01-01  334.4
+2016-01-01  327.2

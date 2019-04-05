@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Yancey County, NC
+Series ID:           PEU18NC37199A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   865
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   852
+1994-01-01     .
+1995-01-01   924
+1996-01-01     .
+1997-01-01   892
+1998-01-01   946
+1999-01-01   838
+2000-01-01   802
+2001-01-01   778
+2002-01-01   851
+2003-01-01   932
+2004-01-01   910
+2005-01-01  1033
+2006-01-01  1056
+2007-01-01   953
+2008-01-01   984
+2009-01-01  1068
+2010-01-01  1093
+2011-01-01  1092
+2012-01-01  1049
+2013-01-01  1036
+2014-01-01  1016
+2015-01-01   960
+2016-01-01   924
+2017-01-01   829

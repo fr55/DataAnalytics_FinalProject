@@ -1,0 +1,21 @@
+Title:               Burdened Households in Alamance County, NC
+Series ID:           DP04ACS037001
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  32.731827817586150
+2011-01-01  32.429630397594735
+2012-01-01  33.175970118281800
+2013-01-01  33.384657970312446
+2014-01-01  33.250281579576100
+2015-01-01  33.063327176289164
+2016-01-01  31.870542142450525

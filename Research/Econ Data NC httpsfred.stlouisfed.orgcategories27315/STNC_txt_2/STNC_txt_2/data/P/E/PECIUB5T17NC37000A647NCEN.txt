@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for North Carolina
+Series ID:           PECIUB5T17NC37000A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE         VALUE
+1989-01-01  203425
+1990-01-01       .
+1991-01-01       .
+1992-01-01       .
+1993-01-01  244425
+1994-01-01       .
+1995-01-01  244917
+1996-01-01  253893
+1997-01-01  260297
+1998-01-01  287606
+1999-01-01  265832
+2000-01-01  231333
+2001-01-01  239771
+2002-01-01  255846
+2003-01-01  270261
+2004-01-01  282202
+2005-01-01  299915
+2006-01-01  285633
+2007-01-01  285066
+2008-01-01  294510
+2009-01-01  332762
+2010-01-01  378188
+2011-01-01  393925
+2012-01-01  403608
+2013-01-01  399420
+2014-01-01  385824
+2015-01-01  373744
+2016-01-01  348016
+2017-01-01  339448

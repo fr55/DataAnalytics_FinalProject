@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Cabarrus County, NC
+Series ID:           B080ACS037025
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  26.558512230294127
+2010-01-01  26.563554332438045
+2011-01-01  25.731462663082674
+2012-01-01  25.971061681900803
+2013-01-01  26.361568514342650
+2014-01-01  26.483670708424473
+2015-01-01  26.995314752522827
+2016-01-01  27.520564042303170
+2017-01-01  27.811664736279400

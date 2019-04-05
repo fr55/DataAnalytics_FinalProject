@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Apparel and Leather and Allied Products Manufacturing for North Carolina
+Series ID:           NCAPPLEATHMANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  2025.5
+1998-01-01  1870.0
+1999-01-01  1766.3
+2000-01-01  1674.6
+2001-01-01  1477.3
+2002-01-01  1677.6
+2003-01-01  1415.1
+2004-01-01  1386.6
+2005-01-01  1398.6
+2006-01-01  1266.6
+2007-01-01   740.9
+2008-01-01   801.6
+2009-01-01   722.2
+2010-01-01   796.3
+2011-01-01   726.7
+2012-01-01   384.5
+2013-01-01   336.6
+2014-01-01   357.7
+2015-01-01   327.8
+2016-01-01   279.3

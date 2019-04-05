@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Caswell County, NC
+Series ID:           B14005DCYACS037033
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01 19.2599620493358600
+2010-01-01 19.2920353982300900
+2011-01-01 21.6521739130434800
+2012-01-01 16.1844484629294780
+2013-01-01 15.0000000000000000
+2014-01-01  5.7651991614255760
+2015-01-01  2.6578073089700998
+2016-01-01  3.3830845771144280
+2017-01-01  4.5120671563483730

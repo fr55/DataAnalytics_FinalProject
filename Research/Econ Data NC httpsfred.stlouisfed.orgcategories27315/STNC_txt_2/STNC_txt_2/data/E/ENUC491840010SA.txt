@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Total Covered Establishments in Winston-Salem, NC (MSA)
+Series ID:           ENUC491840010SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:22 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE        VALUE
+1990-01-01  446.1
+1990-04-01  433.5
+1990-07-01  433.9
+1990-10-01  437.8
+1991-01-01  446.8
+1991-04-01  461.9
+1991-07-01  456.3
+1991-10-01  449.1
+1992-01-01  465.3
+1992-04-01  466.8
+1992-07-01  472.5
+1992-10-01  499.8
+1993-01-01  457.7
+1993-04-01  483.5
+1993-07-01  485.7
+1993-10-01  505.6
+1994-01-01  481.4
+1994-04-01  488.3
+1994-07-01  510.7
+1994-10-01  497.0
+1995-01-01  519.1
+1995-04-01  511.4
+1995-07-01  515.9
+1995-10-01  511.3
+1996-01-01  525.1
+1996-04-01  527.3
+1996-07-01  526.9
+1996-10-01  527.4
+1997-01-01  545.0
+1997-04-01  545.4
+1997-07-01  543.2
+1997-10-01  568.4
+1998-01-01  562.3
+1998-04-01  577.9
+1998-07-01  580.1
+1998-10-01  594.9
+1999-01-01  568.9
+1999-04-01  589.1
+1999-07-01  607.1
+1999-10-01  600.7
+2000-01-01  627.5
+2000-04-01  614.1
+2000-07-01  622.9
+2000-10-01  655.9
+2001-01-01  647.4
+2001-04-01  650.9
+2001-07-01  632.3
+2001-10-01  633.4
+2002-01-01  649.6
+2002-04-01  660.9
+2002-07-01  656.8
+2002-10-01  651.4
+2003-01-01  672.0
+2003-04-01  673.0
+2003-07-01  681.3
+2003-10-01  681.5
+2004-01-01  689.5
+2004-04-01  678.8
+2004-07-01  724.8
+2004-10-01  718.9
+2005-01-01  684.2
+2005-04-01  702.3
+2005-07-01  730.4
+2005-10-01  701.9
+2006-01-01  718.2
+2006-04-01  718.6
+2006-07-01  728.1
+2006-10-01  735.7
+2007-01-01  740.1
+2007-04-01  763.9
+2007-07-01  741.6
+2007-10-01  748.7
+2008-01-01  777.4
+2008-04-01  756.3
+2008-07-01  761.8
+2008-10-01  765.4
+2009-01-01  754.1
+2009-04-01  765.5
+2009-07-01  763.7
+2009-10-01  783.9
+2010-01-01  765.2
+2010-04-01  797.2
+2010-07-01  787.7
+2010-10-01  813.7
+2011-01-01  813.8
+2011-04-01  813.9
+2011-07-01  840.2
+2011-10-01  792.7
+2012-01-01  854.0
+2012-04-01  818.8
+2012-07-01  825.1
+2012-10-01  825.5
+2013-01-01  798.8
+2013-04-01  815.4
+2013-07-01  810.1
+2013-10-01  807.7
+2014-01-01  861.5
+2014-04-01  822.7
+2014-07-01  846.3
+2014-10-01  846.6
+2015-01-01  854.5
+2015-04-01  897.6
+2015-07-01  844.3
+2015-10-01  887.9
+2016-01-01  853.6
+2016-04-01  856.2
+2016-07-01  872.6
+2016-10-01  872.8
+2017-01-01  929.5
+2017-04-01  904.3
+2017-07-01  923.0
+2017-10-01  917.8
+2018-01-01  899.6

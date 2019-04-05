@@ -1,0 +1,43 @@
+Title:               Total Tax Exemptions for North Carolina
+Series ID:           TOTEXMNC37A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Exemptions
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 2:41 PM CST
+Notes:               Total Tax Exemptions - the sum of primary, secondary, and dependent
+                     children exemptions claimed on individual tax returns. For more
+                     information please visit,
+                     http://www.census.gov/did/www/saipe/data/model/irs.html.
+
+DATE          VALUE
+1989-01-01  5648860
+1990-01-01  5742411
+1991-01-01  5841169
+1992-01-01  5905389
+1993-01-01  6012125
+1994-01-01  6042983
+1995-01-01  6162063
+1996-01-01  6299631
+1997-01-01  6369640
+1998-01-01  6474003
+1999-01-01  6694129
+2000-01-01  6785980
+2001-01-01  6875928
+2002-01-01  6925272
+2003-01-01  7019750
+2004-01-01  7159125
+2005-01-01  7333225
+2006-01-01  7524984
+2007-01-01  8285087
+2008-01-01  7849930
+2009-01-01  7832135
+2010-01-01  7900937
+2011-01-01  7963041
+2012-01-01  7985009
+2013-01-01  8039948
+2014-01-01  8090571
+2015-01-01  8167814
+2016-01-01  8216812

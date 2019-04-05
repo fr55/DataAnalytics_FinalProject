@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Sampson County, NC
+Series ID:           PECILBAANC37163A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   7768
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   7794
+1994-01-01      .
+1995-01-01   7485
+1996-01-01      .
+1997-01-01   7207
+1998-01-01   7335
+1999-01-01   7260
+2000-01-01   7702
+2001-01-01   7907
+2002-01-01   8389
+2003-01-01   8092
+2004-01-01   8438
+2005-01-01   9976
+2006-01-01  11697
+2007-01-01  10838
+2008-01-01  11931
+2009-01-01  11672
+2010-01-01  11328
+2011-01-01  13034
+2012-01-01  11757
+2013-01-01  13450
+2014-01-01  16558
+2015-01-01  11398
+2016-01-01   9972
+2017-01-01  10959

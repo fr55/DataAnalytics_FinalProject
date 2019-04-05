@@ -1,0 +1,33 @@
+Title:               Regional Price Parities: Goods for Durham-Chapel Hill, NC (MSA)
+Series ID:           RPPGOOD20500
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:53 AM CDT
+Notes:               Regional price parities (RPPs) are regional price levels expressed as
+                     a percentage of the overall national price level for a given year. The
+                     price levels are determined by the average prices paid by consumers
+                     for the mix of goods and services consumed in each region. Taking the
+                     ratio of RPPs shows the difference in price levels across regions.
+                     
+                     Goods refer to durable and nondurable consumption goods used in the
+                     estimation of the RPPs. Goods categories include apparel, education,
+                     food, housing, medical, recreation, transportation, and other goods. 
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE       VALUE
+2008-01-01  98.4
+2009-01-01  98.4
+2010-01-01  97.6
+2011-01-01  97.4
+2012-01-01  97.4
+2013-01-01  97.3
+2014-01-01  97.8
+2015-01-01  97.7
+2016-01-01  97.7

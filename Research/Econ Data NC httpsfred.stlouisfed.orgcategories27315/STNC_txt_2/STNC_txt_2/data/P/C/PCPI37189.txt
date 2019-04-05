@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Watauga County, NC
+Series ID:           PCPI37189
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:05 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  23382
+2002-01-01  23482
+2003-01-01  24294
+2004-01-01  26020
+2005-01-01  27448
+2006-01-01  28838
+2007-01-01  29566
+2008-01-01  30096
+2009-01-01  29062
+2010-01-01  29183
+2011-01-01  29294
+2012-01-01  30016
+2013-01-01  29929
+2014-01-01  31880
+2015-01-01  33374
+2016-01-01  34295
+2017-01-01  35542

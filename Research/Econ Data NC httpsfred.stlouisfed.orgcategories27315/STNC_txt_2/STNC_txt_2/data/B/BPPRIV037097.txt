@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Iredell County, NC
+Series ID:           BPPRIV037097
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01    614
+1991-01-01    593
+1992-01-01    685
+1993-01-01    782
+1994-01-01    871
+1995-01-01    973
+1996-01-01   1256
+1997-01-01   1211
+1998-01-01   1414
+1999-01-01   1487
+2000-01-01   1381
+2001-01-01   1388
+2002-01-01   1529
+2003-01-01   1645
+2004-01-01   1931
+2005-01-01   2094
+2006-01-01   1843
+2007-01-01   2847
+2008-01-01   1640
+2009-01-01    565
+2010-01-01    353
+2011-01-01    307
+2012-01-01    464
+2013-01-01    650
+2014-01-01    798
+2015-01-01   1083
+2016-01-01   1131
+2017-01-01   1816

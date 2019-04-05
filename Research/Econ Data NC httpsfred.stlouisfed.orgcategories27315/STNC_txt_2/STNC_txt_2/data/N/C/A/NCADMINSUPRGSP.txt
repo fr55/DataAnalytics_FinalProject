@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Professional and Business Services: Administrative and Waste Management Services: Administrative and Support Services for North Carolina
+Series ID:           NCADMINSUPRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   6433.8
+1998-01-01   6789.9
+1999-01-01   6834.9
+2000-01-01   7060.7
+2001-01-01   7384.7
+2002-01-01   7595.3
+2003-01-01   8209.5
+2004-01-01   8662.4
+2005-01-01   9502.7
+2006-01-01  10123.9
+2007-01-01  10814.4
+2008-01-01  10944.0
+2009-01-01  10018.5
+2010-01-01  11007.8
+2011-01-01  11924.9
+2012-01-01  12771.1
+2013-01-01  12797.4
+2014-01-01  13608.3
+2015-01-01  13639.6
+2016-01-01  13934.3

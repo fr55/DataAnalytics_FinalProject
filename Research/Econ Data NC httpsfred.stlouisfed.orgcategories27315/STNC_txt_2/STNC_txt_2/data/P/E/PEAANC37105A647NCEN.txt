@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Lee County, NC
+Series ID:           PEAANC37105A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   4739
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6672
+1994-01-01      .
+1995-01-01   6413
+1996-01-01      .
+1997-01-01   6343
+1998-01-01   6544
+1999-01-01   6058
+2000-01-01   5780
+2001-01-01   5711
+2002-01-01   5942
+2003-01-01   6421
+2004-01-01   7231
+2005-01-01   8210
+2006-01-01   7899
+2007-01-01   8125
+2008-01-01   8094
+2009-01-01   8610
+2010-01-01  10566
+2011-01-01  11584
+2012-01-01  10464
+2013-01-01  10588
+2014-01-01  10830
+2015-01-01  10044
+2016-01-01   9869
+2017-01-01   8760

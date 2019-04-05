@@ -1,0 +1,41 @@
+Title:               Value of Exports to Qatar from North Carolina
+Series ID:           NCQATA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE            VALUE
+1992-01-01    2422458
+1993-01-01          .
+1994-01-01          .
+1995-01-01          .
+1996-01-01          .
+1997-01-01    1888195
+1998-01-01          .
+1999-01-01          .
+2000-01-01          .
+2001-01-01          .
+2002-01-01    5845879
+2003-01-01    3894578
+2004-01-01    5779950
+2005-01-01   16266922
+2006-01-01   12674280
+2007-01-01   22361277
+2008-01-01   22499198
+2009-01-01   19465787
+2010-01-01   19356339
+2011-01-01   22450277
+2012-01-01   27458038
+2013-01-01   28573873
+2014-01-01   33324077
+2015-01-01   25112348
+2016-01-01   23763225

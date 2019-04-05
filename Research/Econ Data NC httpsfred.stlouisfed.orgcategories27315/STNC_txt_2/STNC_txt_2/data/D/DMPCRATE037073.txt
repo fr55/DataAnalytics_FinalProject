@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Gates County, NC
+Series ID:           DMPCRATE037073
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  68.1799998283386
+2009-01-01  76.7799999713898
+2010-01-01  83.5799999237061
+2011-01-01  74.4499999992549
+2012-01-01  62.3279999997467
+2013-01-01  62.9339999998920
+2014-01-01  68.5359999993816
+2015-01-01  69.9889999991283

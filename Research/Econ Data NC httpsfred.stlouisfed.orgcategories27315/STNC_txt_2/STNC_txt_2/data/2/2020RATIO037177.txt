@@ -1,0 +1,22 @@
+Title:               Income Inequality in Tyrrell County, NC
+Series ID:           2020RATIO037177
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.037587506731287
+2011-01-01  10.202364864864865
+2012-01-01  10.679226296958856
+2013-01-01  11.467757774140752
+2014-01-01  13.000993912287240
+2015-01-01  13.465330872660163
+2016-01-01  14.595589212169523
+2017-01-01  13.028057926040859

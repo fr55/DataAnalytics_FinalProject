@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Wilson County, NC
+Series ID:           MHINC37195A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  23066
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  26553
+1994-01-01      .
+1995-01-01  28213
+1996-01-01      .
+1997-01-01  30191
+1998-01-01  31012
+1999-01-01  31619
+2000-01-01  33709
+2001-01-01  32855
+2002-01-01  32807
+2003-01-01  33723
+2004-01-01  34649
+2005-01-01  35467
+2006-01-01  37164
+2007-01-01  38500
+2008-01-01  39285
+2009-01-01  39511
+2010-01-01  36645
+2011-01-01  37166
+2012-01-01  37440
+2013-01-01  40772
+2014-01-01  39268
+2015-01-01  41276
+2016-01-01  41352
+2017-01-01  44825

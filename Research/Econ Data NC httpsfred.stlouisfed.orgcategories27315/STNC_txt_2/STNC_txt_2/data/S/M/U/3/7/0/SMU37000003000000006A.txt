@@ -1,0 +1,29 @@
+Title:               Production or Nonsupervisory Employees: Manufacturing in North Carolina
+Series ID:           SMU37000003000000006A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+2001-01-01  548.3
+2002-01-01  499.2
+2003-01-01  462.5
+2004-01-01  445.8
+2005-01-01  436.3
+2006-01-01  428.4
+2007-01-01  414.8
+2008-01-01  396.2
+2009-01-01  341.2
+2010-01-01  327.3
+2011-01-01  326.4
+2012-01-01  328.5
+2013-01-01  332.7
+2014-01-01  335.8
+2015-01-01  347.5
+2016-01-01  351.0
+2017-01-01  352.1

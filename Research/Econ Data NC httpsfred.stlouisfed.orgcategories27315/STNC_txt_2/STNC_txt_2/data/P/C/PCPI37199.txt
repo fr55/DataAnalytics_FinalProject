@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Yancey County, NC
+Series ID:           PCPI37199
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:09 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  21055
+2002-01-01  21158
+2003-01-01  21511
+2004-01-01  22548
+2005-01-01  23621
+2006-01-01  25046
+2007-01-01  26091
+2008-01-01  27092
+2009-01-01  27067
+2010-01-01  27657
+2011-01-01  29006
+2012-01-01  29991
+2013-01-01  30315
+2014-01-01  31803
+2015-01-01  32550
+2016-01-01  33365
+2017-01-01  34449

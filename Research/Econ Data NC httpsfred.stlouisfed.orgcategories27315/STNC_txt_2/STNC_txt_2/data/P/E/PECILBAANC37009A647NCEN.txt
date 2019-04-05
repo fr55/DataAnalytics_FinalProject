@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Ashe County, NC
+Series ID:           PECILBAANC37009A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3068
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2968
+1994-01-01     .
+1995-01-01  2985
+1996-01-01     .
+1997-01-01  2959
+1998-01-01  3146
+1999-01-01  2688
+2000-01-01  2681
+2001-01-01  2717
+2002-01-01  2913
+2003-01-01  2734
+2004-01-01  2748
+2005-01-01  3272
+2006-01-01  3317
+2007-01-01  3058
+2008-01-01  3236
+2009-01-01  3756
+2010-01-01  4510
+2011-01-01  4292
+2012-01-01  4499
+2013-01-01  5158
+2014-01-01  4739
+2015-01-01  4500
+2016-01-01  3417
+2017-01-01  3426

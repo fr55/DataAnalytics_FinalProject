@@ -1,0 +1,22 @@
+Title:               Income Inequality in Vance County, NC
+Series ID:           2020RATIO037181
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  15.210469216164904
+2011-01-01  14.897240723120838
+2012-01-01  13.282117952960643
+2013-01-01  13.203338938265674
+2014-01-01  13.761194029850746
+2015-01-01  13.384299406663624
+2016-01-01  14.744072261949567
+2017-01-01  16.611669057867050

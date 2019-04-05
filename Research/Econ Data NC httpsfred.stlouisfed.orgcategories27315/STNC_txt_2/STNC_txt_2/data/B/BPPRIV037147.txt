@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Pitt County, NC
+Series ID:           BPPRIV037147
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01    665
+1991-01-01    476
+1992-01-01    720
+1993-01-01    888
+1994-01-01    889
+1995-01-01    944
+1996-01-01    697
+1997-01-01    909
+1998-01-01    855
+1999-01-01    818
+2000-01-01    849
+2001-01-01    942
+2002-01-01    981
+2003-01-01   1047
+2004-01-01   1614
+2005-01-01   1550
+2006-01-01   1696
+2007-01-01   1531
+2008-01-01    707
+2009-01-01    437
+2010-01-01    401
+2011-01-01    316
+2012-01-01    376
+2013-01-01    417
+2014-01-01    374
+2015-01-01    386
+2016-01-01    515
+2017-01-01   1137

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Hoke County, NC
+Series ID:           PECIUBAANC37093A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   6098
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6241
+1994-01-01      .
+1995-01-01   6203
+1996-01-01      .
+1997-01-01   6516
+1998-01-01   6928
+1999-01-01   7058
+2000-01-01   6661
+2001-01-01   6880
+2002-01-01   7551
+2003-01-01   7730
+2004-01-01   7917
+2005-01-01   7921
+2006-01-01   8706
+2007-01-01   8011
+2008-01-01   9762
+2009-01-01  10831
+2010-01-01  10381
+2011-01-01  10808
+2012-01-01  11575
+2013-01-01  13140
+2014-01-01  11389
+2015-01-01  11832
+2016-01-01  11502
+2017-01-01  10008

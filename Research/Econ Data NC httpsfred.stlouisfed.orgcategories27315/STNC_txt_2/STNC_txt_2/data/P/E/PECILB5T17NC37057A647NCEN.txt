@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Davidson County, NC
+Series ID:           PECILB5T17NC37057A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:03 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1976
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2423
+1994-01-01     .
+1995-01-01  2472
+1996-01-01     .
+1997-01-01  2568
+1998-01-01  2855
+1999-01-01  2623
+2000-01-01  2486
+2001-01-01  2559
+2002-01-01  2732
+2003-01-01  3022
+2004-01-01  2990
+2005-01-01  3638
+2006-01-01  3403
+2007-01-01  4148
+2008-01-01  3771
+2009-01-01  4095
+2010-01-01  5735
+2011-01-01  4253
+2012-01-01  5309
+2013-01-01  6560
+2014-01-01  5021
+2015-01-01  4175
+2016-01-01  4419
+2017-01-01  4321

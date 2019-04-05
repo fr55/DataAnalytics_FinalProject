@@ -1,0 +1,23 @@
+Title:               Average Hourly Earnings of All Employees: Total Private in Greenville, NC (MSA)
+Series ID:           SMU37247800500000003A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Hour
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+2007-01-01  15.83
+2008-01-01  18.60
+2009-01-01  18.32
+2010-01-01  18.60
+2011-01-01  20.25
+2012-01-01  20.87
+2013-01-01  19.87
+2014-01-01  19.94
+2015-01-01  22.40
+2016-01-01  22.06
+2017-01-01  22.78

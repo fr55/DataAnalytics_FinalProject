@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Guilford County, NC
+Series ID:           PECILBAANC37081A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  29885
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  35315
+1994-01-01      .
+1995-01-01  35565
+1996-01-01      .
+1997-01-01  34139
+1998-01-01  35167
+1999-01-01  35327
+2000-01-01  34738
+2001-01-01  37286
+2002-01-01  42713
+2003-01-01  48035
+2004-01-01  50054
+2005-01-01  57178
+2006-01-01  59727
+2007-01-01  63209
+2008-01-01  55744
+2009-01-01  71250
+2010-01-01  78994
+2011-01-01  84032
+2012-01-01  81833
+2013-01-01  88309
+2014-01-01  79436
+2015-01-01  72183
+2016-01-01  85870
+2017-01-01  67104

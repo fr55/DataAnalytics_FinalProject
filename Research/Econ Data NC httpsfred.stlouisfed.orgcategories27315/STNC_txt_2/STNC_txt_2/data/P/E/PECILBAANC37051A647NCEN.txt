@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Cumberland County, NC
+Series ID:           PECILBAANC37051A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  32552
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  34146
+1994-01-01      .
+1995-01-01  33141
+1996-01-01      .
+1997-01-01  33121
+1998-01-01  34694
+1999-01-01  32404
+2000-01-01  29493
+2001-01-01  30112
+2002-01-01  33363
+2003-01-01  37232
+2004-01-01  36177
+2005-01-01  45264
+2006-01-01  46789
+2007-01-01  43707
+2008-01-01  41026
+2009-01-01  44729
+2010-01-01  50987
+2011-01-01  54485
+2012-01-01  48215
+2013-01-01  51951
+2014-01-01  50171
+2015-01-01  54323
+2016-01-01  54368
+2017-01-01  53840

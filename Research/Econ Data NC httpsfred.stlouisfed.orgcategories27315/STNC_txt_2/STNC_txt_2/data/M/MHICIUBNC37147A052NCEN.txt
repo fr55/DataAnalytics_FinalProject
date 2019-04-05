@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Pitt County, NC
+Series ID:           MHICIUBNC37147A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  24784
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28455
+1994-01-01      .
+1995-01-01  33105
+1996-01-01      .
+1997-01-01  34871
+1998-01-01  36058
+1999-01-01  34617
+2000-01-01  35913
+2001-01-01  34717
+2002-01-01  34572
+2003-01-01  35951
+2004-01-01  37673
+2005-01-01  37271
+2006-01-01  38682
+2007-01-01  41420
+2008-01-01  43195
+2009-01-01  38083
+2010-01-01  41470
+2011-01-01  42677
+2012-01-01  41911
+2013-01-01  42879
+2014-01-01  43629
+2015-01-01  44140
+2016-01-01  48661
+2017-01-01  49667

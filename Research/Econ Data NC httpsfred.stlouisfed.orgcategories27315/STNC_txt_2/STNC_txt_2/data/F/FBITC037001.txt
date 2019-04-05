@@ -1,0 +1,28 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Alamance County, NC
+Series ID:           FBITC037001
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2016-01-01
+Last Updated:        2017-10-12 3:02 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   1253
+2005-01-01   1299
+2006-01-01   1411
+2007-01-01      .
+2008-01-01   1436
+2009-01-01   1235
+2010-01-01   1210
+2011-01-01   1158
+2012-01-01   1149
+2013-01-01   1043
+2014-01-01   1068
+2015-01-01    946
+2016-01-01    847

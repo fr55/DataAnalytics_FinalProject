@@ -1,0 +1,22 @@
+Title:               Income Inequality in Durham County, NC
+Series ID:           2020RATIO037063
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  14.753786512802020
+2011-01-01  14.973710008020676
+2012-01-01  15.113210833405905
+2013-01-01  15.735980494601185
+2014-01-01  16.385796206440230
+2015-01-01  16.263561880120740
+2016-01-01  16.621466057220246
+2017-01-01  16.531297465824608

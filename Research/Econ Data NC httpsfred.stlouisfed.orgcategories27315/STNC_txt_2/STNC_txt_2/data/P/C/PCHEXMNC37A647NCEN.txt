@@ -1,0 +1,44 @@
+Title:               Poverty, Child Tax Exemptions for North Carolina
+Series ID:           PCHEXMNC37A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Exemptions
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 3:06 PM CST
+Notes:               Poverty Child Tax Exemptions - the subset of child exemptions for
+                     which the adjusted gross income falls below the official poverty
+                     threshold for a family of the size implied by the number of exemptions
+                     on the return. For more information please visit,
+                     http://www.census.gov/did/www/saipe/data/model/irs.html.
+
+DATE         VALUE
+1989-01-01  302144
+1990-01-01  338087
+1991-01-01  389955
+1992-01-01  384413
+1993-01-01  399643
+1994-01-01  365053
+1995-01-01  378563
+1996-01-01  398503
+1997-01-01  389132
+1998-01-01  369009
+1999-01-01  372870
+2000-01-01  382978
+2001-01-01  403859
+2002-01-01  427179
+2003-01-01  456291
+2004-01-01  465153
+2005-01-01  489265
+2006-01-01  494879
+2007-01-01  543657
+2008-01-01  562445
+2009-01-01  612121
+2010-01-01  614882
+2011-01-01  646177
+2012-01-01  641630
+2013-01-01  642489
+2014-01-01  639476
+2015-01-01  611249
+2016-01-01  593352

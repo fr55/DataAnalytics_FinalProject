@@ -1,0 +1,13 @@
+Title:               New Patent Assignments in Hoke County, NC
+Series ID:           USPTOISSUED037093
+Source:              U.S. Patent and Trademark Office
+Release:             New Patent Assignments (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Monthly
+Units:               Patents
+Date Range:          2004-09-01 to 2004-09-01
+Last Updated:        2017-06-09 5:52 PM CDT
+Notes:               
+
+DATE       VALUE
+2004-09-01     1

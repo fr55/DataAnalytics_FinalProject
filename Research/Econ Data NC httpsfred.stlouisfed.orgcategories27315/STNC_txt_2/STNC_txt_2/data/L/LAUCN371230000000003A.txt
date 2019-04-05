@@ -1,0 +1,40 @@
+Title:               Unemployment Rate in Montgomery County, NC
+Series ID:           LAUCN371230000000003A
+Source:              U.S. Bureau of Labor Statistics
+Release:             Unemployment in States and Local Areas (all other areas) (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-02 3:21 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   6.1
+1991-01-01   9.2
+1992-01-01   9.8
+1993-01-01   8.0
+1994-01-01   6.5
+1995-01-01   6.7
+1996-01-01   6.7
+1997-01-01   5.7
+1998-01-01   4.3
+1999-01-01   4.2
+2000-01-01   3.9
+2001-01-01   6.7
+2002-01-01   8.1
+2003-01-01   8.8
+2004-01-01   7.1
+2005-01-01   6.8
+2006-01-01   6.7
+2007-01-01   6.3
+2008-01-01   8.1
+2009-01-01  13.5
+2010-01-01  12.3
+2011-01-01  11.8
+2012-01-01  10.6
+2013-01-01   8.3
+2014-01-01   6.4
+2015-01-01   5.7
+2016-01-01   5.2
+2017-01-01   4.6

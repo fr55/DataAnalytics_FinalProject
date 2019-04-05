@@ -1,0 +1,117 @@
+---
+output: 
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    number_sections: yes
+geometry: margin=2.54cm
+title: Experiment Title
+subtitle: Web address for GitHub repository
+author: Felipe Raby Amadori
+abstract: "Experimental overview. This section should be no longer than 250 words."
+fontsize: 12pt
+mainfont: Times New Roman
+---
+
+<Information in these brackets are used for annotating the RMarkdown file. They will not appear in the final version of the PDF document>
+
+\newpage
+\tableofcontents 
+\newpage
+\listoftables 
+\newpage
+\listoffigures 
+\newpage
+
+<Setup the global options for the R chunks in your document>
+
+<Note: set up autoreferencing for figures and tables in your document>
+
+```{r setup, include=FALSE}
+# Set your working directory
+
+setwd("C:/Users/Felipe/OneDrive - Duke University/1. DUKE/1. Ramos 2 Semestre/EOS-872 Env. Data Analytics/Environmental_Data_Analytics")
+
+# Load your packages
+
+library(FSA)
+library(tidyverse)
+library(RColorBrewer)
+library(ggpubr)
+library(viridis)
+library(colormap)
+library(leaflet)
+library(sf)
+library(tidyverse)
+library(ggspatial)
+library(mapview)
+library(rvest)
+library(dplyr)
+
+# Set your ggplot theme
+
+felipe_theme <- theme_light(base_size = 12) +
+  theme(axis.text = element_text(color = "grey8"), 
+        legend.position = "right", plot.title = element_text(hjust = 0.5)) 
+theme_set(felipe_theme)
+
+```
+
+
+# Research Question and Rationale
+
+<Paragraph detailing the rationale for your analysis. What is the significant application and/or interest in this topic? Connect to environmental topic(s)/challenge(s).>
+
+<Paragraph detailing your research question(s) and goals. What do you want to find out? Include a sentence (or a few) on the dataset you are using to answer this question - just enough to give your reader an idea of where you are going with the analysis.>
+
+\newpage
+
+# Dataset Information
+
+<Information on how the dataset for this analysis were collected, the data contained in the dataset, and any important pieces of information that are relevant to your analyses. This section should contain much of same information as the README file for the dataset but formatted in a way that is more narrative.>
+
+<Add a table that summarizes your data structure. This table can be made in markdown text or inserted as a `kable` function in an R chunk. If the latter, do not include the code used to generate your table.>
+
+\newpage
+
+# Exploratory Data Analysis and Wrangling
+
+<Include R chunks for 5+ lines of summary code (display code and output), 3+ exploratory graphs (display graphs only), and any wrangling you do to your dataset(s).> 
+
+<Include text sections to accompany these R chunks to explain the reasoning behind your workflow, and the rationale for your approach.>
+
+```{r}
+#North Carolina Counties
+url <- "https://en.wikipedia.org/wiki/List_of_counties_in_North_Carolina"
+webpage <- read_html(url)
+
+County_Name <- webpage %>% html_nodes("th:nth-child(1)") %>% html_text()
+
+County_Info <- data_frame(County = County_Name[9:108])
+County_Info$County <- str_replace(County_Info$County, " County", "")
+County_Info$County <- str_replace(County_Info$County, "\n", "")
+
+#North Carolina Zones
+
+County_Info$Zone<-ifelse(County_Info$County == 'Ashe'|County_Info$County =='Alleghany'|County_Info$County =='Wilkes'|County_Info$County =='Watauga'|County_Info$County =='Avery'|County_Info$County =='Caldwell'|County_Info$County =='Mitchell'|County_Info$County =='Burke'|County_Info$County =='Yancey'|County_Info$County =='McDowell'|County_Info$County =='Rutherford'|County_Info$County =='Madison'|County_Info$County =='Buncombe'|County_Info$County =='Polk'|County_Info$County =='Henderson'|County_Info$County =='Haywood'|County_Info$County =='Transylvania'|County_Info$County =='Swain'|County_Info$County =='Jackson'|County_Info$County =='Graham'|County_Info$County =='Macon'|County_Info$County =='Cherokee'|County_Info$County =='Clay','Mountains',
+                         ifelse(County_Info$County == 'Surry'|County_Info$County =='Stokes'|County_Info$County =='Rockingham'|County_Info$County =='Caswell'|County_Info$County =='Person'|County_Info$County =='Granville'|County_Info$County =='Vance'|County_Info$County =='Warren'|County_Info$County =='Yadkin'|County_Info$County =='Forsyth'|County_Info$County =='Guilford'|County_Info$County =='Alamance'|County_Info$County =='Orange'|County_Info$County =='Durham'|County_Info$County =='Franklin'|County_Info$County =='Alexander'|County_Info$County =='Iredell'|County_Info$County =='Davie'|County_Info$County =='Rowan'|County_Info$County =='Davidson'|County_Info$County =='Randolph'|County_Info$County =='Chatham'|County_Info$County =='Wake'|County_Info$County =='Catawba'|County_Info$County =='Cleveland'|County_Info$County =='Lincoln'|County_Info$County =='Gaston'|County_Info$County =='Mecklenburg'|County_Info$County =='Cabarrus'|County_Info$County =='Stanly'|County_Info$County =='Union'|County_Info$County =='Montgomery'|County_Info$County =='Anson'|County_Info$County =='Moore'|County_Info$County =='Lee'|County_Info$County =='Richmond','Piedmont',
+                                ifelse(County_Info$County == 'Scotland'|County_Info$County =='Hoke'|County_Info$County =='Harnett'|County_Info$County =='Johnston'|County_Info$County =='Nash'|County_Info$County =='Halifax'|County_Info$County =='Northampton'|County_Info$County =='Robeson'|County_Info$County =='Cumberland'|County_Info$County =='Sampson'|County_Info$County =='Wayne'|County_Info$County =='Wilson'|County_Info$County =='Edgecombe'|County_Info$County =='Columbus'|County_Info$County =='Bladen'|County_Info$County =='Brunswick'|County_Info$County =='New Hanover'|County_Info$County =='Pender'|County_Info$County =='Duplin'|County_Info$County =='Onslow'|County_Info$County =='Lenoir'|County_Info$County =='Jones'|County_Info$County =='Carteret'|County_Info$County =='Greene'|County_Info$County =='Craven'|County_Info$County =='Pitt'|County_Info$County =='Pamlico'|County_Info$County =='Beaufort'|County_Info$County =='Martin'|County_Info$County =='Bertie'|County_Info$County =='Hyde'|County_Info$County =='Dare'|County_Info$County =='Tyrrell'|County_Info$County =='Washington'|County_Info$County =='Hertford'|County_Info$County =='Gates'|County_Info$County =='Currituck'|County_Info$County =='Camden'|County_Info$County =='Pasquotank'|County_Info$County =='Perquimans'|County_Info$County =='Chowan','Coastal','NoInfo')))
+
+```
+
+
+\newpage
+
+# Analysis
+<Include R chunks for 3+ statistical tests (display code and output) and 3+ final visualization graphs (display graphs only).>
+
+<Include text sections to accompany these R chunks to explain the reasoning behind your workflow, rationale for your approach, and the justification of meeting or failing to meet assumptions of tests.>
+
+
+\newpage
+
+# Summary and Conclusions
+<Summarize your major findings from your analyses. What conclusions do you draw from your findings? Make sure to apply this to a broader application for the research question you have answered.>
+
+
+

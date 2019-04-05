@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Educational Services, Health Care, and Social Assistance: Health Care and Social Assistance: Ambulatory Health Care Services for North Carolina
+Series ID:           NCAMBHCNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   6439.9
+1998-01-01   6832.5
+1999-01-01   7174.9
+2000-01-01   7612.9
+2001-01-01   8379.6
+2002-01-01   8912.2
+2003-01-01   9478.0
+2004-01-01  10316.9
+2005-01-01  11017.5
+2006-01-01  11780.4
+2007-01-01  12307.4
+2008-01-01  13234.7
+2009-01-01  14109.4
+2010-01-01  14442.2
+2011-01-01  14765.2
+2012-01-01  15339.9
+2013-01-01  15973.5
+2014-01-01  16602.1
+2015-01-01  17324.9
+2016-01-01  18325.1

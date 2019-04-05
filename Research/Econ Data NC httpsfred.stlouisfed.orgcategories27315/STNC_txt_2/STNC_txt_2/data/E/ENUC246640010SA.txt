@@ -1,0 +1,138 @@
+Title:               Average Weekly Wages for Employees in Total Covered Establishments in Greensboro-High Point, NC (MSA)
+Series ID:           ENUC246640010SA
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:21 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans). 
+                     
+                     The Federal Reserve Bank of St. Louis seasonally adjusts this series
+                     by using the 'x12' package from R with default parameter settings. The
+                     package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal
+                     Adjustment Program. More information on the 'x12' package can be found
+                     at http://cran.r-project.org/web/packages/x12/x12.pdf. More
+                     information on X-12-ARIMA can be found at
+                     http://www.census.gov/srd/www/x12a/.
+
+DATE        VALUE
+1990-01-01  405.1
+1990-04-01  404.6
+1990-07-01  398.7
+1990-10-01  404.3
+1991-01-01  409.3
+1991-04-01  421.1
+1991-07-01  420.9
+1991-10-01  416.6
+1992-01-01  433.5
+1992-04-01  437.0
+1992-07-01  451.2
+1992-10-01  467.1
+1993-01-01  431.0
+1993-04-01  450.9
+1993-07-01  452.1
+1993-10-01  465.3
+1994-01-01  451.6
+1994-04-01  458.2
+1994-07-01  475.5
+1994-10-01  468.6
+1995-01-01  484.8
+1995-04-01  482.1
+1995-07-01  482.6
+1995-10-01  487.5
+1996-01-01  499.9
+1996-04-01  503.5
+1996-07-01  501.0
+1996-10-01  511.4
+1997-01-01  514.0
+1997-04-01  516.9
+1997-07-01  518.6
+1997-10-01  532.3
+1998-01-01  530.7
+1998-04-01  547.2
+1998-07-01  548.0
+1998-10-01  579.9
+1999-01-01  549.5
+1999-04-01  574.9
+1999-07-01  584.4
+1999-10-01  585.8
+2000-01-01  589.2
+2000-04-01  592.3
+2000-07-01  596.1
+2000-10-01  595.2
+2001-01-01  608.0
+2001-04-01  607.5
+2001-07-01  611.3
+2001-10-01  614.6
+2002-01-01  617.8
+2002-04-01  622.0
+2002-07-01  621.7
+2002-10-01  619.6
+2003-01-01  632.8
+2003-04-01  628.4
+2003-07-01  635.7
+2003-10-01  647.7
+2004-01-01  640.4
+2004-04-01  650.8
+2004-07-01  655.5
+2004-10-01  676.4
+2005-01-01  647.3
+2005-04-01  665.6
+2005-07-01  690.1
+2005-10-01  680.1
+2006-01-01  681.9
+2006-04-01  690.9
+2006-07-01  686.0
+2006-10-01  700.4
+2007-01-01  722.1
+2007-04-01  718.2
+2007-07-01  706.5
+2007-10-01  714.4
+2008-01-01  728.5
+2008-04-01  728.1
+2008-07-01  734.3
+2008-10-01  725.7
+2009-01-01  715.4
+2009-04-01  728.9
+2009-07-01  730.4
+2009-10-01  749.5
+2010-01-01  724.9
+2010-04-01  750.8
+2010-07-01  756.9
+2010-10-01  764.5
+2011-01-01  750.1
+2011-04-01  765.1
+2011-07-01  786.7
+2011-10-01  751.6
+2012-01-01  793.6
+2012-04-01  773.9
+2012-07-01  783.4
+2012-10-01  793.3
+2013-01-01  803.8
+2013-04-01  801.3
+2013-07-01  786.0
+2013-10-01  794.2
+2014-01-01  814.1
+2014-04-01  801.4
+2014-07-01  816.2
+2014-10-01  822.1
+2015-01-01  824.3
+2015-04-01  824.4
+2015-07-01  831.3
+2015-10-01  861.2
+2016-01-01  802.9
+2016-04-01  841.9
+2016-07-01  859.8
+2016-10-01  831.8
+2017-01-01  858.9
+2017-04-01  871.1
+2017-07-01  862.4
+2017-10-01  873.1
+2018-01-01  878.9

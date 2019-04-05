@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Government: State and Local for North Carolina
+Series ID:           NCGOVSLQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   83.398
+1998-01-01   86.033
+1999-01-01   88.513
+2000-01-01   90.377
+2001-01-01   92.364
+2002-01-01   91.927
+2003-01-01   92.532
+2004-01-01   94.450
+2005-01-01   97.362
+2006-01-01   99.817
+2007-01-01  102.702
+2008-01-01  105.728
+2009-01-01  104.675
+2010-01-01  104.255
+2011-01-01  103.806
+2012-01-01  100.000
+2013-01-01   99.028
+2014-01-01   98.727
+2015-01-01  100.634
+2016-01-01  101.383

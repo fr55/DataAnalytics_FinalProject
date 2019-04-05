@@ -1,0 +1,22 @@
+Title:               Income Inequality in Beaufort County, NC
+Series ID:           2020RATIO037013
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  14.347252271743834
+2011-01-01  14.437466850535696
+2012-01-01  14.169991134751774
+2013-01-01  13.210480444492864
+2014-01-01  14.664736468919877
+2015-01-01  13.831945334187486
+2016-01-01  14.380803011292347
+2017-01-01  14.997637633525061

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Gaston County, NC
+Series ID:           DP04ACS037071
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  32.964375906721834
+2011-01-01  34.532374100719420
+2012-01-01  34.305094530235245
+2013-01-01  34.297623247488010
+2014-01-01  34.257223618090460
+2015-01-01  32.994585262497054
+2016-01-01  31.167856773258823

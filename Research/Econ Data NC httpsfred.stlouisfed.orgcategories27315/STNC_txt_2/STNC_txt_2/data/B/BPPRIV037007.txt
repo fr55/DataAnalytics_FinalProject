@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Anson County, NC
+Series ID:           BPPRIV037007
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:03 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    31
+1991-01-01    38
+1992-01-01    43
+1993-01-01    35
+1994-01-01    27
+1995-01-01    33
+1996-01-01    34
+1997-01-01    41
+1998-01-01    43
+1999-01-01    36
+2000-01-01    31
+2001-01-01    46
+2002-01-01    77
+2003-01-01    39
+2004-01-01    72
+2005-01-01    59
+2006-01-01    51
+2007-01-01    56
+2008-01-01    40
+2009-01-01    27
+2010-01-01    28
+2011-01-01    21
+2012-01-01    26
+2013-01-01    32
+2014-01-01    31
+2015-01-01    34
+2016-01-01    41
+2017-01-01    43

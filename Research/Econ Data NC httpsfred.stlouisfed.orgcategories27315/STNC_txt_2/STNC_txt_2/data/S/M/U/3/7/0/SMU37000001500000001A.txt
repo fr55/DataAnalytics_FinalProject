@@ -1,0 +1,40 @@
+Title:               All Employees: Mining, Logging, and Construction in North Carolina
+Series ID:           SMU37000001500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  174.8
+1991-01-01  157.1
+1992-01-01  156.9
+1993-01-01  165.6
+1994-01-01  175.7
+1995-01-01  184.9
+1996-01-01  197.4
+1997-01-01  212.8
+1998-01-01  223.9
+1999-01-01  235.1
+2000-01-01  238.5
+2001-01-01  237.1
+2002-01-01  226.7
+2003-01-01  218.8
+2004-01-01  225.1
+2005-01-01  237.8
+2006-01-01  252.5
+2007-01-01  261.6
+2008-01-01  242.6
+2009-01-01  198.2
+2010-01-01  182.1
+2011-01-01  178.9
+2012-01-01  177.5
+2013-01-01  179.1
+2014-01-01  184.8
+2015-01-01  194.9
+2016-01-01  206.1
+2017-01-01  214.3

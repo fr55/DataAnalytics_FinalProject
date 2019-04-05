@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Richmond County, NC
+Series ID:           PE5T17NC37153A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1534
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1964
+1994-01-01     .
+1995-01-01  2255
+1996-01-01     .
+1997-01-01  2216
+1998-01-01  2412
+1999-01-01  2081
+2000-01-01  1890
+2001-01-01  1930
+2002-01-01  2021
+2003-01-01  2044
+2004-01-01  2109
+2005-01-01  2751
+2006-01-01  2433
+2007-01-01  2069
+2008-01-01  2252
+2009-01-01  2559
+2010-01-01  2822
+2011-01-01  2826
+2012-01-01  2724
+2013-01-01  2929
+2014-01-01  2787
+2015-01-01  3002
+2016-01-01  2628
+2017-01-01  2501

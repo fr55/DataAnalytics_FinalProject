@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Educational Services, Health Care, and Social Assistance: Health Care and Social Assistance: Social Assistance for North Carolina
+Series ID:           NCSOCASSRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  1390.2
+1998-01-01  1497.9
+1999-01-01  1596.2
+2000-01-01  1648.3
+2001-01-01  1794.4
+2002-01-01  1858.1
+2003-01-01  2022.9
+2004-01-01  2109.6
+2005-01-01  2303.3
+2006-01-01  2390.4
+2007-01-01  2630.9
+2008-01-01  2685.5
+2009-01-01  2660.5
+2010-01-01  2539.7
+2011-01-01  2387.9
+2012-01-01  2423.4
+2013-01-01  2454.1
+2014-01-01  2504.2
+2015-01-01  2422.8
+2016-01-01  2432.2

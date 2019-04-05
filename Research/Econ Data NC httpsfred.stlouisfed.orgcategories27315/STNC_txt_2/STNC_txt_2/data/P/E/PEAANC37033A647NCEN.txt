@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Caswell County, NC
+Series ID:           PEAANC37033A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:36 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3084
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3329
+1994-01-01     .
+1995-01-01  3082
+1996-01-01     .
+1997-01-01  3050
+1998-01-01  3188
+1999-01-01  3130
+2000-01-01  2926
+2001-01-01  2968
+2002-01-01  3120
+2003-01-01  3343
+2004-01-01  3655
+2005-01-01  3890
+2006-01-01  3970
+2007-01-01  3464
+2008-01-01  4133
+2009-01-01  4876
+2010-01-01  4654
+2011-01-01  4370
+2012-01-01  4545
+2013-01-01  5588
+2014-01-01  4317
+2015-01-01  4353
+2016-01-01  4265
+2017-01-01  4117

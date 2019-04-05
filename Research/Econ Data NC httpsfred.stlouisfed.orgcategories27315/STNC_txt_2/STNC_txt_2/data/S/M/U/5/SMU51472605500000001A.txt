@@ -1,0 +1,40 @@
+Title:               All Employees: Financial Activities in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472605500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:08 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  28.0
+1991-01-01  27.4
+1992-01-01  27.7
+1993-01-01  29.1
+1994-01-01  30.6
+1995-01-01  30.7
+1996-01-01  31.5
+1997-01-01  32.3
+1998-01-01  34.2
+1999-01-01  36.0
+2000-01-01  36.5
+2001-01-01  36.7
+2002-01-01  36.7
+2003-01-01  37.6
+2004-01-01  39.7
+2005-01-01  39.9
+2006-01-01  40.7
+2007-01-01  41.5
+2008-01-01  40.2
+2009-01-01  37.5
+2010-01-01  36.5
+2011-01-01  36.9
+2012-01-01  37.5
+2013-01-01  37.9
+2014-01-01  37.8
+2015-01-01  38.0
+2016-01-01  37.8
+2017-01-01  37.9

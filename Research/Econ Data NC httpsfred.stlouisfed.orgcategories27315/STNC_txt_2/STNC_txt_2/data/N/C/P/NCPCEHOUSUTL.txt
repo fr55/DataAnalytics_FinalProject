@@ -1,0 +1,44 @@
+Title:               Personal Consumption Expenditures: Services: Housing and Utilities for North Carolina
+Series ID:           NCPCEHOUSUTL
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Spending on housing and household utilities. Housing consists of the
+                     monetary rents paid by tenants for tenant-occupied housing, an imputed
+                     rental value for owner-occupied dwellings (measured as the income the
+                     homeowner could have received if the house had been rented to a
+                     tenant), the rental value of farm dwellings, and spending on group
+                     housing. Household utilities consist of water supply and sanitation
+                     and electricity and gas.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01  22929
+1998-01-01  24352
+1999-01-01  25729
+2000-01-01  27577
+2001-01-01  29458
+2002-01-01  30810
+2003-01-01  32280
+2004-01-01  34104
+2005-01-01  36842
+2006-01-01  38974
+2007-01-01  41117
+2008-01-01  42788
+2009-01-01  44454
+2010-01-01  45897
+2011-01-01  46944
+2012-01-01  48408
+2013-01-01  50157
+2014-01-01  52875
+2015-01-01  55673
+2016-01-01  58790
+2017-01-01  61453

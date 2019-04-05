@@ -1,0 +1,21 @@
+Title:               Median Age of the Population in Alexander County, NC
+Series ID:           B01002001E037003
+Source:              U.S. Bureau of the Census
+Release:             County Median Age (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Years of Age
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:52 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01  39.9
+2010-01-01  40.3
+2011-01-01  40.5
+2012-01-01  41.1
+2013-01-01  41.1
+2014-01-01  41.5
+2015-01-01  42.1
+2016-01-01  42.4
+2017-01-01  42.8

@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Finance, Insurance, Real Estate, Rental, and Leasing: Real Estate and Rental and Leasing: Real Estate for North Carolina
+Series ID:           NCREALNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  20751.1
+1998-01-01  21698.1
+1999-01-01  23710.8
+2000-01-01  24997.3
+2001-01-01  27183.2
+2002-01-01  28474.9
+2003-01-01  28281.4
+2004-01-01  29773.9
+2005-01-01  31615.5
+2006-01-01  32863.1
+2007-01-01  36859.2
+2008-01-01  39465.0
+2009-01-01  41170.3
+2010-01-01  42793.6
+2011-01-01  45619.6
+2012-01-01  46709.4
+2013-01-01  48214.5
+2014-01-01  49245.7
+2015-01-01  51432.4
+2016-01-01  53288.4

@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Alamance County, NC
+Series ID:           CDC20N2UAA037001
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  460.5
+2000-01-01  459.5
+2001-01-01  427.5
+2002-01-01  405.2
+2003-01-01  410.9
+2004-01-01  390.9
+2005-01-01  392.2
+2006-01-01  407.5
+2007-01-01  378.0
+2008-01-01  374.2
+2009-01-01  372.7
+2010-01-01  371.0
+2011-01-01  361.5
+2012-01-01  398.9
+2013-01-01  403.5
+2014-01-01  383.7
+2015-01-01  393.4
+2016-01-01  400.1

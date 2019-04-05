@@ -1,0 +1,28 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Burke County, NC
+Series ID:           FBITC037023
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2016-01-01
+Last Updated:        2017-10-12 3:02 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   1355
+2005-01-01   1659
+2006-01-01      .
+2007-01-01      .
+2008-01-01   1395
+2009-01-01   1361
+2010-01-01   1411
+2011-01-01   1843
+2012-01-01   1744
+2013-01-01   1627
+2014-01-01   1432
+2015-01-01   1103
+2016-01-01   1234

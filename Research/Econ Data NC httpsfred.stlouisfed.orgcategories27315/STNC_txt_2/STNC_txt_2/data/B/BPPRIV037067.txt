@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Forsyth County, NC
+Series ID:           BPPRIV037067
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   1142
+1991-01-01   1163
+1992-01-01   1509
+1993-01-01   1675
+1994-01-01   1498
+1995-01-01   1517
+1996-01-01   1416
+1997-01-01   1569
+1998-01-01   2005
+1999-01-01   1934
+2000-01-01   2223
+2001-01-01   1972
+2002-01-01   2435
+2003-01-01   2340
+2004-01-01   2597
+2005-01-01   2864
+2006-01-01   2808
+2007-01-01   2788
+2008-01-01   1571
+2009-01-01    692
+2010-01-01    777
+2011-01-01    838
+2012-01-01    712
+2013-01-01    867
+2014-01-01    985
+2015-01-01   1042
+2016-01-01   1002
+2017-01-01   2765

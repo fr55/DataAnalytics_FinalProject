@@ -1,0 +1,22 @@
+Title:               Income Inequality in Randolph County, NC
+Series ID:           2020RATIO037151
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.815172002386161
+2011-01-01  12.337845513063234
+2012-01-01  11.714571039491602
+2013-01-01  11.230566037735850
+2014-01-01  10.832395749620503
+2015-01-01  10.678240540306520
+2016-01-01  10.825317760219855
+2017-01-01  11.369996519317786

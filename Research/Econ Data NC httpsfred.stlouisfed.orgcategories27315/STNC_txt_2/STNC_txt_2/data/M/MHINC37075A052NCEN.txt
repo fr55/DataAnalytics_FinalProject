@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Graham County, NC
+Series ID:           MHINC37075A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  16219
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  18838
+1994-01-01      .
+1995-01-01  23284
+1996-01-01      .
+1997-01-01  24355
+1998-01-01  26461
+1999-01-01  26857
+2000-01-01  28002
+2001-01-01  26740
+2002-01-01  27297
+2003-01-01  28520
+2004-01-01  29609
+2005-01-01  28695
+2006-01-01  29400
+2007-01-01  32449
+2008-01-01  32835
+2009-01-01  30727
+2010-01-01  31863
+2011-01-01  33041
+2012-01-01  32883
+2013-01-01  33553
+2014-01-01  33824
+2015-01-01  33827
+2016-01-01  35763
+2017-01-01  37748

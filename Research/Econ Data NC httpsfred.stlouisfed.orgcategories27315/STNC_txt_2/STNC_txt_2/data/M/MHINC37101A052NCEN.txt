@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Johnston County, NC
+Series ID:           MHINC37101A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:31 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  23110
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28690
+1994-01-01      .
+1995-01-01  34081
+1996-01-01      .
+1997-01-01  36406
+1998-01-01  39844
+1999-01-01  40836
+2000-01-01  42997
+2001-01-01  41662
+2002-01-01  42142
+2003-01-01  43154
+2004-01-01  44099
+2005-01-01  45342
+2006-01-01  46968
+2007-01-01  47773
+2008-01-01  52443
+2009-01-01  49501
+2010-01-01  46922
+2011-01-01  48380
+2012-01-01  48773
+2013-01-01  50904
+2014-01-01  50055
+2015-01-01  52681
+2016-01-01  55174
+2017-01-01  58647

@@ -1,0 +1,41 @@
+Title:               Number of Identified Exporters to Saudi Arabia from North Carolina
+Series ID:           NCSAUA475SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Firms
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE       VALUE
+1992-01-01   224
+1993-01-01     .
+1994-01-01     .
+1995-01-01     .
+1996-01-01     .
+1997-01-01   254
+1998-01-01     .
+1999-01-01     .
+2000-01-01     .
+2001-01-01     .
+2002-01-01   281
+2003-01-01   284
+2004-01-01   267
+2005-01-01   298
+2006-01-01   297
+2007-01-01   327
+2008-01-01   393
+2009-01-01   387
+2010-01-01   419
+2011-01-01   431
+2012-01-01   435
+2013-01-01   423
+2014-01-01   451
+2015-01-01   445
+2016-01-01   390

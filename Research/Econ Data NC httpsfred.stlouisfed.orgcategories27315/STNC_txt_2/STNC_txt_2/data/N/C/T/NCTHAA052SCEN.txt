@@ -1,0 +1,41 @@
+Title:               Value of Exports to Thailand from North Carolina
+Series ID:           NCTHAA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE             VALUE
+1992-01-01    88363580
+1993-01-01           .
+1994-01-01           .
+1995-01-01           .
+1996-01-01           .
+1997-01-01    99149082
+1998-01-01           .
+1999-01-01           .
+2000-01-01           .
+2001-01-01           .
+2002-01-01   107008287
+2003-01-01    97121889
+2004-01-01   110211419
+2005-01-01    92653193
+2006-01-01   107058576
+2007-01-01   144177999
+2008-01-01   145050317
+2009-01-01   105931560
+2010-01-01   124623566
+2011-01-01   128511433
+2012-01-01   165872265
+2013-01-01   151527219
+2014-01-01   140173195
+2015-01-01   155078195
+2016-01-01   153465376

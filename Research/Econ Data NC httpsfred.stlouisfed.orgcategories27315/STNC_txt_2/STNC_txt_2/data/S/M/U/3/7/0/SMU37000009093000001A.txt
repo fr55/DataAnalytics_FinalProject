@@ -1,0 +1,40 @@
+Title:               All Employees: Local Government in North Carolina
+Series ID:           SMU37000009093000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  290.2
+1991-01-01  297.9
+1992-01-01  304.3
+1993-01-01  311.8
+1994-01-01  319.1
+1995-01-01  326.4
+1996-01-01  333.5
+1997-01-01  345.0
+1998-01-01  358.9
+1999-01-01  367.0
+2000-01-01  374.7
+2001-01-01  386.3
+2002-01-01  393.8
+2003-01-01  398.2
+2004-01-01  403.4
+2005-01-01  410.2
+2006-01-01  422.2
+2007-01-01  432.7
+2008-01-01  445.4
+2009-01-01  446.9
+2010-01-01  439.7
+2011-01-01  434.9
+2012-01-01  435.5
+2013-01-01  437.5
+2014-01-01  438.5
+2015-01-01  443.2
+2016-01-01  447.9
+2017-01-01  451.2

@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Macon County, NC
+Series ID:           PEU18NC37113A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   849
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1129
+1994-01-01     .
+1995-01-01  1243
+1996-01-01     .
+1997-01-01  1218
+1998-01-01  1309
+1999-01-01  1177
+2000-01-01  1217
+2001-01-01  1230
+2002-01-01  1237
+2003-01-01  1354
+2004-01-01  1320
+2005-01-01  1482
+2006-01-01  1400
+2007-01-01  1531
+2008-01-01  1563
+2009-01-01  2027
+2010-01-01  1995
+2011-01-01  1949
+2012-01-01  2210
+2013-01-01  2047
+2014-01-01  2086
+2015-01-01  1870
+2016-01-01  1680
+2017-01-01  1709

@@ -1,0 +1,67 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Professional and Business Services: Management Of Companies and Enterprises for North Carolina
+Series ID:           NCMNGCOENTPRQQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Seasonally Adjusted Annual Rate
+Frequency:           Quarterly
+Units:               Index 2012=100
+Date Range:          2005-01-01 to 2018-04-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+2005-01-01   94.157
+2005-04-01   92.930
+2005-07-01   92.815
+2005-10-01   90.189
+2006-01-01   95.950
+2006-04-01   93.988
+2006-07-01   88.854
+2006-10-01   86.000
+2007-01-01   88.439
+2007-04-01   82.909
+2007-07-01   83.390
+2007-10-01   86.288
+2008-01-01   89.854
+2008-04-01   92.244
+2008-07-01   95.547
+2008-10-01   89.787
+2009-01-01   76.046
+2009-04-01   82.102
+2009-07-01   87.147
+2009-10-01   87.164
+2010-01-01   86.273
+2010-04-01   87.630
+2010-07-01   88.661
+2010-10-01   93.364
+2011-01-01   93.903
+2011-04-01   93.575
+2011-07-01   91.422
+2011-10-01   93.759
+2012-01-01   96.436
+2012-04-01   98.455
+2012-07-01   99.626
+2012-10-01  105.483
+2013-01-01   94.585
+2013-04-01   94.841
+2013-07-01   97.436
+2013-10-01  105.211
+2014-01-01  113.010
+2014-04-01  102.820
+2014-07-01  111.899
+2014-10-01  108.759
+2015-01-01  113.266
+2015-04-01  112.025
+2015-07-01  111.542
+2015-10-01  112.278
+2016-01-01  112.140
+2016-04-01  112.266
+2016-07-01  113.383
+2016-10-01  114.143
+2017-01-01  113.773
+2017-04-01  112.393
+2017-07-01  119.186
+2017-10-01  118.212
+2018-01-01  115.373
+2018-04-01  116.859

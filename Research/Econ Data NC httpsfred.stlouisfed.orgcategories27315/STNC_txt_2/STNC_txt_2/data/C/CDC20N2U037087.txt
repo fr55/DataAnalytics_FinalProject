@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Haywood County, NC
+Series ID:           CDC20N2U037087
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  586.0
+2000-01-01  506.4
+2001-01-01  503.6
+2002-01-01  520.7
+2003-01-01  519.2
+2004-01-01  521.4
+2005-01-01  569.9
+2006-01-01  548.6
+2007-01-01  546.2
+2008-01-01  558.1
+2009-01-01  495.2
+2010-01-01  492.8
+2011-01-01  511.8
+2012-01-01  582.3
+2013-01-01  593.5
+2014-01-01  585.2
+2015-01-01  585.6
+2016-01-01  620.7

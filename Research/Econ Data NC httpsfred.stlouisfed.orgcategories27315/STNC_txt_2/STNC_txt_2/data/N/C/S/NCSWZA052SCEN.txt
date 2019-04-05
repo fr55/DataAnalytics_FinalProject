@@ -1,0 +1,31 @@
+Title:               Value of Exports to Swaziland from North Carolina
+Series ID:           NCSWZA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2002-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE          VALUE
+2002-01-01    15817
+2003-01-01        .
+2004-01-01        .
+2005-01-01    29361
+2006-01-01    19677
+2007-01-01        .
+2008-01-01    44480
+2009-01-01    95522
+2010-01-01    69411
+2011-01-01   140113
+2012-01-01   123431
+2013-01-01   217560
+2014-01-01   250074
+2015-01-01    30059
+2016-01-01    63186

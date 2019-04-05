@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Gates County, NC
+Series ID:           CDC20N2U037073
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  510.9
+2000-01-01  519.2
+2001-01-01  578.0
+2002-01-01  512.8
+2003-01-01  504.4
+2004-01-01  442.0
+2005-01-01  546.0
+2006-01-01  582.2
+2007-01-01  476.8
+2008-01-01  474.9
+2009-01-01  606.1
+2010-01-01  576.4
+2011-01-01  476.4
+2012-01-01  582.2
+2013-01-01  348.6
+2014-01-01  539.7
+2015-01-01  639.3
+2016-01-01  638.3

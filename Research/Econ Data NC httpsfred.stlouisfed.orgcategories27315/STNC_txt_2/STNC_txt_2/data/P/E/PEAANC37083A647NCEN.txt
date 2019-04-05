@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Halifax County, NC
+Series ID:           PEAANC37083A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  14871
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  14998
+1994-01-01      .
+1995-01-01  14235
+1996-01-01      .
+1997-01-01  13156
+1998-01-01  12977
+1999-01-01  12158
+2000-01-01  11686
+2001-01-01  11442
+2002-01-01  12219
+2003-01-01  12163
+2004-01-01  12656
+2005-01-01  15704
+2006-01-01  12858
+2007-01-01  13832
+2008-01-01  12631
+2009-01-01  14188
+2010-01-01  13908
+2011-01-01  14111
+2012-01-01  15310
+2013-01-01  16433
+2014-01-01  12128
+2015-01-01  14219
+2016-01-01  13595
+2017-01-01  14009

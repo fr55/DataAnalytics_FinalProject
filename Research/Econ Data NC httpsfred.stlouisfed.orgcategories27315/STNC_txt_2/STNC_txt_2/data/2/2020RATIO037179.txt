@@ -1,0 +1,22 @@
+Title:               Income Inequality in Union County, NC
+Series ID:           2020RATIO037179
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.517828200972447
+2011-01-01  11.528989225243715
+2012-01-01  11.976184862060835
+2013-01-01  11.726694313469295
+2014-01-01  11.641035833948550
+2015-01-01  12.536670344347018
+2016-01-01  13.193868298764592
+2017-01-01  13.171681993796593

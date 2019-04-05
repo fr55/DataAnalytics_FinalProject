@@ -1,0 +1,22 @@
+Title:               Income Inequality in Cumberland County, NC
+Series ID:           2020RATIO037051
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.965149290259422
+2011-01-01  13.237114398994295
+2012-01-01  13.005841341624270
+2013-01-01  12.907970264420815
+2014-01-01  12.860231084606783
+2015-01-01  12.871244230950362
+2016-01-01  12.711263050910098
+2017-01-01  13.314506989044201

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Onslow County, NC
+Series ID:           DP04ACS037133
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  34.536432968850500
+2011-01-01  37.532152302285980
+2012-01-01  38.194750869265930
+2013-01-01  39.523445375230280
+2014-01-01  39.925150973887895
+2015-01-01  40.577362963952380
+2016-01-01  38.044437047516020

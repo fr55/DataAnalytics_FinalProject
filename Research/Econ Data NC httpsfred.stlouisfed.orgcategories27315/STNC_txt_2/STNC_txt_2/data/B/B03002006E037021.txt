@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Asian Persons in Buncombe County, NC
+Series ID:           B03002006E037021
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:54 AM CST
+Notes:               
+
+DATE        VALUE
+2009-01-01   2172
+2010-01-01   2258
+2011-01-01   2350
+2012-01-01   2459
+2013-01-01   2476
+2014-01-01   2674
+2015-01-01   2651
+2016-01-01   2872
+2017-01-01   3061

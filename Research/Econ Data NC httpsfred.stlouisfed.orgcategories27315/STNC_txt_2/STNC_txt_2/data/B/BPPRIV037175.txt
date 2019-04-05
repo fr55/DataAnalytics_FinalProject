@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Transylvania County, NC
+Series ID:           BPPRIV037175
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   183
+1991-01-01   159
+1992-01-01   188
+1993-01-01   206
+1994-01-01   186
+1995-01-01   191
+1996-01-01   211
+1997-01-01   245
+1998-01-01   321
+1999-01-01   286
+2000-01-01   238
+2001-01-01   255
+2002-01-01   256
+2003-01-01   246
+2004-01-01   241
+2005-01-01   299
+2006-01-01   233
+2007-01-01   236
+2008-01-01   152
+2009-01-01    76
+2010-01-01   103
+2011-01-01    62
+2012-01-01    73
+2013-01-01    69
+2014-01-01    65
+2015-01-01    82
+2016-01-01   104
+2017-01-01   112

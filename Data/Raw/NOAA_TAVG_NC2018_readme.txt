@@ -1,0 +1,1 @@
+NAD83 is the NOAA standard geographic coordinate system and part of the NSRS (National Spatial Reference System). 

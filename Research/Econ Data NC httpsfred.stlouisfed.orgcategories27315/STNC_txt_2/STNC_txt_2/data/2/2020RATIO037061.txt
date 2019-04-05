@@ -1,0 +1,22 @@
+Title:               Income Inequality in Duplin County, NC
+Series ID:           2020RATIO037061
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.068485132287520
+2011-01-01  11.933436021564528
+2012-01-01  11.819615912208505
+2013-01-01  12.634952606635071
+2014-01-01  13.472570813911796
+2015-01-01  13.199976150727403
+2016-01-01  13.804667558040599
+2017-01-01  12.991876166428806

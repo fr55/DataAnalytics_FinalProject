@@ -1,0 +1,41 @@
+Title:               Value of Exports to Hong Kong from North Carolina
+Series ID:           NCHKGA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE             VALUE
+1992-01-01   191768596
+1993-01-01           .
+1994-01-01           .
+1995-01-01           .
+1996-01-01           .
+1997-01-01   298904242
+1998-01-01           .
+1999-01-01           .
+2000-01-01           .
+2001-01-01           .
+2002-01-01   405353919
+2003-01-01   404738497
+2004-01-01   368534136
+2005-01-01   313458878
+2006-01-01   340624214
+2007-01-01   353315642
+2008-01-01   440977931
+2009-01-01   426393837
+2010-01-01   690647309
+2011-01-01   744686499
+2012-01-01   805449416
+2013-01-01   768478237
+2014-01-01   919962636
+2015-01-01   765469613
+2016-01-01   690609310

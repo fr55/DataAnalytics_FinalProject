@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Information: Motion Picture and Sound Recording Industries for North Carolina
+Series ID:           NCMOTPICSNDQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   40.883
+1998-01-01   42.855
+1999-01-01   49.981
+2000-01-01   42.767
+2001-01-01   58.622
+2002-01-01   60.313
+2003-01-01   45.414
+2004-01-01   77.992
+2005-01-01   50.337
+2006-01-01   60.159
+2007-01-01   79.624
+2008-01-01   79.543
+2009-01-01   98.640
+2010-01-01  107.250
+2011-01-01   96.803
+2012-01-01  100.000
+2013-01-01  100.193
+2014-01-01  106.467
+2015-01-01  122.602
+2016-01-01  134.005

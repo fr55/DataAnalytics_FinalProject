@@ -1,0 +1,21 @@
+Title:               Burdened Households in Carteret County, NC
+Series ID:           DP04ACS037031
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  31.776444219506907
+2011-01-01  31.630888920904770
+2012-01-01  33.593807054699480
+2013-01-01  33.733999929085556
+2014-01-01  32.755596098519405
+2015-01-01  31.116015132408574
+2016-01-01  30.769769559431253

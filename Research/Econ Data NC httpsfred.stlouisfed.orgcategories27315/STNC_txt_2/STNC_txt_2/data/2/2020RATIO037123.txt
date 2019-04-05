@@ -1,0 +1,22 @@
+Title:               Income Inequality in Montgomery County, NC
+Series ID:           2020RATIO037123
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  15.685594886922320
+2011-01-01  16.297660527625684
+2012-01-01  15.877792537133196
+2013-01-01  16.151119161599173
+2014-01-01  15.711433531746032
+2015-01-01  15.932725911133300
+2016-01-01  15.056484621681674
+2017-01-01  14.990382439465943

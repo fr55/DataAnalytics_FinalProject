@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Gates County, NC
+Series ID:           CDC20N2UAA037073
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  491.6
+2000-01-01  460.7
+2001-01-01  518.5
+2002-01-01  456.0
+2003-01-01  442.1
+2004-01-01  379.6
+2005-01-01  452.4
+2006-01-01  503.7
+2007-01-01  419.2
+2008-01-01  396.5
+2009-01-01  477.5
+2010-01-01  458.1
+2011-01-01  358.9
+2012-01-01  423.3
+2013-01-01  236.9
+2014-01-01  359.9
+2015-01-01  447.3
+2016-01-01  422.8

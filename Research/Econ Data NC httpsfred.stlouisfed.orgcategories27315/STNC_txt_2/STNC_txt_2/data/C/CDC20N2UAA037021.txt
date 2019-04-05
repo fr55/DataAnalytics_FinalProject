@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Buncombe County, NC
+Series ID:           CDC20N2UAA037021
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:21 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  399.7
+2000-01-01  417.2
+2001-01-01  423.7
+2002-01-01  391.3
+2003-01-01  382.6
+2004-01-01  381.1
+2005-01-01  396.0
+2006-01-01  356.8
+2007-01-01  349.9
+2008-01-01  363.0
+2009-01-01  344.8
+2010-01-01  346.4
+2011-01-01  320.0
+2012-01-01  333.8
+2013-01-01  340.8
+2014-01-01  334.6
+2015-01-01  347.5
+2016-01-01  346.6

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Lincoln County, NC
+Series ID:           DP04ACS037109
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  29.520164434049190
+2011-01-01  28.380182712579060
+2012-01-01  29.340211216060787
+2013-01-01  29.212669058791057
+2014-01-01  27.804221854304632
+2015-01-01  26.788851758707410
+2016-01-01  26.150931908128406

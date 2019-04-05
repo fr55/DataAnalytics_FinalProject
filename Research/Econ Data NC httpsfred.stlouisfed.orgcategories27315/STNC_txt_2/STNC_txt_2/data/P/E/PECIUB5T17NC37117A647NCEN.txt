@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Martin County, NC
+Series ID:           PECIUB5T17NC37117A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   757
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1307
+1994-01-01     .
+1995-01-01  1671
+1996-01-01     .
+1997-01-01  1711
+1998-01-01  1858
+1999-01-01  1678
+2000-01-01  1409
+2001-01-01  1376
+2002-01-01  1379
+2003-01-01  1436
+2004-01-01  1367
+2005-01-01  1436
+2006-01-01  1491
+2007-01-01  1430
+2008-01-01  1420
+2009-01-01  1393
+2010-01-01  1659
+2011-01-01  1521
+2012-01-01  1709
+2013-01-01  1535
+2014-01-01  1357
+2015-01-01  1446
+2016-01-01  1420
+2017-01-01  1237

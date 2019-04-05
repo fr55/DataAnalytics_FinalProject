@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Perquimans County, NC
+Series ID:           PEU18NC37143A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   840
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   842
+1994-01-01     .
+1995-01-01   949
+1996-01-01     .
+1997-01-01   839
+1998-01-01   819
+1999-01-01   666
+2000-01-01   622
+2001-01-01   618
+2002-01-01   594
+2003-01-01   630
+2004-01-01   629
+2005-01-01   701
+2006-01-01   704
+2007-01-01   674
+2008-01-01   768
+2009-01-01   709
+2010-01-01   804
+2011-01-01   835
+2012-01-01   820
+2013-01-01   951
+2014-01-01   786
+2015-01-01   827
+2016-01-01   720
+2017-01-01   701

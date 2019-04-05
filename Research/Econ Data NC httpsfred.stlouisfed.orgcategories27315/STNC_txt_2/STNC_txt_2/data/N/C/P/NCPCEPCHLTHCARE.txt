@@ -1,0 +1,40 @@
+Title:               Per Capita Personal Consumption Expenditures: Services: Health Care for North Carolina
+Series ID:           NCPCEPCHLTHCARE
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               Personal consumption expenditures of a given area divided by the
+                     resident population of the area.
+                     
+                     Spending on outpatient services and hospital and nursing home
+                     services. Outpatient services consist of physician services, dental
+                     services, and paramedical services.For more information about this
+                     release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01  2655
+1998-01-01  2744
+1999-01-01  2850
+2000-01-01  3043
+2001-01-01  3312
+2002-01-01  3506
+2003-01-01  3712
+2004-01-01  3996
+2005-01-01  4181
+2006-01-01  4341
+2007-01-01  4475
+2008-01-01  4603
+2009-01-01  4828
+2010-01-01  4910
+2011-01-01  5058
+2012-01-01  5256
+2013-01-01  5303
+2014-01-01  5364
+2015-01-01  5589
+2016-01-01  5808
+2017-01-01  6170

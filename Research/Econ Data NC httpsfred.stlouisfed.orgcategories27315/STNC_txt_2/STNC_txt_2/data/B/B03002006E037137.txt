@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Asian Persons in Pamlico County, NC
+Series ID:           B03002006E037137
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:54 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01    21
+2010-01-01    28
+2011-01-01    70
+2012-01-01    42
+2013-01-01    26
+2014-01-01    28
+2015-01-01    34
+2016-01-01    25
+2017-01-01    28

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Macon County, NC
+Series ID:           DP04ACS037113
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  29.978629624682785
+2011-01-01  32.725842401992920
+2012-01-01  34.817465050023190
+2013-01-01  33.125649013499480
+2014-01-01  33.063087614116360
+2015-01-01  31.395822029300053
+2016-01-01  29.228950844747270

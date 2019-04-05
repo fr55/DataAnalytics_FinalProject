@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Wilkes County, NC
+Series ID:           PEU18NC37193A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2393
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2736
+1994-01-01     .
+1995-01-01  2925
+1996-01-01     .
+1997-01-01  3018
+1998-01-01  2873
+1999-01-01  2507
+2000-01-01  2539
+2001-01-01  2664
+2002-01-01  2823
+2003-01-01  2975
+2004-01-01  2945
+2005-01-01  3375
+2006-01-01  3236
+2007-01-01  3157
+2008-01-01  4298
+2009-01-01  4401
+2010-01-01  4128
+2011-01-01  5246
+2012-01-01  4165
+2013-01-01  4554
+2014-01-01  4204
+2015-01-01  3851
+2016-01-01  3558
+2017-01-01  3441

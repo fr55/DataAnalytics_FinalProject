@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic White Persons in Durham County, NC
+Series ID:           B03002003E037063
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:57 AM CST
+Notes:               
+
+DATE          VALUE
+2009-01-01   117384
+2010-01-01   111509
+2011-01-01   112696
+2012-01-01   113996
+2013-01-01   116447
+2014-01-01   118843
+2015-01-01   121493
+2016-01-01   123833
+2017-01-01   126557

@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Caswell County, NC
+Series ID:           CDC20N2U037033
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  503.0
+2000-01-01  483.7
+2001-01-01  622.5
+2002-01-01  586.4
+2003-01-01  535.6
+2004-01-01  640.0
+2005-01-01  483.2
+2006-01-01  448.8
+2007-01-01  517.9
+2008-01-01  562.3
+2009-01-01  508.7
+2010-01-01  567.6
+2011-01-01  619.2
+2012-01-01  668.6
+2013-01-01  598.1
+2014-01-01  597.7
+2015-01-01  528.9
+2016-01-01  722.3

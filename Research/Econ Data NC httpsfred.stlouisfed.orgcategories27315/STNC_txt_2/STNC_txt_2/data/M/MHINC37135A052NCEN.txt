@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Orange County, NC
+Series ID:           MHINC37135A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  29915
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  35740
+1994-01-01      .
+1995-01-01  37959
+1996-01-01      .
+1997-01-01  39410
+1998-01-01  42202
+1999-01-01  42097
+2000-01-01  43396
+2001-01-01  44128
+2002-01-01  44691
+2003-01-01  45509
+2004-01-01  46621
+2005-01-01  45527
+2006-01-01  47699
+2007-01-01  55028
+2008-01-01  55522
+2009-01-01  51944
+2010-01-01  51434
+2011-01-01  56792
+2012-01-01  53026
+2013-01-01  59472
+2014-01-01  60304
+2015-01-01  61570
+2016-01-01  65299
+2017-01-01  69422

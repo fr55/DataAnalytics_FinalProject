@@ -1,0 +1,40 @@
+Title:               Unemployment Rate in Anson County, NC
+Series ID:           LAUCN370070000000003A
+Source:              U.S. Bureau of Labor Statistics
+Release:             Unemployment in States and Local Areas (all other areas) (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-02 3:22 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   4.3
+1991-01-01   8.5
+1992-01-01  13.9
+1993-01-01   9.0
+1994-01-01  10.4
+1995-01-01   9.2
+1996-01-01   7.1
+1997-01-01   6.1
+1998-01-01   8.0
+1999-01-01   7.0
+2000-01-01   5.2
+2001-01-01   8.4
+2002-01-01   9.2
+2003-01-01   9.5
+2004-01-01   8.5
+2005-01-01   7.4
+2006-01-01   7.5
+2007-01-01   7.3
+2008-01-01   8.8
+2009-01-01  14.8
+2010-01-01  14.1
+2011-01-01  12.3
+2012-01-01  10.9
+2013-01-01   9.5
+2014-01-01   7.1
+2015-01-01   6.5
+2016-01-01   5.8
+2017-01-01   5.3

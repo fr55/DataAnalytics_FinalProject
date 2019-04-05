@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Greene County, NC
+Series ID:           MHINC37079A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  22841
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  26274
+1994-01-01      .
+1995-01-01  27923
+1996-01-01      .
+1997-01-01  29993
+1998-01-01  30307
+1999-01-01  30248
+2000-01-01  31933
+2001-01-01  31936
+2002-01-01  31611
+2003-01-01  32817
+2004-01-01  32203
+2005-01-01  33850
+2006-01-01  35840
+2007-01-01  35977
+2008-01-01  38530
+2009-01-01  38733
+2010-01-01  38428
+2011-01-01  35013
+2012-01-01  35050
+2013-01-01  39481
+2014-01-01  37263
+2015-01-01  35060
+2016-01-01  39738
+2017-01-01  40131

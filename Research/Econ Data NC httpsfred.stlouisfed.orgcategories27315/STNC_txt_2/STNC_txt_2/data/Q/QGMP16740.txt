@@ -1,0 +1,45 @@
+Title:               Total Quantity Indexes for Real GDP for Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           QGMP16740
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2009=100
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:32 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     A chained-type index is based on the linking (chaining) of indexes to
+                     create a time series. Annual chained-type Fisher indices are used in
+                     BEA's national income and product accounts (NIPAs) whereby Fisher
+                     ideal price indices are calculated using the weights of adjacent
+                     years. Those annual changes are then multiplied (chained) together,
+                     forming the chained-type index time series. Chain-type indexes or
+                     chain-dollar estimates are used when you want to show how output or
+                     spending has changed over time. The percent changes in quantity
+                     indexes exactly match the percent changes in chained dollars, so they
+                     can be used interchangeably for making comparisons. Real estimates
+                     remove the effects of price changes, which can obscure changes in
+                     output or spending in current dollars.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE          VALUE
+2001-01-01   80.793
+2002-01-01   84.787
+2003-01-01   86.994
+2004-01-01   89.645
+2005-01-01   97.702
+2006-01-01  104.743
+2007-01-01  101.953
+2008-01-01  108.358
+2009-01-01  100.000
+2010-01-01   98.808
+2011-01-01  104.519
+2012-01-01  107.036
+2013-01-01  108.089
+2014-01-01  110.792
+2015-01-01  116.555
+2016-01-01  120.813
+2017-01-01  125.085

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Polk County, NC
+Series ID:           BPPRIV037149
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    95
+1991-01-01   104
+1992-01-01   111
+1993-01-01   128
+1994-01-01    97
+1995-01-01   103
+1996-01-01   135
+1997-01-01   113
+1998-01-01   128
+1999-01-01   153
+2000-01-01   121
+2001-01-01   153
+2002-01-01   161
+2003-01-01   197
+2004-01-01   155
+2005-01-01   165
+2006-01-01   191
+2007-01-01   165
+2008-01-01    89
+2009-01-01    51
+2010-01-01    39
+2011-01-01    41
+2012-01-01    43
+2013-01-01    47
+2014-01-01    67
+2015-01-01    61
+2016-01-01    74
+2017-01-01    93

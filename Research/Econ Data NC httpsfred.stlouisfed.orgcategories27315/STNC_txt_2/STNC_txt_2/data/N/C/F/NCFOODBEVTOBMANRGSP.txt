@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Food and Beverage and Tobacco Products Manufacturing for North Carolina
+Series ID:           NCFOODBEVTOBMANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  19895.3
+1998-01-01  21167.4
+1999-01-01  22110.9
+2000-01-01  25711.0
+2001-01-01  26167.8
+2002-01-01  21207.2
+2003-01-01  23477.9
+2004-01-01  25010.9
+2005-01-01  25043.3
+2006-01-01  29551.9
+2007-01-01  28615.3
+2008-01-01  24765.1
+2009-01-01  24700.2
+2010-01-01  22158.2
+2011-01-01  20579.7
+2012-01-01  19533.3
+2013-01-01  18839.3
+2014-01-01  17009.9
+2015-01-01  17604.6
+2016-01-01  16560.0

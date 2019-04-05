@@ -1,0 +1,40 @@
+Title:               All Employees: Food Services and Drinking Places in North Carolina
+Series ID:           SMU37000007072200001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  173.1
+1991-01-01  173.0
+1992-01-01  184.6
+1993-01-01  192.9
+1994-01-01  200.0
+1995-01-01  209.5
+1996-01-01  215.3
+1997-01-01  221.5
+1998-01-01  226.0
+1999-01-01  233.5
+2000-01-01  238.1
+2001-01-01  241.4
+2002-01-01  249.1
+2003-01-01  253.9
+2004-01-01  265.4
+2005-01-01  273.2
+2006-01-01  289.0
+2007-01-01  302.0
+2008-01-01  306.0
+2009-01-01  299.4
+2010-01-01  299.3
+2011-01-01  305.6
+2012-01-01  318.0
+2013-01-01  331.2
+2014-01-01  341.6
+2015-01-01  354.1
+2016-01-01  368.5
+2017-01-01  378.1

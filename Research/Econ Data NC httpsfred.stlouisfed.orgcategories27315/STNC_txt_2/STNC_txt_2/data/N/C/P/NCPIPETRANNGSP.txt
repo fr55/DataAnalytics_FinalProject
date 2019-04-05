@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Pipeline Transportation for North Carolina
+Series ID:           NCPIPETRANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE       VALUE
+1997-01-01   8.7
+1998-01-01  12.2
+1999-01-01  12.7
+2000-01-01   9.5
+2001-01-01  15.6
+2002-01-01  16.2
+2003-01-01  17.7
+2004-01-01  22.3
+2005-01-01  19.5
+2006-01-01  21.8
+2007-01-01  25.4
+2008-01-01  30.5
+2009-01-01  33.9
+2010-01-01  57.5
+2011-01-01  50.1
+2012-01-01  55.8
+2013-01-01  55.0
+2014-01-01  55.1
+2015-01-01  65.3
+2016-01-01  81.0

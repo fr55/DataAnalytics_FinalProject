@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Caldwell County, NC
+Series ID:           BPPRIV037027
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:03 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   288
+1991-01-01   278
+1992-01-01   313
+1993-01-01   358
+1994-01-01   290
+1995-01-01   324
+1996-01-01   374
+1997-01-01   310
+1998-01-01   346
+1999-01-01   444
+2000-01-01   401
+2001-01-01   403
+2002-01-01   414
+2003-01-01   340
+2004-01-01   393
+2005-01-01   339
+2006-01-01   319
+2007-01-01   311
+2008-01-01   203
+2009-01-01   124
+2010-01-01    97
+2011-01-01    87
+2012-01-01    64
+2013-01-01    83
+2014-01-01   104
+2015-01-01   119
+2016-01-01    92
+2017-01-01   108

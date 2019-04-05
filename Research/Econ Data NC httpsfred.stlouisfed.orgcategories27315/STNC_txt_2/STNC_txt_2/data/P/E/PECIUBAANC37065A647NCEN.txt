@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Edgecombe County, NC
+Series ID:           PECIUBAANC37065A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  13581
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  15606
+1994-01-01      .
+1995-01-01  15147
+1996-01-01      .
+1997-01-01  14629
+1998-01-01  15034
+1999-01-01  14102
+2000-01-01  12882
+2001-01-01  12304
+2002-01-01  13115
+2003-01-01  13138
+2004-01-01  14029
+2005-01-01  15779
+2006-01-01  14878
+2007-01-01  13271
+2008-01-01  13366
+2009-01-01  14806
+2010-01-01  15619
+2011-01-01  16266
+2012-01-01  17471
+2013-01-01  16866
+2014-01-01  16118
+2015-01-01  16804
+2016-01-01  14438
+2017-01-01  15367

@@ -1,0 +1,13 @@
+Title:               New Patent Assignments in Perquimans County, NC
+Series ID:           USPTOISSUED037143
+Source:              U.S. Patent and Trademark Office
+Release:             New Patent Assignments (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Monthly
+Units:               Patents
+Date Range:          2000-07-01 to 2000-07-01
+Last Updated:        2017-06-09 5:51 PM CDT
+Notes:               
+
+DATE       VALUE
+2000-07-01     1

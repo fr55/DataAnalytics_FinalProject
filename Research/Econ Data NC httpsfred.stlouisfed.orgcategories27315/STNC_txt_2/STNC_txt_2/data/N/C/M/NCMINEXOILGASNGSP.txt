@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Mining: Mining, Except Oil and Gas for North Carolina
+Series ID:           NCMINEXOILGASNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01   417.4
+1998-01-01   467.5
+1999-01-01   504.3
+2000-01-01   485.8
+2001-01-01   464.9
+2002-01-01   445.6
+2003-01-01   515.0
+2004-01-01   699.1
+2005-01-01   795.9
+2006-01-01   878.9
+2007-01-01  1081.1
+2008-01-01   760.0
+2009-01-01   713.1
+2010-01-01   616.1
+2011-01-01   445.1
+2012-01-01   324.3
+2013-01-01   344.6
+2014-01-01   395.9
+2015-01-01   394.7
+2016-01-01   444.5

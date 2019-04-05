@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Moore County, NC
+Series ID:           BPPRIV037125
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   470
+1991-01-01   375
+1992-01-01   631
+1993-01-01   621
+1994-01-01   711
+1995-01-01   675
+1996-01-01   710
+1997-01-01   689
+1998-01-01   841
+1999-01-01   748
+2000-01-01   607
+2001-01-01   606
+2002-01-01   608
+2003-01-01   655
+2004-01-01   795
+2005-01-01   996
+2006-01-01   976
+2007-01-01   799
+2008-01-01   424
+2009-01-01   313
+2010-01-01   366
+2011-01-01   396
+2012-01-01   420
+2013-01-01   497
+2014-01-01   608
+2015-01-01   561
+2016-01-01   731
+2017-01-01   720

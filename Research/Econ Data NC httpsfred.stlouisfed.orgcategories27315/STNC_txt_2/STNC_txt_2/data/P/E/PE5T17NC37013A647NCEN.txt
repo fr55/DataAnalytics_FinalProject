@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Beaufort County, NC
+Series ID:           PE5T17NC37013A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1595
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1940
+1994-01-01     .
+1995-01-01  2127
+1996-01-01     .
+1997-01-01  1993
+1998-01-01  2284
+1999-01-01  2120
+2000-01-01  1784
+2001-01-01  1753
+2002-01-01  1774
+2003-01-01  1831
+2004-01-01  1761
+2005-01-01  1972
+2006-01-01  1918
+2007-01-01  1788
+2008-01-01  2016
+2009-01-01  1931
+2010-01-01  2248
+2011-01-01  2469
+2012-01-01  2109
+2013-01-01  2286
+2014-01-01  2037
+2015-01-01  2277
+2016-01-01  2129
+2017-01-01  2073

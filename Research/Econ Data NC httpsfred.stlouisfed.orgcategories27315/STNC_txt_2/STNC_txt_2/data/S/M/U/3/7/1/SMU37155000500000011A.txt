@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in Burlington, NC (MSA)
+Series ID:           SMU37155000500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  586.80
+2008-01-01  564.46
+2009-01-01  610.20
+2010-01-01  632.25
+2011-01-01  630.83
+2012-01-01  703.49
+2013-01-01  757.34
+2014-01-01  771.68
+2015-01-01  794.59
+2016-01-01  775.01
+2017-01-01  737.38

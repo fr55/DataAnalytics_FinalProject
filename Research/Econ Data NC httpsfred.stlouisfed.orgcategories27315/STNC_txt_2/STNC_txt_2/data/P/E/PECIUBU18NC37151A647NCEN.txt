@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Randolph County, NC
+Series ID:           PECIUBU18NC37151A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   3084
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   4297
+1994-01-01      .
+1995-01-01   4797
+1996-01-01      .
+1997-01-01   5110
+1998-01-01   5296
+1999-01-01   5366
+2000-01-01   5891
+2001-01-01   6315
+2002-01-01   6704
+2003-01-01   7219
+2004-01-01   7302
+2005-01-01   8421
+2006-01-01   8303
+2007-01-01   9919
+2008-01-01   8226
+2009-01-01   9389
+2010-01-01  10647
+2011-01-01  10030
+2012-01-01  10760
+2013-01-01  10917
+2014-01-01   9946
+2015-01-01   9428
+2016-01-01   8126
+2017-01-01   8849

@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Duplin County, NC
+Series ID:           DMPCRATE037061
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  78.3899998664856
+2009-01-01  72.4399998188019
+2010-01-01  73.6899998188019
+2011-01-01  71.2929999995977
+2012-01-01  67.5249999994412
+2013-01-01  54.4419999998063
+2014-01-01  59.0749999997206
+2015-01-01  45.3579999995418

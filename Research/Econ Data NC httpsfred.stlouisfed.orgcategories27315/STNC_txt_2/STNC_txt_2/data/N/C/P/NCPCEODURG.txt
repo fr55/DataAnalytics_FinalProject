@@ -1,0 +1,41 @@
+Title:               Personal Consumption Expenditures: Goods: Durable Goods: Other Durable Goods for North Carolina
+Series ID:           NCPCEODURG
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Purchases of jewelry and watches, therapeutic appliances and
+                     equipment, educational books, luggage and similar personal items, and
+                     telephone and facsimile equipment.For more information about this
+                     release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01  2315
+1998-01-01  2460
+1999-01-01  2681
+2000-01-01  2870
+2001-01-01  2793
+2002-01-01  2767
+2003-01-01  3005
+2004-01-01  3241
+2005-01-01  3494
+2006-01-01  3858
+2007-01-01  4276
+2008-01-01  4172
+2009-01-01  4076
+2010-01-01  4209
+2011-01-01  4428
+2012-01-01  4620
+2013-01-01  4808
+2014-01-01  5075
+2015-01-01  5242
+2016-01-01  5262
+2017-01-01  5576

@@ -1,0 +1,38 @@
+Title:               Total Per Capita Real Gross Domestic Product for Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           PCRGMP25860
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area. Gross
+                     Domestic Product of a given area divided by the resident population of
+                     the area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  35653
+2002-01-01  35332
+2003-01-01  34152
+2004-01-01  35670
+2005-01-01  34993
+2006-01-01  35821
+2007-01-01  33372
+2008-01-01  32125
+2009-01-01  30066
+2010-01-01  31118
+2011-01-01  31022
+2012-01-01  30731
+2013-01-01  30748
+2014-01-01  31189
+2015-01-01  32385
+2016-01-01  32636
+2017-01-01  34070

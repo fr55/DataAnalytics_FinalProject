@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Financial Activities in North Carolina
+Series ID:           SMU37000005500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE          VALUE
+2007-01-01  1023.93
+2008-01-01   986.80
+2009-01-01   937.32
+2010-01-01   960.88
+2011-01-01   987.00
+2012-01-01  1032.67
+2013-01-01  1015.80
+2014-01-01   999.55
+2015-01-01  1104.79
+2016-01-01  1249.15
+2017-01-01  1299.07

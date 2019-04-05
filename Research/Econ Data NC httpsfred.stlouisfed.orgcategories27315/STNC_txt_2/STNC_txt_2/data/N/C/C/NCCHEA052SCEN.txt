@@ -1,0 +1,41 @@
+Title:               Value of Exports to Switzerland from North Carolina
+Series ID:           NCCHEA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE             VALUE
+1992-01-01    31196976
+1993-01-01           .
+1994-01-01           .
+1995-01-01           .
+1996-01-01           .
+1997-01-01    93820647
+1998-01-01           .
+1999-01-01           .
+2000-01-01           .
+2001-01-01           .
+2002-01-01   105874024
+2003-01-01   218388036
+2004-01-01   142260557
+2005-01-01    99649467
+2006-01-01   166332491
+2007-01-01   149357687
+2008-01-01   204185757
+2009-01-01   226641125
+2010-01-01   189644016
+2011-01-01   118213983
+2012-01-01   137512280
+2013-01-01   112800020
+2014-01-01   116082586
+2015-01-01   178475214
+2016-01-01   140119152

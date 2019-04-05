@@ -1,0 +1,23 @@
+Title:               Average Weekly Hours of All Employees: Total Private in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472600500000002A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Hours per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:08 PM CDT
+Notes:               
+
+DATE       VALUE
+2007-01-01  35.1
+2008-01-01  35.7
+2009-01-01  35.8
+2010-01-01  35.6
+2011-01-01  34.9
+2012-01-01  34.5
+2013-01-01  34.0
+2014-01-01  33.9
+2015-01-01  34.1
+2016-01-01  33.9
+2017-01-01  34.1

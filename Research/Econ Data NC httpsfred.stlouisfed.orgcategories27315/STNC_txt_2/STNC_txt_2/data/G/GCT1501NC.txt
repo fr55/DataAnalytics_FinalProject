@@ -1,0 +1,23 @@
+Title:               High School Graduate or Higher for North Carolina
+Series ID:           GCT1501NC
+Source:              U.S. Bureau of the Census
+Release:             Educational Attainment (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2006-01-01 to 2016-01-01
+Last Updated:        2018-07-31 12:59 PM CDT
+Notes:               
+
+DATE       VALUE
+2006-01-01    82
+2007-01-01    83
+2008-01-01  83.6
+2009-01-01  84.3
+2010-01-01  84.7
+2011-01-01  84.7
+2012-01-01  85.2
+2013-01-01  85.7
+2014-01-01  86.4
+2015-01-01  86.6
+2016-01-01  87.3

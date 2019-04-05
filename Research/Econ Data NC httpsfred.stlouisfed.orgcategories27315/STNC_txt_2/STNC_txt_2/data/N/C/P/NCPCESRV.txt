@@ -1,0 +1,51 @@
+Title:               Personal Consumption Expenditures: Services for North Carolina
+Series ID:           NCPCESRV
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Products that cannot be stored or inventoried that are usually
+                     consumed at the place and time of their purchase.
+                     
+                     This (SIC) division includes establishments primarily engaged in
+                     providing a wide variety of services for individuals, business and
+                     government establishments, and other organizations. Hotels and other
+                     lodging places; establishments providing personal, business, repair,
+                     and amusement services; health, legal, engineering, and other
+                     professional services; educational institutions; membership
+                     organizations, and other miscellaneous services, are included.
+                     
+                     Establishments which provide specialized services closely allied to
+                     activities covered in other divisions are classified in such
+                     divisions.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE         VALUE
+1997-01-01   81380
+1998-01-01   85774
+1999-01-01   91488
+2000-01-01   99297
+2001-01-01  104584
+2002-01-01  109099
+2003-01-01  114951
+2004-01-01  122774
+2005-01-01  131629
+2006-01-01  140900
+2007-01-01  150424
+2008-01-01  157236
+2009-01-01  160662
+2010-01-01  165857
+2011-01-01  171713
+2012-01-01  177687
+2013-01-01  182996
+2014-01-01  190413
+2015-01-01  200965
+2016-01-01  211583
+2017-01-01  223286

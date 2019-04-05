@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in Asheville, NC (MSA)
+Series ID:           SMU37117000500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  636.99
+2008-01-01  637.94
+2009-01-01  621.24
+2010-01-01  636.31
+2011-01-01  619.45
+2012-01-01  636.18
+2013-01-01  655.34
+2014-01-01  712.84
+2015-01-01  708.17
+2016-01-01  744.37
+2017-01-01  759.60

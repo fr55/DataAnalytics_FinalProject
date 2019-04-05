@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Dare County, NC
+Series ID:           MHICILBNC37055A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  23802
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28600
+1994-01-01      .
+1995-01-01  30571
+1996-01-01      .
+1997-01-01  32147
+1998-01-01  33366
+1999-01-01  36733
+2000-01-01  39309
+2001-01-01  39018
+2002-01-01  39937
+2003-01-01  41631
+2004-01-01  43258
+2005-01-01  44139
+2006-01-01  46682
+2007-01-01  47408
+2008-01-01  50671
+2009-01-01  45062
+2010-01-01  46002
+2011-01-01  46550
+2012-01-01  48496
+2013-01-01  47782
+2014-01-01  51682
+2015-01-01  48631
+2016-01-01  51391
+2017-01-01  53044

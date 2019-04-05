@@ -1,0 +1,22 @@
+Title:               Income Inequality in Warren County, NC
+Series ID:           2020RATIO037185
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  22.040447343895618
+2011-01-01  16.543668416094740
+2012-01-01  14.580490724117295
+2013-01-01  14.093619972260749
+2014-01-01  13.421545938440175
+2015-01-01  13.924891229677124
+2016-01-01  14.972542825902078
+2017-01-01  15.547870447265394

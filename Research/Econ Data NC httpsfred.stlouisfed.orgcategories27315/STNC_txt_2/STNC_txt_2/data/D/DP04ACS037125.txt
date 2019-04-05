@@ -1,0 +1,21 @@
+Title:               Burdened Households in Moore County, NC
+Series ID:           DP04ACS037125
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  27.698951264651450
+2011-01-01  28.944968075402862
+2012-01-01  29.896281743853464
+2013-01-01  29.910498650376470
+2014-01-01  30.153181572739935
+2015-01-01  29.258759349867837
+2016-01-01  28.136392292300520

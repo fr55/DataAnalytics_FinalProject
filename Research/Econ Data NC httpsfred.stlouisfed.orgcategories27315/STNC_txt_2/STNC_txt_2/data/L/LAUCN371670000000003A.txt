@@ -1,0 +1,40 @@
+Title:               Unemployment Rate in Stanly County, NC
+Series ID:           LAUCN371670000000003A
+Source:              U.S. Bureau of Labor Statistics
+Release:             Unemployment in States and Local Areas (all other areas) (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-02 3:21 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   4.7
+1991-01-01   6.7
+1992-01-01   6.2
+1993-01-01   5.1
+1994-01-01   6.2
+1995-01-01   5.8
+1996-01-01   6.2
+1997-01-01   4.8
+1998-01-01   3.4
+1999-01-01   3.6
+2000-01-01   3.8
+2001-01-01   7.1
+2002-01-01   7.2
+2003-01-01   7.2
+2004-01-01   6.2
+2005-01-01   5.4
+2006-01-01   5.1
+2007-01-01   4.9
+2008-01-01   6.5
+2009-01-01  12.1
+2010-01-01  13.2
+2011-01-01  11.8
+2012-01-01   9.9
+2013-01-01   8.2
+2014-01-01   6.1
+2015-01-01   5.3
+2016-01-01   4.6
+2017-01-01   4.2

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Percent of Related Children Age 5-17 in Families in Poverty for Nash County, NC
+Series ID:           PPCIUB5T17NC37127A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:51 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  27.5
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  22.7
+1994-01-01     .
+1995-01-01  21.9
+1996-01-01     .
+1997-01-01  22.2
+1998-01-01  24.3
+1999-01-01  24.0
+2000-01-01  20.1
+2001-01-01  20.5
+2002-01-01  21.6
+2003-01-01  22.9
+2004-01-01  23.3
+2005-01-01  25.7
+2006-01-01  22.4
+2007-01-01  23.0
+2008-01-01  22.6
+2009-01-01  25.6
+2010-01-01  27.7
+2011-01-01  31.5
+2012-01-01  30.9
+2013-01-01  28.1
+2014-01-01  31.0
+2015-01-01  29.5
+2016-01-01    29
+2017-01-01  27.4

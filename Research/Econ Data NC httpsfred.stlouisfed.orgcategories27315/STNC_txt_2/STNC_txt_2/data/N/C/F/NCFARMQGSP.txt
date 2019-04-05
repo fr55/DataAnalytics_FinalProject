@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Agriculture, Forestry, Fishing, and Hunting: Farms for North Carolina
+Series ID:           NCFARMQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  133.619
+1998-01-01  109.194
+1999-01-01  109.106
+2000-01-01  163.867
+2001-01-01  154.077
+2002-01-01   96.507
+2003-01-01   97.184
+2004-01-01  127.962
+2005-01-01  150.152
+2006-01-01  148.640
+2007-01-01  105.781
+2008-01-01  107.682
+2009-01-01  140.098
+2010-01-01  124.892
+2011-01-01   84.470
+2012-01-01  100.000
+2013-01-01  113.247
+2014-01-01  131.446
+2015-01-01  139.427
+2016-01-01  143.931

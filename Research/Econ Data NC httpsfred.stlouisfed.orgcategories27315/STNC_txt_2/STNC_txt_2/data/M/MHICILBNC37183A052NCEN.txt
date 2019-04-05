@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Wake County, NC
+Series ID:           MHICILBNC37183A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:39 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  32372
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  39654
+1994-01-01      .
+1995-01-01  45311
+1996-01-01      .
+1997-01-01  48638
+1998-01-01  52386
+1999-01-01  52055
+2000-01-01  54234
+2001-01-01  53486
+2002-01-01  52819
+2003-01-01  53833
+2004-01-01  54608
+2005-01-01  55627
+2006-01-01  59514
+2007-01-01  60574
+2008-01-01  63427
+2009-01-01  61981
+2010-01-01  60246
+2011-01-01  60622
+2012-01-01  61976
+2013-01-01  63605
+2014-01-01  64949
+2015-01-01  69374
+2016-01-01  74132
+2017-01-01  75147

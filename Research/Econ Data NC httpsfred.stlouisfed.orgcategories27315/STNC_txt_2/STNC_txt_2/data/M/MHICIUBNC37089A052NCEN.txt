@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Henderson County, NC
+Series ID:           MHICIUBNC37089A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  27707
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  31423
+1994-01-01      .
+1995-01-01  36680
+1996-01-01      .
+1997-01-01  38103
+1998-01-01  39554
+1999-01-01  39855
+2000-01-01  42248
+2001-01-01  40438
+2002-01-01  40212
+2003-01-01  40340
+2004-01-01  42610
+2005-01-01  40750
+2006-01-01  45207
+2007-01-01  50242
+2008-01-01  48077
+2009-01-01  48263
+2010-01-01  46216
+2011-01-01  48833
+2012-01-01  47823
+2013-01-01  46885
+2014-01-01  50530
+2015-01-01  49768
+2016-01-01  56504
+2017-01-01  53518

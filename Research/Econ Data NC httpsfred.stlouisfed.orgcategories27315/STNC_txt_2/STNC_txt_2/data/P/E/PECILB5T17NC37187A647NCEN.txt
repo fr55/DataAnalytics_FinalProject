@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Washington County, NC
+Series ID:           PECILB5T17NC37187A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:02 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   542
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   564
+1994-01-01     .
+1995-01-01   636
+1996-01-01     .
+1997-01-01   584
+1998-01-01   648
+1999-01-01   575
+2000-01-01   524
+2001-01-01   481
+2002-01-01   474
+2003-01-01   477
+2004-01-01   454
+2005-01-01   636
+2006-01-01   590
+2007-01-01   559
+2008-01-01   569
+2009-01-01   579
+2010-01-01   601
+2011-01-01   538
+2012-01-01   670
+2013-01-01   596
+2014-01-01   599
+2015-01-01   572
+2016-01-01   596
+2017-01-01   518

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Ashe County, NC
+Series ID:           DP04ACS037009
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  29.064824654622740
+2011-01-01  31.282051282051280
+2012-01-01  34.311651683412656
+2013-01-01  34.239713774597500
+2014-01-01  31.896005072923273
+2015-01-01  31.264180052636352
+2016-01-01  28.023919543354168

@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Asian Persons in Davidson County, NC
+Series ID:           B03002006E037057
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:54 AM CST
+Notes:               
+
+DATE        VALUE
+2009-01-01   1816
+2010-01-01   2035
+2011-01-01   2058
+2012-01-01   2004
+2013-01-01   2110
+2014-01-01   1956
+2015-01-01   2064
+2016-01-01   2180
+2017-01-01   2402

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Person County, NC
+Series ID:           PECIUBU18NC37145A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1631
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1849
+1994-01-01     .
+1995-01-01  1823
+1996-01-01     .
+1997-01-01  1784
+1998-01-01  1852
+1999-01-01  1718
+2000-01-01  1547
+2001-01-01  1587
+2002-01-01  1656
+2003-01-01  1964
+2004-01-01  2056
+2005-01-01  2037
+2006-01-01  2010
+2007-01-01  1977
+2008-01-01  1933
+2009-01-01  2179
+2010-01-01  2625
+2011-01-01  2728
+2012-01-01  2510
+2013-01-01  2625
+2014-01-01  2639
+2015-01-01  2403
+2016-01-01  2405
+2017-01-01  2227

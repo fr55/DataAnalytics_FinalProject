@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for McDowell County, NC
+Series ID:           PECIUBU18NC37111A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1120
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1659
+1994-01-01     .
+1995-01-01  1824
+1996-01-01     .
+1997-01-01  2024
+1998-01-01  2129
+1999-01-01  2021
+2000-01-01  2032
+2001-01-01  2039
+2002-01-01  2007
+2003-01-01  2272
+2004-01-01  2303
+2005-01-01  2331
+2006-01-01  2732
+2007-01-01  2468
+2008-01-01  2521
+2009-01-01  2964
+2010-01-01  3423
+2011-01-01  3685
+2012-01-01  3399
+2013-01-01  3400
+2014-01-01  3010
+2015-01-01  2902
+2016-01-01  2918
+2017-01-01  2881

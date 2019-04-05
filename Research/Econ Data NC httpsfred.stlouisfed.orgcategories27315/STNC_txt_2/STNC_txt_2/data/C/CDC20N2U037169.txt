@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Stokes County, NC
+Series ID:           CDC20N2U037169
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:21 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  446.3
+2000-01-01  463.0
+2001-01-01  408.9
+2002-01-01  450.4
+2003-01-01  562.8
+2004-01-01  417.1
+2005-01-01  515.2
+2006-01-01  489.1
+2007-01-01  523.1
+2008-01-01  477.5
+2009-01-01  516.2
+2010-01-01  578.4
+2011-01-01  550.9
+2012-01-01  511.5
+2013-01-01  522.1
+2014-01-01  532.7
+2015-01-01  612.6
+2016-01-01  656.6

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Stokes County, NC
+Series ID:           DP04ACS037169
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  24.020234587803657
+2011-01-01  26.488604381656643
+2012-01-01  27.051323962079110
+2013-01-01  26.760719840035545
+2014-01-01  28.155996393146980
+2015-01-01  29.109918055948008
+2016-01-01  27.917036379769300

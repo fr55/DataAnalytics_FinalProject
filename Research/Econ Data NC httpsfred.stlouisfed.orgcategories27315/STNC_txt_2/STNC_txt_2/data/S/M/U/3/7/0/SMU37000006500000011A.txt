@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Education and Health Services in North Carolina
+Series ID:           SMU37000006500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  611.21
+2008-01-01  657.52
+2009-01-01  655.68
+2010-01-01  647.68
+2011-01-01  668.61
+2012-01-01  723.90
+2013-01-01  722.81
+2014-01-01  722.42
+2015-01-01  729.33
+2016-01-01  740.30
+2017-01-01  782.46

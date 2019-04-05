@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Miscellaneous Manufacturing for North Carolina
+Series ID:           NCMISCMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   49.140
+1998-01-01   55.561
+1999-01-01   58.543
+2000-01-01   61.562
+2001-01-01   57.589
+2002-01-01   55.978
+2003-01-01   53.028
+2004-01-01   48.951
+2005-01-01   51.328
+2006-01-01   66.844
+2007-01-01   65.302
+2008-01-01   76.043
+2009-01-01   81.125
+2010-01-01   95.696
+2011-01-01  105.293
+2012-01-01  100.000
+2013-01-01   84.449
+2014-01-01   90.247
+2015-01-01   83.941
+2016-01-01   70.485

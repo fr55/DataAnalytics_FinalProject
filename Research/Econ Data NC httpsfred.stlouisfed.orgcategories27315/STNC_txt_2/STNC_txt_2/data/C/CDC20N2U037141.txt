@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Pender County, NC
+Series ID:           CDC20N2U037141
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  485.5
+2000-01-01  512.8
+2001-01-01  478.7
+2002-01-01  517.5
+2003-01-01  438.3
+2004-01-01  477.4
+2005-01-01  414.2
+2006-01-01  571.3
+2007-01-01  525.6
+2008-01-01  479.7
+2009-01-01  468.1
+2010-01-01  452.9
+2011-01-01  483.1
+2012-01-01  517.8
+2013-01-01  484.3
+2014-01-01  453.4
+2015-01-01  504.8
+2016-01-01  574.6

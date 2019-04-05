@@ -1,0 +1,32 @@
+Title:               Per Capita Personal Income in North Carolina
+Series ID:           NCPCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             State Per Capita Personal Income (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1998-01-01 to 2017-01-01
+Last Updated:        2018-09-25 3:31 PM CDT
+Notes:               
+
+DATE        VALUE
+1998-01-01  25375
+1999-01-01  26204
+2000-01-01  27453
+2001-01-01  27823
+2002-01-01  27841
+2003-01-01  28633
+2004-01-01  30577
+2005-01-01  32287
+2006-01-01  34241
+2007-01-01  36072
+2008-01-01  37636
+2009-01-01  35746
+2010-01-01  35592
+2011-01-01  36665
+2012-01-01  38854
+2013-01-01  38078
+2014-01-01  39976
+2015-01-01  41814
+2016-01-01  42707
+2017-01-01  44222

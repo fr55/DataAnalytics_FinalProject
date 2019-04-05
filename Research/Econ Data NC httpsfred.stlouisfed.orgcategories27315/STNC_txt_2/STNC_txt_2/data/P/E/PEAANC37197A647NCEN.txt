@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Yadkin County, NC
+Series ID:           PEAANC37197A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3142
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3721
+1994-01-01     .
+1995-01-01  3619
+1996-01-01     .
+1997-01-01  3555
+1998-01-01  3868
+1999-01-01  3681
+2000-01-01  3574
+2001-01-01  3806
+2002-01-01  3903
+2003-01-01  4197
+2004-01-01  4367
+2005-01-01  4557
+2006-01-01  4476
+2007-01-01  5787
+2008-01-01  5168
+2009-01-01  4993
+2010-01-01  5742
+2011-01-01  6526
+2012-01-01  7262
+2013-01-01  7119
+2014-01-01  6430
+2015-01-01  6050
+2016-01-01  5202
+2017-01-01  5022

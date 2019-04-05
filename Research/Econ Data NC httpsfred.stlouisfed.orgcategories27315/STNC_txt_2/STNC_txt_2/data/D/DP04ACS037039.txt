@@ -1,0 +1,21 @@
+Title:               Burdened Households in Cherokee County, NC
+Series ID:           DP04ACS037039
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  24.995391705069125
+2011-01-01  26.800965466023026
+2012-01-01  29.029495718363464
+2013-01-01  30.423839726165310
+2014-01-01  30.154639175257730
+2015-01-01  29.399141630901287
+2016-01-01  28.184335443037973

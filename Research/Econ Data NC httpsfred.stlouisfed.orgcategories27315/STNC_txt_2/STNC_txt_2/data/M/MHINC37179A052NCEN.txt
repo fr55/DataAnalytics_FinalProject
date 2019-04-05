@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Union County, NC
+Series ID:           MHINC37179A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  31058
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  35099
+1994-01-01      .
+1995-01-01  37935
+1996-01-01      .
+1997-01-01  41145
+1998-01-01  44382
+1999-01-01  48594
+2000-01-01  51316
+2001-01-01  50648
+2002-01-01  51678
+2003-01-01  53889
+2004-01-01  56218
+2005-01-01  52947
+2006-01-01  59331
+2007-01-01  60612
+2008-01-01  62478
+2009-01-01  63190
+2010-01-01  64486
+2011-01-01  61515
+2012-01-01  61260
+2013-01-01  63912
+2014-01-01  64381
+2015-01-01  71690
+2016-01-01  72548
+2017-01-01  77875

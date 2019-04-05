@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Forsyth County, NC
+Series ID:           PECILBAANC37067A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  22681
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  27313
+1994-01-01      .
+1995-01-01  24594
+1996-01-01      .
+1997-01-01  24319
+1998-01-01  25838
+1999-01-01  25910
+2000-01-01  25559
+2001-01-01  25929
+2002-01-01  28740
+2003-01-01  32224
+2004-01-01  33911
+2005-01-01  39553
+2006-01-01  39050
+2007-01-01  41300
+2008-01-01  43778
+2009-01-01  52137
+2010-01-01  51533
+2011-01-01  58518
+2012-01-01  69311
+2013-01-01  66343
+2014-01-01  64552
+2015-01-01  60199
+2016-01-01  57312
+2017-01-01  56174

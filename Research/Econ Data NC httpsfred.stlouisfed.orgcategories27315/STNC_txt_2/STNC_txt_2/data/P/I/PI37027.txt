@@ -1,0 +1,39 @@
+Title:               Personal Income in Caldwell County, NC
+Series ID:           PI37027
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:02 PM CST
+Notes:               Personal Income is the income that is received by all persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. The personal income of
+                     an area is the income that is received by, or on behalf of, all the
+                     individuals who live in the area; therefore, the estimates of personal
+                     income are presented by the place of residence of the income
+                     recipients.
+
+DATE          VALUE
+2001-01-01  1948667
+2002-01-01  1945158
+2003-01-01  1950494
+2004-01-01  2049977
+2005-01-01  2096878
+2006-01-01  2149176
+2007-01-01  2204778
+2008-01-01  2253699
+2009-01-01  2218928
+2010-01-01  2242550
+2011-01-01  2297486
+2012-01-01  2393501
+2013-01-01  2358922
+2014-01-01  2450680
+2015-01-01  2585854
+2016-01-01  2636118
+2017-01-01  2772193

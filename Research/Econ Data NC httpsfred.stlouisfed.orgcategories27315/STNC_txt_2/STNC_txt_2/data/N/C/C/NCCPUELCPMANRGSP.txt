@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Computer and Electronic Products Manufacturing for North Carolina
+Series ID:           NCCPUELCPMANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   1046.8
+1998-01-01    975.9
+1999-01-01   1671.9
+2000-01-01   1773.7
+2001-01-01   1447.2
+2002-01-01   1256.3
+2003-01-01   1865.2
+2004-01-01   2183.2
+2005-01-01   3085.3
+2006-01-01   8236.2
+2007-01-01   9888.2
+2008-01-01  10366.0
+2009-01-01  10701.6
+2010-01-01  11381.9
+2011-01-01   6887.4
+2012-01-01   8277.3
+2013-01-01  10191.2
+2014-01-01  10223.7
+2015-01-01  11252.3
+2016-01-01  11119.7

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Surry County, NC
+Series ID:           BPPRIV037171
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   145
+1991-01-01   181
+1992-01-01   190
+1993-01-01   199
+1994-01-01   255
+1995-01-01   225
+1996-01-01   191
+1997-01-01   222
+1998-01-01   280
+1999-01-01   209
+2000-01-01   215
+2001-01-01   215
+2002-01-01   226
+2003-01-01   221
+2004-01-01   228
+2005-01-01   188
+2006-01-01   295
+2007-01-01   177
+2008-01-01   186
+2009-01-01    99
+2010-01-01    88
+2011-01-01    83
+2012-01-01    74
+2013-01-01    85
+2014-01-01    73
+2015-01-01    94
+2016-01-01    93
+2017-01-01   113

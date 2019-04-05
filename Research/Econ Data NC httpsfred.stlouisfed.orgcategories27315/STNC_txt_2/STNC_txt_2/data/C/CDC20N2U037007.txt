@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Anson County, NC
+Series ID:           CDC20N2U037007
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  524.0
+2000-01-01  545.7
+2001-01-01  560.9
+2002-01-01  589.8
+2003-01-01  643.2
+2004-01-01  476.5
+2005-01-01  541.5
+2006-01-01  573.2
+2007-01-01  574.9
+2008-01-01  646.8
+2009-01-01  520.4
+2010-01-01  555.5
+2011-01-01  573.1
+2012-01-01  622.6
+2013-01-01  615.2
+2014-01-01  576.1
+2015-01-01  699.6
+2016-01-01  692.0

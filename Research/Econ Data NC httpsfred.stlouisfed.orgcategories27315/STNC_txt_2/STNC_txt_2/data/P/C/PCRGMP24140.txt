@@ -1,0 +1,38 @@
+Title:               Total Per Capita Real Gross Domestic Product for Goldsboro, NC (MSA)
+Series ID:           PCRGMP24140
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area. Gross
+                     Domestic Product of a given area divided by the resident population of
+                     the area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  33098
+2002-01-01  32763
+2003-01-01  32354
+2004-01-01  33564
+2005-01-01  33568
+2006-01-01  34536
+2007-01-01  33527
+2008-01-01  32359
+2009-01-01  32901
+2010-01-01  32514
+2011-01-01  32056
+2012-01-01  31982
+2013-01-01  31943
+2014-01-01  31713
+2015-01-01  31738
+2016-01-01  31246
+2017-01-01  31470

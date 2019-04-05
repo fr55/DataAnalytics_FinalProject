@@ -1,0 +1,65 @@
+Title:               Total Investment Securities at Book Value for Commercial Banks in North Carolina (DISCONTINUED)
+Series ID:           NCTISBV
+Source:              Federal Financial Institutions Examination Council (US)
+Release:             Reports of Condition and Income for All Insured U.S. Commercial Banks
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Thousands of Dollars
+Date Range:          1984-01-01 to 1993-10-01
+Last Updated:        2014-05-22 10:54 AM CDT
+Notes:               This series represents Total Investment Securities at Book Value call
+                     item RCFD0390.
+                     
+                     Geographic location is determined by Abbreviated State Name call item
+                     RSSD9200 = 'NC' representing two character state abbreviation of North
+                     Carolina.
+                     
+                     For more information and definition about the specific call item
+                     codes, please see
+                     http://www.federalreserve.gov/apps/mdrm/data-dictionary.
+                     
+                     This series is calculated by the Federal Reserve Bank of St. Louis
+                     using raw data that are collected by the FFIEC. Raw data can be found
+                     at https://cdr.ffiec.gov/public/.
+
+DATE           VALUE
+1984-01-01   7348857
+1984-04-01   7230832
+1984-07-01   6863591
+1984-10-01   7764598
+1985-01-01   8037048
+1985-04-01   8894746
+1985-07-01   8578059
+1985-10-01  10593826
+1986-01-01  10793959
+1986-04-01  11685988
+1986-07-01  13118610
+1986-10-01  13418169
+1987-01-01  12554634
+1987-04-01   9874008
+1987-07-01  11901866
+1987-10-01  14195634
+1988-01-01  12835262
+1988-04-01  12252631
+1988-07-01  12025470
+1988-10-01  12102078
+1989-01-01  12919299
+1989-04-01  13832319
+1989-07-01  15475105
+1989-10-01  15454972
+1990-01-01  15352689
+1990-04-01  15189667
+1990-07-01  16251287
+1990-10-01  15800555
+1991-01-01  15695044
+1991-04-01  16602657
+1991-07-01  16050710
+1991-10-01  15221298
+1992-01-01  16622879
+1992-04-01  16823214
+1992-07-01  16152132
+1992-10-01  17384109
+1993-01-01  20774260
+1993-04-01  19668896
+1993-07-01  19152258
+1993-10-01  22204006

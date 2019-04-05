@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Jones County, NC
+Series ID:           PEAANC37103A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:04 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1798
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1935
+1994-01-01     .
+1995-01-01  1857
+1996-01-01     .
+1997-01-01  1700
+1998-01-01  1771
+1999-01-01  1758
+2000-01-01  1724
+2001-01-01  1697
+2002-01-01  1671
+2003-01-01  1662
+2004-01-01  1730
+2005-01-01  1936
+2006-01-01  1944
+2007-01-01  1734
+2008-01-01  1800
+2009-01-01  1826
+2010-01-01  1850
+2011-01-01  1886
+2012-01-01  2041
+2013-01-01  2092
+2014-01-01  2213
+2015-01-01  2115
+2016-01-01  2088
+2017-01-01  2115

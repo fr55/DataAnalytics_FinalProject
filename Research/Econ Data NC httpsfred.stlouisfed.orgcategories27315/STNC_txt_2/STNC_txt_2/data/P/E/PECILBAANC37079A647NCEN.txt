@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Greene County, NC
+Series ID:           PECILBAANC37079A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2057
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2260
+1994-01-01     .
+1995-01-01  2201
+1996-01-01     .
+1997-01-01  2176
+1998-01-01  2397
+1999-01-01  2366
+2000-01-01  2477
+2001-01-01  2405
+2002-01-01  2510
+2003-01-01  2556
+2004-01-01  2761
+2005-01-01  3219
+2006-01-01  3002
+2007-01-01  3136
+2008-01-01  3185
+2009-01-01  3266
+2010-01-01  3581
+2011-01-01  4036
+2012-01-01  4317
+2013-01-01  3514
+2014-01-01  4464
+2015-01-01  3817
+2016-01-01  3514
+2017-01-01  4378

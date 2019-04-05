@@ -1,0 +1,44 @@
+Title:               Age 65 and Over, Poverty Tax Exemptions for North Carolina
+Series ID:           PAGEXMNC37A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Exemptions
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               Poverty Age Tax Exemptions - the subset of age exemptions for which
+                     the adjusted gross income falls below the official poverty threshold
+                     for a family of the size implied by the number of exemptions on the
+                     return. For more information please visit,
+                     http://www.census.gov/did/www/saipe/data/model/irs.html.
+
+DATE         VALUE
+1989-01-01   51458
+1990-01-01   55136
+1991-01-01   60044
+1992-01-01   59007
+1993-01-01   61005
+1994-01-01   60682
+1995-01-01   55457
+1996-01-01   54968
+1997-01-01   51971
+1998-01-01   51085
+1999-01-01   53889
+2000-01-01   54015
+2001-01-01   63737
+2002-01-01   77217
+2003-01-01   84524
+2004-01-01   86818
+2005-01-01   82694
+2006-01-01   89642
+2007-01-01  228785
+2008-01-01  119872
+2009-01-01  137974
+2010-01-01  136891
+2011-01-01  146962
+2012-01-01  152911
+2013-01-01  159740
+2014-01-01  163808
+2015-01-01  168045
+2016-01-01  174931

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Granville County, NC
+Series ID:           DP04ACS037077
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  30.561622464898598
+2011-01-01  31.608325942928690
+2012-01-01  31.803896920175990
+2013-01-01  31.268772656654580
+2014-01-01  32.081717093354020
+2015-01-01  31.889904509012920
+2016-01-01  30.186397984886646

@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Davie County, NC
+Series ID:           DMPCRATE037059
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  74.0899999141693
+2009-01-01  75.2899999618530
+2010-01-01  71.5499999523163
+2011-01-01  67.3089999994263
+2012-01-01  52.1699999999255
+2013-01-01  48.7179999998771
+2014-01-01  43.3199999998324
+2015-01-01  42.8169999998063

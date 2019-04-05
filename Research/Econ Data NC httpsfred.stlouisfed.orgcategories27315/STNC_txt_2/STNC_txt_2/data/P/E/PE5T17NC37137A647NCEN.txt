@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Pamlico County, NC
+Series ID:           PE5T17NC37137A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   594
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   488
+1994-01-01     .
+1995-01-01   526
+1996-01-01     .
+1997-01-01   531
+1998-01-01   591
+1999-01-01   507
+2000-01-01   437
+2001-01-01   426
+2002-01-01   403
+2003-01-01   412
+2004-01-01   368
+2005-01-01   430
+2006-01-01   423
+2007-01-01   383
+2008-01-01   388
+2009-01-01   428
+2010-01-01   473
+2011-01-01   534
+2012-01-01   488
+2013-01-01   515
+2014-01-01   475
+2015-01-01   451
+2016-01-01   442
+2017-01-01   416

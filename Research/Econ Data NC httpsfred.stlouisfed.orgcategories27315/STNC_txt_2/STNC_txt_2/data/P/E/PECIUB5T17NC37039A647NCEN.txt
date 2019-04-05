@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Cherokee County, NC
+Series ID:           PECIUB5T17NC37039A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   905
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1053
+1994-01-01     .
+1995-01-01  1204
+1996-01-01     .
+1997-01-01  1188
+1998-01-01  1261
+1999-01-01   979
+2000-01-01   924
+2001-01-01  1001
+2002-01-01  1014
+2003-01-01  1002
+2004-01-01  1013
+2005-01-01  1082
+2006-01-01  1037
+2007-01-01  1113
+2008-01-01  1196
+2009-01-01  1323
+2010-01-01  1456
+2011-01-01  1370
+2012-01-01  1492
+2013-01-01  1448
+2014-01-01  1346
+2015-01-01  1302
+2016-01-01  1303
+2017-01-01  1225

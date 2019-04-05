@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Professional and Business Services: Professional, Scientific, and Technical Services: Computer Systems Design and Related Services for North Carolina
+Series ID:           NCCPUSYSDSGNNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  1418.0
+1998-01-01  1620.2
+1999-01-01  2073.7
+2000-01-01  2054.4
+2001-01-01  2116.6
+2002-01-01  2079.1
+2003-01-01  2179.6
+2004-01-01  2613.5
+2005-01-01  2898.4
+2006-01-01  3250.9
+2007-01-01  3670.8
+2008-01-01  3657.2
+2009-01-01  3894.0
+2010-01-01  4147.2
+2011-01-01  4770.8
+2012-01-01  5232.1
+2013-01-01  5238.2
+2014-01-01  5678.9
+2015-01-01  6552.1
+2016-01-01  7507.5

@@ -1,0 +1,40 @@
+Title:               All Employees: Service-Providing in Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           SMU37258600700000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   74.9
+1991-01-01   74.7
+1992-01-01   77.6
+1993-01-01   80.7
+1994-01-01   85.2
+1995-01-01   88.2
+1996-01-01   91.0
+1997-01-01   93.2
+1998-01-01   94.8
+1999-01-01   98.3
+2000-01-01  100.6
+2001-01-01   99.3
+2002-01-01   98.4
+2003-01-01   98.9
+2004-01-01  101.9
+2005-01-01  103.4
+2006-01-01  105.8
+2007-01-01  107.1
+2008-01-01  106.7
+2009-01-01  101.8
+2010-01-01  101.4
+2011-01-01  101.7
+2012-01-01  102.4
+2013-01-01  102.8
+2014-01-01  103.2
+2015-01-01  103.7
+2016-01-01  106.5
+2017-01-01  108.1

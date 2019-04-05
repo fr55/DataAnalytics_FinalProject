@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Edgecombe County, NC
+Series ID:           MHICILBNC37065A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18250
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  21479
+1994-01-01      .
+1995-01-01  22986
+1996-01-01      .
+1997-01-01  24536
+1998-01-01  24701
+1999-01-01  26734
+2000-01-01  28307
+2001-01-01  28048
+2002-01-01  28511
+2003-01-01  29542
+2004-01-01  30207
+2005-01-01  27203
+2006-01-01  28304
+2007-01-01  31656
+2008-01-01  31096
+2009-01-01  29289
+2010-01-01  31229
+2011-01-01  30661
+2012-01-01  29892
+2013-01-01  30767
+2014-01-01  29616
+2015-01-01  29742
+2016-01-01  31447
+2017-01-01  31895

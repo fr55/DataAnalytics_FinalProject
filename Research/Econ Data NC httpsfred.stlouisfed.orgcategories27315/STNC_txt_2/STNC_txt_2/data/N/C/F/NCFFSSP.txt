@@ -1,0 +1,99 @@
+Title:               Federal Funds Sold and Securities Purchased Under Agreements to Resell in Domestic Offices of the Bank and of Its Edge and Agreement Subsidiaries, and in International Banking Facilities (IBFs) for Commercial Banks in North Carolina
+Series ID:           NCFFSSP
+Source:              Federal Financial Institutions Examination Council (US)
+Release:             Reports of Condition and Income for All Insured U.S. Commercial Banks
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Thousands of Dollars
+Date Range:          1984-01-01 to 2001-10-01
+Last Updated:        2014-05-22 10:55 AM CDT
+Notes:               This series represents Federal Funds Sold and Securities Purchased
+                     Under Agreements to Resell in Domestic Offices of the Bank and of Its
+                     Edge and Agreement Subsidiaries, and in International Banking
+                     Facilities (IBFs) call item RCFD1350.
+                     
+                     Geographic location is determined by Abbreviated State Name call item
+                     RSSD9200 = 'NC' representing two character state abbreviation of North
+                     Carolina.
+                     
+                     For more information and definition about the specific call item
+                     codes, please see
+                     http://www.federalreserve.gov/apps/mdrm/data-dictionary.
+                     
+                     This series is calculated by the Federal Reserve Bank of St. Louis
+                     using raw data that are collected by the FFIEC. Raw data can be found
+                     at https://cdr.ffiec.gov/public/.
+
+DATE           VALUE
+1984-01-01   1353828
+1984-04-01   1944791
+1984-07-01   1557425
+1984-10-01   1316857
+1985-01-01   1811277
+1985-04-01   2365775
+1985-07-01   1990780
+1985-10-01   1468740
+1986-01-01   2407196
+1986-04-01   2278572
+1986-07-01   1735777
+1986-10-01   1734659
+1987-01-01   1354434
+1987-04-01   1421215
+1987-07-01   1866141
+1987-10-01   1283125
+1988-01-01   2295960
+1988-04-01   2126139
+1988-07-01   2038717
+1988-10-01   2482365
+1989-01-01   3535390
+1989-04-01   1954610
+1989-07-01   2466923
+1989-10-01   2844533
+1990-01-01   3590493
+1990-04-01   2592548
+1990-07-01   2092963
+1990-10-01   1442234
+1991-01-01   2382758
+1991-04-01   3047057
+1991-07-01   6384612
+1991-10-01   1742921
+1992-01-01   2709940
+1992-04-01   2635217
+1992-07-01   3822741
+1992-10-01   4347798
+1993-01-01   5011292
+1993-04-01   7315235
+1993-07-01   2868283
+1993-10-01   4173319
+1994-01-01   7075255
+1994-04-01   8113959
+1994-07-01   7194990
+1994-10-01   7855665
+1995-01-01  10406899
+1995-04-01   8773327
+1995-07-01   9611274
+1995-10-01   8986340
+1996-01-01   6993251
+1996-04-01  10341029
+1996-07-01  10992605
+1996-10-01   9469365
+1997-01-01  10455687
+1997-04-01  10303572
+1997-07-01   9423988
+1997-10-01   9116331
+1998-01-01  11676116
+1998-04-01  10753190
+1998-07-01  18819744
+1998-10-01  24071870
+1999-01-01  14662514
+1999-04-01  20764815
+1999-07-01  18071579
+1999-10-01  15965835
+2000-01-01  21123312
+2000-04-01  22550006
+2000-07-01  17219440
+2000-10-01  23679960
+2001-01-01  18096395
+2001-04-01  26342514
+2001-07-01  24687743
+2001-10-01  25596599

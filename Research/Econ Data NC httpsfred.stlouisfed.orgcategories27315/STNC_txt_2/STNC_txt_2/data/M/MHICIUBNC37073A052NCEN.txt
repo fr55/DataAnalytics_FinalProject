@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Gates County, NC
+Series ID:           MHICIUBNC37073A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  24874
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28520
+1994-01-01      .
+1995-01-01  31685
+1996-01-01      .
+1997-01-01  33157
+1998-01-01  34588
+1999-01-01  35179
+2000-01-01  37935
+2001-01-01  36994
+2002-01-01  36942
+2003-01-01  37592
+2004-01-01  40403
+2005-01-01  42673
+2006-01-01  43807
+2007-01-01  47333
+2008-01-01  49175
+2009-01-01  46828
+2010-01-01  46950
+2011-01-01  45306
+2012-01-01  48266
+2013-01-01  51679
+2014-01-01  52595
+2015-01-01  50950
+2016-01-01  50086
+2017-01-01  55458

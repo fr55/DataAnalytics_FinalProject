@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Clay County, NC
+Series ID:           BPPRIV037043
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:03 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    64
+1991-01-01    55
+1992-01-01    97
+1993-01-01   113
+1994-01-01   102
+1995-01-01    94
+1996-01-01   103
+1997-01-01   127
+1998-01-01   148
+1999-01-01   151
+2000-01-01   151
+2001-01-01   129
+2002-01-01   156
+2003-01-01   174
+2004-01-01   192
+2005-01-01   229
+2006-01-01   276
+2007-01-01   130
+2008-01-01    86
+2009-01-01    44
+2010-01-01    41
+2011-01-01    40
+2012-01-01    32
+2013-01-01    44
+2014-01-01    43
+2015-01-01    39
+2016-01-01     0
+2017-01-01    45

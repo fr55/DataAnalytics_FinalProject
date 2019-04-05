@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Onslow County, NC
+Series ID:           PECILBAANC37133A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  13573
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  15471
+1994-01-01      .
+1995-01-01  14685
+1996-01-01      .
+1997-01-01  13538
+1998-01-01  14588
+1999-01-01  14179
+2000-01-01  13672
+2001-01-01  13506
+2002-01-01  13990
+2003-01-01  16411
+2004-01-01  15409
+2005-01-01  18748
+2006-01-01  17615
+2007-01-01  16272
+2008-01-01  17597
+2009-01-01  17744
+2010-01-01  21626
+2011-01-01  21673
+2012-01-01  20547
+2013-01-01  25027
+2014-01-01  20755
+2015-01-01  23000
+2016-01-01  19901
+2017-01-01  19841

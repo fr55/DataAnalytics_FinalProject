@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Mitchell County, NC
+Series ID:           PECIUBAANC37121A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2328
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2639
+1994-01-01     .
+1995-01-01  2469
+1996-01-01     .
+1997-01-01  2429
+1998-01-01  2520
+1999-01-01  2527
+2000-01-01  2366
+2001-01-01  2509
+2002-01-01  2768
+2003-01-01  2736
+2004-01-01  2840
+2005-01-01  3113
+2006-01-01  3106
+2007-01-01  2993
+2008-01-01  3205
+2009-01-01  3397
+2010-01-01  3424
+2011-01-01  3484
+2012-01-01  3560
+2013-01-01  3322
+2014-01-01  3464
+2015-01-01  3052
+2016-01-01  2942
+2017-01-01  2995

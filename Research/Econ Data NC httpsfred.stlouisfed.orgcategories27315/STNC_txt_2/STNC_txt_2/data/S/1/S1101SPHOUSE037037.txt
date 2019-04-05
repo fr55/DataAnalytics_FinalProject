@@ -1,0 +1,28 @@
+Title:               Single-parent Households with Children as a Percentage of Households with Children in Chatham County, NC
+Series ID:           S1101SPHOUSE037037
+Source:              U.S. Bureau of the Census
+Release:             Single Parent Households with Children (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 12:21 PM CST
+Notes:               These data represent single-parent households with their own children
+                     who are younger than 18-years of age as percentage of total households
+                     with their own children who are younger than 18-years of age.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+                     
+                     American Community Survey Table S1101.
+
+DATE                     VALUE
+2009-01-01  25.211079840023697
+2010-01-01  26.290516206482593
+2011-01-01  25.503456567478210
+2012-01-01  25.441803778184035
+2013-01-01  25.951189934818856
+2014-01-01  30.465489566613160
+2015-01-01  29.616442790095487
+2016-01-01  28.435718809373020
+2017-01-01  29.922391491807993

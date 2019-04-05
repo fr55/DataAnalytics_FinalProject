@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Washington County, NC
+Series ID:           PEAANC37187A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:04 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2824
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3005
+1994-01-01     .
+1995-01-01  2871
+1996-01-01     .
+1997-01-01  2798
+1998-01-01  2935
+1999-01-01  2837
+2000-01-01  2753
+2001-01-01  2624
+2002-01-01  2656
+2003-01-01  2619
+2004-01-01  2726
+2005-01-01  3244
+2006-01-01  2997
+2007-01-01  3010
+2008-01-01  2967
+2009-01-01  2944
+2010-01-01  2926
+2011-01-01  2997
+2012-01-01  3452
+2013-01-01  3198
+2014-01-01  3334
+2015-01-01  2861
+2016-01-01  3147
+2017-01-01  2947

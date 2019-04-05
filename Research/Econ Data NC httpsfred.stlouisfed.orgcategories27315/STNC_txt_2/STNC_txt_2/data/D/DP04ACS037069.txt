@@ -1,0 +1,21 @@
+Title:               Burdened Households in Franklin County, NC
+Series ID:           DP04ACS037069
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  33.092659446450064
+2011-01-01  34.597414379677930
+2012-01-01  35.360249832701320
+2013-01-01  36.258825632317450
+2014-01-01  35.450418372796870
+2015-01-01  34.243855081417415
+2016-01-01  32.111295826406510

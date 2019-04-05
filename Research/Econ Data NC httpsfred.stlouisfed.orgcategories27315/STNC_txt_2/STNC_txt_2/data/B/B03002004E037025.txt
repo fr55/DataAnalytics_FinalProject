@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Black or African-American Persons in Cabarrus County, NC
+Series ID:           B03002004E037025
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:56 AM CST
+Notes:               
+
+DATE         VALUE
+2009-01-01   22579
+2010-01-01   24570
+2011-01-01   25967
+2012-01-01   27037
+2013-01-01   27998
+2014-01-01   29335
+2015-01-01   30393
+2016-01-01   31254
+2017-01-01   32817

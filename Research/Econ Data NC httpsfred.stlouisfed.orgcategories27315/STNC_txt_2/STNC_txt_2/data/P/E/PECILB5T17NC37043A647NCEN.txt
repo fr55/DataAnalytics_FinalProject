@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Clay County, NC
+Series ID:           PECILB5T17NC37043A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:03 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   192
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   190
+1994-01-01     .
+1995-01-01   240
+1996-01-01     .
+1997-01-01   242
+1998-01-01   253
+1999-01-01   137
+2000-01-01   152
+2001-01-01   145
+2002-01-01   168
+2003-01-01   165
+2004-01-01   154
+2005-01-01   189
+2006-01-01   194
+2007-01-01   180
+2008-01-01   207
+2009-01-01   269
+2010-01-01   313
+2011-01-01   349
+2012-01-01   325
+2013-01-01   311
+2014-01-01   294
+2015-01-01   301
+2016-01-01   260
+2017-01-01   273

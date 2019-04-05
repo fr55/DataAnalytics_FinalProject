@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Randolph County, NC
+Series ID:           MHINC37151A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  26991
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  30547
+1994-01-01      .
+1995-01-01  33300
+1996-01-01      .
+1997-01-01  35453
+1998-01-01  37254
+1999-01-01  37413
+2000-01-01  39467
+2001-01-01  38170
+2002-01-01  37406
+2003-01-01  37671
+2004-01-01  38777
+2005-01-01  36824
+2006-01-01  39419
+2007-01-01  38475
+2008-01-01  42480
+2009-01-01  38529
+2010-01-01  39648
+2011-01-01  40749
+2012-01-01  41815
+2013-01-01  40896
+2014-01-01  41770
+2015-01-01  43216
+2016-01-01  45939
+2017-01-01  44207

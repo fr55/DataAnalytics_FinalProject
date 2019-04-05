@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Alleghany County, NC
+Series ID:           PE5T17NC37005A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   257
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   292
+1994-01-01     .
+1995-01-01   345
+1996-01-01     .
+1997-01-01   330
+1998-01-01   382
+1999-01-01   309
+2000-01-01   285
+2001-01-01   291
+2002-01-01   320
+2003-01-01   328
+2004-01-01   323
+2005-01-01   381
+2006-01-01   358
+2007-01-01   344
+2008-01-01   375
+2009-01-01   433
+2010-01-01   492
+2011-01-01   473
+2012-01-01   510
+2013-01-01   432
+2014-01-01   430
+2015-01-01   460
+2016-01-01   456
+2017-01-01   420

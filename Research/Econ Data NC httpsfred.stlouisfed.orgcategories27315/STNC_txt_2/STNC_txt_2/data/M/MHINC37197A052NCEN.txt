@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Yadkin County, NC
+Series ID:           MHINC37197A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  25606
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  28950
+1994-01-01      .
+1995-01-01  31053
+1996-01-01      .
+1997-01-01  33929
+1998-01-01  35971
+1999-01-01  35960
+2000-01-01  37646
+2001-01-01  36761
+2002-01-01  36591
+2003-01-01  37588
+2004-01-01  38473
+2005-01-01  37907
+2006-01-01  39929
+2007-01-01  41132
+2008-01-01  42774
+2009-01-01  40939
+2010-01-01  41095
+2011-01-01  40983
+2012-01-01  40012
+2013-01-01  40998
+2014-01-01  40801
+2015-01-01  41208
+2016-01-01  46276
+2017-01-01  46885

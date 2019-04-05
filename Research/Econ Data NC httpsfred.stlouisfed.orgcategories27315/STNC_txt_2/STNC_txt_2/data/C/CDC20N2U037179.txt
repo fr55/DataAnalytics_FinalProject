@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Union County, NC
+Series ID:           CDC20N2U037179
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  356.7
+2000-01-01  353.7
+2001-01-01  340.7
+2002-01-01  339.9
+2003-01-01  321.5
+2004-01-01  332.1
+2005-01-01  286.3
+2006-01-01  319.9
+2007-01-01  268.7
+2008-01-01  303.2
+2009-01-01  278.3
+2010-01-01  293.2
+2011-01-01  272.8
+2012-01-01  299.9
+2013-01-01  310.1
+2014-01-01  323.1
+2015-01-01  317.8
+2016-01-01  323.9

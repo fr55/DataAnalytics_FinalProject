@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Goods Producing in North Carolina
+Series ID:           SMU37000000600000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  744.50
+2008-01-01  738.53
+2009-01-01  757.81
+2010-01-01  788.39
+2011-01-01  805.12
+2012-01-01  825.20
+2013-01-01  840.18
+2014-01-01  875.70
+2015-01-01  877.20
+2016-01-01  894.01
+2017-01-01  928.39

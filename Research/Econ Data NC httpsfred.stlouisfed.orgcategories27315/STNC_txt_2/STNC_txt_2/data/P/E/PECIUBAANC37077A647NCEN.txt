@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Granville County, NC
+Series ID:           PECIUBAANC37077A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   5355
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6207
+1994-01-01      .
+1995-01-01   5971
+1996-01-01      .
+1997-01-01   6109
+1998-01-01   6261
+1999-01-01   6339
+2000-01-01   6308
+2001-01-01   6381
+2002-01-01   7010
+2003-01-01   7838
+2004-01-01   8496
+2005-01-01   7091
+2006-01-01   7825
+2007-01-01   7691
+2008-01-01   8086
+2009-01-01   8879
+2010-01-01   9760
+2011-01-01  10204
+2012-01-01  12123
+2013-01-01   9841
+2014-01-01  10063
+2015-01-01  10124
+2016-01-01   9765
+2017-01-01   8421

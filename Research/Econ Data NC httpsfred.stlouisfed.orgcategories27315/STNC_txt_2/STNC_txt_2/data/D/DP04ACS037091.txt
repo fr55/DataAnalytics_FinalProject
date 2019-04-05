@@ -1,0 +1,21 @@
+Title:               Burdened Households in Hertford County, NC
+Series ID:           DP04ACS037091
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  39.207152099752970
+2011-01-01  37.592196050440165
+2012-01-01  38.255602665051484
+2013-01-01  38.075780089153040
+2014-01-01  37.342930340368430
+2015-01-01  36.586568083795440
+2016-01-01  35.454323400097710

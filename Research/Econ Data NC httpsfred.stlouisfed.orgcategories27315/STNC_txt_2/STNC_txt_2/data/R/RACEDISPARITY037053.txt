@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Currituck County, NC
+Series ID:           RACEDISPARITY037053
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:31 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  11.059218357059160
+2010-01-01  18.366595903894538
+2011-01-01  22.458245746642767
+2012-01-01  19.952773794923854
+2013-01-01  18.618948328518233
+2014-01-01  23.036963931379090
+2015-01-01  29.788311492076858
+2016-01-01  23.201567503159920
+2017-01-01  20.533816689145794

@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Alamance County, NC
+Series ID:           MHINC37001A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  26574
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  29985
+1994-01-01      .
+1995-01-01  32560
+1996-01-01      .
+1997-01-01  35281
+1998-01-01  36965
+1999-01-01  37401
+2000-01-01  39163
+2001-01-01  38159
+2002-01-01  37950
+2003-01-01  38251
+2004-01-01  39217
+2005-01-01  40675
+2006-01-01  41841
+2007-01-01  41922
+2008-01-01  43769
+2009-01-01  43103
+2010-01-01  41519
+2011-01-01  41371
+2012-01-01  41394
+2013-01-01  43001
+2014-01-01  41296
+2015-01-01  41566
+2016-01-01  46060
+2017-01-01  47914

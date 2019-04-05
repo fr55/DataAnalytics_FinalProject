@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Greenville, NC (MSA)
+Series ID:           GREE737PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  25422
+2002-01-01  25736
+2003-01-01  26250
+2004-01-01  27405
+2005-01-01  28909
+2006-01-01  30378
+2007-01-01  31732
+2008-01-01  32951
+2009-01-01  31925
+2010-01-01  32501
+2011-01-01  33336
+2012-01-01  35576
+2013-01-01  35445
+2014-01-01  36768
+2015-01-01  37924
+2016-01-01  38535
+2017-01-01  39900

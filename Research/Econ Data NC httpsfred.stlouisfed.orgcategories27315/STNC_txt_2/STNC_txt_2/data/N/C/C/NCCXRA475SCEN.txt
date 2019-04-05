@@ -1,0 +1,27 @@
+Title:               Number of Identified Exporters to Christmas Island from North Carolina
+Series ID:           NCCXRA475SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Firms
+Date Range:          2002-01-01 to 2012-01-01
+Last Updated:        2015-08-27 6:36 PM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE       VALUE
+2002-01-01     1
+2003-01-01     .
+2004-01-01     1
+2005-01-01     1
+2006-01-01     .
+2007-01-01     .
+2008-01-01     .
+2009-01-01     .
+2010-01-01     .
+2011-01-01     1
+2012-01-01     1

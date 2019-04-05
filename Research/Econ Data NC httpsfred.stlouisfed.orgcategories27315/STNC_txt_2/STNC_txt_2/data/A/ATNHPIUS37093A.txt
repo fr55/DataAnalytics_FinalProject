@@ -1,0 +1,51 @@
+Title:               All-Transactions House Price Index for Hoke County, NC
+Series ID:           ATNHPIUS37093A
+Source:              U.S. Federal Housing Finance Agency
+Release:             House Price Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2000=100
+Date Range:          1995-01-01 to 2017-01-01
+Last Updated:        2018-02-27 10:02 AM CST
+Notes:               As stated by the source, these annual county indexes should be
+                     considered developmental. As with the standard FHFA HPIs, revisions to
+                     these indexes may reflect the impact of new data or technical
+                     adjustments. Indexes are calibrated using appraisal values and sales
+                     prices for mortgages bought or guaranteed by Fannie Mae and Freddie
+                     Mac. As discussed in the Working Paper 16-01, in cases where sample
+                     sizes are small for the county area, an index is either not reported
+                     if recording has not started or a missing value is reported with a
+                     period (.). Index values always reflect the native county index, i.e.
+                     they are not made with data from another area or year.
+                     
+                      For tracking and feedback purposes, please cite Working Paper 16-01
+                     when using these data. A suggested form is: Bogin, A., Doerner, W. and
+                     Larson, W. (2016). Local House Price Dynamics: New Indices and
+                     Stylized Facts. Federal Housing Finance Agency, Working Paper 16-01.
+                     The working paper is accessible at
+                     http://www.fhfa.gov/papers/wp1601.aspx.
+
+DATE         VALUE
+1995-01-01   85.96
+1996-01-01   95.89
+1997-01-01   94.95
+1998-01-01   96.80
+1999-01-01   99.17
+2000-01-01  100.00
+2001-01-01  104.71
+2002-01-01  105.14
+2003-01-01  106.42
+2004-01-01  112.44
+2005-01-01  118.90
+2006-01-01  128.90
+2007-01-01  131.13
+2008-01-01  131.66
+2009-01-01  134.43
+2010-01-01  132.95
+2011-01-01  130.10
+2012-01-01  127.57
+2013-01-01  124.99
+2014-01-01  125.01
+2015-01-01  127.80
+2016-01-01  122.70
+2017-01-01  130.39

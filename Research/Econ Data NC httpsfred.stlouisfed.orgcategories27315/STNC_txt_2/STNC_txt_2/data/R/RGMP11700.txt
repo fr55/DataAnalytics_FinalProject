@@ -1,0 +1,36 @@
+Title:               Total Real Gross Domestic Product for Asheville, NC (MSA)
+Series ID:           RGMP11700
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  12258
+2002-01-01  12655
+2003-01-01  13056
+2004-01-01  13631
+2005-01-01  14107
+2006-01-01  14607
+2007-01-01  14238
+2008-01-01  14266
+2009-01-01  13720
+2010-01-01  14144
+2011-01-01  14075
+2012-01-01  14052
+2013-01-01  14305
+2014-01-01  14870
+2015-01-01  15787
+2016-01-01  16650
+2017-01-01  17329

@@ -1,0 +1,21 @@
+Title:               Burdened Households in Transylvania County, NC
+Series ID:           DP04ACS037175
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  26.505840140468738
+2011-01-01  27.849348287359803
+2012-01-01  26.817658349328216
+2013-01-01  25.158627016283160
+2014-01-01  24.608655616942908
+2015-01-01  26.552675969943262
+2016-01-01  26.304165714720888

@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Percent of Related Children Age 5-17 in Families in Poverty for Robeson County, NC
+Series ID:           PPCIUB5T17NC37155A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:33 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  35.1
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  36.4
+1994-01-01     .
+1995-01-01  35.7
+1996-01-01     .
+1997-01-01  32.7
+1998-01-01  36.2
+1999-01-01  36.0
+2000-01-01  35.9
+2001-01-01  36.3
+2002-01-01  39.6
+2003-01-01  37.1
+2004-01-01  38.1
+2005-01-01  47.0
+2006-01-01  43.0
+2007-01-01  45.7
+2008-01-01  45.5
+2009-01-01  44.6
+2010-01-01  46.8
+2011-01-01  47.3
+2012-01-01  49.9
+2013-01-01  47.2
+2014-01-01  49.2
+2015-01-01  44.6
+2016-01-01  40.2
+2017-01-01  47.6

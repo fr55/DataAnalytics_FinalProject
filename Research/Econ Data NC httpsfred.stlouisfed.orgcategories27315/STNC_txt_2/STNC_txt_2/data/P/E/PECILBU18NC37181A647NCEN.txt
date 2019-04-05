@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Vance County, NC
+Series ID:           PECILBU18NC37181A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1937
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2470
+1994-01-01     .
+1995-01-01  2684
+1996-01-01     .
+1997-01-01  2544
+1998-01-01  2549
+1999-01-01  2261
+2000-01-01  2340
+2001-01-01  2271
+2002-01-01  2354
+2003-01-01  2570
+2004-01-01  2586
+2005-01-01  3020
+2006-01-01  3054
+2007-01-01  2633
+2008-01-01  3816
+2009-01-01  4718
+2010-01-01  3234
+2011-01-01  3605
+2012-01-01  3603
+2013-01-01  3561
+2014-01-01  3292
+2015-01-01  3167
+2016-01-01  2951
+2017-01-01  3175

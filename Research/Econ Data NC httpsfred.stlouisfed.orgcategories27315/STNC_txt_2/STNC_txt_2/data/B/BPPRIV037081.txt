@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Guilford County, NC
+Series ID:           BPPRIV037081
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   1954
+1991-01-01   2056
+1992-01-01   2372
+1993-01-01   2721
+1994-01-01   2838
+1995-01-01   2979
+1996-01-01   3122
+1997-01-01   3368
+1998-01-01   3549
+1999-01-01   3306
+2000-01-01   3108
+2001-01-01   3722
+2002-01-01   3631
+2003-01-01   3176
+2004-01-01   3953
+2005-01-01   4231
+2006-01-01   3867
+2007-01-01   2871
+2008-01-01   1582
+2009-01-01   1054
+2010-01-01    958
+2011-01-01    834
+2012-01-01    965
+2013-01-01   1170
+2014-01-01   1227
+2015-01-01   1346
+2016-01-01   1228
+2017-01-01   2411

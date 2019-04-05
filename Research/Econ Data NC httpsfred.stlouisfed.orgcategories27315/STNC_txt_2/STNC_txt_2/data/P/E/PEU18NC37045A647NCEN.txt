@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Cleveland County, NC
+Series ID:           PEU18NC37045A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2880
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  4048
+1994-01-01     .
+1995-01-01  4277
+1996-01-01     .
+1997-01-01  4949
+1998-01-01  5413
+1999-01-01  4750
+2000-01-01  4672
+2001-01-01  4877
+2002-01-01  5335
+2003-01-01  5463
+2004-01-01  5212
+2005-01-01  5856
+2006-01-01  5693
+2007-01-01  6724
+2008-01-01  6119
+2009-01-01  6100
+2010-01-01  7287
+2011-01-01  7031
+2012-01-01  7803
+2013-01-01  6629
+2014-01-01  6563
+2015-01-01  6167
+2016-01-01  5847
+2017-01-01  5635

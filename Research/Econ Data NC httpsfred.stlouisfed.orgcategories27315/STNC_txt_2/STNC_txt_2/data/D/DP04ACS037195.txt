@@ -1,0 +1,21 @@
+Title:               Burdened Households in Wilson County, NC
+Series ID:           DP04ACS037195
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  38.917222440172615
+2011-01-01  40.086404398769396
+2012-01-01  39.550672351590690
+2013-01-01  39.435094970967430
+2014-01-01  39.187605780497330
+2015-01-01  37.621737436696534
+2016-01-01  35.929054600770300

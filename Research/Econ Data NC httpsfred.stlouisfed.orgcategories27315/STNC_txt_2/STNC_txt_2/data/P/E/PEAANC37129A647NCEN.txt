@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in New Hanover County, NC
+Series ID:           PEAANC37129A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  16731
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  20917
+1994-01-01      .
+1995-01-01  20185
+1996-01-01      .
+1997-01-01  19342
+1998-01-01  19812
+1999-01-01  20081
+2000-01-01  19279
+2001-01-01  18461
+2002-01-01  21081
+2003-01-01  22884
+2004-01-01  24575
+2005-01-01  22088
+2006-01-01  24860
+2007-01-01  25494
+2008-01-01  26306
+2009-01-01  30416
+2010-01-01  35753
+2011-01-01  34971
+2012-01-01  32217
+2013-01-01  39124
+2014-01-01  37908
+2015-01-01  36967
+2016-01-01  37472
+2017-01-01  34283

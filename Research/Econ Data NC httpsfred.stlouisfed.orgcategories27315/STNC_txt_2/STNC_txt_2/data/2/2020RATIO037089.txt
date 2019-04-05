@@ -1,0 +1,22 @@
+Title:               Income Inequality in Henderson County, NC
+Series ID:           2020RATIO037089
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.612441372500617
+2011-01-01  11.831274100889274
+2012-01-01  11.760048426150120
+2013-01-01  11.990824922845942
+2014-01-01  11.981407589778419
+2015-01-01  11.856517429373865
+2016-01-01  11.671327534346801
+2017-01-01  11.704612812523749

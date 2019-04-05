@@ -1,0 +1,38 @@
+Title:               Total Per Capita Real Gross Domestic Product for Greensboro-High Point, NC (MSA)
+Series ID:           PCRGMP24660
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area. Gross
+                     Domestic Product of a given area divided by the resident population of
+                     the area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  48244
+2002-01-01  48786
+2003-01-01  49076
+2004-01-01  48752
+2005-01-01  48749
+2006-01-01  49265
+2007-01-01  48760
+2008-01-01  49054
+2009-01-01  46387
+2010-01-01  46819
+2011-01-01  47432
+2012-01-01  45654
+2013-01-01  45981
+2014-01-01  46663
+2015-01-01  47356
+2016-01-01  46353
+2017-01-01  46764

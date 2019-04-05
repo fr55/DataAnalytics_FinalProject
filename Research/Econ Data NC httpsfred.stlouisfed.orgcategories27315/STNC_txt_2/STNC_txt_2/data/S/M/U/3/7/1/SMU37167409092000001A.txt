@@ -1,0 +1,40 @@
+Title:               All Employees: State Government in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167409092000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  10.9
+1991-01-01  11.4
+1992-01-01  12.2
+1993-01-01  12.5
+1994-01-01  12.2
+1995-01-01  12.6
+1996-01-01  13.3
+1997-01-01  12.8
+1998-01-01  12.6
+1999-01-01  12.8
+2000-01-01  12.8
+2001-01-01  12.9
+2002-01-01  13.4
+2003-01-01  13.8
+2004-01-01  14.0
+2005-01-01  14.8
+2006-01-01  15.1
+2007-01-01  15.6
+2008-01-01  16.5
+2009-01-01  17.2
+2010-01-01  18.2
+2011-01-01  18.9
+2012-01-01  19.2
+2013-01-01  20.0
+2014-01-01  19.8
+2015-01-01  19.6
+2016-01-01  19.6
+2017-01-01  19.8

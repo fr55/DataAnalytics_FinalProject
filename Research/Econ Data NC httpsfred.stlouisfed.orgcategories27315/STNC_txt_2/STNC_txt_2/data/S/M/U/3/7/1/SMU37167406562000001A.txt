@@ -1,0 +1,40 @@
+Title:               All Employees: Health Care and Social Assistance in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167406562000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   36.6
+1991-01-01   39.5
+1992-01-01   42.4
+1993-01-01   45.1
+1994-01-01   46.8
+1995-01-01   49.9
+1996-01-01   52.1
+1997-01-01   54.9
+1998-01-01   57.5
+1999-01-01   58.2
+2000-01-01   60.0
+2001-01-01   63.4
+2002-01-01   66.2
+2003-01-01   68.5
+2004-01-01   71.1
+2005-01-01   73.6
+2006-01-01   77.9
+2007-01-01   82.5
+2008-01-01   84.5
+2009-01-01   86.7
+2010-01-01   87.9
+2011-01-01   89.9
+2012-01-01   91.2
+2013-01-01   92.6
+2014-01-01   94.7
+2015-01-01   98.0
+2016-01-01  100.3
+2017-01-01  103.3

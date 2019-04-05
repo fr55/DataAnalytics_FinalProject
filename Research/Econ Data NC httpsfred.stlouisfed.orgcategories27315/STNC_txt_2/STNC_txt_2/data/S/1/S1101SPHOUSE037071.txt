@@ -1,0 +1,28 @@
+Title:               Single-parent Households with Children as a Percentage of Households with Children in Gaston County, NC
+Series ID:           S1101SPHOUSE037071
+Source:              U.S. Bureau of the Census
+Release:             Single Parent Households with Children (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 12:21 PM CST
+Notes:               These data represent single-parent households with their own children
+                     who are younger than 18-years of age as percentage of total households
+                     with their own children who are younger than 18-years of age.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+                     
+                     American Community Survey Table S1101.
+
+DATE                     VALUE
+2009-01-01  34.944174550413365
+2010-01-01  33.907233714505980
+2011-01-01  36.116665217769280
+2012-01-01  37.117728470020985
+2013-01-01  37.228676934161940
+2014-01-01  37.395905221992170
+2015-01-01  38.382890910796355
+2016-01-01  37.951297480255730
+2017-01-01  37.163950410920740

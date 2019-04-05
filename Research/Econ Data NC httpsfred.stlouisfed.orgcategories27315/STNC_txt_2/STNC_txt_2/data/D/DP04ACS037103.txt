@@ -1,0 +1,21 @@
+Title:               Burdened Households in Jones County, NC
+Series ID:           DP04ACS037103
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  24.751410911045420
+2011-01-01  24.262556470900876
+2012-01-01  28.720000000000002
+2013-01-01  30.197228144989342
+2014-01-01  33.871822033898304
+2015-01-01  35.168033871394550
+2016-01-01  33.553500660501980

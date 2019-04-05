@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Percent of Related Children Age 5-17 in Families in Poverty for Davie County, NC
+Series ID:           PPCIUB5T17NC37059A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:33 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  10.8
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  10.3
+1994-01-01     .
+1995-01-01   9.9
+1996-01-01     .
+1997-01-01  13.1
+1998-01-01  15.5
+1999-01-01  14.7
+2000-01-01  13.3
+2001-01-01  12.5
+2002-01-01  12.7
+2003-01-01  14.5
+2004-01-01  14.6
+2005-01-01  16.0
+2006-01-01  14.3
+2007-01-01  14.2
+2008-01-01  15.7
+2009-01-01  18.9
+2010-01-01  22.6
+2011-01-01  20.0
+2012-01-01  20.9
+2013-01-01  21.1
+2014-01-01  23.0
+2015-01-01  20.1
+2016-01-01  18.3
+2017-01-01  19.4

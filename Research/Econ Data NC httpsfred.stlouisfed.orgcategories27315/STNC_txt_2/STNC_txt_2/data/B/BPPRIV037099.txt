@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Jackson County, NC
+Series ID:           BPPRIV037099
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   220
+1991-01-01   177
+1992-01-01   259
+1993-01-01   244
+1994-01-01   249
+1995-01-01   273
+1996-01-01   322
+1997-01-01   351
+1998-01-01   401
+1999-01-01   385
+2000-01-01   446
+2001-01-01   432
+2002-01-01   884
+2003-01-01   433
+2004-01-01   521
+2005-01-01   563
+2006-01-01   579
+2007-01-01   484
+2008-01-01   282
+2009-01-01   160
+2010-01-01   155
+2011-01-01   101
+2012-01-01   125
+2013-01-01   165
+2014-01-01   171
+2015-01-01   151
+2016-01-01   161
+2017-01-01   230

@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Hyde County, NC
+Series ID:           MHINC37095A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  16736
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  19489
+1994-01-01      .
+1995-01-01  20368
+1996-01-01      .
+1997-01-01  23568
+1998-01-01  24488
+1999-01-01  25714
+2000-01-01  27782
+2001-01-01  26783
+2002-01-01  26633
+2003-01-01  27431
+2004-01-01  28152
+2005-01-01  31725
+2006-01-01  31445
+2007-01-01  32449
+2008-01-01  34868
+2009-01-01  33097
+2010-01-01  35206
+2011-01-01  35810
+2012-01-01  35301
+2013-01-01  36681
+2014-01-01  36891
+2015-01-01  37074
+2016-01-01  37881
+2017-01-01  41214

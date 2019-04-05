@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           SMU37258600000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  162.8
+1991-01-01  159.3
+1992-01-01  162.8
+1993-01-01  167.0
+1994-01-01  172.4
+1995-01-01  174.9
+1996-01-01  176.3
+1997-01-01  177.9
+1998-01-01  178.5
+1999-01-01  182.4
+2000-01-01  185.9
+2001-01-01  177.5
+2002-01-01  168.7
+2003-01-01  163.0
+2004-01-01  163.5
+2005-01-01  162.3
+2006-01-01  163.1
+2007-01-01  162.1
+2008-01-01  157.8
+2009-01-01  144.2
+2010-01-01  142.4
+2011-01-01  142.6
+2012-01-01  143.3
+2013-01-01  144.4
+2014-01-01  145.2
+2015-01-01  147.1
+2016-01-01  150.7
+2017-01-01  153.4

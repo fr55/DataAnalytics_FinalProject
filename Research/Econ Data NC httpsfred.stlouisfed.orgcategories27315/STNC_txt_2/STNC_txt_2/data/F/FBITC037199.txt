@@ -1,0 +1,28 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Yancey County, NC
+Series ID:           FBITC037199
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2005-01-01 to 2017-01-01
+Last Updated:        2018-09-27 10:22 AM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE       VALUE
+2005-01-01   101
+2006-01-01    82
+2007-01-01   124
+2008-01-01   158
+2009-01-01   121
+2010-01-01   120
+2011-01-01   160
+2012-01-01     .
+2013-01-01   119
+2014-01-01    87
+2015-01-01    62
+2016-01-01    73
+2017-01-01    79

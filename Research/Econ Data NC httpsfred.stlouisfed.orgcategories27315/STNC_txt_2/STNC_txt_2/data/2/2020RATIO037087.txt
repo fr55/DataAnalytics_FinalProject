@@ -1,0 +1,22 @@
+Title:               Income Inequality in Haywood County, NC
+Series ID:           2020RATIO037087
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.852010187374932
+2011-01-01  11.112294453437846
+2012-01-01  10.430667526604320
+2013-01-01  11.491611185086551
+2014-01-01  11.775446428571428
+2015-01-01  13.259952718676123
+2016-01-01  14.057414411793230
+2017-01-01  13.914727221332328

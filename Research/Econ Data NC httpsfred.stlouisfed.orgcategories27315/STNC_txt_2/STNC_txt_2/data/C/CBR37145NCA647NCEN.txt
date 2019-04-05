@@ -1,0 +1,96 @@
+Title:               SNAP Benefits Recipients in Person County, NC
+Series ID:           CBR37145NCA647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2016-01-01
+Last Updated:        2018-12-20 2:40 PM CST
+Notes:               The SNAP data are used in the production of the Census Small Area
+                     Income and Poverty estimates (SAIPE). This release is located at
+                     production purposes (http://www.census.gov/did/www/saipe/index.html).
+                     The SNAP data set is not raw SNAP data. Below are some details about
+                     the reference periods, averages computed, raking/scaling done, and
+                     imputations done, which make the data most suitable for SAIPE
+                     production purposes, but which also apply to the posted SNAP data,
+                     located here
+                     http://www.census.gov/did/www/saipe/data/model/tables.html.
+                     
+                     The county-level SNAP data are almost always in reference to July of
+                     the given year, except in a small number of instances another nearby
+                     month had to be used. The numbers are usually a snapshot as of the end
+                     of the month, start of the month, or middle of the month, and
+                     occasionally can be a measure of anyone enrolled any time during that
+                     month. Also, not all states compile their figures exactly the same
+                     way.
+                     
+                     Annual county-level data are controlled data are controlled to sum to
+                     the twelve-month average of the state data in the following way: Add
+                     up the county-level July 20YY data in each state, and compare it to
+                     the 12-month average of the state-level July 20YY through Jun 20YY+1
+                     data. Then scale the county-level data up or down in such a way that
+                     the state sum of county-level data exactly equals the 12-month average
+                     of the state-level data. For example, with the July 2012 SNAP data,
+                     the Census controls the county sums to equal the state 12-month
+                     average of July 2012 through July 2013 data. After this scaling (i.e.,
+                     raking) is done, note that the resulting 12-month average county-level
+                     SNAP data, at the state level, are centered in time around Dec 20YY
+                     and Jan 20YY+1, which is about six months farther in the future than
+                     the original July 20YY county-level SNAP data. However, the
+                     county-level sub-detail still refers to the July 20YY timeframe.
+                     
+                     Importantly, note that a small number of "anomalous" data points are
+                     "imputed" prior to posting. Sometimes, there may be large but
+                     temporary data drop-offs in a small number of counties that appear to
+                     have had reporting issues for the given time period. In such cases the
+                     Census may replace the anomalous county-level data as needed to run
+                     our SAIPE production processes. For example, the Census replaced
+                     anomalous data with an average of the prior and next year of data, or
+                     the Census may apply that county's last-year SNAP rate scaled up by
+                     the year/year percent change in the state SNAP rate, etc. Especially,
+                     when there are officially-declared natural disasters, states may
+                     loosen the normal SNAP eligibility criteria, and there may temporarily
+                     be many more SNAP enrollees. As a result, the more typical relation
+                     between SNAP and poverty status is broken. For SAIPE to still use such
+                     SNAP data in our models, the Census need to first remove such
+                     disaster-generated spikes and replace them with seasonally-adjusted
+                     predictions. For example, in the raw SNAP data, in Louisiana, there
+                     was a spike for a couple months in late 2005, however, in the posted
+                     SNAP data; the Census has removed those one-time spikes.
+                     
+                     For further information, see the link provided below.
+                     
+                     http://www.census.gov/did/www/saipe/data/model/snap.html
+                     
+                     
+
+DATE       VALUE
+1989-01-01  1812
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2604
+1994-01-01     .
+1995-01-01  2227
+1996-01-01     .
+1997-01-01  1818
+1998-01-01  1710
+1999-01-01  1617
+2000-01-01  1606
+2001-01-01  1962
+2002-01-01  2247
+2003-01-01  2990
+2004-01-01  3464
+2005-01-01  3908
+2006-01-01  4012
+2007-01-01  4351
+2008-01-01  5449
+2009-01-01  6234
+2010-01-01  7552
+2011-01-01  7807
+2012-01-01  7887
+2013-01-01  7483
+2014-01-01  7547
+2015-01-01  7424
+2016-01-01  6923

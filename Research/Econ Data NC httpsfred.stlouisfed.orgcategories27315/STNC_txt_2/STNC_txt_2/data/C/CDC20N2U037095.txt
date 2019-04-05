@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Hyde County, NC
+Series ID:           CDC20N2U037095
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  604.8
+2000-01-01  689.1
+2001-01-01  490.4
+2002-01-01  536.8
+2003-01-01  527.2
+2004-01-01  452.0
+2005-01-01  616.8
+2006-01-01  496.4
+2007-01-01  608.2
+2008-01-01  391.9
+2009-01-01  503.4
+2010-01-01  424.4
+2011-01-01  590.7
+2012-01-01  507.4
+2013-01-01  301.7
+2014-01-01  478.1
+2015-01-01  609.9
+2016-01-01  667.2

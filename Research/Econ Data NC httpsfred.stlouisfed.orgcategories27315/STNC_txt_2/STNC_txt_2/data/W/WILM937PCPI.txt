@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Wilmington, NC (MSA)
+Series ID:           WILM937PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  28186
+2002-01-01  28055
+2003-01-01  28900
+2004-01-01  30841
+2005-01-01  32729
+2006-01-01  34522
+2007-01-01  35640
+2008-01-01  36055
+2009-01-01  34049
+2010-01-01  34076
+2011-01-01  35318
+2012-01-01  35745
+2013-01-01  36296
+2014-01-01  38916
+2015-01-01  40436
+2016-01-01  41325
+2017-01-01  42413

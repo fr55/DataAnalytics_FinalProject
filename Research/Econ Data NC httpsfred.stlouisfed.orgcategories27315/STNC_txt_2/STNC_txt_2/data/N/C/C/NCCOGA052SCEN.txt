@@ -1,0 +1,27 @@
+Title:               Value of Exports to Congo from North Carolina
+Series ID:           NCCOGA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2006-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE           VALUE
+2006-01-01   1104583
+2007-01-01    321077
+2008-01-01    171730
+2009-01-01    461222
+2010-01-01   1050954
+2011-01-01    255469
+2012-01-01    548690
+2013-01-01   1670342
+2014-01-01   1130602
+2015-01-01    515850
+2016-01-01    356254

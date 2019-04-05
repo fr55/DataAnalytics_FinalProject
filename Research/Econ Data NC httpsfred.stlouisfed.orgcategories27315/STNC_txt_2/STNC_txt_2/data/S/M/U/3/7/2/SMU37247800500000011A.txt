@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Total Private in Greenville, NC (MSA)
+Series ID:           SMU37247800500000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  517.64
+2008-01-01  632.40
+2009-01-01  593.57
+2010-01-01  598.92
+2011-01-01  714.83
+2012-01-01  740.89
+2013-01-01  685.52
+2014-01-01  654.03
+2015-01-01  732.48
+2016-01-01  719.16
+2017-01-01  778.73

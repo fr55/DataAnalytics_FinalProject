@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Martin County, NC
+Series ID:           PCPI37117
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:09 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  22403
+2002-01-01  23463
+2003-01-01  24240
+2004-01-01  25113
+2005-01-01  26324
+2006-01-01  26940
+2007-01-01  28720
+2008-01-01  29755
+2009-01-01  29659
+2010-01-01  29196
+2011-01-01  29075
+2012-01-01  31108
+2013-01-01  29857
+2014-01-01  31288
+2015-01-01  31623
+2016-01-01  32844
+2017-01-01  34415

@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Ashe County, NC
+Series ID:           MHINC37009A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18923
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  22871
+1994-01-01      .
+1995-01-01  25609
+1996-01-01      .
+1997-01-01  26968
+1998-01-01  28407
+1999-01-01  28687
+2000-01-01  30017
+2001-01-01  29280
+2002-01-01  29604
+2003-01-01  30333
+2004-01-01  31297
+2005-01-01  31853
+2006-01-01  31650
+2007-01-01  35288
+2008-01-01  35689
+2009-01-01  34056
+2010-01-01  31965
+2011-01-01  34333
+2012-01-01  34080
+2013-01-01  35155
+2014-01-01  36488
+2015-01-01  35238
+2016-01-01  39709
+2017-01-01  40611

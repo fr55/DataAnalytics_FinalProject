@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Dare County, NC
+Series ID:           CDC20N2UAA037055
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  350.3
+2000-01-01  403.3
+2001-01-01  324.3
+2002-01-01  414.6
+2003-01-01  338.1
+2004-01-01  402.1
+2005-01-01  370.6
+2006-01-01  281.3
+2007-01-01  336.5
+2008-01-01  299.6
+2009-01-01  327.9
+2010-01-01  292.9
+2011-01-01  350.5
+2012-01-01  327.6
+2013-01-01  306.4
+2014-01-01  311.4
+2015-01-01  323.0
+2016-01-01  357.6

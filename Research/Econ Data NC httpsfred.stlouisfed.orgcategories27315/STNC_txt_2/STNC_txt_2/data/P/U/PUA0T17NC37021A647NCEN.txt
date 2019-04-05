@@ -1,0 +1,60 @@
+Title:               Poverty Universe, Age 0-17 for Buncombe County, NC
+Series ID:           PUA0T17NC37021A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1998-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:32 PM CST
+Notes:               The poverty universe is made up of persons for whom the Census Bureau
+                     can determine poverty status (either in poverty or not in poverty).
+                     The definition of poverty universe for SAIPE estimates is the same for
+                     2006 and beyond and conceptually matches the poverty universe of the
+                     American Community Survey (ACS). The poverty universe estimates are
+                     not the same as the population estimates from the Census Bureau's
+                     Population Estimates Program. Instead, they are derived estimates that
+                     differ from population estimates in the following ways. Beginning with
+                     2006, the poverty universe includes group quarters populations only
+                     for noninstitutionalized group quarters, not elsewhere classified.
+                     Residents of college dormitories, military housing, and all
+                     institutional group quarters populations are excluded (this marks a
+                     break in the see discuss later in this note). The poverty universe
+                     does not include children under the age of 15 who are not related to a
+                     reference person within the household by way of birth, marriage or
+                     adoption (for example, foster children). The reason is that Census
+                     Bureau surveys typically ask income questions only of persons age 15
+                     or older and those under 15 related to a reference person within the
+                     household.
+                     
+                     The 2005 poverty universe estimates excluded all group quarters'
+                     residents, matching the definition of the 2005 ACS. Prior to the
+                     estimates for 2005, the poverty universe data were derived from the
+                     Annual Social and Economic Supplement of the Current Population
+                     Survey. This marks a break in the data series due to a methodology
+                     change.
+                     
+                     For further information about SAIPE poverty universe data, visit
+                     http://www.census.gov/did/www/saipe/data/model/poverty.html.
+
+DATE        VALUE
+1998-01-01  46231
+1999-01-01  44735
+2000-01-01  45534
+2001-01-01  45902
+2002-01-01  46595
+2003-01-01  47384
+2004-01-01  47419
+2005-01-01  46792
+2006-01-01  46743
+2007-01-01  48127
+2008-01-01  48438
+2009-01-01  47201
+2010-01-01  47775
+2011-01-01  48081
+2012-01-01  48106
+2013-01-01  47677
+2014-01-01  47671
+2015-01-01  47623
+2016-01-01  47412
+2017-01-01  47468

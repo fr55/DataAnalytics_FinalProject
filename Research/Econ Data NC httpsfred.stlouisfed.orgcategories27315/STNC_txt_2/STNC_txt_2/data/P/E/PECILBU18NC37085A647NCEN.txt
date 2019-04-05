@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Harnett County, NC
+Series ID:           PECILBU18NC37085A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  4447
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3785
+1994-01-01     .
+1995-01-01  3747
+1996-01-01     .
+1997-01-01  3661
+1998-01-01  4200
+1999-01-01  3542
+2000-01-01  3818
+2001-01-01  3764
+2002-01-01  4137
+2003-01-01  4379
+2004-01-01  4196
+2005-01-01  4949
+2006-01-01  5420
+2007-01-01  5300
+2008-01-01  4775
+2009-01-01  5917
+2010-01-01  6255
+2011-01-01  6789
+2012-01-01  7388
+2013-01-01  6790
+2014-01-01  8231
+2015-01-01  6945
+2016-01-01  5859
+2017-01-01  6773

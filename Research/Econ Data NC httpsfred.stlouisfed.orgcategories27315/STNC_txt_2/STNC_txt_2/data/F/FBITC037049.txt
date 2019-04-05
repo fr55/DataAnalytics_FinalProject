@@ -1,0 +1,26 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Craven County, NC
+Series ID:           FBITC037049
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2004-01-01 to 2014-01-01
+Last Updated:        2017-08-31 1:08 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE        VALUE
+2004-01-01   1539
+2005-01-01   1565
+2006-01-01   1402
+2007-01-01   1505
+2008-01-01      .
+2009-01-01   1060
+2010-01-01   1619
+2011-01-01   1719
+2012-01-01   1656
+2013-01-01      .
+2014-01-01   1036

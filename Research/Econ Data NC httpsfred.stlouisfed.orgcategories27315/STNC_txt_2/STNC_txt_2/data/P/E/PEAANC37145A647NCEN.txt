@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Person County, NC
+Series ID:           PEAANC37145A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3748
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  4481
+1994-01-01     .
+1995-01-01  3915
+1996-01-01     .
+1997-01-01  3928
+1998-01-01  3970
+1999-01-01  3877
+2000-01-01  3737
+2001-01-01  3863
+2002-01-01  4197
+2003-01-01  4591
+2004-01-01  5021
+2005-01-01  4976
+2006-01-01  5237
+2007-01-01  5995
+2008-01-01  5063
+2009-01-01  5414
+2010-01-01  6390
+2011-01-01  7092
+2012-01-01  6283
+2013-01-01  7127
+2014-01-01  7236
+2015-01-01  6317
+2016-01-01  5962
+2017-01-01  5882

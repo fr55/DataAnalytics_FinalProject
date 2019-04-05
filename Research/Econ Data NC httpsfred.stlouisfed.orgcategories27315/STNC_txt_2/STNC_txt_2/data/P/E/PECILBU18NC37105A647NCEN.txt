@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Lee County, NC
+Series ID:           PECILBU18NC37105A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1252
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1903
+1994-01-01     .
+1995-01-01  2098
+1996-01-01     .
+1997-01-01  2017
+1998-01-01  2144
+1999-01-01  1755
+2000-01-01  1770
+2001-01-01  1745
+2002-01-01  1706
+2003-01-01  1873
+2004-01-01  1972
+2005-01-01  2597
+2006-01-01  2432
+2007-01-01  2336
+2008-01-01  2459
+2009-01-01  2724
+2010-01-01  3350
+2011-01-01  3891
+2012-01-01  3545
+2013-01-01  3318
+2014-01-01  3393
+2015-01-01  3068
+2016-01-01  2791
+2017-01-01  2571

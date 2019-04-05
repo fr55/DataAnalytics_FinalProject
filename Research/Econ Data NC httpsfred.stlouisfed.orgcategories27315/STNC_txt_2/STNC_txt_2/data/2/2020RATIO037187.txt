@@ -1,0 +1,22 @@
+Title:               Income Inequality in Washington County, NC
+Series ID:           2020RATIO037187
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  15.421639055856913
+2011-01-01  17.323336317517160
+2012-01-01  17.850159744408945
+2013-01-01  20.526015680684250
+2014-01-01  18.024590163934427
+2015-01-01  19.516394820918110
+2016-01-01  20.150174825174826
+2017-01-01  23.245888487765743

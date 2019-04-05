@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Mecklenburg County, NC
+Series ID:           CDC20N2U037119
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:21 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  333.0
+2000-01-01  346.7
+2001-01-01  323.8
+2002-01-01  317.5
+2003-01-01  317.1
+2004-01-01  307.9
+2005-01-01  299.9
+2006-01-01  297.1
+2007-01-01  299.7
+2008-01-01  288.4
+2009-01-01  285.7
+2010-01-01  275.8
+2011-01-01  271.1
+2012-01-01  277.3
+2013-01-01  282.1
+2014-01-01  298.4
+2015-01-01  299.7
+2016-01-01  308.9

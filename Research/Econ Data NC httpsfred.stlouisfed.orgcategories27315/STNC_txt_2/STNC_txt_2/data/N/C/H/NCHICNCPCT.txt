@@ -1,0 +1,27 @@
+Title:               Health Insurance Coverage: Uncovered Rate in North Carolina (DISCONTINUED)
+Series ID:           NCHICNCPCT
+Source:              U.S. Bureau of the Census
+Release:             Health Insurance Coverage (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1999-01-01 to 2012-01-01
+Last Updated:        2013-09-17 3:46 PM CDT
+Notes:               For more information, see
+                     http://www.census.gov/data/tables/time-series/demo/health-insurance/historical-series/hib.html.
+
+DATE       VALUE
+1999-01-01  12.5
+2000-01-01  12.1
+2001-01-01  13.3
+2002-01-01  15.9
+2003-01-01  16.7
+2004-01-01  14.2
+2005-01-01  14.5
+2006-01-01  17.4
+2007-01-01  16.2
+2008-01-01  15.1
+2009-01-01  17.8
+2010-01-01  17.1
+2011-01-01  16.3
+2012-01-01  17.2

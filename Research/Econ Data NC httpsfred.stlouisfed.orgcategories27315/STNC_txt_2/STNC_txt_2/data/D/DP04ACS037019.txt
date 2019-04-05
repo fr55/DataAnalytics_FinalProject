@@ -1,0 +1,21 @@
+Title:               Burdened Households in Brunswick County, NC
+Series ID:           DP04ACS037019
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  32.454481234190915
+2011-01-01  35.527189062430864
+2012-01-01  35.539483459336620
+2013-01-01  36.161991049012116
+2014-01-01  36.203749436296090
+2015-01-01  34.703533934644390
+2016-01-01  33.091224232919956

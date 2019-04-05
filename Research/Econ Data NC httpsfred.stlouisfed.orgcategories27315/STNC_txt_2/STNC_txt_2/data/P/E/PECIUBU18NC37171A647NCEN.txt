@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Surry County, NC
+Series ID:           PECIUBU18NC37171A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2453
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3006
+1994-01-01     .
+1995-01-01  3378
+1996-01-01     .
+1997-01-01  3539
+1998-01-01  3580
+1999-01-01  3651
+2000-01-01  3662
+2001-01-01  3670
+2002-01-01  3913
+2003-01-01  4425
+2004-01-01  4390
+2005-01-01  4798
+2006-01-01  4481
+2007-01-01  5278
+2008-01-01  4365
+2009-01-01  5047
+2010-01-01  6137
+2011-01-01  5882
+2012-01-01  5256
+2013-01-01  5754
+2014-01-01  4976
+2015-01-01  4945
+2016-01-01  4671
+2017-01-01  4360

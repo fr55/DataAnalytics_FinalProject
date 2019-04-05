@@ -1,0 +1,32 @@
+Title:               Regional Price Parities: Services: Rents for Goldsboro, NC (MSA)
+Series ID:           RPPSERVERENT24140
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:52 AM CDT
+Notes:               Regional price parities (RPPs) are regional price levels expressed as
+                     a percentage of the overall national price level for a given year. The
+                     price levels are determined by the average prices paid by consumers
+                     for the mix of goods and services consumed in each region. Taking the
+                     ratio of RPPs shows the difference in price levels across regions.
+                     
+                     Rents RPPs are estimated only for observed tenants' rents and do not
+                     include imputed owner-occupied rent values. 
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE       VALUE
+2008-01-01  57.1
+2009-01-01  58.2
+2010-01-01  60.0
+2011-01-01  59.6
+2012-01-01  59.8
+2013-01-01  62.5
+2014-01-01  63.5
+2015-01-01  64.5
+2016-01-01  63.3

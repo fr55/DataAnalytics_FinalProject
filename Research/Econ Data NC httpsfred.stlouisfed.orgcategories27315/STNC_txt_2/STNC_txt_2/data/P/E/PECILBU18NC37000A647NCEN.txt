@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for North Carolina
+Series ID:           PECILBU18NC37000A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE         VALUE
+1989-01-01  267373
+1990-01-01       .
+1991-01-01       .
+1992-01-01       .
+1993-01-01  321277
+1994-01-01       .
+1995-01-01  342576
+1996-01-01  326179
+1997-01-01  327790
+1998-01-01  340863
+1999-01-01  296936
+2000-01-01  304833
+2001-01-01  303255
+2002-01-01  331181
+2003-01-01  370492
+2004-01-01  364990
+2005-01-01  424478
+2006-01-01  414382
+2007-01-01  415585
+2008-01-01  426995
+2009-01-01  490811
+2010-01-01  540569
+2011-01-01  558649
+2012-01-01  569022
+2013-01-01  549182
+2014-01-01  530093
+2015-01-01  516088
+2016-01-01  476734
+2017-01-01  461659

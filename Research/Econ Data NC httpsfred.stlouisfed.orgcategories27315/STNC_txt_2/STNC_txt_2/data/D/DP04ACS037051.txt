@@ -1,0 +1,21 @@
+Title:               Burdened Households in Cumberland County, NC
+Series ID:           DP04ACS037051
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  36.172748374703176
+2011-01-01  36.267123590146700
+2012-01-01  36.161554548623215
+2013-01-01  36.760863586358640
+2014-01-01  37.401413848905550
+2015-01-01  37.737874167333935
+2016-01-01  37.565993854720155

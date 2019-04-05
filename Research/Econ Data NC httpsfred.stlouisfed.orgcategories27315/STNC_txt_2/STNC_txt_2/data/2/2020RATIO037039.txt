@@ -1,0 +1,22 @@
+Title:               Income Inequality in Cherokee County, NC
+Series ID:           2020RATIO037039
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.948602245212415
+2011-01-01  12.343231056856922
+2012-01-01  12.390856869315462
+2013-01-01  13.022866051708458
+2014-01-01  13.270488599348534
+2015-01-01  13.181586004341720
+2016-01-01  12.740892701728210
+2017-01-01  12.053334769960134

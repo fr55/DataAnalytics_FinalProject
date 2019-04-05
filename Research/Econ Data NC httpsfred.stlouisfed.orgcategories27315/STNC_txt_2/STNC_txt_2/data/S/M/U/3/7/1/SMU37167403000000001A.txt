@@ -1,0 +1,40 @@
+Title:               All Employees: Manufacturing in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167403000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  166.1
+1991-01-01  159.2
+1992-01-01  157.8
+1993-01-01  160.7
+1994-01-01  163.3
+1995-01-01  165.1
+1996-01-01  161.5
+1997-01-01  158.8
+1998-01-01  159.2
+1999-01-01  157.1
+2000-01-01  155.6
+2001-01-01  145.1
+2002-01-01  137.8
+2003-01-01  129.8
+2004-01-01  124.1
+2005-01-01  122.9
+2006-01-01  121.7
+2007-01-01  116.7
+2008-01-01  111.1
+2009-01-01   94.7
+2010-01-01   91.4
+2011-01-01   93.2
+2012-01-01   97.7
+2013-01-01   98.5
+2014-01-01  100.0
+2015-01-01  104.5
+2016-01-01  104.8
+2017-01-01  106.1

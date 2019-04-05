@@ -1,0 +1,39 @@
+Title:               Personal Income in Pamlico County, NC
+Series ID:           PI37137
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:08 PM CST
+Notes:               Personal Income is the income that is received by all persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. The personal income of
+                     an area is the income that is received by, or on behalf of, all the
+                     individuals who live in the area; therefore, the estimates of personal
+                     income are presented by the place of residence of the income
+                     recipients.
+
+DATE         VALUE
+2001-01-01  319974
+2002-01-01  318038
+2003-01-01  329112
+2004-01-01  352725
+2005-01-01  376188
+2006-01-01  393095
+2007-01-01  425044
+2008-01-01  432481
+2009-01-01  426897
+2010-01-01  446968
+2011-01-01  458764
+2012-01-01  477742
+2013-01-01  481303
+2014-01-01  480510
+2015-01-01  496935
+2016-01-01  501601
+2017-01-01  515648

@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Arts, Entertainment, Recreation, Accommodation, and Food Services: Accommodation and Food Services: Accommodation for North Carolina
+Series ID:           NCACCOMDQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  100.492
+1998-01-01  114.153
+1999-01-01  118.986
+2000-01-01  124.858
+2001-01-01  108.170
+2002-01-01  112.799
+2003-01-01  109.412
+2004-01-01  107.569
+2005-01-01  103.255
+2006-01-01  106.737
+2007-01-01  111.226
+2008-01-01  103.257
+2009-01-01   93.141
+2010-01-01   98.320
+2011-01-01  101.964
+2012-01-01  100.000
+2013-01-01  115.573
+2014-01-01  125.726
+2015-01-01  131.249
+2016-01-01  134.743

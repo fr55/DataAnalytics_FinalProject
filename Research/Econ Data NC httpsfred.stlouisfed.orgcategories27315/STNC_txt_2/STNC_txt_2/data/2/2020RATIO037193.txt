@@ -1,0 +1,22 @@
+Title:               Income Inequality in Wilkes County, NC
+Series ID:           2020RATIO037193
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  13.645210103596787
+2011-01-01  14.018044580728860
+2012-01-01  14.358024691358025
+2013-01-01  14.169561621174525
+2014-01-01  13.826228716338607
+2015-01-01  13.866783831282952
+2016-01-01  13.480929611920383
+2017-01-01  13.796659404502542

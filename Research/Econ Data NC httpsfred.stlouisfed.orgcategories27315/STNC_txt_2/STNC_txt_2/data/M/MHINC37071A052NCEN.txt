@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Gaston County, NC
+Series ID:           MHINC37071A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:31 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  27259
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  31269
+1994-01-01      .
+1995-01-01  35175
+1996-01-01      .
+1997-01-01  36590
+1998-01-01  38293
+1999-01-01  38170
+2000-01-01  39741
+2001-01-01  38448
+2002-01-01  38680
+2003-01-01  39287
+2004-01-01  40356
+2005-01-01  37177
+2006-01-01  42941
+2007-01-01  42292
+2008-01-01  46265
+2009-01-01  40940
+2010-01-01  40332
+2011-01-01  40969
+2012-01-01  41614
+2013-01-01  42461
+2014-01-01  42056
+2015-01-01  45031
+2016-01-01  48874
+2017-01-01  50016

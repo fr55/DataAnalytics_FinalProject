@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Ashe County, NC
+Series ID:           PEU18NC37009A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1119
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1093
+1994-01-01     .
+1995-01-01  1206
+1996-01-01     .
+1997-01-01  1233
+1998-01-01  1238
+1999-01-01   987
+2000-01-01   999
+2001-01-01   983
+2002-01-01  1041
+2003-01-01  1079
+2004-01-01  1027
+2005-01-01  1166
+2006-01-01  1209
+2007-01-01  1143
+2008-01-01  1236
+2009-01-01  1328
+2010-01-01  1584
+2011-01-01  1599
+2012-01-01  1547
+2013-01-01  1661
+2014-01-01  1555
+2015-01-01  1549
+2016-01-01  1238
+2017-01-01  1199

@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Lincoln County, NC
+Series ID:           CDC20N2UAA037109
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  392.5
+2000-01-01  447.7
+2001-01-01  445.0
+2002-01-01  416.1
+2003-01-01  389.2
+2004-01-01  400.0
+2005-01-01  405.8
+2006-01-01  389.5
+2007-01-01  396.7
+2008-01-01  426.8
+2009-01-01  393.7
+2010-01-01  359.7
+2011-01-01  389.6
+2012-01-01  379.7
+2013-01-01  352.7
+2014-01-01  350.7
+2015-01-01  416.8
+2016-01-01  417.4

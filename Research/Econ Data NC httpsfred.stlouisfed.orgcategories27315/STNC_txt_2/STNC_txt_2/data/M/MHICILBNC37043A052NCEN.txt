@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Clay County, NC
+Series ID:           MHICILBNC37043A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  16123
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  19980
+1994-01-01      .
+1995-01-01  22580
+1996-01-01      .
+1997-01-01  23689
+1998-01-01  25555
+1999-01-01  28491
+2000-01-01  29613
+2001-01-01  28734
+2002-01-01  28972
+2003-01-01  29622
+2004-01-01  30773
+2005-01-01  30999
+2006-01-01  32912
+2007-01-01  33656
+2008-01-01  35007
+2009-01-01  36683
+2010-01-01  32326
+2011-01-01  31788
+2012-01-01  33413
+2013-01-01  33446
+2014-01-01  33355
+2015-01-01  35263
+2016-01-01  34135
+2017-01-01  40163

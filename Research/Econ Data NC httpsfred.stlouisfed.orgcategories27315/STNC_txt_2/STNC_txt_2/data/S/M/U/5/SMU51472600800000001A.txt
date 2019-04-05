@@ -1,0 +1,40 @@
+Title:               All Employees: Private Service Providing in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472600800000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:08 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  360.0
+1991-01-01  358.9
+1992-01-01  365.2
+1993-01-01  372.5
+1994-01-01  387.2
+1995-01-01  399.6
+1996-01-01  413.1
+1997-01-01  428.5
+1998-01-01  443.2
+1999-01-01  457.1
+2000-01-01  465.2
+2001-01-01  474.4
+2002-01-01  479.6
+2003-01-01  481.5
+2004-01-01  489.9
+2005-01-01  499.5
+2006-01-01  506.0
+2007-01-01  513.8
+2008-01-01  507.5
+2009-01-01  490.4
+2010-01-01  486.8
+2011-01-01  490.7
+2012-01-01  496.1
+2013-01-01  505.7
+2014-01-01  509.4
+2015-01-01  517.9
+2016-01-01  525.1
+2017-01-01  530.3

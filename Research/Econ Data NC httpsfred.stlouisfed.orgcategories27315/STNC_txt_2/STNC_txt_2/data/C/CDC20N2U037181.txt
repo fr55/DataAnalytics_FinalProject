@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Vance County, NC
+Series ID:           CDC20N2U037181
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  592.9
+2000-01-01  574.4
+2001-01-01  620.7
+2002-01-01  612.1
+2003-01-01  567.0
+2004-01-01  607.3
+2005-01-01  595.0
+2006-01-01  537.2
+2007-01-01  632.4
+2008-01-01  572.3
+2009-01-01  586.3
+2010-01-01  568.2
+2011-01-01  561.7
+2012-01-01  574.3
+2013-01-01  702.9
+2014-01-01  594.4
+2015-01-01  676.2
+2016-01-01  708.6

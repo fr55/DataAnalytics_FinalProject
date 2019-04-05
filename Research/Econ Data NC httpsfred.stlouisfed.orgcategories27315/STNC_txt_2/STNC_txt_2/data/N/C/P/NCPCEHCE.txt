@@ -1,0 +1,39 @@
+Title:               Personal Consumption Expenditures: Services: Household Consumption Expenditures for Services for North Carolina
+Series ID:           NCPCEHCE
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Consists of actual and imputed consumption expenditures for services
+                     by resident households.For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE         VALUE
+1997-01-01   79509
+1998-01-01   85595
+1999-01-01   91284
+2000-01-01   98878
+2001-01-01  103982
+2002-01-01  108418
+2003-01-01  114378
+2004-01-01  122439
+2005-01-01  131319
+2006-01-01  140181
+2007-01-01  149649
+2008-01-01  155855
+2009-01-01  159555
+2010-01-01  164954
+2011-01-01  170677
+2012-01-01  176473
+2013-01-01  181677
+2014-01-01  189005
+2015-01-01  199630
+2016-01-01  210260
+2017-01-01  222023

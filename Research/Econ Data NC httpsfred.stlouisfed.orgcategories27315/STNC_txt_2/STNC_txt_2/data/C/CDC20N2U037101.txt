@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Johnston County, NC
+Series ID:           CDC20N2U037101
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  446.8
+2000-01-01  422.5
+2001-01-01  414.6
+2002-01-01  402.5
+2003-01-01  415.0
+2004-01-01  432.2
+2005-01-01  391.4
+2006-01-01  374.6
+2007-01-01  386.1
+2008-01-01  361.8
+2009-01-01  393.9
+2010-01-01  387.2
+2011-01-01  410.3
+2012-01-01  410.8
+2013-01-01  404.0
+2014-01-01  371.2
+2015-01-01  455.3
+2016-01-01  458.1

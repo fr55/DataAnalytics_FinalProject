@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Gaston County, NC
+Series ID:           CDC20N2U037071
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  537.3
+2000-01-01  569.5
+2001-01-01  583.6
+2002-01-01  529.5
+2003-01-01  547.0
+2004-01-01  540.0
+2005-01-01  532.8
+2006-01-01  523.4
+2007-01-01  565.1
+2008-01-01  517.3
+2009-01-01  521.7
+2010-01-01  539.9
+2011-01-01  529.0
+2012-01-01  555.8
+2013-01-01  557.2
+2014-01-01  555.1
+2015-01-01  574.4
+2016-01-01  576.4

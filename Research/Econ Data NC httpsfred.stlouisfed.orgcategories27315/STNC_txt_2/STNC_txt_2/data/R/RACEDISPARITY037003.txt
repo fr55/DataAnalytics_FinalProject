@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Alexander County, NC
+Series ID:           RACEDISPARITY037003
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:31 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  41.241116512923234
+2010-01-01  35.579387147958236
+2011-01-01  36.222253744845510
+2012-01-01  28.085434430520850
+2013-01-01  29.940893446024447
+2014-01-01  31.473454510018650
+2015-01-01  31.351493294883680
+2016-01-01  36.312205821471530
+2017-01-01  37.943327627711650

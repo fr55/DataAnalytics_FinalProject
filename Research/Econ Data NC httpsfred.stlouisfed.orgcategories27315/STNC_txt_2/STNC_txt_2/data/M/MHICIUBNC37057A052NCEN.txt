@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Davidson County, NC
+Series ID:           MHICIUBNC37057A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  28214
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  32997
+1994-01-01      .
+1995-01-01  35931
+1996-01-01      .
+1997-01-01  38982
+1998-01-01  41436
+1999-01-01  40617
+2000-01-01  43070
+2001-01-01  41661
+2002-01-01  41221
+2003-01-01  41605
+2004-01-01  42308
+2005-01-01  42577
+2006-01-01  45610
+2007-01-01  46358
+2008-01-01  46933
+2009-01-01  45877
+2010-01-01  42768
+2011-01-01  44466
+2012-01-01  46255
+2013-01-01  42834
+2014-01-01  46129
+2015-01-01  49145
+2016-01-01  48689
+2017-01-01  50358

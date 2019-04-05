@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Sampson County, NC
+Series ID:           PECIUB5T17NC37163A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2942
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2850
+1994-01-01     .
+1995-01-01  2945
+1996-01-01     .
+1997-01-01  2979
+1998-01-01  3192
+1999-01-01  3037
+2000-01-01  2886
+2001-01-01  2952
+2002-01-01  3194
+2003-01-01  3192
+2004-01-01  3226
+2005-01-01  3497
+2006-01-01  3299
+2007-01-01  3646
+2008-01-01  3855
+2009-01-01  3727
+2010-01-01  4013
+2011-01-01  3918
+2012-01-01  4157
+2013-01-01  4035
+2014-01-01  4575
+2015-01-01  3893
+2016-01-01  3712
+2017-01-01  3828

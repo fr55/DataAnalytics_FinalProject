@@ -1,0 +1,38 @@
+Title:               Total Per Capita Real Gross Domestic Product for Jacksonville, NC (MSA)
+Series ID:           PCRGMP27340
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:31 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area. Gross
+                     Domestic Product of a given area divided by the resident population of
+                     the area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE        VALUE
+2001-01-01  33401
+2002-01-01  31689
+2003-01-01  33409
+2004-01-01  34680
+2005-01-01  36340
+2006-01-01  35659
+2007-01-01  36763
+2008-01-01  39023
+2009-01-01  42134
+2010-01-01  41511
+2011-01-01  41329
+2012-01-01  39011
+2013-01-01  38275
+2014-01-01  37590
+2015-01-01  36254
+2016-01-01  38296
+2017-01-01  38087

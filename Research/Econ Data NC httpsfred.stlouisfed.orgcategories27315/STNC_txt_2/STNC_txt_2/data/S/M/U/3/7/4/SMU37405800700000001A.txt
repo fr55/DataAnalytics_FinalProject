@@ -1,0 +1,40 @@
+Title:               All Employees: Service-Providing in Rocky Mount, NC (MSA)
+Series ID:           SMU37405800700000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  36.9
+1991-01-01  36.9
+1992-01-01  37.9
+1993-01-01  38.4
+1994-01-01  39.1
+1995-01-01  40.5
+1996-01-01  41.5
+1997-01-01  42.5
+1998-01-01  43.9
+1999-01-01  44.0
+2000-01-01  45.5
+2001-01-01  45.7
+2002-01-01  45.5
+2003-01-01  45.0
+2004-01-01  45.6
+2005-01-01  45.6
+2006-01-01  47.1
+2007-01-01  48.6
+2008-01-01  48.4
+2009-01-01  46.7
+2010-01-01  46.3
+2011-01-01  45.8
+2012-01-01  44.9
+2013-01-01  44.6
+2014-01-01  44.2
+2015-01-01  44.0
+2016-01-01  43.9
+2017-01-01  43.8

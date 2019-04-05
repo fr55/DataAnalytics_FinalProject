@@ -1,0 +1,42 @@
+Title:               Estimate of People Under Age 5 in Poverty for North Carolina
+Series ID:           PE0T4NC37000A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:06 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE         VALUE
+1989-01-01   90217
+1990-01-01       .
+1991-01-01       .
+1992-01-01       .
+1993-01-01  124701
+1994-01-01       .
+1995-01-01  123389
+1996-01-01  115492
+1997-01-01  111991
+1998-01-01  114611
+1999-01-01   95890
+2000-01-01  106038
+2001-01-01  106628
+2002-01-01  118554
+2003-01-01  139464
+2004-01-01  129068
+2005-01-01  138820
+2006-01-01  140125
+2007-01-01  141506
+2008-01-01  147112
+2009-01-01  172447
+2010-01-01  178823
+2011-01-01  184915
+2012-01-01  181415
+2013-01-01  166834
+2014-01-01  161245
+2015-01-01  156403
+2016-01-01  143903
+2017-01-01  140316

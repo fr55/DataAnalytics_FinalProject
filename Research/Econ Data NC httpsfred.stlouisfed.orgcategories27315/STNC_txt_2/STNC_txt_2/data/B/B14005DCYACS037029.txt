@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Camden County, NC
+Series ID:           B14005DCYACS037029
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01   0.000000000000000
+2010-01-01   0.000000000000000
+2011-01-01   0.000000000000000
+2012-01-01   3.750000000000000
+2013-01-01   7.302533532041728
+2014-01-01  11.661341853035143
+2015-01-01  12.571428571428573
+2016-01-01  14.838709677419354
+2017-01-01   6.200000000000000

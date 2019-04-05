@@ -1,0 +1,26 @@
+Title:               White to Non-White Racial Dissimilarity Index for Tyrrell County, NC
+Series ID:           RACEDISPARITY037177
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2015-01-01
+Last Updated:        2017-02-10 5:14 PM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE       VALUE
+2009-01-01     0
+2010-01-01     0
+2011-01-01     0
+2012-01-01     0
+2013-01-01     0
+2014-01-01     0
+2015-01-01     0

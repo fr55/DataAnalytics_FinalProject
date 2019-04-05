@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Wake County, NC
+Series ID:           CDC20N2U037183
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  267.9
+2000-01-01  257.6
+2001-01-01  249.8
+2002-01-01  243.1
+2003-01-01  249.4
+2004-01-01  246.4
+2005-01-01  241.1
+2006-01-01  244.9
+2007-01-01  242.4
+2008-01-01  233.0
+2009-01-01  228.1
+2010-01-01  230.8
+2011-01-01  229.8
+2012-01-01  228.0
+2013-01-01  235.4
+2014-01-01  241.7
+2015-01-01  240.5
+2016-01-01  255.5

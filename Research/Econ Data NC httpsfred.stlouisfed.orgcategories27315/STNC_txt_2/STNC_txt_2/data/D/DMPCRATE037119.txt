@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Mecklenburg County, NC
+Series ID:           DMPCRATE037119
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  52.9399999380112
+2009-01-01  49.2599999904633
+2010-01-01  47.0999999046326
+2011-01-01  45.4569999999367
+2012-01-01  42.5569999995641
+2013-01-01  37.9639999996871
+2014-01-01  36.5239999997430
+2015-01-01  37.8839999996126

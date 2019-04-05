@@ -1,0 +1,40 @@
+Title:               All Employees: Private Service Providing in Durham-Chapel Hill, NC (MSA)
+Series ID:           SMU37205000800000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  112.6
+1991-01-01  113.3
+1992-01-01  114.2
+1993-01-01  113.1
+1994-01-01  112.2
+1995-01-01  121.6
+1996-01-01  128.1
+1997-01-01  133.9
+1998-01-01  140.0
+1999-01-01  146.2
+2000-01-01  147.3
+2001-01-01  151.7
+2002-01-01  153.2
+2003-01-01  148.8
+2004-01-01  152.5
+2005-01-01  156.1
+2006-01-01  163.6
+2007-01-01  168.5
+2008-01-01  170.2
+2009-01-01  167.4
+2010-01-01  168.2
+2011-01-01  173.9
+2012-01-01  179.9
+2013-01-01  183.1
+2014-01-01  188.2
+2015-01-01  193.7
+2016-01-01  200.8
+2017-01-01  205.5

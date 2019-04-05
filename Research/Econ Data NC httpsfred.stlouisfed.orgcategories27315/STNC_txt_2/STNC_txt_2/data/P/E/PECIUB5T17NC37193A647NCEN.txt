@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Wilkes County, NC
+Series ID:           PECIUB5T17NC37193A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1884
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2104
+1994-01-01     .
+1995-01-01  2287
+1996-01-01     .
+1997-01-01  2447
+1998-01-01  2511
+1999-01-01  2060
+2000-01-01  1993
+2001-01-01  2165
+2002-01-01  2337
+2003-01-01  2268
+2004-01-01  2298
+2005-01-01  2612
+2006-01-01  2479
+2007-01-01  2427
+2008-01-01  3178
+2009-01-01  3328
+2010-01-01  3292
+2011-01-01  4108
+2012-01-01  3421
+2013-01-01  3573
+2014-01-01  3598
+2015-01-01  3214
+2016-01-01  2967
+2017-01-01  2944

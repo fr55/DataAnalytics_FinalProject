@@ -1,0 +1,40 @@
+Title:               All Employees: Private Service Providing in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167400800000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  397.4
+1991-01-01  398.0
+1992-01-01  410.0
+1993-01-01  431.3
+1994-01-01  455.8
+1995-01-01  474.9
+1996-01-01  496.6
+1997-01-01  519.8
+1998-01-01  551.2
+1999-01-01  580.3
+2000-01-01  604.5
+2001-01-01  606.5
+2002-01-01  604.7
+2003-01-01  610.5
+2004-01-01  621.3
+2005-01-01  639.2
+2006-01-01  674.1
+2007-01-01  704.6
+2008-01-01  706.6
+2009-01-01  671.2
+2010-01-01  674.8
+2011-01-01  697.1
+2012-01-01  716.4
+2013-01-01  736.0
+2014-01-01  767.3
+2015-01-01  800.0
+2016-01-01  833.0
+2017-01-01  859.6

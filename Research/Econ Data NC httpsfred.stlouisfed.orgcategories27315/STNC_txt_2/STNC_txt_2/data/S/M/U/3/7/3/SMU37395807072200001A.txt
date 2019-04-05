@@ -1,0 +1,40 @@
+Title:               All Employees: Food Services and Drinking Places in Raleigh, NC (MSA)
+Series ID:           SMU37395807072200001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  16.9
+1991-01-01  17.3
+1992-01-01  18.4
+1993-01-01  19.7
+1994-01-01  21.2
+1995-01-01  21.6
+1996-01-01  22.4
+1997-01-01  24.0
+1998-01-01  24.9
+1999-01-01  26.2
+2000-01-01  27.2
+2001-01-01  28.2
+2002-01-01  28.8
+2003-01-01  29.8
+2004-01-01  30.7
+2005-01-01  32.8
+2006-01-01  34.9
+2007-01-01  37.5
+2008-01-01  38.3
+2009-01-01  37.4
+2010-01-01  37.9
+2011-01-01  40.0
+2012-01-01  42.4
+2013-01-01  44.4
+2014-01-01  46.4
+2015-01-01  49.1
+2016-01-01  51.8
+2017-01-01  53.2

@@ -1,0 +1,41 @@
+Title:               Personal Consumption Expenditures: Services: Recreation Services for North Carolina
+Series ID:           NCPCESRECSRV
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Spending on membership clubs, sports centers, parks, theaters, and
+                     museums, audio-video, photographic, and information processing
+                     equipment services, gambling, and other recreational services.For more
+                     information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01   4770
+1998-01-01   5159
+1999-01-01   5585
+2000-01-01   5816
+2001-01-01   5982
+2002-01-01   6072
+2003-01-01   6313
+2004-01-01   6757
+2005-01-01   7214
+2006-01-01   7910
+2007-01-01   8781
+2008-01-01   9319
+2009-01-01   9603
+2010-01-01  10006
+2011-01-01  10229
+2012-01-01  10868
+2013-01-01  11221
+2014-01-01  11571
+2015-01-01  12407
+2016-01-01  13080
+2017-01-01  13786

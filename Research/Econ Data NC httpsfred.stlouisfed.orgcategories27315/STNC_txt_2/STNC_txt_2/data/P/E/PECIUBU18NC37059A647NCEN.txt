@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Davie County, NC
+Series ID:           PECIUBU18NC37059A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   796
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   907
+1994-01-01     .
+1995-01-01   875
+1996-01-01     .
+1997-01-01  1158
+1998-01-01  1346
+1999-01-01  1340
+2000-01-01  1283
+2001-01-01  1214
+2002-01-01  1243
+2003-01-01  1489
+2004-01-01  1479
+2005-01-01  1688
+2006-01-01  1520
+2007-01-01  1543
+2008-01-01  1743
+2009-01-01  2067
+2010-01-01  2472
+2011-01-01  2105
+2012-01-01  2132
+2013-01-01  2117
+2014-01-01  2287
+2015-01-01  1968
+2016-01-01  1878
+2017-01-01  1833

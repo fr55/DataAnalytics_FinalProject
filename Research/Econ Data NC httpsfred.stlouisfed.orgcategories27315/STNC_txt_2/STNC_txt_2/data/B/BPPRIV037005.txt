@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Alleghany County, NC
+Series ID:           BPPRIV037005
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:03 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    81
+1991-01-01    68
+1992-01-01    67
+1993-01-01    75
+1994-01-01    89
+1995-01-01    97
+1996-01-01    92
+1997-01-01   138
+1998-01-01   131
+1999-01-01   146
+2000-01-01   151
+2001-01-01    95
+2002-01-01    95
+2003-01-01    82
+2004-01-01   107
+2005-01-01   113
+2006-01-01   144
+2007-01-01   122
+2008-01-01    80
+2009-01-01    46
+2010-01-01    39
+2011-01-01    34
+2012-01-01    20
+2013-01-01    35
+2014-01-01    17
+2015-01-01    17
+2016-01-01    29
+2017-01-01    18

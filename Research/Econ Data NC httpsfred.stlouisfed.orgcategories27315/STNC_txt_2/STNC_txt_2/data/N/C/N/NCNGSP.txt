@@ -1,0 +1,33 @@
+Title:               Total Gross Domestic Product for North Carolina
+Series ID:           NCNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:07 PM CST
+Notes:               
+
+DATE           VALUE
+1997-01-01  233924.3
+1998-01-01  245907.3
+1999-01-01  264063.5
+2000-01-01  275694.2
+2001-01-01  288683.5
+2002-01-01  298110.0
+2003-01-01  309318.2
+2004-01-01  328037.6
+2005-01-01  352394.5
+2006-01-01  383522.3
+2007-01-01  396347.6
+2008-01-01  413363.3
+2009-01-01  406477.4
+2010-01-01  415206.4
+2011-01-01  427205.6
+2012-01-01  439571.0
+2013-01-01  455521.6
+2014-01-01  475227.2
+2015-01-01  503467.3
+2016-01-01  518384.0
+2017-01-01  540496.6

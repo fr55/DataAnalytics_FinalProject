@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Anson County, NC
+Series ID:           PEU18NC37007A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1382
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1649
+1994-01-01     .
+1995-01-01  1803
+1996-01-01     .
+1997-01-01  1630
+1998-01-01  1803
+1999-01-01  1489
+2000-01-01  1420
+2001-01-01  1484
+2002-01-01  1473
+2003-01-01  1596
+2004-01-01  1567
+2005-01-01  1819
+2006-01-01  1640
+2007-01-01  1623
+2008-01-01  1730
+2009-01-01  1798
+2010-01-01  1894
+2011-01-01  2061
+2012-01-01  1997
+2013-01-01  2026
+2014-01-01  1868
+2015-01-01  1791
+2016-01-01  1755
+2017-01-01  1602

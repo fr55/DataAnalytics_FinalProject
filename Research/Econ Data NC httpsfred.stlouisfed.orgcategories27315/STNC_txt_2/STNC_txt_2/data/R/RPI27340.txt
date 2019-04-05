@@ -1,0 +1,28 @@
+Title:               Real Personal Income for Jacksonville, NC (MSA)
+Series ID:           RPI27340
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:53 AM CDT
+Notes:               Real personal income is personal income at RPPs divided by the
+                     national PCE price index. It is estimated for states, state
+                     metro/nonmetro portions, metropolitan statistical areas, and the
+                     combined nonmetropolitan portion of the United States.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE          VALUE
+2008-01-01  7268613
+2009-01-01  7725185
+2010-01-01  8126744
+2011-01-01  8144994
+2012-01-01  8052565
+2013-01-01  7982842
+2014-01-01  7974875
+2015-01-01  8165849
+2016-01-01  8704398

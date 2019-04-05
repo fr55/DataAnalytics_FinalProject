@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Information: Broadcasting and Telecommunications for North Carolina
+Series ID:           NCBRDTELENGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  4572.7
+1998-01-01  4974.2
+1999-01-01  4938.5
+2000-01-01  5021.0
+2001-01-01  4984.7
+2002-01-01  4976.8
+2003-01-01  5248.6
+2004-01-01  5731.6
+2005-01-01  6406.5
+2006-01-01  5981.1
+2007-01-01  6647.1
+2008-01-01  6991.6
+2009-01-01  6894.3
+2010-01-01  6879.1
+2011-01-01  6619.4
+2012-01-01  6496.3
+2013-01-01  7328.6
+2014-01-01  7410.7
+2015-01-01  7960.3
+2016-01-01  8212.9

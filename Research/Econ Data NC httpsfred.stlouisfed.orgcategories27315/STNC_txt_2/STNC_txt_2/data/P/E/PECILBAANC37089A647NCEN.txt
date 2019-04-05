@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Henderson County, NC
+Series ID:           PECILBAANC37089A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   5940
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   7296
+1994-01-01      .
+1995-01-01   7164
+1996-01-01      .
+1997-01-01   7362
+1998-01-01   7759
+1999-01-01   7643
+2000-01-01   7645
+2001-01-01   8124
+2002-01-01   8811
+2003-01-01   8429
+2004-01-01   8383
+2005-01-01   9310
+2006-01-01   9318
+2007-01-01   8609
+2008-01-01  10763
+2009-01-01  10238
+2010-01-01  14484
+2011-01-01  11660
+2012-01-01  13112
+2013-01-01  14389
+2014-01-01  11853
+2015-01-01  12301
+2016-01-01  11312
+2017-01-01   9858

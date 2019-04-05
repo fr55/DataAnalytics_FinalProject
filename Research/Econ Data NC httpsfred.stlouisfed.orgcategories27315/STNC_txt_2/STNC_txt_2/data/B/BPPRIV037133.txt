@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Onslow County, NC
+Series ID:           BPPRIV037133
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01    479
+1991-01-01    474
+1992-01-01    597
+1993-01-01    674
+1994-01-01    744
+1995-01-01    641
+1996-01-01    745
+1997-01-01    710
+1998-01-01    868
+1999-01-01    734
+2000-01-01    665
+2001-01-01    824
+2002-01-01   1000
+2003-01-01   1044
+2004-01-01   1342
+2005-01-01   1699
+2006-01-01   1782
+2007-01-01   1556
+2008-01-01   1143
+2009-01-01   1558
+2010-01-01   2167
+2011-01-01   1904
+2012-01-01   2065
+2013-01-01   1377
+2014-01-01   1058
+2015-01-01    866
+2016-01-01    788
+2017-01-01   1005

@@ -1,0 +1,40 @@
+Title:               All Employees: Total Private in North Carolina
+Series ID:           SMU37000000500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE         VALUE
+1990-01-01  2623.9
+1991-01-01  2567.3
+1992-01-01  2619.2
+1993-01-01  2707.7
+1994-01-01  2805.2
+1995-01-01  2892.5
+1996-01-01  2965.7
+1997-01-01  3066.8
+1998-01-01  3154.7
+1999-01-01  3233.3
+2000-01-01  3281.2
+2001-01-01  3245.6
+2002-01-01  3184.3
+2003-01-01  3135.7
+2004-01-01  3171.6
+2005-01-01  3238.5
+2006-01-01  3347.1
+2007-01-01  3435.8
+2008-01-01  3408.5
+2009-01-01  3178.1
+2010-01-01  3146.9
+2011-01-01  3202.0
+2012-01-01  3272.6
+2013-01-01  3340.6
+2014-01-01  3424.6
+2015-01-01  3520.7
+2016-01-01  3613.5
+2017-01-01  3682.0

@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Wayne County, NC
+Series ID:           DMPCRATE037191
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  68.3099999427795
+2009-01-01  71.0799999237061
+2010-01-01  56.5099999904633
+2011-01-01  63.8779999995604
+2012-01-01  57.3509999997914
+2013-01-01  49.6449999995530
+2014-01-01  40.9769999999553
+2015-01-01  42.8279999997467

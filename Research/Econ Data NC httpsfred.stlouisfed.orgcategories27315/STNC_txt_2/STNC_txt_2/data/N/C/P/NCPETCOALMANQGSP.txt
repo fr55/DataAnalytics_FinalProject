@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Nondurable Goods Manufacturing: Petroleum and Coal Products Manufacturing for North Carolina
+Series ID:           NCPETCOALMANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  176.548
+1998-01-01  218.180
+1999-01-01  180.497
+2000-01-01  178.633
+2001-01-01  204.215
+2002-01-01  218.860
+2003-01-01  281.961
+2004-01-01  266.010
+2005-01-01  152.504
+2006-01-01   94.921
+2007-01-01  151.869
+2008-01-01  208.039
+2009-01-01  213.474
+2010-01-01  155.414
+2011-01-01  100.596
+2012-01-01  100.000
+2013-01-01  114.402
+2014-01-01  126.352
+2015-01-01  106.565
+2016-01-01  132.170

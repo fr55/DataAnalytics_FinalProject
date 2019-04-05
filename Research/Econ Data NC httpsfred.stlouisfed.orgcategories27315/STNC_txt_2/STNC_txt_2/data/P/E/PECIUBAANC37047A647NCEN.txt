@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Columbus County, NC
+Series ID:           PECIUBAANC37047A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  13558
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  14527
+1994-01-01      .
+1995-01-01  14010
+1996-01-01      .
+1997-01-01  13054
+1998-01-01  13418
+1999-01-01  13348
+2000-01-01  13063
+2001-01-01  13130
+2002-01-01  13858
+2003-01-01  13552
+2004-01-01  14095
+2005-01-01  16302
+2006-01-01  13667
+2007-01-01  12665
+2008-01-01  13502
+2009-01-01  15415
+2010-01-01  16995
+2011-01-01  16312
+2012-01-01  16183
+2013-01-01  15859
+2014-01-01  15375
+2015-01-01  15112
+2016-01-01  15126
+2017-01-01  14584

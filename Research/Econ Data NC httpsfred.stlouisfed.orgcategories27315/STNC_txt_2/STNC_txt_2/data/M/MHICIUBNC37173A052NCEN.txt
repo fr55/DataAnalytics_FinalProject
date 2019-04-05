@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Swain County, NC
+Series ID:           MHICIUBNC37173A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18059
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  20532
+1994-01-01      .
+1995-01-01  23853
+1996-01-01      .
+1997-01-01  25049
+1998-01-01  26806
+1999-01-01  29972
+2000-01-01  32439
+2001-01-01  31556
+2002-01-01  33106
+2003-01-01  34652
+2004-01-01  36604
+2005-01-01  36463
+2006-01-01  37424
+2007-01-01  39545
+2008-01-01  39974
+2009-01-01  39413
+2010-01-01  39233
+2011-01-01  39867
+2012-01-01  39803
+2013-01-01  37858
+2014-01-01  37146
+2015-01-01  39265
+2016-01-01  43157
+2017-01-01  45007

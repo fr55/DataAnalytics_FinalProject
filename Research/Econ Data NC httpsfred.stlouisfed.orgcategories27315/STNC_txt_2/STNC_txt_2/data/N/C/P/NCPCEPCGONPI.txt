@@ -1,0 +1,40 @@
+Title:               Per Capita Personal Consumption Expenditures: Services: Final Consumption Expenditures of Nonprofit Institutions Serving Households: Gross Output of Nonprofit Institutions for North Carolina
+Series ID:           NCPCEPCGONPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               Personal consumption expenditures of a given area divided by the
+                     resident population of the area.
+                     
+                     Gross output is net of unrelated sales, secondary sales, and sales to
+                     business, government, and the rest of the world; excludes own-account
+                     investment (construction and software).For more information about this
+                     release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01  1199
+1998-01-01  1271
+1999-01-01  1297
+2000-01-01  1373
+2001-01-01  1481
+2002-01-01  1585
+2003-01-01  1640
+2004-01-01  1715
+2005-01-01  1822
+2006-01-01  1967
+2007-01-01  2065
+2008-01-01  2143
+2009-01-01  2190
+2010-01-01  2210
+2011-01-01  2251
+2012-01-01  2305
+2013-01-01  2356
+2014-01-01  2437
+2015-01-01  2489
+2016-01-01  2575
+2017-01-01  2650

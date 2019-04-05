@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Greene County, NC
+Series ID:           CDC20N2U037079
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  504.0
+2000-01-01  490.3
+2001-01-01  461.3
+2002-01-01  476.6
+2003-01-01  526.8
+2004-01-01  523.9
+2005-01-01  430.1
+2006-01-01  463.3
+2007-01-01  474.6
+2008-01-01  414.3
+2009-01-01  423.0
+2010-01-01  381.5
+2011-01-01  454.4
+2012-01-01  367.5
+2013-01-01  496.3
+2014-01-01  526.9
+2015-01-01  422.3
+2016-01-01  493.4

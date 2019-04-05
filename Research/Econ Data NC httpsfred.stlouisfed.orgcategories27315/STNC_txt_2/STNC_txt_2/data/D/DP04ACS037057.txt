@@ -1,0 +1,21 @@
+Title:               Burdened Households in Davidson County, NC
+Series ID:           DP04ACS037057
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  28.429283299418373
+2011-01-01  29.529175818928472
+2012-01-01  29.634021279323164
+2013-01-01  30.117484672423200
+2014-01-01  29.193597782111830
+2015-01-01  27.895412255373760
+2016-01-01  27.181046130090714

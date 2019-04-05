@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Pitt County, NC
+Series ID:           RACEDISPARITY037147
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:31 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  31.928954848799652
+2010-01-01  32.255588252976594
+2011-01-01  32.025265855802690
+2012-01-01  29.485700690045668
+2013-01-01  30.135822355048703
+2014-01-01  28.420971962895376
+2015-01-01  26.862127281438987
+2016-01-01  28.703133614054500
+2017-01-01  30.692337652971485

@@ -1,0 +1,34 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Professional and Business Services for North Carolina
+Series ID:           NCPROBUSRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  27110.4
+1998-01-01  29173.6
+1999-01-01  30521.0
+2000-01-01  31059.7
+2001-01-01  33298.9
+2002-01-01  34866.2
+2003-01-01  35882.9
+2004-01-01  36995.4
+2005-01-01  38932.1
+2006-01-01  40675.2
+2007-01-01  42357.3
+2008-01-01  44337.7
+2009-01-01  41411.5
+2010-01-01  44404.2
+2011-01-01  46890.2
+2012-01-01  49702.4
+2013-01-01  49472.2
+2014-01-01  53044.1
+2015-01-01  55306.5
+2016-01-01  57314.0
+2017-01-01  60043.4

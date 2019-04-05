@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Burlington, NC (MSA)
+Series ID:           BURL537PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:07 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  26912
+2002-01-01  26990
+2003-01-01  27690
+2004-01-01  27963
+2005-01-01  28745
+2006-01-01  30727
+2007-01-01  32156
+2008-01-01  32834
+2009-01-01  31480
+2010-01-01  31912
+2011-01-01  32987
+2012-01-01  34187
+2013-01-01  34059
+2014-01-01  35482
+2015-01-01  36755
+2016-01-01  37625
+2017-01-01  38839

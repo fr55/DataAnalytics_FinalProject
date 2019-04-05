@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Arts, Entertainment, Recreation, Accommodation, and Food Services: Accommodation and Food Services: Food Services and Drinking Places for North Carolina
+Series ID:           NCFOODDPRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  6532.2
+1998-01-01  6807.0
+1999-01-01  7251.9
+2000-01-01  7600.6
+2001-01-01  7367.5
+2002-01-01  7481.6
+2003-01-01  7595.0
+2004-01-01  7750.1
+2005-01-01  7961.8
+2006-01-01  8319.9
+2007-01-01  8463.5
+2008-01-01  8161.0
+2009-01-01  7688.0
+2010-01-01  7942.6
+2011-01-01  8233.7
+2012-01-01  8539.9
+2013-01-01  8674.2
+2014-01-01  9279.6
+2015-01-01  9726.2
+2016-01-01  9923.0

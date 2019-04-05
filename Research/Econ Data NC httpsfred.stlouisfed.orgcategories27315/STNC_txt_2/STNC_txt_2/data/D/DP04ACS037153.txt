@@ -1,0 +1,21 @@
+Title:               Burdened Households in Richmond County, NC
+Series ID:           DP04ACS037153
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  33.129904097646030
+2011-01-01  32.641114123736756
+2012-01-01  31.513185558959574
+2013-01-01  33.370392042129900
+2014-01-01  33.174029607180320
+2015-01-01  33.597455176402550
+2016-01-01  33.515976467874030

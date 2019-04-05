@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Alexander County, NC
+Series ID:           PEU18NC37003A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   750
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1014
+1994-01-01     .
+1995-01-01  1051
+1996-01-01     .
+1997-01-01  1280
+1998-01-01  1431
+1999-01-01  1212
+2000-01-01  1167
+2001-01-01  1225
+2002-01-01  1266
+2003-01-01  1326
+2004-01-01  1337
+2005-01-01  1510
+2006-01-01  1474
+2007-01-01  1311
+2008-01-01  1458
+2009-01-01  1790
+2010-01-01  2138
+2011-01-01  2229
+2012-01-01  1976
+2013-01-01  1775
+2014-01-01  1769
+2015-01-01  1692
+2016-01-01  1729
+2017-01-01  1206

@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Scotland County, NC
+Series ID:           PE5T17NC37165A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1711
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1834
+1994-01-01     .
+1995-01-01  2049
+1996-01-01     .
+1997-01-01  1890
+1998-01-01  2090
+1999-01-01  1962
+2000-01-01  1692
+2001-01-01  1546
+2002-01-01  1671
+2003-01-01  1789
+2004-01-01  1812
+2005-01-01  2275
+2006-01-01  2264
+2007-01-01  2136
+2008-01-01  2167
+2009-01-01  2321
+2010-01-01  2314
+2011-01-01  2616
+2012-01-01  2655
+2013-01-01  2520
+2014-01-01  2244
+2015-01-01  2478
+2016-01-01  2150
+2017-01-01  2164

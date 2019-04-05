@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Union County, NC
+Series ID:           PECIUB5T17NC37179A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2731
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  3050
+1994-01-01     .
+1995-01-01  3262
+1996-01-01     .
+1997-01-01  3731
+1998-01-01  3878
+1999-01-01  3658
+2000-01-01  3316
+2001-01-01  3287
+2002-01-01  3678
+2003-01-01  4095
+2004-01-01  4552
+2005-01-01  4306
+2006-01-01  4033
+2007-01-01  4127
+2008-01-01  4705
+2009-01-01  6336
+2010-01-01  6564
+2011-01-01  7150
+2012-01-01  7411
+2013-01-01  7452
+2014-01-01  6943
+2015-01-01  6393
+2016-01-01  6205
+2017-01-01  6209

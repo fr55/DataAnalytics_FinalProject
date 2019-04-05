@@ -1,0 +1,21 @@
+Title:               Burdened Households in Pasquotank County, NC
+Series ID:           DP04ACS037139
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  39.512576381980956
+2011-01-01  41.443313745162680
+2012-01-01  42.388188073394495
+2013-01-01  42.482998118940820
+2014-01-01  42.104135418898650
+2015-01-01  42.388960758947825
+2016-01-01  39.208838203848890

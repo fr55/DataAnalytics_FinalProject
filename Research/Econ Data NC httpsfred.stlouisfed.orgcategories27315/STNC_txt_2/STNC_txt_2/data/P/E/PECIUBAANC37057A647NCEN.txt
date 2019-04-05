@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Davidson County, NC
+Series ID:           PECIUBAANC37057A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  13891
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  18563
+1994-01-01      .
+1995-01-01  17100
+1996-01-01      .
+1997-01-01  17480
+1998-01-01  19332
+1999-01-01  19234
+2000-01-01  17824
+2001-01-01  19163
+2002-01-01  20970
+2003-01-01  23620
+2004-01-01  24764
+2005-01-01  22414
+2006-01-01  19542
+2007-01-01  26268
+2008-01-01  25847
+2009-01-01  25938
+2010-01-01  30932
+2011-01-01  27544
+2012-01-01  29950
+2013-01-01  34679
+2014-01-01  30897
+2015-01-01  26706
+2016-01-01  28068
+2017-01-01  28093

@@ -1,0 +1,40 @@
+Title:               All Employees: Goods Producing in Virginia Beach-Norfolk-Newport News, VA-NC (MSA)
+Series ID:           SMU51472600600000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:53 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  103.7
+1991-01-01   99.3
+1992-01-01   96.6
+1993-01-01   96.8
+1994-01-01   96.4
+1995-01-01  100.9
+1996-01-01  104.3
+1997-01-01  106.6
+1998-01-01  106.3
+1999-01-01  105.0
+2000-01-01  109.0
+2001-01-01  108.3
+2002-01-01  104.6
+2003-01-01  106.5
+2004-01-01  108.5
+2005-01-01  109.9
+2006-01-01  108.2
+2007-01-01  106.1
+2008-01-01  101.5
+2009-01-01   91.9
+2010-01-01   88.6
+2011-01-01   86.9
+2012-01-01   88.0
+2013-01-01   89.1
+2014-01-01   89.1
+2015-01-01   89.4
+2016-01-01   87.6
+2017-01-01   89.7

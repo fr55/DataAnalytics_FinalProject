@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Pasquotank County, NC
+Series ID:           MHICILBNC37139A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19643
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  23400
+1994-01-01      .
+1995-01-01  24648
+1996-01-01      .
+1997-01-01  26213
+1998-01-01  27614
+1999-01-01  28363
+2000-01-01  29441
+2001-01-01  28643
+2002-01-01  28828
+2003-01-01  30335
+2004-01-01  31483
+2005-01-01  33384
+2006-01-01  35666
+2007-01-01  35645
+2008-01-01  40410
+2009-01-01  35500
+2010-01-01  35871
+2011-01-01  36341
+2012-01-01  41580
+2013-01-01  36449
+2014-01-01  42626
+2015-01-01  38863
+2016-01-01  40178
+2017-01-01  43205

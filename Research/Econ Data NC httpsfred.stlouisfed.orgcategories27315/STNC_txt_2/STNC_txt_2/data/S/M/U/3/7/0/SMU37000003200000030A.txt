@@ -1,0 +1,29 @@
+Title:               Average Weekly Earnings of Production Employees: Manufacturing: Non-Durable Goods in North Carolina
+Series ID:           SMU37000003200000030A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2001-01-01  485.41
+2002-01-01  507.13
+2003-01-01  521.01
+2004-01-01  542.40
+2005-01-01  541.33
+2006-01-01  544.12
+2007-01-01  590.92
+2008-01-01  607.46
+2009-01-01  608.79
+2010-01-01  618.00
+2011-01-01  614.70
+2012-01-01  622.25
+2013-01-01  631.43
+2014-01-01  661.41
+2015-01-01  693.05
+2016-01-01  706.63
+2017-01-01  708.93

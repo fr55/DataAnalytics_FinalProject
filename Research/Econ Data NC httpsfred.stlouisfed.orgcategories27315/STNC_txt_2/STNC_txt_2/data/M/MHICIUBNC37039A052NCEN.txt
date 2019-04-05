@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Cherokee County, NC
+Series ID:           MHICIUBNC37039A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  20376
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  24052
+1994-01-01      .
+1995-01-01  27247
+1996-01-01      .
+1997-01-01  28496
+1998-01-01  30173
+1999-01-01  29699
+2000-01-01  31065
+2001-01-01  29547
+2002-01-01  29942
+2003-01-01  30367
+2004-01-01  32157
+2005-01-01  33487
+2006-01-01  36179
+2007-01-01  38245
+2008-01-01  36855
+2009-01-01  36632
+2010-01-01  35642
+2011-01-01  36116
+2012-01-01  33823
+2013-01-01  37160
+2014-01-01  37861
+2015-01-01  40596
+2016-01-01  40559
+2017-01-01  42086

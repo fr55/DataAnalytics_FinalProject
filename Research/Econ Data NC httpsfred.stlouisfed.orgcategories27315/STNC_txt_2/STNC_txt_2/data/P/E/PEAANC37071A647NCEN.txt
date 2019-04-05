@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Gaston County, NC
+Series ID:           PEAANC37071A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18076
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  23928
+1994-01-01      .
+1995-01-01  20775
+1996-01-01      .
+1997-01-01  22118
+1998-01-01  23289
+1999-01-01  22200
+2000-01-01  21764
+2001-01-01  23418
+2002-01-01  25482
+2003-01-01  27344
+2004-01-01  27635
+2005-01-01  26417
+2006-01-01  28744
+2007-01-01  29544
+2008-01-01  30755
+2009-01-01  31956
+2010-01-01  40336
+2011-01-01  33820
+2012-01-01  36415
+2013-01-01  39489
+2014-01-01  34776
+2015-01-01  36243
+2016-01-01  33562
+2017-01-01  32751

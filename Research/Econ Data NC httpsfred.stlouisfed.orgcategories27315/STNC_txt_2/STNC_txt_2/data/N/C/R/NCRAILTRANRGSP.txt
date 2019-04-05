@@ -1,0 +1,33 @@
+Title:               Real Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Rail Transportation for North Carolina
+Series ID:           NCRAILTRANRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE        VALUE
+1997-01-01  391.7
+1998-01-01  416.8
+1999-01-01  438.3
+2000-01-01  472.1
+2001-01-01  441.8
+2002-01-01  419.6
+2003-01-01  457.1
+2004-01-01  477.8
+2005-01-01  466.7
+2006-01-01  444.8
+2007-01-01  448.7
+2008-01-01  425.3
+2009-01-01  391.3
+2010-01-01  377.8
+2011-01-01  374.1
+2012-01-01  391.7
+2013-01-01  353.3
+2014-01-01  364.2
+2015-01-01  378.1
+2016-01-01  358.2

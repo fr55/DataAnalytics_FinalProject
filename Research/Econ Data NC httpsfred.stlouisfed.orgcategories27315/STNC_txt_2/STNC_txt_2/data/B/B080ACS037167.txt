@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Stanly County, NC
+Series ID:           B080ACS037167
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  25.288164461696900
+2010-01-01  26.173412477093457
+2011-01-01  26.027830359660076
+2012-01-01  25.642356184375890
+2013-01-01  25.713662428322113
+2014-01-01  25.544847881953080
+2015-01-01  25.023289431416640
+2016-01-01  25.174386599559610
+2017-01-01  25.705306995758990

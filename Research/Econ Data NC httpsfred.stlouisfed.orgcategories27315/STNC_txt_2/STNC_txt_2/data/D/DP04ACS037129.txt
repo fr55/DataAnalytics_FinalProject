@@ -1,0 +1,21 @@
+Title:               Burdened Households in New Hanover County, NC
+Series ID:           DP04ACS037129
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  39.691534443677930
+2011-01-01  40.163794574304730
+2012-01-01  40.056581190381195
+2013-01-01  40.099222952779440
+2014-01-01  39.905909541102670
+2015-01-01  38.921680703637165
+2016-01-01  38.748017195797610

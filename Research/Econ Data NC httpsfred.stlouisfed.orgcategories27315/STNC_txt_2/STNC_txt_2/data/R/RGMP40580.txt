@@ -1,0 +1,36 @@
+Title:               Total Real Gross Domestic Product for Rocky Mount, NC (MSA)
+Series ID:           RGMP40580
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by Metropolitan Area
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-09-18 8:32 AM CDT
+Notes:               The All industry total includes all Private industries and Government.
+                     
+                     Real GDP by metropolitan area is an inflation-adjusted measure of each
+                     metropolitan area's gross product that is based on national prices for
+                     the goods and services produced within the metropolitan area.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm.
+
+DATE       VALUE
+2001-01-01  5806
+2002-01-01  5971
+2003-01-01  5983
+2004-01-01  5999
+2005-01-01  5842
+2006-01-01  6064
+2007-01-01  5865
+2008-01-01  5863
+2009-01-01  5905
+2010-01-01  5947
+2011-01-01  6008
+2012-01-01  5558
+2013-01-01  5510
+2014-01-01  5351
+2015-01-01  5435
+2016-01-01  5040
+2017-01-01  4962

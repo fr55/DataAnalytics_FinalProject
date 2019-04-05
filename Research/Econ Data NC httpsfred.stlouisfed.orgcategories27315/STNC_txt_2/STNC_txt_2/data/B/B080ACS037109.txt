@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Lincoln County, NC
+Series ID:           B080ACS037109
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  28.073894418546050
+2010-01-01  28.775454379672970
+2011-01-01  29.060802031656035
+2012-01-01  29.292271467318410
+2013-01-01  29.405158564883678
+2014-01-01  29.496263697315180
+2015-01-01  29.553208773354996
+2016-01-01  29.825641915336572
+2017-01-01  30.025605080963550

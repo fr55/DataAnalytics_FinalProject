@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Perquimans County, NC
+Series ID:           PECIUBAANC37143A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  2688
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2746
+1994-01-01     .
+1995-01-01  2809
+1996-01-01     .
+1997-01-01  2669
+1998-01-01  2704
+1999-01-01  2388
+2000-01-01  2218
+2001-01-01  2314
+2002-01-01  2331
+2003-01-01  2271
+2004-01-01  2383
+2005-01-01  2581
+2006-01-01  2566
+2007-01-01  2420
+2008-01-01  2752
+2009-01-01  2636
+2010-01-01  2705
+2011-01-01  3002
+2012-01-01  2860
+2013-01-01  3315
+2014-01-01  2783
+2015-01-01  2861
+2016-01-01  2727
+2017-01-01  2852

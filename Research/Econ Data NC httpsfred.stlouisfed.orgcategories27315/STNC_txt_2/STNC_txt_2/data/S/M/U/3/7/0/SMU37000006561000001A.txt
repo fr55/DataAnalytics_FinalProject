@@ -1,0 +1,40 @@
+Title:               All Employees: Educational Services in North Carolina
+Series ID:           SMU37000006561000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  27.6
+1991-01-01  27.8
+1992-01-01  30.4
+1993-01-01  35.2
+1994-01-01  34.4
+1995-01-01  35.6
+1996-01-01  37.3
+1997-01-01  40.0
+1998-01-01  42.5
+1999-01-01  44.7
+2000-01-01  47.7
+2001-01-01  53.3
+2002-01-01  54.3
+2003-01-01  54.9
+2004-01-01  56.8
+2005-01-01  59.2
+2006-01-01  63.1
+2007-01-01  67.5
+2008-01-01  70.8
+2009-01-01  72.2
+2010-01-01  74.3
+2011-01-01  76.7
+2012-01-01  78.1
+2013-01-01  79.1
+2014-01-01  81.8
+2015-01-01  84.8
+2016-01-01  88.0
+2017-01-01  91.6

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Macon County, NC
+Series ID:           BPPRIV037113
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   234
+1991-01-01   253
+1992-01-01   278
+1993-01-01   302
+1994-01-01   327
+1995-01-01   325
+1996-01-01   360
+1997-01-01   348
+1998-01-01   387
+1999-01-01   410
+2000-01-01   359
+2001-01-01   390
+2002-01-01   323
+2003-01-01   285
+2004-01-01   378
+2005-01-01   363
+2006-01-01   342
+2007-01-01   353
+2008-01-01   253
+2009-01-01   146
+2010-01-01    77
+2011-01-01    77
+2012-01-01    74
+2013-01-01    75
+2014-01-01   107
+2015-01-01    85
+2016-01-01    91
+2017-01-01    93

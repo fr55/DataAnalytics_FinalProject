@@ -1,0 +1,25 @@
+Title:               Combined Violent and Property Crime Incidents Known to Law Enforcement in Warren County, NC
+Series ID:           FBITC037185
+Source:              Federal Bureau of Investigation
+Release:             Offenses Known to Law Enforcement (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Known Incidents
+Date Range:          2005-01-01 to 2014-01-01
+Last Updated:        2017-08-31 12:52 PM CDT
+Notes:               This series represents the combined violent and property crime
+                     statistics as reported by county law enforcement agencies.
+                     
+                     FBI Uniform Crime Reporting: Crime in the United States, Table 10B.
+
+DATE       VALUE
+2005-01-01   610
+2006-01-01   604
+2007-01-01   580
+2008-01-01   592
+2009-01-01   681
+2010-01-01     .
+2011-01-01     .
+2012-01-01   526
+2013-01-01   615
+2014-01-01   512

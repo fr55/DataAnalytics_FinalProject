@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Caldwell County, NC
+Series ID:           MHICILBNC37027A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  22168
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  26114
+1994-01-01      .
+1995-01-01  27447
+1996-01-01      .
+1997-01-01  29763
+1998-01-01  31570
+1999-01-01  32669
+2000-01-01  34113
+2001-01-01  33151
+2002-01-01  33190
+2003-01-01  33854
+2004-01-01  34493
+2005-01-01  34940
+2006-01-01  33780
+2007-01-01  36428
+2008-01-01  37432
+2009-01-01  32605
+2010-01-01  34217
+2011-01-01  32675
+2012-01-01  32270
+2013-01-01  32318
+2014-01-01  35764
+2015-01-01  37010
+2016-01-01  36020
+2017-01-01  41239

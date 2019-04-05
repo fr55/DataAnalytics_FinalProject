@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Washington County, NC
+Series ID:           PECIUBU18NC37187A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1309
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1390
+1994-01-01     .
+1995-01-01  1461
+1996-01-01     .
+1997-01-01  1400
+1998-01-01  1457
+1999-01-01  1290
+2000-01-01  1289
+2001-01-01  1284
+2002-01-01  1222
+2003-01-01  1296
+2004-01-01  1272
+2005-01-01  1551
+2006-01-01  1388
+2007-01-01  1429
+2008-01-01  1319
+2009-01-01  1412
+2010-01-01  1378
+2011-01-01  1293
+2012-01-01  1420
+2013-01-01  1334
+2014-01-01  1387
+2015-01-01  1267
+2016-01-01  1285
+2017-01-01  1225

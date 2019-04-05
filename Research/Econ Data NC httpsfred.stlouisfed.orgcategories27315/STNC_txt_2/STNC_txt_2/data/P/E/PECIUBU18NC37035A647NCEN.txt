@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Catawba County, NC
+Series ID:           PECIUBU18NC37035A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   3134
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   5054
+1994-01-01      .
+1995-01-01   5369
+1996-01-01      .
+1997-01-01   6472
+1998-01-01   7105
+1999-01-01   6237
+2000-01-01   5856
+2001-01-01   6313
+2002-01-01   7256
+2003-01-01   8301
+2004-01-01   7224
+2005-01-01   8146
+2006-01-01   7595
+2007-01-01   6421
+2008-01-01   8672
+2009-01-01   9167
+2010-01-01   9912
+2011-01-01   9468
+2012-01-01  11353
+2013-01-01  10207
+2014-01-01   9448
+2015-01-01   8498
+2016-01-01   7553
+2017-01-01   7819

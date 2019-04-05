@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Nonmetallic Mineral Products Manufacturing for North Carolina
+Series ID:           NCNMMPMANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  1896.1
+1998-01-01  1792.1
+1999-01-01  1964.6
+2000-01-01  2165.0
+2001-01-01  2075.2
+2002-01-01  1469.4
+2003-01-01  1425.8
+2004-01-01  1531.1
+2005-01-01  1537.8
+2006-01-01  1663.3
+2007-01-01  1793.4
+2008-01-01  1615.8
+2009-01-01  1463.6
+2010-01-01  1364.5
+2011-01-01  1532.2
+2012-01-01  1735.4
+2013-01-01  1759.8
+2014-01-01  1642.2
+2015-01-01  1794.0
+2016-01-01  1786.9

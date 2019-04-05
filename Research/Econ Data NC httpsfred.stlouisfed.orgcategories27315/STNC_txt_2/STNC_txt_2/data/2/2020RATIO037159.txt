@@ -1,0 +1,22 @@
+Title:               Income Inequality in Rowan County, NC
+Series ID:           2020RATIO037159
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  12.942488144485925
+2011-01-01  13.255671551897210
+2012-01-01  12.888087742459632
+2013-01-01  13.632794951331693
+2014-01-01  13.653052587027828
+2015-01-01  13.206920762286861
+2016-01-01  13.519897304236201
+2017-01-01  14.150019208605455

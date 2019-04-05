@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Lenoir County, NC
+Series ID:           DMPCRATE037107
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  88.9399998188019
+2009-01-01  97.9199998378754
+2010-01-01  85.9099998474121
+2011-01-01  71.3769999993965
+2012-01-01  67.7319999998435
+2013-01-01  57.5099999997765
+2014-01-01  52.6879999996163
+2015-01-01  60.5289999996312

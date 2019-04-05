@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Forsyth County, NC
+Series ID:           PCPI37067
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:05 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  31847
+2002-01-01  32253
+2003-01-01  33279
+2004-01-01  35359
+2005-01-01  36540
+2006-01-01  38384
+2007-01-01  39284
+2008-01-01  40284
+2009-01-01  38079
+2010-01-01  39322
+2011-01-01  39272
+2012-01-01  40829
+2013-01-01  40170
+2014-01-01  43142
+2015-01-01  44982
+2016-01-01  45192
+2017-01-01  46888

@@ -1,0 +1,41 @@
+Title:               Personal Consumption Expenditures: Nondurable Goods: Food and Beverages Purchased for Off-Premises Consumption for North Carolina
+Series ID:           NCPCEFOOD
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:21 PM CDT
+Notes:               A measure of spending on goods and services purchased by, and on
+                     behalf of, households based on households' state of residence in the
+                     fifty states and the District of Columbia.
+                     
+                     Purchases of food and nonalcoholic beverages purchased for
+                     off-premises consumption, alcoholic beverages purchased for
+                     off-premises consumption, and food produced and consumed on farms.For
+                     more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE        VALUE
+1997-01-01  13711
+1998-01-01  14091
+1999-01-01  15223
+2000-01-01  16069
+2001-01-01  16546
+2002-01-01  16759
+2003-01-01  17067
+2004-01-01  17725
+2005-01-01  19058
+2006-01-01  19821
+2007-01-01  21342
+2008-01-01  22555
+2009-01-01  22319
+2010-01-01  22801
+2011-01-01  23098
+2012-01-01  24976
+2013-01-01  26021
+2014-01-01  27177
+2015-01-01  28065
+2016-01-01  28925
+2017-01-01  29774

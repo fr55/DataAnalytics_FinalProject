@@ -1,0 +1,31 @@
+Title:               Value of Exports to Kazakhstan from North Carolina
+Series ID:           NCKAZA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2002-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:41 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE            VALUE
+2002-01-01    2036245
+2003-01-01          .
+2004-01-01          .
+2005-01-01   31181617
+2006-01-01   19215523
+2007-01-01   36126541
+2008-01-01    8307325
+2009-01-01    3172866
+2010-01-01    2901005
+2011-01-01    4932142
+2012-01-01    6323738
+2013-01-01   84542347
+2014-01-01   40817929
+2015-01-01   24519026
+2016-01-01   37289056

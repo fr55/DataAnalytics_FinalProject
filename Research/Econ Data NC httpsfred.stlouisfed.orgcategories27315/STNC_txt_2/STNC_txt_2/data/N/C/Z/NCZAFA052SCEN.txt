@@ -1,0 +1,41 @@
+Title:               Value of Exports to South Africa from North Carolina
+Series ID:           NCZAFA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1992-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE             VALUE
+1992-01-01    29130787
+1993-01-01           .
+1994-01-01           .
+1995-01-01           .
+1996-01-01           .
+1997-01-01    56366197
+1998-01-01           .
+1999-01-01           .
+2000-01-01           .
+2001-01-01           .
+2002-01-01    54642535
+2003-01-01    54914874
+2004-01-01    78004599
+2005-01-01   102948827
+2006-01-01    75169510
+2007-01-01    92079068
+2008-01-01   114541075
+2009-01-01    76364404
+2010-01-01   106840577
+2011-01-01   141692405
+2012-01-01   119300634
+2013-01-01   123290033
+2014-01-01   200258311
+2015-01-01    99309105
+2016-01-01    83158517

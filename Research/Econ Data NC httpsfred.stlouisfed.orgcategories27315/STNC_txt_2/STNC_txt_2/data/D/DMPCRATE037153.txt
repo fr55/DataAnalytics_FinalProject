@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Richmond County, NC
+Series ID:           DMPCRATE037153
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01 107.1799998283390
+2009-01-01 114.9699997901920
+2010-01-01 107.8399999141690
+2011-01-01 103.6509999996050
+2012-01-01 101.8679999997840
+2013-01-01  91.1639999998733
+2014-01-01  81.6709999991581
+2015-01-01  94.0639999993145

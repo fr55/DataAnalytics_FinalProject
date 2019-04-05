@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Washington County, NC
+Series ID:           MHICILBNC37187A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19447
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  22303
+1994-01-01      .
+1995-01-01  23560
+1996-01-01      .
+1997-01-01  24628
+1998-01-01  24307
+1999-01-01  25965
+2000-01-01  26999
+2001-01-01  26492
+2002-01-01  26015
+2003-01-01  26514
+2004-01-01  27746
+2005-01-01  27998
+2006-01-01  28269
+2007-01-01  29520
+2008-01-01  30624
+2009-01-01  30161
+2010-01-01  30474
+2011-01-01  29975
+2012-01-01  29436
+2013-01-01  28401
+2014-01-01  29524
+2015-01-01  31587
+2016-01-01  31760
+2017-01-01  32166

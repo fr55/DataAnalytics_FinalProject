@@ -1,0 +1,34 @@
+Title:               Real Gross Domestic Product by Industry: Transportation and utilities for North Carolina
+Series ID:           NCTRANSUTILRGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2012 Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01  17306.5
+1998-01-01  16951.9
+1999-01-01  17554.7
+2000-01-01  17391.1
+2001-01-01  13957.3
+2002-01-01  14035.4
+2003-01-01  14104.8
+2004-01-01  15081.6
+2005-01-01  14958.0
+2006-01-01  16069.8
+2007-01-01  16070.5
+2008-01-01  17070.0
+2009-01-01  16177.5
+2010-01-01  17958.4
+2011-01-01  17530.5
+2012-01-01  17582.8
+2013-01-01  16696.8
+2014-01-01  17155.1
+2015-01-01  17191.4
+2016-01-01  17527.2
+2017-01-01  17934.9

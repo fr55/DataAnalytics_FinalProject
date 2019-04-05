@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Graham County, NC
+Series ID:           PEU18NC37075A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   486
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   561
+1994-01-01     .
+1995-01-01   565
+1996-01-01     .
+1997-01-01   492
+1998-01-01   480
+1999-01-01   426
+2000-01-01   435
+2001-01-01   433
+2002-01-01   411
+2003-01-01   458
+2004-01-01   430
+2005-01-01   506
+2006-01-01   478
+2007-01-01   525
+2008-01-01   535
+2009-01-01   577
+2010-01-01   634
+2011-01-01   656
+2012-01-01   607
+2013-01-01   647
+2014-01-01   584
+2015-01-01   581
+2016-01-01   542
+2017-01-01   481

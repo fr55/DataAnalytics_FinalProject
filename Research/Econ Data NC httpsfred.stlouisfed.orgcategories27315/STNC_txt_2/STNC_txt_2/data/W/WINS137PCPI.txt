@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Winston-Salem, NC (MSA)
+Series ID:           WINS137PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  29137
+2002-01-01  29290
+2003-01-01  30068
+2004-01-01  31962
+2005-01-01  32888
+2006-01-01  34390
+2007-01-01  35478
+2008-01-01  36396
+2009-01-01  34642
+2010-01-01  35557
+2011-01-01  35995
+2012-01-01  37432
+2013-01-01  36954
+2014-01-01  39512
+2015-01-01  41154
+2016-01-01  41597
+2017-01-01  43207

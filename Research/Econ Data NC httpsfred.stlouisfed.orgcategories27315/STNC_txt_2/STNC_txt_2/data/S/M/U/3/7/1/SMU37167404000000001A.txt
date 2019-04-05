@@ -1,0 +1,40 @@
+Title:               All Employees: Trade, Transportation, and Utilities in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167404000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  158.0
+1991-01-01  154.6
+1992-01-01  156.5
+1993-01-01  160.6
+1994-01-01  166.9
+1995-01-01  173.9
+1996-01-01  176.3
+1997-01-01  180.7
+1998-01-01  184.5
+1999-01-01  193.1
+2000-01-01  199.3
+2001-01-01  199.6
+2002-01-01  195.6
+2003-01-01  193.9
+2004-01-01  197.7
+2005-01-01  201.3
+2006-01-01  206.6
+2007-01-01  214.2
+2008-01-01  212.8
+2009-01-01  200.4
+2010-01-01  197.5
+2011-01-01  200.9
+2012-01-01  206.7
+2013-01-01  211.6
+2014-01-01  219.1
+2015-01-01  227.9
+2016-01-01  236.0
+2017-01-01  241.3

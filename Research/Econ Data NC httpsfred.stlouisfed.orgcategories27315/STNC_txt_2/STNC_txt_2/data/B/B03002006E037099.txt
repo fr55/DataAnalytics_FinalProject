@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Asian Persons in Jackson County, NC
+Series ID:           B03002006E037099
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:54 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01   337
+2010-01-01   368
+2011-01-01   234
+2012-01-01   276
+2013-01-01   341
+2014-01-01   347
+2015-01-01   354
+2016-01-01   420
+2017-01-01   414

@@ -1,0 +1,22 @@
+Title:               Income Inequality in Nash County, NC
+Series ID:           2020RATIO037127
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  14.153229001584785
+2011-01-01  13.621467817896390
+2012-01-01  13.815768777034998
+2013-01-01  12.446149604852050
+2014-01-01  12.802378774016468
+2015-01-01  13.641302290365322
+2016-01-01  14.903678606001936
+2017-01-01  14.814598404748654

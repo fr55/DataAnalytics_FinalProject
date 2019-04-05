@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Union County, NC
+Series ID:           B080ACS037179
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  28.523066587040910
+2010-01-01  28.569997948866448
+2011-01-01  28.441136430896716
+2012-01-01  28.453342829787730
+2013-01-01  29.242124732674412
+2014-01-01  29.624699941120520
+2015-01-01  29.566950198180884
+2016-01-01  29.526999055271900
+2017-01-01  29.488086087624904

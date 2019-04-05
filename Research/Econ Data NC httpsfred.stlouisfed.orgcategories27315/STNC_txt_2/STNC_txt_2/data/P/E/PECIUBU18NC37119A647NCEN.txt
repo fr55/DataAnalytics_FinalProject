@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People Age 0-17 in Poverty for Mecklenburg County, NC
+Series ID:           PECIUBU18NC37119A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:57 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  19066
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  32295
+1994-01-01      .
+1995-01-01  31007
+1996-01-01      .
+1997-01-01  29598
+1998-01-01  32815
+1999-01-01  30247
+2000-01-01  27164
+2001-01-01  28228
+2002-01-01  34481
+2003-01-01  41065
+2004-01-01  43520
+2005-01-01  38662
+2006-01-01  35366
+2007-01-01  35558
+2008-01-01  38589
+2009-01-01  50868
+2010-01-01  54148
+2011-01-01  61550
+2012-01-01  58230
+2013-01-01  54377
+2014-01-01  56345
+2015-01-01  52822
+2016-01-01  50658
+2017-01-01  47981

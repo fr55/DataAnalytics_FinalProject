@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Rutherford County, NC
+Series ID:           PECILB5T17NC37161A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:02 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1198
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1357
+1994-01-01     .
+1995-01-01  1609
+1996-01-01     .
+1997-01-01  1597
+1998-01-01  1679
+1999-01-01  1455
+2000-01-01  1394
+2001-01-01  1334
+2002-01-01  1521
+2003-01-01  1535
+2004-01-01  1534
+2005-01-01  2007
+2006-01-01  1899
+2007-01-01  1860
+2008-01-01  1614
+2009-01-01  2459
+2010-01-01  2871
+2011-01-01  2497
+2012-01-01  2240
+2013-01-01  2856
+2014-01-01  2382
+2015-01-01  2268
+2016-01-01  1964
+2017-01-01  1681

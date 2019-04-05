@@ -1,0 +1,40 @@
+Title:               Per Capita Personal Consumption Expenditures: Nondurable Goods: Other Nondurable Goods for North Carolina
+Series ID:           NCPCEPCONDURG
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:23 PM CDT
+Notes:               Personal consumption expenditures of a given area divided by the
+                     resident population of the area.
+                     
+                     Purchases of pharmaceutical and other medical products, recreational
+                     items, household supplies, personal care products, tobacco, and
+                     magazines, newspapers, and stationery.For more information about this
+                     release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01  1458
+1998-01-01  1545
+1999-01-01  1721
+2000-01-01  1845
+2001-01-01  1950
+2002-01-01  2018
+2003-01-01  2102
+2004-01-01  2193
+2005-01-01  2281
+2006-01-01  2383
+2007-01-01  2445
+2008-01-01  2477
+2009-01-01  2527
+2010-01-01  2605
+2011-01-01  2669
+2012-01-01  2777
+2013-01-01  2906
+2014-01-01  3062
+2015-01-01  3205
+2016-01-01  3275
+2017-01-01  3312

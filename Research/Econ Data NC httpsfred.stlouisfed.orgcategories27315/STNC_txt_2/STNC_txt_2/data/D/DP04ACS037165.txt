@@ -1,0 +1,21 @@
+Title:               Burdened Households in Scotland County, NC
+Series ID:           DP04ACS037165
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  38.671906984360920
+2011-01-01  38.715808610858600
+2012-01-01  39.557250642566950
+2013-01-01  40.776129410778644
+2014-01-01  38.702143631662350
+2015-01-01  37.370790263421140
+2016-01-01  37.654270535349410

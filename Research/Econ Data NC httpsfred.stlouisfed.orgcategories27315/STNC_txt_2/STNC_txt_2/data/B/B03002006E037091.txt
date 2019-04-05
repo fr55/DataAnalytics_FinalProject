@@ -1,0 +1,21 @@
+Title:               Population Estimate of Non-Hispanic Asian Persons in Hertford County, NC
+Series ID:           B03002006E037091
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:54 AM CST
+Notes:               
+
+DATE       VALUE
+2009-01-01   108
+2010-01-01   160
+2011-01-01   165
+2012-01-01   157
+2013-01-01   158
+2014-01-01   169
+2015-01-01   190
+2016-01-01   195
+2017-01-01   168

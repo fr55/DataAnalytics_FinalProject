@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Fayetteville, NC (MSA)
+Series ID:           SMU37221800000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01   92.2
+1991-01-01   93.0
+1992-01-01   97.8
+1993-01-01  101.9
+1994-01-01  104.3
+1995-01-01  107.1
+1996-01-01  110.2
+1997-01-01  110.9
+1998-01-01  115.1
+1999-01-01  116.6
+2000-01-01  117.4
+2001-01-01  115.2
+2002-01-01  115.8
+2003-01-01  116.7
+2004-01-01  118.5
+2005-01-01  123.1
+2006-01-01  125.0
+2007-01-01  127.4
+2008-01-01  129.7
+2009-01-01  129.3
+2010-01-01  128.3
+2011-01-01  129.5
+2012-01-01  129.1
+2013-01-01  128.4
+2014-01-01  127.4
+2015-01-01  127.8
+2016-01-01  129.7
+2017-01-01  129.8

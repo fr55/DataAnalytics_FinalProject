@@ -1,0 +1,29 @@
+Title:               Production or Nonsupervisory Employees: Manufacturing: Non-Durable Goods in North Carolina
+Series ID:           SMU37000003200000006A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+2001-01-01  278.9
+2002-01-01  259.9
+2003-01-01  239.2
+2004-01-01  221.3
+2005-01-01  211.2
+2006-01-01  202.2
+2007-01-01  194.6
+2008-01-01  186.2
+2009-01-01  169.4
+2010-01-01  163.2
+2011-01-01  159.4
+2012-01-01  156.5
+2013-01-01  157.1
+2014-01-01  160.4
+2015-01-01  163.4
+2016-01-01  162.0
+2017-01-01  162.8

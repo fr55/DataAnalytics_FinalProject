@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Buncombe County, NC
+Series ID:           BPPRIV037021
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01    784
+1991-01-01    848
+1992-01-01    962
+1993-01-01    974
+1994-01-01    899
+1995-01-01    854
+1996-01-01    988
+1997-01-01   1052
+1998-01-01   1169
+1999-01-01   1101
+2000-01-01   1046
+2001-01-01   1262
+2002-01-01   1445
+2003-01-01   1446
+2004-01-01   1732
+2005-01-01   1972
+2006-01-01   2068
+2007-01-01   1612
+2008-01-01   1053
+2009-01-01    640
+2010-01-01    646
+2011-01-01    544
+2012-01-01    648
+2013-01-01    817
+2014-01-01    931
+2015-01-01   1066
+2016-01-01   1281
+2017-01-01   1900

@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Gaston County, NC
+Series ID:           DMPCRATE037071
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:12 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  60.4599999189377
+2009-01-01  68.8999998569489
+2010-01-01  70.5399999618530
+2011-01-01  67.0719999996945
+2012-01-01  59.2089999997988
+2013-01-01  53.8779999995604
+2014-01-01  48.3259999998845
+2015-01-01  49.5389999998733

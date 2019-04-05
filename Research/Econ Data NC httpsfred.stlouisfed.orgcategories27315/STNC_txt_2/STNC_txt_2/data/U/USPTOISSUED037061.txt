@@ -1,0 +1,38 @@
+Title:               New Patent Assignments in Duplin County, NC
+Series ID:           USPTOISSUED037061
+Source:              U.S. Patent and Trademark Office
+Release:             New Patent Assignments (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Monthly
+Units:               Patents
+Date Range:          2014-10-01 to 2016-11-01
+Last Updated:        2017-06-09 5:52 PM CDT
+Notes:               
+
+DATE       VALUE
+2014-10-01     1
+2014-11-01     .
+2014-12-01     .
+2015-01-01     .
+2015-02-01     .
+2015-03-01     .
+2015-04-01     .
+2015-05-01     .
+2015-06-01     .
+2015-07-01     .
+2015-08-01     .
+2015-09-01     .
+2015-10-01     .
+2015-11-01     .
+2015-12-01     .
+2016-01-01     .
+2016-02-01     .
+2016-03-01     .
+2016-04-01     .
+2016-05-01     .
+2016-06-01     .
+2016-07-01     .
+2016-08-01     .
+2016-09-01     .
+2016-10-01     .
+2016-11-01     1

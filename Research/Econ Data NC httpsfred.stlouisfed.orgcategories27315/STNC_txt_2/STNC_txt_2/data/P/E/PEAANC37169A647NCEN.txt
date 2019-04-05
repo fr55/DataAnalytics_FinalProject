@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Stokes County, NC
+Series ID:           PEAANC37169A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  3527
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  4372
+1994-01-01     .
+1995-01-01  4373
+1996-01-01     .
+1997-01-01  4499
+1998-01-01  4795
+1999-01-01  4695
+2000-01-01  4232
+2001-01-01  4303
+2002-01-01  4418
+2003-01-01  4968
+2004-01-01  5059
+2005-01-01  4960
+2006-01-01  4655
+2007-01-01  5015
+2008-01-01  6815
+2009-01-01  5089
+2010-01-01  6713
+2011-01-01  7440
+2012-01-01  8220
+2013-01-01  6651
+2014-01-01  6355
+2015-01-01  7019
+2016-01-01  5664
+2017-01-01  6373

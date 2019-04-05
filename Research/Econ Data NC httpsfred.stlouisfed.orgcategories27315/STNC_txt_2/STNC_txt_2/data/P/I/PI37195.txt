@@ -1,0 +1,39 @@
+Title:               Personal Income in Wilson County, NC
+Series ID:           PI37195
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:01 PM CST
+Notes:               Personal Income is the income that is received by all persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. The personal income of
+                     an area is the income that is received by, or on behalf of, all the
+                     individuals who live in the area; therefore, the estimates of personal
+                     income are presented by the place of residence of the income
+                     recipients.
+
+DATE          VALUE
+2001-01-01  1907467
+2002-01-01  1927426
+2003-01-01  1974463
+2004-01-01  2146079
+2005-01-01  2293515
+2006-01-01  2425676
+2007-01-01  2518340
+2008-01-01  2675452
+2009-01-01  2647741
+2010-01-01  2724587
+2011-01-01  2807866
+2012-01-01  2888399
+2013-01-01  2844400
+2014-01-01  2928951
+2015-01-01  3043415
+2016-01-01  3098105
+2017-01-01  3209755

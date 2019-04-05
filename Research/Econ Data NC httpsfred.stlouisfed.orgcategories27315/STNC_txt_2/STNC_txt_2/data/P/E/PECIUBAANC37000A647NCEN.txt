@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for North Carolina
+Series ID:           PECIUBAANC37000A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE          VALUE
+1989-01-01   875623
+1990-01-01        .
+1991-01-01        .
+1992-01-01        .
+1993-01-01  1045869
+1994-01-01        .
+1995-01-01   977520
+1996-01-01   999695
+1997-01-01  1005301
+1998-01-01  1044784
+1999-01-01  1034665
+2000-01-01   982411
+2001-01-01  1013180
+2002-01-01  1118540
+2003-01-01  1180936
+2004-01-01  1243933
+2005-01-01  1267606
+2006-01-01  1276316
+2007-01-01  1277350
+2008-01-01  1324712
+2009-01-01  1496963
+2010-01-01  1640934
+2011-01-01  1698343
+2012-01-01  1731302
+2013-01-01  1734979
+2014-01-01  1687343
+2015-01-01  1630036
+2016-01-01  1547247
+2017-01-01  1493191

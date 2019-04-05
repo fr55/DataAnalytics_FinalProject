@@ -1,0 +1,13 @@
+Title:               New Patent Assignments in Bladen County, NC
+Series ID:           USPTOISSUED037017
+Source:              U.S. Patent and Trademark Office
+Release:             New Patent Assignments (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Monthly
+Units:               Patents
+Date Range:          2005-08-01 to 2005-08-01
+Last Updated:        2017-06-09 5:52 PM CDT
+Notes:               
+
+DATE       VALUE
+2005-08-01     1

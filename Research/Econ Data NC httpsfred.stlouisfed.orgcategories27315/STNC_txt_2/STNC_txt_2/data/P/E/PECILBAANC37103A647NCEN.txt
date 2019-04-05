@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Jones County, NC
+Series ID:           PECILBAANC37103A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1439
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1544
+1994-01-01     .
+1995-01-01  1469
+1996-01-01     .
+1997-01-01  1326
+1998-01-01  1385
+1999-01-01  1350
+2000-01-01  1357
+2001-01-01  1325
+2002-01-01  1287
+2003-01-01  1275
+2004-01-01  1322
+2005-01-01  1548
+2006-01-01  1539
+2007-01-01  1348
+2008-01-01  1438
+2009-01-01  1402
+2010-01-01  1435
+2011-01-01  1484
+2012-01-01  1651
+2013-01-01  1669
+2014-01-01  1802
+2015-01-01  1705
+2016-01-01  1697
+2017-01-01  1761

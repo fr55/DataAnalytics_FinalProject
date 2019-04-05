@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Montgomery County, NC
+Series ID:           CDC20N2U037123
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  509.8
+2000-01-01  522.2
+2001-01-01  440.7
+2002-01-01  558.9
+2003-01-01  444.3
+2004-01-01  548.6
+2005-01-01  571.1
+2006-01-01  484.8
+2007-01-01  420.3
+2008-01-01  378.6
+2009-01-01  482.8
+2010-01-01  509.8
+2011-01-01  541.4
+2012-01-01  444.5
+2013-01-01  544.8
+2014-01-01  532.8
+2015-01-01  530.2
+2016-01-01  532.8

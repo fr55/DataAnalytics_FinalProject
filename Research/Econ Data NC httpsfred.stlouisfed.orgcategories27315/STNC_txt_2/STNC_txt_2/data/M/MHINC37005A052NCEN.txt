@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Alleghany County, NC
+Series ID:           MHINC37005A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:37 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  18763
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  22158
+1994-01-01      .
+1995-01-01  25388
+1996-01-01      .
+1997-01-01  27730
+1998-01-01  29960
+1999-01-01  29408
+2000-01-01  30819
+2001-01-01  29559
+2002-01-01  28494
+2003-01-01  28306
+2004-01-01  29144
+2005-01-01  31362
+2006-01-01  31737
+2007-01-01  32949
+2008-01-01  33824
+2009-01-01  33501
+2010-01-01  32210
+2011-01-01  32673
+2012-01-01  34046
+2013-01-01  37086
+2014-01-01  35266
+2015-01-01  36113
+2016-01-01  35965
+2017-01-01  38994

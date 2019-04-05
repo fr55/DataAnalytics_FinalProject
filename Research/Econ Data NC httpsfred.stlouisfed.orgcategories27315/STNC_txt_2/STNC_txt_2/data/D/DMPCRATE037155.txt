@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Robeson County, NC
+Series ID:           DMPCRATE037155
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  95.4799997806549
+2009-01-01 102.8499999046330
+2010-01-01  98.8699998855591
+2011-01-01 106.4879999998960
+2012-01-01 106.0549999997020
+2013-01-01  99.3079999992624
+2014-01-01  93.5159999998286
+2015-01-01  96.4889999991283

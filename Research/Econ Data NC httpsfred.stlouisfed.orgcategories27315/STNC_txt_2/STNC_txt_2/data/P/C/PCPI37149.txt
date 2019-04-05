@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Polk County, NC
+Series ID:           PCPI37149
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:05 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  31414
+2002-01-01  30932
+2003-01-01  30656
+2004-01-01  33758
+2005-01-01  34486
+2006-01-01  35569
+2007-01-01  36459
+2008-01-01  36245
+2009-01-01  33478
+2010-01-01  32952
+2011-01-01  35317
+2012-01-01  36682
+2013-01-01  36450
+2014-01-01  39537
+2015-01-01  41321
+2016-01-01  42075
+2017-01-01  43278

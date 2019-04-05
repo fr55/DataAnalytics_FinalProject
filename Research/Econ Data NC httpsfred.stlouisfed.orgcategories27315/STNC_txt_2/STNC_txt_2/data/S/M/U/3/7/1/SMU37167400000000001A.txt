@@ -1,0 +1,40 @@
+Title:               All Employees: Total Nonfarm in Charlotte-Concord-Gastonia, NC-SC (MSA)
+Series ID:           SMU37167400000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:58 PM CDT
+Notes:               
+
+DATE         VALUE
+1990-01-01   685.4
+1991-01-01   675.7
+1992-01-01   687.7
+1993-01-01   716.1
+1994-01-01   748.9
+1995-01-01   776.3
+1996-01-01   801.5
+1997-01-01   829.5
+1998-01-01   868.1
+1999-01-01   902.5
+2000-01-01   930.4
+2001-01-01   925.5
+2002-01-01   919.3
+2003-01-01   915.2
+2004-01-01   924.4
+2005-01-01   947.6
+2006-01-01   989.1
+2007-01-01  1023.1
+2008-01-01  1020.5
+2009-01-01   957.9
+2010-01-01   954.2
+2011-01-01   976.5
+2012-01-01  1004.0
+2013-01-01  1029.3
+2014-01-01  1066.4
+2015-01-01  1108.9
+2016-01-01  1147.9
+2017-01-01  1181.5

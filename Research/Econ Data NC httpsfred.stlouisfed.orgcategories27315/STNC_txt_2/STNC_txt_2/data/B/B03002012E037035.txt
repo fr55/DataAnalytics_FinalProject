@@ -1,0 +1,21 @@
+Title:               Population Estimate of Hispanic or Latino Persons in Catawba County, NC
+Series ID:           B03002012E037035
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:53 AM CST
+Notes:               
+
+DATE         VALUE
+2009-01-01   13422
+2010-01-01   12436
+2011-01-01   12749
+2012-01-01   12916
+2013-01-01   13127
+2014-01-01   13294
+2015-01-01   13537
+2016-01-01   13956
+2017-01-01   14564

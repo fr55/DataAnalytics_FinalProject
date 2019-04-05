@@ -1,0 +1,40 @@
+Title:               Per Capita Personal Consumption Expenditures: Services: Final Consumption Expenditures of Nonprofit Institutions Serving Households: Less: Receipts from Sales of Goods and Services by Nonprofit Institutions for North Carolina
+Series ID:           NCPCEPCLRPTSLSGSNPIS
+Source:              U.S. Bureau of Economic Analysis
+Release:             Personal Consumption Expenditures by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1997-01-01 to 2017-01-01
+Last Updated:        2018-10-04 4:23 PM CDT
+Notes:               Personal consumption expenditures of a given area divided by the
+                     resident population of the area.
+                     
+                     Receipts from sales of goods and services by NPISHs. Excludes
+                     unrelated sales, secondary sales, and sales to business, government,
+                     and the rest of the world; includes membership dues and fees.For more
+                     information about this release go to
+                     http://www.bea.gov/newsreleases/regional/pce/pce_newsrelease.htm."
+
+DATE       VALUE
+1997-01-01   955
+1998-01-01  1248
+1999-01-01  1271
+2000-01-01  1321
+2001-01-01  1408
+2002-01-01  1504
+2003-01-01  1572
+2004-01-01  1676
+2005-01-01  1787
+2006-01-01  1887
+2007-01-01  1980
+2008-01-01  1995
+2009-01-01  2073
+2010-01-01  2116
+2011-01-01  2144
+2012-01-01  2180
+2013-01-01  2222
+2014-01-01  2295
+2015-01-01  2356
+2016-01-01  2445
+2017-01-01  2528

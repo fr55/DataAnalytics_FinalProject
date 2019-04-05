@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Pitt County, NC
+Series ID:           DMPCRATE037147
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  66.6999998092651
+2009-01-01  65.1099998950958
+2010-01-01  60.3899999856949
+2011-01-01  66.6029999991879
+2012-01-01  57.2559999995865
+2013-01-01  49.5189999998547
+2014-01-01  48.5859999996610
+2015-01-01  43.7829999998212

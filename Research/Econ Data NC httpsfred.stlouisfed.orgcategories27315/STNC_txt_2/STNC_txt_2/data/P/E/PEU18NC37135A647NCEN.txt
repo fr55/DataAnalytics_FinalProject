@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Orange County, NC
+Series ID:           PEU18NC37135A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1728
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  2480
+1994-01-01     .
+1995-01-01  2829
+1996-01-01     .
+1997-01-01  2904
+1998-01-01  2773
+1999-01-01  2907
+2000-01-01  2418
+2001-01-01  2284
+2002-01-01  2427
+2003-01-01  2858
+2004-01-01  2918
+2005-01-01  2668
+2006-01-01  2681
+2007-01-01  2714
+2008-01-01  2897
+2009-01-01  3879
+2010-01-01  4822
+2011-01-01  4627
+2012-01-01  4258
+2013-01-01  3820
+2014-01-01  3702
+2015-01-01  3711
+2016-01-01  3229
+2017-01-01  3191

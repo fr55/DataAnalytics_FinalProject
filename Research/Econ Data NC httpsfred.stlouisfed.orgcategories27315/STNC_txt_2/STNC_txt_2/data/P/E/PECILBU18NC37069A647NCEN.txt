@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People Age 0-17 in Poverty for Franklin County, NC
+Series ID:           PECILBU18NC37069A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:59 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1671
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1791
+1994-01-01     .
+1995-01-01  1803
+1996-01-01     .
+1997-01-01  1851
+1998-01-01  1928
+1999-01-01  1629
+2000-01-01  1667
+2001-01-01  1595
+2002-01-01  1717
+2003-01-01  1783
+2004-01-01  1729
+2005-01-01  2142
+2006-01-01  2188
+2007-01-01  2133
+2008-01-01  2217
+2009-01-01  2206
+2010-01-01  2572
+2011-01-01  2739
+2012-01-01  2765
+2013-01-01  2952
+2014-01-01  2506
+2015-01-01  2572
+2016-01-01  2389
+2017-01-01  2881

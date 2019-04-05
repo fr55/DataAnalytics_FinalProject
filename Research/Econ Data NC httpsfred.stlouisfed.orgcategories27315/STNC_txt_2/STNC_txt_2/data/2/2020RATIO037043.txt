@@ -1,0 +1,22 @@
+Title:               Income Inequality in Clay County, NC
+Series ID:           2020RATIO037043
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  15.201413427561837
+2011-01-01  16.286916281026503
+2012-01-01  14.749027710257657
+2013-01-01  13.794336810730254
+2014-01-01  16.219742489270388
+2015-01-01  14.674392439243924
+2016-01-01  11.926489818793200
+2017-01-01  13.967230546157564

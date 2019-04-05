@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Granville County, NC
+Series ID:           MHICILBNC37077A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:08 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  20698
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  26074
+1994-01-01      .
+1995-01-01  29184
+1996-01-01      .
+1997-01-01  31643
+1998-01-01  33008
+1999-01-01  34813
+2000-01-01  36664
+2001-01-01  35912
+2002-01-01  35463
+2003-01-01  36215
+2004-01-01  36941
+2005-01-01  39651
+2006-01-01  41075
+2007-01-01  40822
+2008-01-01  44297
+2009-01-01  42453
+2010-01-01  41909
+2011-01-01  45587
+2012-01-01  42312
+2013-01-01  45153
+2014-01-01  45596
+2015-01-01  46044
+2016-01-01  47287
+2017-01-01  48392

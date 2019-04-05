@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of Median Household Income for Wilkes County, NC
+Series ID:           MHICILBNC37193A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:39 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  21536
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  24094
+1994-01-01      .
+1995-01-01  25957
+1996-01-01      .
+1997-01-01  27778
+1998-01-01  29856
+1999-01-01  31405
+2000-01-01  32487
+2001-01-01  31840
+2002-01-01  31276
+2003-01-01  32117
+2004-01-01  33262
+2005-01-01  32942
+2006-01-01  33695
+2007-01-01  35076
+2008-01-01  32033
+2009-01-01  33348
+2010-01-01  32355
+2011-01-01  31988
+2012-01-01  32786
+2013-01-01  32746
+2014-01-01  30950
+2015-01-01  37884
+2016-01-01  38212
+2017-01-01  38515

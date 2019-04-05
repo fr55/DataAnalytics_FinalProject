@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Carteret County, NC
+Series ID:           PE5T17NC37031A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:36 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1462
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1626
+1994-01-01     .
+1995-01-01  1766
+1996-01-01     .
+1997-01-01  1751
+1998-01-01  1875
+1999-01-01  1567
+2000-01-01  1502
+2001-01-01  1497
+2002-01-01  1440
+2003-01-01  1477
+2004-01-01  1451
+2005-01-01  1684
+2006-01-01  1662
+2007-01-01  1474
+2008-01-01  1564
+2009-01-01  1834
+2010-01-01  2031
+2011-01-01  2153
+2012-01-01  2175
+2013-01-01  2161
+2014-01-01  2029
+2015-01-01  1912
+2016-01-01  1574
+2017-01-01  1776

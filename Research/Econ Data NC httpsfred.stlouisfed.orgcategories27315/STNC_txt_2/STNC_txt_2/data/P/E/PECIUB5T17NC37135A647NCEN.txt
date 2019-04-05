@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Related Children Age 5-17 in Families in Poverty for Orange County, NC
+Series ID:           PECIUB5T17NC37135A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  1307
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  1809
+1994-01-01     .
+1995-01-01  2250
+1996-01-01     .
+1997-01-01  2572
+1998-01-01  2682
+1999-01-01  2344
+2000-01-01  1912
+2001-01-01  1836
+2002-01-01  1810
+2003-01-01  2227
+2004-01-01  2296
+2005-01-01  2161
+2006-01-01  2142
+2007-01-01  2069
+2008-01-01  2239
+2009-01-01  2845
+2010-01-01  3546
+2011-01-01  3610
+2012-01-01  3270
+2013-01-01  3265
+2014-01-01  3142
+2015-01-01  3088
+2016-01-01  2637
+2017-01-01  2747

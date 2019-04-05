@@ -1,0 +1,33 @@
+Title:               Homeownership Rate for Onslow County, NC
+Series ID:           HOWNRATEACS037133
+Source:              U.S. Bureau of the Census
+Release:             Homeownership Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:51 AM CST
+Notes:               The homeownership rate is computed by dividing the number of
+                     households that are owners by the total number of occupied households.
+                     
+                     A housing unit is classified as occupied if it is the current place of
+                     residence of the person or group of people living in it at the time of
+                     interview, or if the occupants are only temporarily absent from the
+                     residence for two months or less, that is, away on vacation or a
+                     business trip. If all the people staying in the unit at the time of
+                     the interview are staying there for two months or less, the unit is
+                     considered to be temporarily occupied and classified as “vacant.” 
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 actually represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  55.813158602834770
+2010-01-01  56.774910055795340
+2011-01-01  57.352875320670705
+2012-01-01  56.742786224014890
+2013-01-01  55.233292060520036
+2014-01-01  55.226494234853554
+2015-01-01  55.322238748287210
+2016-01-01  54.453233954643046
+2017-01-01  54.657277158976680

@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Craven County, NC
+Series ID:           B14005DCYACS037049
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  10.589754627636678
+2010-01-01   8.913802609814372
+2011-01-01  10.413935193856528
+2012-01-01  12.717968157695223
+2013-01-01  16.001549786904302
+2014-01-01  14.112983151635284
+2015-01-01  13.195136535778355
+2016-01-01   9.925460965084348
+2017-01-01   6.272473032361167

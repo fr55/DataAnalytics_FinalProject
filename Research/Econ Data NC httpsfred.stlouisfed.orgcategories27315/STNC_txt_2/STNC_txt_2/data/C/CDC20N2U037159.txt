@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Rowan County, NC
+Series ID:           CDC20N2U037159
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  484.0
+2000-01-01  471.6
+2001-01-01  478.2
+2002-01-01  496.1
+2003-01-01  466.2
+2004-01-01  465.7
+2005-01-01  457.1
+2006-01-01  468.5
+2007-01-01  470.2
+2008-01-01  491.5
+2009-01-01  487.4
+2010-01-01  482.0
+2011-01-01  531.1
+2012-01-01  555.6
+2013-01-01  575.5
+2014-01-01  607.9
+2015-01-01  578.9
+2016-01-01  619.4

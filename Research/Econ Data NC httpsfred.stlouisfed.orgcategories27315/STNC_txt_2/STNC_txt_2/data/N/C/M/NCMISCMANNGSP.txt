@@ -1,0 +1,33 @@
+Title:               Gross Domestic Product by Industry: Private Industries: Manufacturing: Durable Goods Manufacturing: Miscellaneous Manufacturing for North Carolina
+Series ID:           NCMISCMANNGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Dollars
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:09 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE         VALUE
+1997-01-01  1103.7
+1998-01-01  1280.2
+1999-01-01  1358.5
+2000-01-01  1403.2
+2001-01-01  1349.0
+2002-01-01  1333.5
+2003-01-01  1263.9
+2004-01-01  1135.0
+2005-01-01  1169.9
+2006-01-01  1514.1
+2007-01-01  1491.0
+2008-01-01  1703.5
+2009-01-01  1912.5
+2010-01-01  2218.6
+2011-01-01  2427.2
+2012-01-01  2348.3
+2013-01-01  2015.1
+2014-01-01  2157.7
+2015-01-01  2087.8
+2016-01-01  1775.3

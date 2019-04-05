@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Median Household Income for Stanly County, NC
+Series ID:           MHICIUBNC37167A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:07 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  27800
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  31336
+1994-01-01      .
+1995-01-01  34582
+1996-01-01      .
+1997-01-01  37504
+1998-01-01  39343
+1999-01-01  38748
+2000-01-01  40750
+2001-01-01  39214
+2002-01-01  39024
+2003-01-01  39075
+2004-01-01  40358
+2005-01-01  39640
+2006-01-01  46186
+2007-01-01  42924
+2008-01-01  47841
+2009-01-01  45621
+2010-01-01  45646
+2011-01-01  40837
+2012-01-01  45986
+2013-01-01  46533
+2014-01-01  44765
+2015-01-01  48610
+2016-01-01  52326
+2017-01-01  52646

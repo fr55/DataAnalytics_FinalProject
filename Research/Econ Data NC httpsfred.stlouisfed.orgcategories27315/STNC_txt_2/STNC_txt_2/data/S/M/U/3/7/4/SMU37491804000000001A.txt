@@ -1,0 +1,40 @@
+Title:               All Employees: Trade, Transportation, and Utilities in Winston-Salem, NC (MSA)
+Series ID:           SMU37491804000000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01  45.9
+1991-01-01  45.1
+1992-01-01  44.7
+1993-01-01  45.7
+1994-01-01  47.2
+1995-01-01  47.2
+1996-01-01  48.2
+1997-01-01  49.0
+1998-01-01  48.8
+1999-01-01  50.1
+2000-01-01  51.2
+2001-01-01  50.5
+2002-01-01  48.2
+2003-01-01  47.8
+2004-01-01  47.8
+2005-01-01  47.4
+2006-01-01  47.1
+2007-01-01  47.6
+2008-01-01  46.6
+2009-01-01  43.2
+2010-01-01  42.3
+2011-01-01  43.9
+2012-01-01  45.0
+2013-01-01  46.0
+2014-01-01  46.2
+2015-01-01  46.8
+2016-01-01  47.6
+2017-01-01  47.9

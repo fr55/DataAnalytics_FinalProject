@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Percent of People of All Ages in Poverty for Swain County, NC
+Series ID:           PPCIUBAANC37173A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:49 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  26.5
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  29.2
+1994-01-01     .
+1995-01-01  29.7
+1996-01-01     .
+1997-01-01  25.8
+1998-01-01  26.3
+1999-01-01  22.4
+2000-01-01  19.5
+2001-01-01  18.7
+2002-01-01  17.3
+2003-01-01  19.3
+2004-01-01  19.2
+2005-01-01  20.0
+2006-01-01  22.0
+2007-01-01  21.0
+2008-01-01  19.2
+2009-01-01  21.3
+2010-01-01  22.5
+2011-01-01  23.3
+2012-01-01  24.2
+2013-01-01  26.8
+2014-01-01  22.9
+2015-01-01  19.5
+2016-01-01  20.1
+2017-01-01  19.2

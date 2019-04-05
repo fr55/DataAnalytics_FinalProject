@@ -1,0 +1,22 @@
+Title:               Income Inequality in Guilford County, NC
+Series ID:           2020RATIO037081
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  15.300046490004648
+2011-01-01  15.539076294024719
+2012-01-01  15.414574974339834
+2013-01-01  16.047628137825715
+2014-01-01  15.659706546275395
+2015-01-01  15.932058659736402
+2016-01-01  16.108193752829333
+2017-01-01  15.879425919559987

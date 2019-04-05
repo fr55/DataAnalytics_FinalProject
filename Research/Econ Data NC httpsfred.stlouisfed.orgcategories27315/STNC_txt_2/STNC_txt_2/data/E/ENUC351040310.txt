@@ -1,0 +1,38 @@
+Title:               Average Weekly Wages for Employees in Local Government Establishments in New Bern, NC (MSA)
+Series ID:           ENUC351040310
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          2013-01-01 to 2018-01-01
+Last Updated:        2018-09-05 11:23 AM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans).
+
+DATE       VALUE
+2013-01-01   750
+2013-04-01   734
+2013-07-01   762
+2013-10-01   756
+2014-01-01   744
+2014-04-01   731
+2014-07-01   797
+2014-10-01   783
+2015-01-01   770
+2015-04-01   735
+2015-07-01   800
+2015-10-01   864
+2016-01-01   733
+2016-04-01   760
+2016-07-01   845
+2016-10-01   833
+2017-01-01   768
+2017-04-01   805
+2017-07-01   806
+2017-10-01   840
+2018-01-01   783

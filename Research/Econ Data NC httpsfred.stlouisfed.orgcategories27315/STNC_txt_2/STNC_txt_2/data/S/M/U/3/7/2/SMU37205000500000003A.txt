@@ -1,0 +1,23 @@
+Title:               Average Hourly Earnings of All Employees: Total Private in Durham-Chapel Hill, NC (MSA)
+Series ID:           SMU37205000500000003A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Hour
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+2007-01-01  20.28
+2008-01-01  22.34
+2009-01-01  23.05
+2010-01-01  23.92
+2011-01-01  25.47
+2012-01-01  26.84
+2013-01-01  26.86
+2014-01-01  27.67
+2015-01-01  28.23
+2016-01-01  27.89
+2017-01-01  27.46

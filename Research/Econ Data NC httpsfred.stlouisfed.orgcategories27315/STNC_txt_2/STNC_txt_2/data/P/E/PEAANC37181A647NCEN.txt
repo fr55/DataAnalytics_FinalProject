@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Vance County, NC
+Series ID:           PEAANC37181A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:04 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   7131
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   8405
+1994-01-01      .
+1995-01-01   8229
+1996-01-01      .
+1997-01-01   8181
+1998-01-01   8439
+1999-01-01   8069
+2000-01-01   7697
+2001-01-01   7411
+2002-01-01   7856
+2003-01-01   8409
+2004-01-01   8986
+2005-01-01   9821
+2006-01-01   9784
+2007-01-01   9476
+2008-01-01  10857
+2009-01-01  13683
+2010-01-01  10883
+2011-01-01  11454
+2012-01-01  11494
+2013-01-01  12050
+2014-01-01  11896
+2015-01-01  10842
+2016-01-01  10552
+2017-01-01  10217

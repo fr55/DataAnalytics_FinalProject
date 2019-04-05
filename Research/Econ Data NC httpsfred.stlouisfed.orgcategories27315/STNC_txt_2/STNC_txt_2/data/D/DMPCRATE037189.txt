@@ -1,0 +1,26 @@
+Title:               Rate of Preventable Hospital Admissions in Watauga County, NC
+Series ID:           DMPCRATE037189
+Source:              Dartmouth Atlas of Healthcare
+Release:             Preventable Hospital Admissions (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate
+Date Range:          2008-01-01 to 2015-01-01
+Last Updated:        2018-07-03 2:11 PM CDT
+Notes:               The Dartmouth Atlas of Healthcare calculates preventable hospital
+                     admissions by considering the discharges for ambulatory care sensitive
+                     conditions per 1,000 medicare enrollees.
+                     
+                     See
+                     http://www.dartmouthatlas.org/downloads/reports/Primary_care_report_090910.pdf
+                     for more information.
+
+DATE                   VALUE
+2008-01-01  72.6999998092651
+2009-01-01  75.0899999141693
+2010-01-01  75.5199999809265
+2011-01-01  64.2429999997839
+2012-01-01  51.8669999996200
+2013-01-01  41.3419999997132
+2014-01-01  41.3799999998882
+2015-01-01  44.3659999999218

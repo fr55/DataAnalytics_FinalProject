@@ -1,0 +1,40 @@
+Title:               All Employees: Total Private in Greensboro-High Point, NC (MSA)
+Series ID:           SMU37246600500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  277.9
+1991-01-01  272.4
+1992-01-01  274.7
+1993-01-01  283.4
+1994-01-01  294.0
+1995-01-01  305.1
+1996-01-01  310.8
+1997-01-01  316.6
+1998-01-01  323.0
+1999-01-01  328.7
+2000-01-01  332.8
+2001-01-01  324.8
+2002-01-01  316.0
+2003-01-01  310.4
+2004-01-01  312.0
+2005-01-01  317.1
+2006-01-01  323.2
+2007-01-01  325.1
+2008-01-01  318.7
+2009-01-01  293.8
+2010-01-01  289.8
+2011-01-01  293.7
+2012-01-01  297.0
+2013-01-01  300.8
+2014-01-01  303.7
+2015-01-01  310.8
+2016-01-01  314.1
+2017-01-01  314.8

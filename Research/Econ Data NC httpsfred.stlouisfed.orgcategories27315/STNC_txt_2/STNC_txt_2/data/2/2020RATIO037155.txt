@@ -1,0 +1,22 @@
+Title:               Income Inequality in Robeson County, NC
+Series ID:           2020RATIO037155
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  17.287602772851844
+2011-01-01  16.740072202166065
+2012-01-01  17.653380102040817
+2013-01-01  17.836297760210805
+2014-01-01  18.620497209538307
+2015-01-01  18.682526099606367
+2016-01-01  19.027408777534890
+2017-01-01  18.261699507389164

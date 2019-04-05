@@ -1,0 +1,21 @@
+Title:               Burdened Households in Wayne County, NC
+Series ID:           DP04ACS037191
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  31.150875268522327
+2011-01-01  32.225660343513160
+2012-01-01  32.914478204020120
+2013-01-01  32.888446215139446
+2014-01-01  33.955158135847064
+2015-01-01  33.473933961642395
+2016-01-01  32.679199893081480

@@ -1,0 +1,21 @@
+Title:               Population Estimate of Hispanic or Latino Persons in Lee County, NC
+Series ID:           B03002012E037105
+Source:              U.S. Bureau of the Census
+Release:             County Population Estimates By Race And Ethnicity (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 8:53 AM CST
+Notes:               
+
+DATE         VALUE
+2009-01-01    9119
+2010-01-01    9613
+2011-01-01   10132
+2012-01-01   10645
+2013-01-01   11053
+2014-01-01   11258
+2015-01-01   11434
+2016-01-01   11418
+2017-01-01   11539

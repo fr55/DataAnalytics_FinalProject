@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Cherokee County, NC
+Series ID:           PE5T17NC37039A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   742
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   852
+1994-01-01     .
+1995-01-01   997
+1996-01-01     .
+1997-01-01   952
+1998-01-01   998
+1999-01-01   767
+2000-01-01   739
+2001-01-01   783
+2002-01-01   794
+2003-01-01   781
+2004-01-01   777
+2005-01-01   873
+2006-01-01   845
+2007-01-01   890
+2008-01-01   970
+2009-01-01  1072
+2010-01-01  1177
+2011-01-01  1095
+2012-01-01  1258
+2013-01-01  1183
+2014-01-01  1099
+2015-01-01  1059
+2016-01-01  1053
+2017-01-01   975

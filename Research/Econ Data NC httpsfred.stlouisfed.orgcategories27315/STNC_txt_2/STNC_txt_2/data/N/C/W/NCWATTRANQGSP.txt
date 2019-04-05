@@ -1,0 +1,33 @@
+Title:               Quantity Indexes for Real Gross Domestic Product by Industry: Private Industries: Transportation and Warehousing: Water Transportation for North Carolina
+Series ID:           NCWATTRANQGSP
+Source:              U.S. Bureau of Economic Analysis
+Release:             Gross Domestic Product (GDP) by State
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Index 2012=100
+Date Range:          1997-01-01 to 2016-01-01
+Last Updated:        2018-11-19 4:15 PM CST
+Notes:               For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm.
+
+DATE          VALUE
+1997-01-01   59.574
+1998-01-01   58.687
+1999-01-01   51.913
+2000-01-01   58.478
+2001-01-01   58.213
+2002-01-01   44.248
+2003-01-01    6.597
+2004-01-01    9.545
+2005-01-01   20.603
+2006-01-01   76.905
+2007-01-01   70.803
+2008-01-01  106.327
+2009-01-01  185.845
+2010-01-01  129.584
+2011-01-01  124.215
+2012-01-01  100.000
+2013-01-01  114.345
+2014-01-01   98.163
+2015-01-01   21.667
+2016-01-01    8.147

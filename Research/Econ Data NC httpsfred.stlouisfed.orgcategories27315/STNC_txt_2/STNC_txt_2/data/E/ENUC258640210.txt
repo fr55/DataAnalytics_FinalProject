@@ -1,0 +1,109 @@
+Title:               Average Weekly Wages for Employees in State Government Establishments in Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           ENUC258640210
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             Quarterly Census of Employment and Wages
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Dollars per Week
+Date Range:          1990-01-01 to 2012-10-01
+Last Updated:        2016-09-21 1:55 PM CDT
+Notes:               Average weekly wages are the wages paid by unemployment insurance
+                     covered employers during the calendar quarter, regardless of when the
+                     services were performed. Included in wages are pay for vacation and
+                     other paid leave, bonuses, stock options, tips, the cash value of
+                     meals and lodging, and in some States, contributions to deferred
+                     compensation plans (such as 401(k) plans).
+
+DATE       VALUE
+1990-01-01   392
+1990-04-01   404
+1990-07-01   543
+1990-10-01   413
+1991-01-01   416
+1991-04-01   414
+1991-07-01   548
+1991-10-01   414
+1992-01-01   418
+1992-04-01   392
+1992-07-01   572
+1992-10-01   424
+1993-01-01   423
+1993-04-01   401
+1993-07-01   573
+1993-10-01   445
+1994-01-01   430
+1994-04-01   429
+1994-07-01   475
+1994-10-01   448
+1995-01-01   449
+1995-04-01   445
+1995-07-01   462
+1995-10-01   449
+1996-01-01   451
+1996-04-01   441
+1996-07-01   465
+1996-10-01   463
+1997-01-01   467
+1997-04-01   469
+1997-07-01   499
+1997-10-01   487
+1998-01-01   493
+1998-04-01   484
+1998-07-01   508
+1998-10-01   527
+1999-01-01   508
+1999-04-01   500
+1999-07-01   538
+1999-10-01   526
+2000-01-01   526
+2000-04-01   514
+2000-07-01   570
+2000-10-01   570
+2001-01-01   664
+2001-04-01   514
+2001-07-01   560
+2001-10-01   545
+2002-01-01   560
+2002-04-01   548
+2002-07-01   570
+2002-10-01   552
+2003-01-01   564
+2003-04-01   544
+2003-07-01   569
+2003-10-01     .
+2004-01-01   548
+2004-04-01   545
+2004-07-01   579
+2004-10-01   571
+2005-01-01   568
+2005-04-01   569
+2005-07-01   601
+2005-10-01   593
+2006-01-01   594
+2006-04-01   599
+2006-07-01   641
+2006-10-01   633
+2007-01-01   632
+2007-04-01   636
+2007-07-01   668
+2007-10-01   662
+2008-01-01   657
+2008-04-01   674
+2008-07-01   703
+2008-10-01   679
+2009-01-01   669
+2009-04-01   662
+2009-07-01   677
+2009-10-01   662
+2010-01-01   663
+2010-04-01   669
+2010-07-01   676
+2010-10-01   668
+2011-01-01   668
+2011-04-01   681
+2011-07-01   693
+2011-10-01   664
+2012-01-01   667
+2012-04-01   669
+2012-07-01   695
+2012-10-01   672

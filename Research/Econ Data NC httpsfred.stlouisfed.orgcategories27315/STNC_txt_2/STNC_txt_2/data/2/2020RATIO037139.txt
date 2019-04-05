@@ -1,0 +1,22 @@
+Title:               Income Inequality in Pasquotank County, NC
+Series ID:           2020RATIO037139
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  14.595907928388748
+2011-01-01  17.512195121951220
+2012-01-01  14.758923230309072
+2013-01-01  15.281859989780276
+2014-01-01  16.826632876396730
+2015-01-01  14.632230545151893
+2016-01-01  14.153877139979858
+2017-01-01  15.104431678292983

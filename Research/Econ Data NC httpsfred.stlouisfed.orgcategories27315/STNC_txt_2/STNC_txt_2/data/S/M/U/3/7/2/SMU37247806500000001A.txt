@@ -1,0 +1,40 @@
+Title:               All Employees: Education and Health Services in Greenville, NC (MSA)
+Series ID:           SMU37247806500000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   2.7
+1991-01-01   3.0
+1992-01-01   3.3
+1993-01-01   3.6
+1994-01-01   4.1
+1995-01-01   4.5
+1996-01-01   4.9
+1997-01-01   5.2
+1998-01-01   5.2
+1999-01-01   5.6
+2000-01-01   6.0
+2001-01-01   6.5
+2002-01-01   6.7
+2003-01-01   7.0
+2004-01-01   7.4
+2005-01-01   7.8
+2006-01-01   8.3
+2007-01-01  10.2
+2008-01-01  10.8
+2009-01-01  10.9
+2010-01-01  10.3
+2011-01-01   9.8
+2012-01-01   9.9
+2013-01-01   9.7
+2014-01-01  10.0
+2015-01-01   9.1
+2016-01-01   9.3
+2017-01-01   9.4

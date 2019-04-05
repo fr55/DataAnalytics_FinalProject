@@ -1,0 +1,42 @@
+Title:               Estimate of Related Children Age 5-17 in Families in Poverty for Currituck County, NC
+Series ID:           PE5T17NC37053A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:05 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   324
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   459
+1994-01-01     .
+1995-01-01   518
+1996-01-01     .
+1997-01-01   567
+1998-01-01   626
+1999-01-01   572
+2000-01-01   544
+2001-01-01   485
+2002-01-01   448
+2003-01-01   489
+2004-01-01   495
+2005-01-01   521
+2006-01-01   500
+2007-01-01   511
+2008-01-01   545
+2009-01-01   646
+2010-01-01   687
+2011-01-01   654
+2012-01-01   728
+2013-01-01   715
+2014-01-01   642
+2015-01-01   639
+2016-01-01   621
+2017-01-01   603

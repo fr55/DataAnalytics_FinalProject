@@ -1,0 +1,22 @@
+Title:               Income Inequality in Madison County, NC
+Series ID:           2020RATIO037115
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:02 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  11.814271642771150
+2011-01-01  11.708478513356562
+2012-01-01  11.519669386901025
+2013-01-01  12.094520986863184
+2014-01-01  12.724453915823123
+2015-01-01  12.934714045416316
+2016-01-01  13.482419698044382
+2017-01-01  14.116942442391636

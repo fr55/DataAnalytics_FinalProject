@@ -1,0 +1,28 @@
+Title:               Real Personal Income for Raleigh, NC (MSA)
+Series ID:           RPI39580
+Source:              U.S. Bureau of Economic Analysis
+Release:             Real Personal Income for States and Metropolitan Areas
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Millions of Chained 2009 Dollars
+Date Range:          2008-01-01 to 2016-01-01
+Last Updated:        2018-05-17 9:51 AM CDT
+Notes:               Real personal income is personal income at RPPs divided by the
+                     national PCE price index. It is estimated for states, state
+                     metro/nonmetro portions, metropolitan statistical areas, and the
+                     combined nonmetropolitan portion of the United States.
+                     
+                     For more information about this release go to
+                     http://www.bea.gov/newsreleases/regional/rpp/rpp_newsrelease.htm or
+                     http://www.bea.gov/regional/methods.cfm.
+
+DATE           VALUE
+2008-01-01  49999056
+2009-01-01  48399575
+2010-01-01  50282406
+2011-01-01  51368070
+2012-01-01  53685269
+2013-01-01  53618559
+2014-01-01  56472745
+2015-01-01  60580307
+2016-01-01  62227485

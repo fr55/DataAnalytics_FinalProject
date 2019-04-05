@@ -1,0 +1,31 @@
+Title:               Value of Exports to Togo from North Carolina
+Series ID:           NCTGOA052SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2002-01-01 to 2016-01-01
+Last Updated:        2018-06-26 9:48 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE           VALUE
+2002-01-01     77684
+2003-01-01     79142
+2004-01-01    139581
+2005-01-01    909314
+2006-01-01   3882376
+2007-01-01   4532395
+2008-01-01   7228477
+2009-01-01   1274054
+2010-01-01   1402785
+2011-01-01   3436259
+2012-01-01   2285429
+2013-01-01   2955748
+2014-01-01   3194323
+2015-01-01   1988219
+2016-01-01   1576967

@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Pamlico County, NC
+Series ID:           BPPRIV037137
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:01 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01    54
+1991-01-01    80
+1992-01-01    62
+1993-01-01    53
+1994-01-01    79
+1995-01-01   127
+1996-01-01    79
+1997-01-01    70
+1998-01-01    66
+1999-01-01    87
+2000-01-01    56
+2001-01-01    51
+2002-01-01    50
+2003-01-01    69
+2004-01-01   108
+2005-01-01   101
+2006-01-01   118
+2007-01-01    96
+2008-01-01    71
+2009-01-01    51
+2010-01-01    48
+2011-01-01    36
+2012-01-01    44
+2013-01-01    51
+2014-01-01     0
+2015-01-01    66
+2016-01-01    52
+2017-01-01    19

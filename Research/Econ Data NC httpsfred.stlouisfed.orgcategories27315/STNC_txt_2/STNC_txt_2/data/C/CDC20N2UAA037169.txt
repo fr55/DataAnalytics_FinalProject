@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Stokes County, NC
+Series ID:           CDC20N2UAA037169
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  431.9
+2000-01-01  446.6
+2001-01-01  387.3
+2002-01-01  410.4
+2003-01-01  505.4
+2004-01-01  362.8
+2005-01-01  443.5
+2006-01-01  402.9
+2007-01-01  430.4
+2008-01-01  389.7
+2009-01-01  401.5
+2010-01-01  442.5
+2011-01-01  415.2
+2012-01-01  359.1
+2013-01-01  370.6
+2014-01-01  368.2
+2015-01-01  439.0
+2016-01-01  471.0

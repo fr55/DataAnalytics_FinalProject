@@ -1,0 +1,40 @@
+Title:               All Employees: Health Care and Social Assistance in North Carolina
+Series ID:           SMU37000006562000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  210.6
+1991-01-01  223.2
+1992-01-01  238.5
+1993-01-01  252.8
+1994-01-01  263.7
+1995-01-01  277.0
+1996-01-01  290.2
+1997-01-01  307.5
+1998-01-01  318.5
+1999-01-01  328.6
+2000-01-01  336.8
+2001-01-01  352.7
+2002-01-01  369.2
+2003-01-01  379.8
+2004-01-01  393.7
+2005-01-01  410.1
+2006-01-01  429.6
+2007-01-01  451.0
+2008-01-01  460.1
+2009-01-01  464.7
+2010-01-01  462.5
+2011-01-01  462.9
+2012-01-01  470.8
+2013-01-01  479.7
+2014-01-01  486.6
+2015-01-01  488.9
+2016-01-01  498.3
+2017-01-01  507.4

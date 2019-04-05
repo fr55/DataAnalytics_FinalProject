@@ -1,0 +1,23 @@
+Title:               Average Hourly Earnings of All Employees: Total Private in North Carolina
+Series ID:           SMU37000000500000003A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Hour
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 2:57 PM CDT
+Notes:               
+
+DATE        VALUE
+2007-01-01  19.25
+2008-01-01  19.92
+2009-01-01  20.60
+2010-01-01  20.62
+2011-01-01  20.91
+2012-01-01  21.71
+2013-01-01  21.67
+2014-01-01  21.85
+2015-01-01  22.30
+2016-01-01  23.40
+2017-01-01  24.12

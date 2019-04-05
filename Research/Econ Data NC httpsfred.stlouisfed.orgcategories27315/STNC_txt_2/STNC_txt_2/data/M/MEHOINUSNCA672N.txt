@@ -1,0 +1,90 @@
+Title:               Real Median Household Income in North Carolina
+Series ID:           MEHOINUSNCA672N
+Source:              U.S. Bureau of the Census
+Release:             Income and Poverty in the United States
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               2017 CPI-U-RS Adjusted Dollars
+Date Range:          1984-01-01 to 2017-01-01
+Last Updated:        2018-09-12 3:21 PM CDT
+Notes:               Household data are collected as of March.
+                     
+                     Consumer Price Index research series using current methods (CPI-U-RS)
+                     presents an estimate of the CPI for all Urban Consumers (CPI-U) that
+                     incorporates most of the improvements made over that time span into
+                     the entire series. More information can be found at
+                     http://www.bls.gov/cpi/cpiurs.htm.
+                     
+                     As stated in the Census's "Source and Accuracy of Estimates for
+                     Income, Poverty, and Health Insurance Coverage in the United States:
+                     2011" (http://www.census.gov/hhes/www/p60_243sa.pdf):
+                     
+                     Estimation of Median Incomes. The Census Bureau has changed the
+                     methodology for computing median income over time. The Census Bureau
+                     has computed medians using either Pareto interpolation or linear
+                     interpolation. Currently, we are using linear interpolation to
+                     estimate all medians. Pareto interpolation assumes a decreasing
+                     density of population within an income interval, whereas linear
+                     interpolation assumes a constant density of population within an
+                     income interval. The Census Bureau calculated estimates of median
+                     income and associated standard errors for 1979 through 1987 using
+                     Pareto interpolation if the estimate was larger than $20,000 for
+                     people or $40,000 for families and households. This is because the
+                     width of the income interval containing the estimate is greater than
+                     $2,500.
+                     
+                     We calculated estimates of median income and associated standard
+                     errors for 1976, 1977, and 1978 using Pareto interpolation if the
+                     estimate was larger than $12,000 for people or $18,000 for families
+                     and households. This is because the width of the income interval
+                     containing the estimate is greater than $1,000. All other estimates of
+                     median income and associated standard errors for 1976 through 2011
+                     (2012 ASEC) and almost all of the estimates of median income and
+                     associated standard errors for 1975 and earlier were calculated using
+                     linear interpolation.
+                     
+                     Thus, use caution when comparing median incomes above $12,000 for
+                     people or $18,000 for families and households for different years.
+                     Median incomes below those levels are more comparable from year to
+                     year since they have always been calculated using linear
+                     interpolation. For an indication of the comparability of medians
+                     calculated using Pareto interpolation with medians calculated using
+                     linear interpolation, see Series P-60, Number 114, Money Income in
+                     1976 of Families and Persons in the United States
+                     (www2.census.gov/prod2/popscan/p60-114.pdf).
+
+DATE        VALUE
+1984-01-01  46351
+1985-01-01  46734
+1986-01-01  46808
+1987-01-01  47112
+1988-01-01  48776
+1989-01-01  50544
+1990-01-01  48028
+1991-01-01  47264
+1992-01-01  47694
+1993-01-01  48279
+1994-01-01  49414
+1995-01-01  51240
+1996-01-01  55564
+1997-01-01  54753
+1998-01-01  54019
+1999-01-01  54982
+2000-01-01  54695
+2001-01-01  52966
+2002-01-01  49894
+2003-01-01  49807
+2004-01-01  52346
+2005-01-01  52918
+2006-01-01  48503
+2007-01-01  51570
+2008-01-01  48997
+2009-01-01  47995
+2010-01-01  49384
+2011-01-01  49378
+2012-01-01  44446
+2013-01-01  48840
+2014-01-01  48490
+2015-01-01  52559
+2016-01-01  54920
+2017-01-01  50343

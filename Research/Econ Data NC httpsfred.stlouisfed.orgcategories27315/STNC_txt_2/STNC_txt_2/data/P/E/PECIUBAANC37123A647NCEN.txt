@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of People of All Ages in Poverty for Montgomery County, NC
+Series ID:           PECIUBAANC37123A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:58 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  4288
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  4849
+1994-01-01     .
+1995-01-01  4688
+1996-01-01     .
+1997-01-01  4543
+1998-01-01  4509
+1999-01-01  4642
+2000-01-01  4631
+2001-01-01  5001
+2002-01-01  5156
+2003-01-01  5079
+2004-01-01  5222
+2005-01-01  6386
+2006-01-01  5700
+2007-01-01  5378
+2008-01-01  6096
+2009-01-01  6740
+2010-01-01  7515
+2011-01-01  8219
+2012-01-01  7260
+2013-01-01  6873
+2014-01-01  6626
+2015-01-01  6343
+2016-01-01  6560
+2017-01-01  5658

@@ -1,0 +1,22 @@
+Title:               Income Inequality in Macon County, NC
+Series ID:           2020RATIO037113
+Source:              U.S. Bureau of the Census
+Release:             Income Inequality (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Ratio
+Date Range:          2010-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:01 AM CST
+Notes:               This data represents the ratio of the mean income for the highest
+                     quintile (top 20 percent) of earners divided by the mean income of the
+                     lowest quintile (bottom 20 percent) of earners in a particular county.
+
+DATE                     VALUE
+2010-01-01  16.290992824247617
+2011-01-01  15.670540449057881
+2012-01-01  15.034967393748595
+2013-01-01  15.838348994885214
+2014-01-01  15.437814357567444
+2015-01-01  13.568794032324906
+2016-01-01  14.218145956607495
+2017-01-01  14.902649877842510

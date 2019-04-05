@@ -1,0 +1,26 @@
+Title:               Disconnected Youth for Lincoln County, NC
+Series ID:           B14005DCYACS037109
+Source:              U.S. Bureau of the Census
+Release:             Disconnected Youth (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:03 AM CST
+Notes:               Disconnected Youth represents the percentage of youth in a county who
+                     are between the ages of 16 and 19 who are not enrolled in school and
+                     who are unemployed or not in the labor force.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01   7.186459489456159
+2010-01-01   5.948232951717272
+2011-01-01   7.106351910440496
+2012-01-01   7.342295760082730
+2013-01-01   9.048361934477379
+2014-01-01   9.394904458598727
+2015-01-01  10.744680851063830
+2016-01-01  10.454545454545453
+2017-01-01   9.728867623604467

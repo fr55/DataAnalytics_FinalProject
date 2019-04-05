@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Wilkes County, NC
+Series ID:           PECILBAANC37193A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   6054
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6852
+1994-01-01      .
+1995-01-01   6858
+1996-01-01      .
+1997-01-01   6641
+1998-01-01   6725
+1999-01-01   6363
+2000-01-01   6392
+2001-01-01   6687
+2002-01-01   7118
+2003-01-01   7058
+2004-01-01   7198
+2005-01-01   8571
+2006-01-01   8914
+2007-01-01   8250
+2008-01-01  11880
+2009-01-01  10516
+2010-01-01  11559
+2011-01-01  14677
+2012-01-01  11415
+2013-01-01  13618
+2014-01-01  13898
+2015-01-01  10510
+2016-01-01   9336
+2017-01-01  10727

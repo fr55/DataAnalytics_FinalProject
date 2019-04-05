@@ -1,0 +1,42 @@
+Title:               Estimate of Median Household Income for Pender County, NC
+Series ID:           MHINC37141A052NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:31 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  21293
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  25999
+1994-01-01      .
+1995-01-01  30293
+1996-01-01      .
+1997-01-01  30705
+1998-01-01  31621
+1999-01-01  33502
+2000-01-01  35542
+2001-01-01  34689
+2002-01-01  34688
+2003-01-01  35631
+2004-01-01  37394
+2005-01-01  39029
+2006-01-01  41293
+2007-01-01  45230
+2008-01-01  42872
+2009-01-01  43261
+2010-01-01  43573
+2011-01-01  44171
+2012-01-01  43318
+2013-01-01  44949
+2014-01-01  45453
+2015-01-01  49390
+2016-01-01  50437
+2017-01-01  52187

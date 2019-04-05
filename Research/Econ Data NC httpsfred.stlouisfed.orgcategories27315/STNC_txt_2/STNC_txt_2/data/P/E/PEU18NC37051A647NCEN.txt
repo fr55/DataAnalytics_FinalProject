@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Cumberland County, NC
+Series ID:           PEU18NC37051A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  16651
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  18205
+1994-01-01      .
+1995-01-01  18896
+1996-01-01      .
+1997-01-01  18308
+1998-01-01  19577
+1999-01-01  16110
+2000-01-01  15583
+2001-01-01  16068
+2002-01-01  17915
+2003-01-01  20681
+2004-01-01  19105
+2005-01-01  21588
+2006-01-01  22278
+2007-01-01  19636
+2008-01-01  19171
+2009-01-01  20311
+2010-01-01  22267
+2011-01-01  22495
+2012-01-01  21359
+2013-01-01  22818
+2014-01-01  21197
+2015-01-01  22544
+2016-01-01  22223
+2017-01-01  20319

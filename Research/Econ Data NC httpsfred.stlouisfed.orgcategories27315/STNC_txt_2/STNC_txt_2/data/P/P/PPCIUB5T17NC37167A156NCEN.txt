@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Upper Bound of Estimate of Percent of Related Children Age 5-17 in Families in Poverty for Stanly County, NC
+Series ID:           PPCIUB5T17NC37167A156NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:51 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01  12.1
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01  17.0
+1994-01-01     .
+1995-01-01  17.6
+1996-01-01     .
+1997-01-01  18.5
+1998-01-01  20.6
+1999-01-01  19.2
+2000-01-01  17.0
+2001-01-01  17.3
+2002-01-01  17.7
+2003-01-01  19.9
+2004-01-01  20.4
+2005-01-01  22.7
+2006-01-01  19.8
+2007-01-01  20.9
+2008-01-01  20.3
+2009-01-01  23.1
+2010-01-01  25.8
+2011-01-01  28.0
+2012-01-01  29.0
+2013-01-01  28.8
+2014-01-01  25.7
+2015-01-01  28.6
+2016-01-01  23.1
+2017-01-01  23.4

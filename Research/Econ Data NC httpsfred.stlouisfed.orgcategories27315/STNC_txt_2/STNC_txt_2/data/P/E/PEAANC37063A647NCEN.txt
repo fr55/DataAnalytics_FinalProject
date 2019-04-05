@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Durham County, NC
+Series ID:           PEAANC37063A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:35 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  20904
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  25415
+1994-01-01      .
+1995-01-01  23894
+1996-01-01      .
+1997-01-01  24477
+1998-01-01  25085
+1999-01-01  25985
+2000-01-01  25264
+2001-01-01  25846
+2002-01-01  29323
+2003-01-01  32957
+2004-01-01  34930
+2005-01-01  31976
+2006-01-01  37119
+2007-01-01  39244
+2008-01-01  34855
+2009-01-01  42503
+2010-01-01  47599
+2011-01-01  51591
+2012-01-01  52102
+2013-01-01  46789
+2014-01-01  46899
+2015-01-01  49310
+2016-01-01  47269
+2017-01-01  47090

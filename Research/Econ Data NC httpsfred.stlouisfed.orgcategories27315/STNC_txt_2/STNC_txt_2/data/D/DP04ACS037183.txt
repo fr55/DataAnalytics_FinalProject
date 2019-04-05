@@ -1,0 +1,21 @@
+Title:               Burdened Households in Wake County, NC
+Series ID:           DP04ACS037183
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:11 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  31.598876800189483
+2011-01-01  31.808284821485510
+2012-01-01  31.851593830104590
+2013-01-01  31.010260941067380
+2014-01-01  30.533957939258315
+2015-01-01  29.610222929047737
+2016-01-01  28.304225137278827

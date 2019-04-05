@@ -1,0 +1,42 @@
+Title:               Estimate of People Age 0-17 in Poverty in Avery County, NC
+Series ID:           PEU18NC37011A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:56 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE       VALUE
+1989-01-01   827
+1990-01-01     .
+1991-01-01     .
+1992-01-01     .
+1993-01-01   794
+1994-01-01     .
+1995-01-01   824
+1996-01-01     .
+1997-01-01   878
+1998-01-01   848
+1999-01-01   692
+2000-01-01   682
+2001-01-01   670
+2002-01-01   650
+2003-01-01   690
+2004-01-01   670
+2005-01-01   735
+2006-01-01   704
+2007-01-01   725
+2008-01-01   755
+2009-01-01   864
+2010-01-01   995
+2011-01-01   891
+2012-01-01   905
+2013-01-01   862
+2014-01-01   870
+2015-01-01   784
+2016-01-01   781
+2017-01-01   710

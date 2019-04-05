@@ -1,0 +1,27 @@
+Title:               Health Insurance Coverage: People Not Covered in North Carolina (DISCONTINUED)
+Series ID:           NCHICNOTCOV
+Source:              U.S. Bureau of the Census
+Release:             Health Insurance Coverage (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1999-01-01 to 2012-01-01
+Last Updated:        2013-09-17 3:46 PM CDT
+Notes:               For more information, see
+                     http://www.census.gov/data/tables/time-series/demo/health-insurance/historical-series/hib.html.
+
+DATE           VALUE
+1999-01-01   973.043
+2000-01-01   964.326
+2001-01-01  1078.640
+2002-01-01  1295.748
+2003-01-01  1377.867
+2004-01-01  1198.387
+2005-01-01  1238.847
+2006-01-01  1540.011
+2007-01-01  1485.653
+2008-01-01  1400.565
+2009-01-01  1665.240
+2010-01-01  1605.905
+2011-01-01  1550.247
+2012-01-01  1658.330

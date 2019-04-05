@@ -1,0 +1,40 @@
+Title:               New Private Housing Structures Authorized by Building Permits for Pasquotank County, NC
+Series ID:           BPPRIV037139
+Source:              U.S. Bureau of the Census
+Release:             Housing Units Authorized By Building Permits (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Units
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-05-23 8:02 AM CDT
+Notes:               
+
+DATE       VALUE
+1990-01-01   119
+1991-01-01   189
+1992-01-01   196
+1993-01-01   183
+1994-01-01   215
+1995-01-01   173
+1996-01-01   158
+1997-01-01   160
+1998-01-01   160
+1999-01-01   127
+2000-01-01   108
+2001-01-01   144
+2002-01-01   210
+2003-01-01   217
+2004-01-01   429
+2005-01-01   472
+2006-01-01   311
+2007-01-01   116
+2008-01-01   127
+2009-01-01    60
+2010-01-01    45
+2011-01-01    54
+2012-01-01    68
+2013-01-01    68
+2014-01-01    63
+2015-01-01    86
+2016-01-01   106
+2017-01-01   118

@@ -1,0 +1,26 @@
+Title:               Number of Identified Exporters to Solomon Islands from North Carolina
+Series ID:           NCSLBA475SCEN
+Source:              U.S. Bureau of the Census
+Release:             Number of Exporters and Known Value for All Countries on a State-by-State Basis
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Number of Firms
+Date Range:          2006-01-01 to 2015-01-01
+Last Updated:        2018-06-26 9:41 AM CDT
+Notes:               This data series illustrates the movement of exports from the given
+                     state to the given country. A missing observation can mean two things.
+                     First, missing observations can appear because no exports were made to
+                     the listed country that year. Secondly, it could signify a low number
+                     of exporters thus giving away proprietary data away.
+
+DATE       VALUE
+2006-01-01     1
+2007-01-01     .
+2008-01-01     .
+2009-01-01     1
+2010-01-01     1
+2011-01-01     .
+2012-01-01     1
+2013-01-01     .
+2014-01-01     1
+2015-01-01     1

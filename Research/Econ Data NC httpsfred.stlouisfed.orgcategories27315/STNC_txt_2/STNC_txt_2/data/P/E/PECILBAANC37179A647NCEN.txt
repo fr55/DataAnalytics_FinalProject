@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Union County, NC
+Series ID:           PECILBAANC37179A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   6419
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   8284
+1994-01-01      .
+1995-01-01   7681
+1996-01-01      .
+1997-01-01   7737
+1998-01-01   8159
+1999-01-01   8481
+2000-01-01   8411
+2001-01-01   8722
+2002-01-01   9790
+2003-01-01  11051
+2004-01-01  12144
+2005-01-01  14250
+2006-01-01  12169
+2007-01-01  11938
+2008-01-01  13672
+2009-01-01  18662
+2010-01-01  15087
+2011-01-01  17842
+2012-01-01  20938
+2013-01-01  18497
+2014-01-01  20187
+2015-01-01  18263
+2016-01-01  17109
+2017-01-01  18213

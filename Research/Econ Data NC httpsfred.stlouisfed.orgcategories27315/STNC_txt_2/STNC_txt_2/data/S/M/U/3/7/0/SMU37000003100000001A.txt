@@ -1,0 +1,40 @@
+Title:               All Employees: Manufacturing: Durable Goods in North Carolina
+Series ID:           SMU37000003100000001A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Thousands of Persons
+Date Range:          1990-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE        VALUE
+1990-01-01  349.4
+1991-01-01  329.2
+1992-01-01  334.4
+1993-01-01  348.2
+1994-01-01  358.3
+1995-01-01  369.1
+1996-01-01  369.8
+1997-01-01  372.4
+1998-01-01  377.9
+1999-01-01  380.8
+2000-01-01  380.8
+2001-01-01  355.6
+2002-01-01  317.9
+2003-01-01  297.2
+2004-01-01  295.3
+2005-01-01  295.5
+2006-01-01  294.9
+2007-01-01  289.4
+2008-01-01  277.1
+2009-01-01  231.6
+2010-01-01  221.7
+2011-01-01  226.4
+2012-01-01  234.5
+2013-01-01  236.2
+2014-01-01  240.1
+2015-01-01  248.7
+2016-01-01  251.3
+2017-01-01  252.9

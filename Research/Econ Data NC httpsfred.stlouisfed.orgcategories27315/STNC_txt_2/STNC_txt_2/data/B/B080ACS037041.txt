@@ -1,0 +1,27 @@
+Title:               Mean Commuting Time for Workers in Chowan County, NC
+Series ID:           B080ACS037041
+Source:              U.S. Bureau of the Census
+Release:             Mean Commute Time (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Minutes
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-07 9:41 AM CST
+Notes:               This series is calculated by dividing the aggregate travel time to
+                     work for all workers by the total number of workers, 16-years old and
+                     older, who commute. The data is comprised of estimates found in tables
+                     B08013 and B08012 of the American Community Survey, respectively.
+                     
+                     The date of the data is the end of the 5-year period. For example, a
+                     value dated 2015 represents data from 2010 to 2015.
+
+DATE                     VALUE
+2009-01-01  28.395786726323640
+2010-01-01  28.485818056035974
+2011-01-01  27.402622445044350
+2012-01-01  25.977863154043177
+2013-01-01  26.558135145337864
+2014-01-01  28.994316098276496
+2015-01-01  27.732376219399963
+2016-01-01  26.156449429510733
+2017-01-01  28.170684292379470

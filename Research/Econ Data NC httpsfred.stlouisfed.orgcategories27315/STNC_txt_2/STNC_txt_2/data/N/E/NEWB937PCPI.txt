@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in New Bern, NC (MSA)
+Series ID:           NEWB937PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:07 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  26319
+2002-01-01  26377
+2003-01-01  27921
+2004-01-01  29966
+2005-01-01  31841
+2006-01-01  32799
+2007-01-01  34933
+2008-01-01  36015
+2009-01-01  35283
+2010-01-01  35809
+2011-01-01  36752
+2012-01-01  37859
+2013-01-01  37634
+2014-01-01  38853
+2015-01-01  40397
+2016-01-01  41087
+2017-01-01  41926

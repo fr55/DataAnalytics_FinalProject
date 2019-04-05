@@ -1,0 +1,75 @@
+Title:               Employed Involuntary Part-Time for North Carolina
+Series ID:           INVOLPTEMPNC
+Source:              U.S. Bureau of Labor Statistics
+Release:             Alternative Measures of Labor Underutilization for States
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Quarterly
+Units:               Persons, 4-Quarter Moving Average
+Date Range:          2003-10-01 to 2018-01-01
+Last Updated:        2018-04-27 10:31 AM CDT
+Notes:               Persons employed part time for economic reasons are those working less
+                     than 35 hours per week who want to work full time, are available to do
+                     so, and gave an economic reason (their hours had been cut back or they
+                     were unable to find a full time job) for working part time. These
+                     individuals are sometimes referred to as involuntary part-time
+                     workers.
+
+DATE         VALUE
+2003-10-01  152500
+2004-01-01  156700
+2004-04-01  156000
+2004-07-01  154100
+2004-10-01  147000
+2005-01-01  138400
+2005-04-01  140100
+2005-07-01  155100
+2005-10-01  162300
+2006-01-01  157900
+2006-04-01  148500
+2006-07-01  139100
+2006-10-01  131000
+2007-01-01  136500
+2007-04-01  140500
+2007-07-01  133000
+2007-10-01  134300
+2008-01-01  140000
+2008-04-01  147600
+2008-07-01  154900
+2008-10-01  173500
+2009-01-01  203300
+2009-04-01  227400
+2009-07-01  259300
+2009-10-01  281900
+2010-01-01  273100
+2010-04-01  276500
+2010-07-01  265000
+2010-10-01  256800
+2011-01-01  263900
+2011-04-01  259900
+2011-07-01  272100
+2011-10-01  281700
+2012-01-01  283300
+2012-04-01  291900
+2012-07-01  285100
+2012-10-01  263800
+2013-01-01  260400
+2013-04-01  243800
+2013-07-01  239200
+2013-10-01  253200
+2014-01-01  238900
+2014-04-01  233600
+2014-07-01  221700
+2014-10-01  210500
+2015-01-01  205900
+2015-04-01  205200
+2015-07-01  207600
+2015-10-01  203500
+2016-01-01  192700
+2016-04-01  180400
+2016-07-01  172100
+2016-10-01  157400
+2017-01-01  165200
+2017-04-01  151100
+2017-07-01  137300
+2017-10-01  130800
+2018-01-01  118500

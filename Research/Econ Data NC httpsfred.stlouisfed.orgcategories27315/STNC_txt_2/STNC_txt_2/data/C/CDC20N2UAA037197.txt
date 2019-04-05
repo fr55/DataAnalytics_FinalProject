@@ -1,0 +1,39 @@
+Title:               Age-Adjusted Premature Death Rate for Yadkin County, NC
+Series ID:           CDC20N2UAA037197
+Source:              Centers for Disease Control and Prevention
+Release:             Age-Adjusted Premature Death Rate
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:22 PM CDT
+Notes:               Age-adjusted death rates are weighted averages of the age-specific
+                     death rates, where the weights represent a fixed population by age.
+                     They are used to compare relative mortality risk among groups and over
+                     time. An age-adjusted rate represents the rate that would have existed
+                     had the age-specific rates of the particular year prevailed in a
+                     population whose age distribution was the same as that of the fixed
+                     population. Age-adjusted rates should be viewed as relative indexes
+                     rather than as direct or actual measures of mortality risk. However,
+                     you can select other standard populations, or select specific
+                     population criteria to determine the age distribution ratios.
+
+DATE        VALUE
+1999-01-01  382.9
+2000-01-01  419.4
+2001-01-01  434.0
+2002-01-01  439.3
+2003-01-01  383.3
+2004-01-01  371.0
+2005-01-01  420.0
+2006-01-01  425.8
+2007-01-01  404.0
+2008-01-01  390.8
+2009-01-01  403.2
+2010-01-01  391.0
+2011-01-01  354.1
+2012-01-01  375.8
+2013-01-01  455.2
+2014-01-01  417.5
+2015-01-01  416.4
+2016-01-01  340.7

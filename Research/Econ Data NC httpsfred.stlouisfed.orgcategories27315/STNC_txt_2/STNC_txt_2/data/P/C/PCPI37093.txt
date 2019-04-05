@@ -1,0 +1,39 @@
+Title:               Per Capita Personal Income in Hoke County, NC
+Series ID:           PCPI37093
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:05 PM CST
+Notes:               Personal income is the income that is received by persons from all
+                     sources. It is calculated as the sum of wages and salaries,
+                     supplements to wages and salaries, proprietors' income with inventory
+                     valuation and capital consumption adjustments, rental income of
+                     persons with capital consumption adjustment, personal dividend income,
+                     personal interest income, and personal current transfer receipts, less
+                     contributions for government social insurance. This measure of income
+                     is calculated as the personal income of the residents of a given area
+                     divided by the resident population of the area. In computing per
+                     capita personal income, BEA uses the Census Bureau's annual midyear
+                     population estimates.
+
+DATE        VALUE
+2001-01-01  17872
+2002-01-01  17877
+2003-01-01  18363
+2004-01-01  19670
+2005-01-01  20911
+2006-01-01  21935
+2007-01-01  23892
+2008-01-01  26406
+2009-01-01  27231
+2010-01-01  27308
+2011-01-01  27813
+2012-01-01  28259
+2013-01-01  28141
+2014-01-01  28531
+2015-01-01  28713
+2016-01-01  29052
+2017-01-01  29997

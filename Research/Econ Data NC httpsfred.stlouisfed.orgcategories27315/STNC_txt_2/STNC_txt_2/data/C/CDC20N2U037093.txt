@@ -1,0 +1,31 @@
+Title:               Premature Death Rate for Hoke County, NC
+Series ID:           CDC20N2U037093
+Source:              Centers for Disease Control and Prevention
+Release:             Premature Death Rate (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Rate per 100,000
+Date Range:          1999-01-01 to 2016-01-01
+Last Updated:        2018-06-15 3:24 PM CDT
+Notes:               The "crude death rate" is the number of deaths divided by the
+                     population, multiplied by 100,000.
+
+DATE        VALUE
+1999-01-01  436.8
+2000-01-01  450.6
+2001-01-01  439.4
+2002-01-01  481.8
+2003-01-01  421.2
+2004-01-01  451.7
+2005-01-01  377.8
+2006-01-01  351.6
+2007-01-01  393.2
+2008-01-01  382.9
+2009-01-01  313.1
+2010-01-01  318.1
+2011-01-01  439.9
+2012-01-01  359.5
+2013-01-01  340.6
+2014-01-01  361.4
+2015-01-01  343.4
+2016-01-01  372.2

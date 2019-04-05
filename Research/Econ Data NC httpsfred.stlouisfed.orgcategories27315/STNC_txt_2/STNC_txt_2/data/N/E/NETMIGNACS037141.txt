@@ -1,0 +1,26 @@
+Title:               Net Migration Flow for Pender County, NC
+Series ID:           NETMIGNACS037141
+Source:              U.S. Bureau of the Census
+Release:             Net Migration Flows for Counties and County Equivalents in the United States
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          2009-01-01 to 2015-01-01
+Last Updated:        2017-09-11 4:33 PM CDT
+Notes:               The American Community Survey (ACS) and the Puerto Rico Community
+                     Survey (PRCS) ask respondents age 1 year and over whether they lived
+                     in the same residence 1 year ago. For people who lived in a different
+                     residence, the location of their previous residence is collected.
+                     
+                     ACS uses a series of monthly samples to produce estimates. The 5-year
+                     dataset is used for the county-to-county migration flows since many
+                     counties have a population less than 20,000.
+
+DATE        VALUE
+2009-01-01   1216
+2010-01-01    566
+2011-01-01    400
+2012-01-01   1069
+2013-01-01    837
+2014-01-01    992
+2015-01-01   1202

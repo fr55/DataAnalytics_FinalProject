@@ -1,0 +1,23 @@
+Title:               Average Weekly Earnings of All Employees: Private Service Providing in North Carolina
+Series ID:           SMU37000000800000011A
+Source:              U.S. Bureau of Labor Statistics, Federal Reserve Bank of St. Louis
+Release:             State and Metro Area Employment, Hours, and Earnings (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars per Week
+Date Range:          2007-01-01 to 2017-01-01
+Last Updated:        2018-03-12 3:13 PM CDT
+Notes:               
+
+DATE         VALUE
+2007-01-01  646.11
+2008-01-01  667.54
+2009-01-01  682.57
+2010-01-01  682.24
+2011-01-01  695.97
+2012-01-01  730.73
+2013-01-01  726.75
+2014-01-01  731.18
+2015-01-01  745.74
+2016-01-01  782.69
+2017-01-01  811.08

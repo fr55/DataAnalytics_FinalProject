@@ -1,0 +1,29 @@
+Title:               Per Capita Personal Income in Hickory-Lenoir-Morganton, NC (MSA)
+Series ID:           HICK837PCPI
+Source:              U.S. Bureau of Economic Analysis
+Release:             Local Area Personal Income
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Dollars
+Date Range:          2001-01-01 to 2017-01-01
+Last Updated:        2018-11-15 2:07 PM CST
+Notes:               
+
+DATE        VALUE
+2001-01-01  25865
+2002-01-01  25674
+2003-01-01  25874
+2004-01-01  27023
+2005-01-01  28146
+2006-01-01  29310
+2007-01-01  30178
+2008-01-01  30559
+2009-01-01  29604
+2010-01-01  30235
+2011-01-01  31031
+2012-01-01  32429
+2013-01-01  32272
+2014-01-01  33938
+2015-01-01  35763
+2016-01-01  36598
+2017-01-01  38379

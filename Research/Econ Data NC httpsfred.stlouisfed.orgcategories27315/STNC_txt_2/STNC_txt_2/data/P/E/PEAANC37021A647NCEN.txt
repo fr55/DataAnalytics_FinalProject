@@ -1,0 +1,42 @@
+Title:               Estimate of People of All Ages in Poverty in Buncombe County, NC
+Series ID:           PEAANC37021A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 2:36 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01  21415
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01  24198
+1994-01-01      .
+1995-01-01  23055
+1996-01-01      .
+1997-01-01  23603
+1998-01-01  25116
+1999-01-01  24716
+2000-01-01  23337
+2001-01-01  24065
+2002-01-01  26516
+2003-01-01  28461
+2004-01-01  29595
+2005-01-01  26344
+2006-01-01  27401
+2007-01-01  30948
+2008-01-01  31032
+2009-01-01  36407
+2010-01-01  39630
+2011-01-01  42765
+2012-01-01  42062
+2013-01-01  37794
+2014-01-01  33936
+2015-01-01  37433
+2016-01-01  33631
+2017-01-01  28715

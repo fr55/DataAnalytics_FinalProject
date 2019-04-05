@@ -1,0 +1,42 @@
+Title:               90% Confidence Interval Lower Bound of Estimate of People of All Ages in Poverty for Caldwell County, NC
+Series ID:           PECILBAANC37027A647NCEN
+Source:              U.S. Bureau of the Census
+Release:             Small Area Income and Poverty Estimates
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Persons
+Date Range:          1989-01-01 to 2017-01-01
+Last Updated:        2018-12-20 3:01 PM CST
+Notes:               For further information about this series go to
+                     https://www.census.gov/programs-surveys/saipe/about.html.
+
+DATE        VALUE
+1989-01-01   5602
+1990-01-01      .
+1991-01-01      .
+1992-01-01      .
+1993-01-01   6817
+1994-01-01      .
+1995-01-01   6886
+1996-01-01      .
+1997-01-01   6752
+1998-01-01   7153
+1999-01-01   6750
+2000-01-01   6693
+2001-01-01   6929
+2002-01-01   7508
+2003-01-01   7800
+2004-01-01   8214
+2005-01-01   9357
+2006-01-01   9394
+2007-01-01   8841
+2008-01-01  10207
+2009-01-01  11072
+2010-01-01  12920
+2011-01-01  14721
+2012-01-01  14424
+2013-01-01  12592
+2014-01-01  12964
+2015-01-01  10891
+2016-01-01  11738
+2017-01-01  11472

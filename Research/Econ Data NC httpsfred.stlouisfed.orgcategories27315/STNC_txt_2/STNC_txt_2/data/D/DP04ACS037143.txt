@@ -1,0 +1,21 @@
+Title:               Burdened Households in Perquimans County, NC
+Series ID:           DP04ACS037143
+Source:              U.S. Bureau of the Census
+Release:             Burdened Households (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2010-01-01 to 2016-01-01
+Last Updated:        2018-05-29 9:12 AM CDT
+Notes:               This data represents the percentage of households in a county who pay
+                     more than 30 percent of their income towards rent or mortgage
+                     expenses.
+
+DATE                     VALUE
+2010-01-01  36.672665466906615
+2011-01-01  41.629599676506270
+2012-01-01  41.225680933852140
+2013-01-01  39.704754601226995
+2014-01-01  36.375890621991140
+2015-01-01  37.162932016710975
+2016-01-01  34.693877551020410

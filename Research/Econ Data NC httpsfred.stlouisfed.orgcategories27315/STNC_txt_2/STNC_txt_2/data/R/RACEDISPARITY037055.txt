@@ -1,0 +1,28 @@
+Title:               White to Non-White Racial Dissimilarity Index for Dare County, NC
+Series ID:           RACEDISPARITY037055
+Source:              U.S. Bureau of the Census
+Release:             Racial Dissimilarity Index (Not a Press Release)
+Seasonal Adjustment: Not Seasonally Adjusted
+Frequency:           Annual
+Units:               Percent
+Date Range:          2009-01-01 to 2017-01-01
+Last Updated:        2018-12-18 9:31 AM CST
+Notes:               The Racial Dissimilarity Index measures the percentage of the
+                     non-hispanic white population in a county which would have to change
+                     Census tracts to equalize the racial distribution between white and
+                     non-white population groups across all tracts in the county.
+                     Starting with the 2016 observations, the calculation has been changed
+                     so that counties with only one census tract have missing data. Zero
+                     values represent counties where the proportions of non-white
+                     population and non-hispanic white population are the same.
+
+DATE                     VALUE
+2009-01-01  45.333573851259990
+2010-01-01  42.583695819149270
+2011-01-01  48.485220400435620
+2012-01-01  43.371765768621350
+2013-01-01  41.328895715687516
+2014-01-01  38.368254386157370
+2015-01-01  35.786276232136100
+2016-01-01  33.448253978055305
+2017-01-01  24.864962747084313
