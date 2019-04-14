@@ -11,6 +11,8 @@ author: Felipe Raby Amadori
 abstract: "Experimental overview. This section should be no longer than 250 words."
 fontsize: 12pt
 mainfont: Times New Roman
+editor_options: 
+  chunk_output_type: console
 ---
 
 <Information in these brackets are used for annotating the RMarkdown file. They will not appear in the final version of the PDF document>
@@ -30,7 +32,7 @@ mainfont: Times New Roman
 ```{r setup, include=FALSE}
 # Set your working directory
 
-setwd("C:/Users/Felipe/OneDrive - Duke University/1. DUKE/1. Ramos 2 Semestre/EOS-872 Env. Data Analytics/Environmental_Data_Analytics")
+setwd("C:/Users/Felipe/OneDrive - Duke University/1. DUKE/1. Ramos 2 Semestre/EOS-872 Env. Data Analytics/DataAnalytics_FinalProject")
 
 # Load your packages
 
@@ -47,6 +49,10 @@ library(ggspatial)
 library(mapview)
 library(rvest)
 library(dplyr)
+library(FedData)
+library(tiff)
+library(gridExtra)
+library(elevatr)
 
 # Set your ggplot theme
 
@@ -80,25 +86,385 @@ theme_set(felipe_theme)
 
 <Include text sections to accompany these R chunks to explain the reasoning behind your workflow, and the rationale for your approach.>
 
+In the next chunck I am getting the list of North Carolina Counties from an URL.
+
 ```{r}
 #North Carolina Counties
 url <- "https://en.wikipedia.org/wiki/List_of_counties_in_North_Carolina"
 webpage <- read_html(url)
 
 County_Name <- webpage %>% html_nodes("th:nth-child(1)") %>% html_text()
+County_Population <- webpage %>% html_nodes("tr :nth-child(7)") %>% html_text() 
 
+#Remove unwanted info and characters
 County_Info <- data_frame(County = County_Name[9:108])
 County_Info$County <- str_replace(County_Info$County, " County", "")
 County_Info$County <- str_replace(County_Info$County, "\n", "")
 
-#North Carolina Zones
+County_Info$Population <- NULL
 
+Population <- data_frame(Population=County_Population[2:101])
+
+County_Info <- cbind(County_Info, Population)
+
+County_Info$Population <- str_replace(County_Info$Population,",","")
+County_Info$Population <- str_replace(County_Info$Population,",","")
+
+County_Info$Population <- as.numeric(County_Info$Population) 
+```
+
+In the next chunck I am assigning the corresponding zone to each county. Info from: Rudersdorf, Amy. 2010. "NC County Maps." Government & Heritage Library, State Library of North Carolina.
+
+```{r}
+#North Carolina Zones
 County_Info$Zone<-ifelse(County_Info$County == 'Ashe'|County_Info$County =='Alleghany'|County_Info$County =='Wilkes'|County_Info$County =='Watauga'|County_Info$County =='Avery'|County_Info$County =='Caldwell'|County_Info$County =='Mitchell'|County_Info$County =='Burke'|County_Info$County =='Yancey'|County_Info$County =='McDowell'|County_Info$County =='Rutherford'|County_Info$County =='Madison'|County_Info$County =='Buncombe'|County_Info$County =='Polk'|County_Info$County =='Henderson'|County_Info$County =='Haywood'|County_Info$County =='Transylvania'|County_Info$County =='Swain'|County_Info$County =='Jackson'|County_Info$County =='Graham'|County_Info$County =='Macon'|County_Info$County =='Cherokee'|County_Info$County =='Clay','Mountains',
                          ifelse(County_Info$County == 'Surry'|County_Info$County =='Stokes'|County_Info$County =='Rockingham'|County_Info$County =='Caswell'|County_Info$County =='Person'|County_Info$County =='Granville'|County_Info$County =='Vance'|County_Info$County =='Warren'|County_Info$County =='Yadkin'|County_Info$County =='Forsyth'|County_Info$County =='Guilford'|County_Info$County =='Alamance'|County_Info$County =='Orange'|County_Info$County =='Durham'|County_Info$County =='Franklin'|County_Info$County =='Alexander'|County_Info$County =='Iredell'|County_Info$County =='Davie'|County_Info$County =='Rowan'|County_Info$County =='Davidson'|County_Info$County =='Randolph'|County_Info$County =='Chatham'|County_Info$County =='Wake'|County_Info$County =='Catawba'|County_Info$County =='Cleveland'|County_Info$County =='Lincoln'|County_Info$County =='Gaston'|County_Info$County =='Mecklenburg'|County_Info$County =='Cabarrus'|County_Info$County =='Stanly'|County_Info$County =='Union'|County_Info$County =='Montgomery'|County_Info$County =='Anson'|County_Info$County =='Moore'|County_Info$County =='Lee'|County_Info$County =='Richmond','Piedmont',
                                 ifelse(County_Info$County == 'Scotland'|County_Info$County =='Hoke'|County_Info$County =='Harnett'|County_Info$County =='Johnston'|County_Info$County =='Nash'|County_Info$County =='Halifax'|County_Info$County =='Northampton'|County_Info$County =='Robeson'|County_Info$County =='Cumberland'|County_Info$County =='Sampson'|County_Info$County =='Wayne'|County_Info$County =='Wilson'|County_Info$County =='Edgecombe'|County_Info$County =='Columbus'|County_Info$County =='Bladen'|County_Info$County =='Brunswick'|County_Info$County =='New Hanover'|County_Info$County =='Pender'|County_Info$County =='Duplin'|County_Info$County =='Onslow'|County_Info$County =='Lenoir'|County_Info$County =='Jones'|County_Info$County =='Carteret'|County_Info$County =='Greene'|County_Info$County =='Craven'|County_Info$County =='Pitt'|County_Info$County =='Pamlico'|County_Info$County =='Beaufort'|County_Info$County =='Martin'|County_Info$County =='Bertie'|County_Info$County =='Hyde'|County_Info$County =='Dare'|County_Info$County =='Tyrrell'|County_Info$County =='Washington'|County_Info$County =='Hertford'|County_Info$County =='Gates'|County_Info$County =='Currituck'|County_Info$County =='Camden'|County_Info$County =='Pasquotank'|County_Info$County =='Perquimans'|County_Info$County =='Chowan','Coastal','NoInfo')))
+```
+
+In the next chunck I am reading the USA county shapfile, subsetting for NC.
+
+```{r read the USA county shapfile, subsetting for NC}
+counties_sf<- st_read('./Data/Spatial/cb_2017_us_county_20m.shp') %>% 
+  filter(STATEFP == 37) #Filter for just NC Counties
+
+#CRS
+st_crs(counties_sf) #crs=4269 = NAD83.
+```
+
+Converting the counties_sf to UTM Zone 17 and adding the zone information from County_Info
+
+```{r}
+#Convert all to UTM Zone 17 (crs = 26917)
+counties_sf_utm <- st_transform(counties_sf, c=26917)
+
+#Join the two datasets using "NAME" from the left dataset and "County" from the right
+counties_sf_utm_join <- counties_sf_utm %>% 
+  left_join(y = County_Info,by = c("NAME" =  "County"))
+
+counties_sf_utm_simple <- select(counties_sf_utm_join, NAME, Zone, Population, geometry)
+```
+
+Read the 2018 Air Temperature data.
+
+```{r}
+#Read the 2018 Air Temperature data
+NOAA_DTAVG_NC2018_raw <- read.csv("./Data/Raw/NOAA_TAVG_NC2018_raw.csv")
+
+#Remove stations without Temperature information
+NOAA_DTAVG_NC2018_Complete <- na.omit(NOAA_DTAVG_NC2018_raw)
+
+#Convert the dataset to a spatially enabled "sf" data frame
+NOAA_DTAVG_NC2018_sf <- st_as_sf(NOAA_DTAVG_NC2018_Complete,coords = c('LONGITUDE','LATITUDE'),crs=4269) 
+
+#Convert all to UTM Zone 17 (crs = 26917)
+NOAA_DTAVG_NC2018_sf_utm <- st_transform(NOAA_DTAVG_NC2018_sf, c=26917)
+
+#Formatting dates
+NOAA_DTAVG_NC2018_sf_utm$DATE <- as.Date(NOAA_DTAVG_NC2018_sf_utm$DATE, format = "%d/%m/%Y")
+
+#Adding the county and zone information to the Temperature dataframe
+
+#Index of the matching feature
+county_index <- st_nearest_feature(NOAA_DTAVG_NC2018_sf_utm, counties_sf_utm_simple)
+
+#Eliminates geo info
+aux1 <- st_set_geometry(counties_sf_utm_simple[county_index,"NAME"], value=NULL)
+aux2 <- st_set_geometry(counties_sf_utm_simple[county_index,"Zone"], value=NULL)
+aux3 <- st_set_geometry(counties_sf_utm_simple[county_index,"Population"], value=NULL)
+
+#adds the columns
+NOAA_DTAVG_NC2018_sf_utm$COUNTY <- aux1$NAME
+NOAA_DTAVG_NC2018_sf_utm$Zone <- aux2$Zone
+NOAA_DTAVG_NC2018_sf_utm$Population <- aux3$Population
+
+#Reordering
+NOAA_DTAVG_NC2018_sf_utm <- NOAA_DTAVG_NC2018_sf_utm[,c(1,2,3,4,5,7,8,9,6)]
 
 ```
 
+Read the Electricity Generation via Combustion data.
+
+```{r}
+EPA_US_CombEmissions <- st_read("./Data/Raw/US_Electricity_Generation_via_Combustion.kml")
+
+st_crs(EPA_US_CombEmissions) #crs=4326 = WGS 84
+
+#Convert all to UTM Zone 17 (crs = 26917)
+EPA_US_CombEmissions_utm <- st_transform(EPA_US_CombEmissions, c=26917)
+
+#Clip the EPA_US_CombEmissions data set by the NC State boundary dataset
+
+#First create a State_sf file
+#Aggregate the data using group_by and summarize, just as you would a non-spatial dataframe
+state_sf_utm <- st_union(counties_sf_utm_join)
+
+#Eliminate the emission points outside NC
+EPA_NC_CombEmissions_utm <- st_intersection(EPA_US_CombEmissions_utm,state_sf_utm) 
+```
+
+Upload PM2.5 and PM10 2018 data raw data files associated with EPA Air dataset. 
+
+```{r}
+EPA_raw_AQ_PM25_2018 <- read.csv("./Data/Raw/EPAair_PM25_NC2018_raw.csv")
+EPA_raw_AQ_PM10_2018 <- read.csv("./Data/Raw/EPAair_PM10_NC2018_raw.csv")
+
+#Formatting Dates
+EPA_raw_AQ_PM25_2018$Date <- as.Date(EPA_raw_AQ_PM25_2018$Date, format = "%m/%d/%y")
+EPA_raw_AQ_PM10_2018$Date <- as.Date(EPA_raw_AQ_PM10_2018$Date, format = "%m/%d/%Y")
+
+#Selecting Columns
+EPA_AQ_PM25_2018.Conc <- select(EPA_raw_AQ_PM25_2018, Date, Site.ID,
+                                        Daily.Mean.PM2.5.Concentration, AQS_PARAMETER_DESC, COUNTY:SITE_LONGITUDE)
+
+#Changing column name
+colnames(EPA_AQ_PM25_2018.Conc)[colnames(EPA_AQ_PM25_2018.Conc)=="Daily.Mean.PM2.5.Concentration"] <- "Daily.Mean.Concentration"
+
+#Selecting Columns
+EPA_AQ_PM10_2018.Conc <- select(EPA_raw_AQ_PM10_2018, Date, Site.ID,
+                                        Daily.Mean.PM10.Concentration, AQS_PARAMETER_DESC, COUNTY:SITE_LONGITUDE)
+
+#Changing column name
+colnames(EPA_AQ_PM10_2018.Conc)[colnames(EPA_AQ_PM10_2018.Conc)=="Daily.Mean.PM10.Concentration"] <- "Daily.Mean.Concentration"
+
+#Create AQS_PARAMETER_DESC Column with Contaminant description.
+EPA_AQ_PM25_2018.Conc$AQS_PARAMETER_DESC <- "PM2.5"
+EPA_AQ_PM10_2018.Conc$AQS_PARAMETER_DESC <- "PM10"
+
+EPA_AQ_PM25_2018.Conc.simp <- EPA_AQ_PM25_2018.Conc [!duplicated(EPA_AQ_PM25_2018.Conc[c(1,2)]),]
+
+EPA_AQ_PM10_2018.Conc.simp <- EPA_AQ_PM10_2018.Conc [!duplicated(EPA_AQ_PM10_2018.Conc[c(1,2)]),]
+
+# Combine the data.
+EPA_AQ_PM2.5PM10_2018.Conc <- rbind(EPA_AQ_PM25_2018.Conc.simp, EPA_AQ_PM10_2018.Conc.simp)
+
+#Spread PM2.5 and PM10
+EPA_AQ_PM2.5PM10_2018.Conc.spread <- 
+  EPA_AQ_PM2.5PM10_2018.Conc %>%
+  spread(AQS_PARAMETER_DESC, Daily.Mean.Concentration)
+
+#Remove rows without PM2.5 data
+
+EPA_AQ_PM2.5PM10_2018.Conc.spread <- EPA_AQ_PM2.5PM10_2018.Conc.spread[!is.na(EPA_AQ_PM2.5PM10_2018.Conc.spread$PM2.5),]
+
+#Convert the dataset to a spatially enabled "sf" data frame
+PM2.5_PM10_sf <- st_as_sf(EPA_AQ_PM2.5PM10_2018.Conc.spread,coords = c('SITE_LONGITUDE','SITE_LATITUDE'),crs=4269)
+
+#Convert all to UTM Zone 17 (crs = 26917)
+PM2.5_PM10_sf_utm <- st_transform(PM2.5_PM10_sf, c=26917)
+
+```
+
+Distance between PM2.5 stations and Electricity Generation via Combustion points
+
+```{r}
+#Data frame with only the PM2.5 station info
+PM2.5_Stations <- PM2.5_PM10_sf_utm %>%
+  select(Site.ID, geometry) %>%
+  subset(!duplicated(Site.ID))
+
+Distances <- st_distance(PM2.5_Stations, EPA_NC_CombEmissions_utm)
+
+a <- length(unique(PM2.5_Stations$Site.ID))
+
+#Determining the minimum distance of each PM2.5 station to a combustion point in meters.
+for (i in 1:a){
+  PM2.5_Stations$Emiss_Dist[i] <- min(Distances[i,])
+}
+
+#Filling the PM2.5_PM10_sf_utm file with the distances
+
+b <- nrow(PM2.5_PM10_sf_utm)
+
+for (i in 1:a){
+  aux4 <- PM2.5_Stations$Site.ID[i]
+  for(j in 1:b)
+  if(PM2.5_PM10_sf_utm$Site.ID[j] == aux4){
+    PM2.5_PM10_sf_utm$Emiss_Dist[j] <- PM2.5_Stations$Emiss_Dist[i]
+  }
+}
+
+#Reordering
+PM2.5_PM10_sf_utm <- PM2.5_PM10_sf_utm[,c(1,3,2,4,5,7,6)]
+
+```
+
+```{r}
+#Use again PM2.5_Stations with only the PM2.5 station info
+
+#Distances bewteen the PM2.5 stations and the Temperature Stations
+Nearest <- st_nearest_feature(PM2.5_Stations, NOAA_DTAVG_NC2018_sf_utm)
+
+a <- length(unique(PM2.5_Stations$Site.ID))
+
+NOAA_DTAVG_NC2018_sf_utm$NAME <- as.character(NOAA_DTAVG_NC2018_sf_utm$NAME)
+
+#assingning the nearest Temperature Station to each PM2.5 station.
+for (i in 1:a){
+  PM2.5_Stations$Temp_Est[i] <- NOAA_DTAVG_NC2018_sf_utm$NAME[Nearest[i]]
+}
+
+#Filling the PM2.5_PM10_sf_utm file with the nearest Temperature Station
+
+b <- nrow(PM2.5_PM10_sf_utm)
+
+for (i in 1:a){
+  aux4 <- PM2.5_Stations$Site.ID[i]
+  for(j in 1:b)
+  if(PM2.5_PM10_sf_utm$Site.ID[j] == aux4){
+    PM2.5_PM10_sf_utm$Temp_Est[j] <- PM2.5_Stations$Temp_Est[i]
+  }
+}
+
+#Filling the PM2.5_PM10_sf_utm file with the Temperature of the nearest Temperature Station
+
+#Drops the geo data
+aux22 <- st_set_geometry(NOAA_DTAVG_NC2018_sf_utm, value=NULL)
+
+#Left_join the data
+PM2.5_PM10_Temp_sf_utm <- PM2.5_PM10_sf_utm %>%
+left_join(aux22, by = c("Temp_Est"="NAME", "Date"="DATE", "COUNTY")) %>%
+  select(Date,Site.ID,COUNTY,Population,Zone,PM2.5,PM10,TAVG,Emiss_Dist,geometry)
+```
+
+Elevations for the PM2.5 Stations
+```{r}
+
+prj_dd <- "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+PM2.5_PM10_Temp_sf_utm_elev <- get_elev_point(PM2.5_PM10_Temp_sf_utm, prj = prj_dd, src = "epqs")
+
+
+```
+
+
+
+```{r Fetch NLCD data, eval=FALSE}
+
+
+
+
+
+###############################
+#Fetch the data
+
+#demNC <- st_read("./Data/Raw/Elev_NC.tif")
+#demNC<-readTIFF("./Data/Raw/Elev_NC.tif") 
+#demNC_LOW <- aggregate(demNC,fact=10,fun=mean,filename='./Data/Spatial/Elev_NC_LOW.tif')
+
+#st_crs(demNC)
+
+#dem30 <- get_ned(template = counties_sf,
+#                 label='tri',
+#                 raw.dir='./Data/Raw',
+#                 extraction.dir = './Data/Raw')
+
+#Resample the 30m data to 90m (factor of 3)
+#dem90 <- aggregate(dem30,fact=3,fun=mean,filename='./Data/Spatial/NC_DEM_90.tif')
+
+#mapview(dem30)
+###############################
+
+```
+
+The next chunk is to start looking at the data
+
+```{r}
+#Spatially
+ggplot() + 
+  annotation_map_tile(zoom = 7) +
+  geom_sf(data = counties_sf_utm_simple, color = 'Black', aes(fill=Zone), alpha=0.7) + 
+  geom_sf(data = NOAA_DTAVG_NC2018_sf_utm, color = 'Blue') +
+  geom_sf(data = EPA_NC_CombEmissions_utm, color = 'Black') +
+  scale_fill_brewer(palette = "Blues", name = "Zoning")  +
+  xlab(expression("Longitud")) +
+  ylab(expression("Latitude")) +
+  ggtitle("Data Visualization")
+
+#Scatterplot
+ggplot(NOAA_DTAVG_NC2018_sf_utm, aes(x=DATE, y=TAVG)) +
+  geom_point(aes(color = ELEVATION)) +
+  xlab(expression("Date")) +
+  ylab(expression("Average Daily Temp °F")) +
+  #labs(color = 'Station') +
+  scale_color_gradient(low="cyan", high="blue4", name = "Elevation (m)")  +
+  ggtitle("Average Temperature in North Carolina 2018")
+
+ggplot(NOAA_DTAVG_NC2018_sf_utm, aes(x=DATE, y=TAVG)) +
+  geom_point(aes(color = Zone)) +
+  xlab(expression("Date")) +
+  ylab(expression("Average Daily Temp °F")) +
+  #labs(color = 'Station') +
+  scale_color_brewer(palette = "Reds", name = "Zone")  +
+  ggtitle("Average Temperature in North Carolina 2018")
+
+PM2.5_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = Emiss_Dist)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Dist. to combustion point (m)")  +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
+
+PM2.5_Zone_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = Zone)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  scale_fill_manual("red","blue","yellow")  +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
+
+PM10_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM10)) +
+  geom_point(aes(color = Emiss_Dist)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Dist. to combustion point (m)")  +
+  ggtitle("2018 Daily PM10 concentration, North Carolina")
+
+grid.arrange(PM2.5_Dist_Plot, PM10_Dist_Plot, PM2.5_Zone_Plot, nrow = 3)
+
+ggplot(PM2.5_PM10_Temp_sf_utm_elev, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = elevation)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")  +
+  ggtitle("2018 Daily PM10 concentration, North Carolina")
+
+ggplot(PM2.5_PM10_Temp_sf_utm_elev, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = TAVG)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")  +
+  ggtitle("2018 Daily PM10 concentration, North Carolina")
+
+
+
+
+#PM 2.5 Regulatory Standard. Based on a yearly average value set at 12 micrograms per cubic meter, ug/m3,
+
+#Plot counties with a new variable (zone)
+ggplot() + 
+  geom_sf(data = counties_sf_utm_simple, aes(fill=Zone))
+
+
+
+
+
+summary(PM2.5_Stations$Emiss_Dist)
+
+
+
+```
+
+
+
+
+
+<NECESITO LA ELEVATION DE LOS LUGARES CON INFO THE PM25>
 
 \newpage
 
@@ -107,6 +473,9 @@ County_Info$Zone<-ifelse(County_Info$County == 'Ashe'|County_Info$County =='Alle
 
 <Include text sections to accompany these R chunks to explain the reasoning behind your workflow, rationale for your approach, and the justification of meeting or failing to meet assumptions of tests.>
 
+In 2012, the United States Environmental Protection Agency (USEPA) established two complementary primary regulatory standards for PM2.5.  The first is based on a yearly average value and is set at 12 micrograms per cubic meter, ug/m3, 
+
+First statistical test should look at the standard in each station.
 
 \newpage
 

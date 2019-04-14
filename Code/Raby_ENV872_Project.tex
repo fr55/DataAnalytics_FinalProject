@@ -1,0 +1,953 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Times New Roman}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Analysis of the effect of PM10 Concentration, Temperature, Geographic Location, Population, and distance to Electricity-Generation Combustion Points on the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.},
+            pdfauthor={Felipe Raby Amadori},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Analysis of the effect of PM10 Concentration, Temperature, Geographic
+Location, Population, and distance to Electricity-Generation Combustion
+Points on the concentration of fine particulate matter (PM2.5) in North
+Carolina during the year 2018.}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \subtitle{\url{https://github.com/fr55/DataAnalytics_FinalProject}}
+  \author{Felipe Raby Amadori}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Experimental overview. This section should be no longer than 250 words.
+\end{abstract}
+
+\newpage
+
+\tableofcontents  \newpage
+\listoftables  \newpage
+\listoffigures  \newpage
+
+\section{Research Question and
+Rationale}\label{research-question-and-rationale}
+
+Nowadays air pollution is one of the most relevant health issues in the
+world. It refers to the contamination of the air by chemicals,
+biological materials, and other types of pollutants that are harmful to
+human health. To solve the problem of air pollution, it's necessary to
+understand the problem, what are the causes, and search for solutions
+based on the findings.
+
+Particulate matter with a diameter of less than 2.5 micrometers is
+called PM2.5, and it is a extremely harmful air pollutant because it
+consists of particles with diameters that are less than or equal to 2.5
+microns in size, which can get deeply into the lung, and ultimately
+impair lung function.
+
+This study focus on trying to understand how PM2.5 concentration in
+North Carolina vary with temperature, PM10 concentration, zoning
+(piedmont, coastal, mountain), population, elevation, and distance to
+combustion points for electricity generation. This last variable was
+included because acording to the EPA combustion for electricity
+generation is the major point-source sector for PM2.5 in the USA (EPA,
+2019).
+
+The research question is: What are the effects of temperature, PM10
+concentration, zoning (piedmont, coastal, mountain), population,
+elevation, distance to combustion points for electricity generation, in
+PM2.5 concentrations within North Carolina in the year 2018?
+
+\newpage
+
+\section{Dataset Information}\label{dataset-information}
+
+For the analysis the following datasets were considered:
+
+\subsection{EPA PM2.5 Dataset}\label{epa-pm2.5-dataset}
+
+This dataset contains data from air quality monitoring of PM2.5 in North
+Carolina in 2018, and it was obtained using the Download Daily Data Tool
+in the United States Environmental Protection Agency (EPA) webpage
+\url{https://www.epa.gov/outdoor-air-quality-data/download-daily-data}
+where the options showed in Table \ref{tab:tab1} were selected:
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+  \hline
+Option & Selection \\ 
+  \hline
+Pollutant & PM2.5 \\ 
+  Year & 2018 \\ 
+  Geographic Area & North Carolina \\ 
+  Monitor Site & All Sites \\ 
+  Download & Download CSV (spreadsheet) \\ 
+   \hline
+\end{tabular}
+\caption{Selections} 
+\label{tab:tab1}
+\end{table}
+
+The downloaded file was saved in the project folder path ./Data/Raw/ as
+EPAair\_PM25\_NC2018\_raw.csv on 2019-03-31.
+
+\subsubsection{Data Content Information}\label{data-content-information}
+
+The dataset contains daily mean PM2.5 concentration in ug/m3 in 2018.
+Data from 24 stations in 21 different counties of North Carolina with
+their location in NAD83 lat/long coordinates.
+
+The dataset contains 19 columns, which are shown in Table
+\ref{tab:tab3}. Column names without description are self-explanatory.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{2.5in}p{3.5in}}
+  \hline
+Column & Description \\ 
+  \hline
+Date & mm/dd/YY \\ 
+  Source & AQS (Air Quality System) \\ 
+  Site ID & A unique number identifying the site. \\ 
+  POC & “Parameter Occurrence Code”, distinguishes different instruments that measure the same parameter at the same site. \\ 
+  Daily Mean PM2.5 Concentration &  \\ 
+  Units & Concentration Units \\ 
+  Site Name &  \\ 
+  DAILY\_OBS\_COUNT &  \\ 
+  PERCENT\_COMPLETE &  \\ 
+  AQS\_PARAMETER\_CODE &  \\ 
+  AQS\_PARAMETER\_DESC &  \\ 
+  CBSA\_CODE &  \\ 
+  CBSA\_NAME &  \\ 
+  STATE\_CODE &  \\ 
+  COUNTY CODE & A unique number identifying the County. \\ 
+  COUNTY &  \\ 
+  SITE\_LATITUDE & NAD83 \\ 
+  SITE\_LONGITUDE & NAD83 \\ 
+   \hline
+\end{tabular}
+\caption{Dataset content} 
+\label{tab:tab3}
+\end{table}
+
+\subsection{EPA PM10 Dataset}\label{epa-pm10-dataset}
+
+This dataset contains data from air quality monitoring of PM10 in North
+Carolina in 2018, and it was obtained using the Download Daily Data Tool
+in the United States Environmental Protection Agency (EPA) webpage
+\url{https://www.epa.gov/outdoor-air-quality-data/download-daily-data}
+where the options showed in Table \ref{tab:tab4} were selected:
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+  \hline
+Option & Selection \\ 
+  \hline
+Pollutant & PM10 \\ 
+  Year & 2018 \\ 
+  Geographic Area & North Carolina \\ 
+  Monitor Site & All Sites \\ 
+  Download & Download CSV (spreadsheet) \\ 
+   \hline
+\end{tabular}
+\caption{Selections} 
+\label{tab:tab4}
+\end{table}
+
+The downloaded file was saved in the project folder path ./Data/Raw/ as
+EPAair\_PM10\_NC2018\_raw.csv on 2019-03-31.
+
+\subsubsection{Data Content
+Information}\label{data-content-information-1}
+
+The dataset contains daily mean PM10 concentration in ug/m3 in 2018.
+Data from 9 stations in 8 different counties of North Carolina with
+their location in NAD83 lat/long coordinates.
+
+The dataset contains 19 columns, which are shown in Table
+\ref{tab:tab5}. Column names without description are self-explanatory.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{2.5in}p{3.5in}}
+  \hline
+Column & Description \\ 
+  \hline
+Date & mm/dd/YY \\ 
+  Source & AQS (Air Quality System) \\ 
+  Site ID & A unique number identifying the site. \\ 
+  POC & “Parameter Occurrence Code”, distinguishes different instruments that measure the same parameter at the same site. \\ 
+  Daily Mean PM10 Concentration &  \\ 
+  Units & Concentration Units \\ 
+  Site Name &  \\ 
+  DAILY\_OBS\_COUNT &  \\ 
+  PERCENT\_COMPLETE &  \\ 
+  AQS\_PARAMETER\_CODE &  \\ 
+  AQS\_PARAMETER\_DESC &  \\ 
+  CBSA\_CODE &  \\ 
+  CBSA\_NAME &  \\ 
+  STATE\_CODE & A unique number identifying the County. \\ 
+  COUNTY CODE & A unique number identifying the County. \\ 
+  COUNTY &  \\ 
+  SITE\_LATITUDE & NAD83 \\ 
+  SITE\_LONGITUDE & NAD83 \\ 
+   \hline
+\end{tabular}
+\caption{Dataset content} 
+\label{tab:tab5}
+\end{table}
+
+\subsection{NOAA Average Temperature
+Dataset}\label{noaa-average-temperature-dataset}
+
+This dataset contains data from temperature monitoring in North Carolina
+in 2018, and it was obtained using the Data Search Tool in the National
+Center for Environmental Information of the National Oceanic and
+Atmospheric Administration (NOAA). Webpage
+\url{https://www.ncdc.noaa.gov/cdo-web}. Options showed in Table
+\ref{tab:tab6} were selected: XXXXXXArreglar
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+  \hline
+Option & Selection \\ 
+  \hline
+Pollutant & PM10 \\ 
+  Year & 2018 \\ 
+  Geographic Area & North Carolina \\ 
+  Monitor Site & All Sites \\ 
+  Download & Download CSV (spreadsheet) \\ 
+   \hline
+\end{tabular}
+\caption{Selections} 
+\label{tab:tab6}
+\end{table}
+
+The downloaded file was saved in the project folder path ./Data/Raw/ as
+NOAA\_TAVG\_NC2018\_raw.csv on 2019-03-28.
+
+\subsubsection{Data Content
+Information}\label{data-content-information-2}
+
+The dataset contains daily mean air temperature in Farenheit in 2018.
+Data from 39 stations in North Carolina with their location in NAD83
+lat/long coordinates. No county information.
+
+The dataset contains 7 columns, which are shown in Table \ref{tab:tab7}.
+Column names without description are self-explanatory.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{2.5in}p{3.5in}}
+  \hline
+Column & Description \\ 
+  \hline
+STATION & A unique code identifying the site. \\ 
+  NAME & Station Name \\ 
+  Site ID & A unique number identifying the site. \\ 
+  LATITUDE & NAD83 \\ 
+  LONGITUDE & NAD83 \\ 
+  DATE & dd/mm/YY \\ 
+  TAVG & Daily Average Temperature in °F \\ 
+   \hline
+\end{tabular}
+\caption{Dataset content} 
+\label{tab:tab7}
+\end{table}
+
+\subsection{US Census Bureau Us counties
+shapefile}\label{us-census-bureau-us-counties-shapefile}
+
+This dataset contains geographic and geometric information of all the
+counties of the US. The data is in NAD83 lat/long coordinates. De file
+was provided by John Fay in the Environmental Data Analytics (ENV 872L)
+course at Duke University, Spring 2019.
+
+The files containing the information were saved in the project folder
+path ./Data/Spatial/ as cb\_2017\_us\_county\_20m on 2019-03-28.
+
+\subsubsection{Data Content
+Information}\label{data-content-information-3}
+
+The dataset contains geographic and geometric information of all the
+counties of the US in NAD83 lat/long coordinates.
+
+The dataset contains 10 columns, which are shown in Table
+\ref{tab:tab8}. Column names without description are self-explanatory.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{2.5in}p{3.5in}}
+  \hline
+Column & Description \\ 
+  \hline
+STATEFP & A unique number identifying the State. \\ 
+  COUNTYFP & County Federal Information Processing Standards (FIPS) Code \\ 
+  COUNTYNS & Provides the American National Standards Institute (ANSI) code for the county or equivalent entity, as used by GNIS. \\ 
+  AFFGEOID & AFF Summary Level Code \\ 
+  GEOID & NAD83 \\ 
+  NAME & County Name \\ 
+  LSAD & Legal/statistical area description \\ 
+  ALAND & County Land Area in square meters \\ 
+  AWATER & County Water Area in square meters \\ 
+  Geometry & Geometry and geographic information \\ 
+   \hline
+\end{tabular}
+\caption{Dataset content} 
+\label{tab:tab8}
+\end{table}
+
+\subsection{EPA major point-source sectors for PM2.5
+Dataset}\label{epa-major-point-source-sectors-for-pm2.5-dataset}
+
+This dataset contains facility-level locations for the top 8 major
+point-source sectors for PM2.5 in the US, and it was obtained from the
+United States Environmental Protection Agency (EPA) webpage
+\url{https://www3.epa.gov/air/emissions/where.htm}. The Top PM2.5
+emitting sectors link was selected.
+
+The downloaded file was saved in the project folder path ./Data/Raw/ as
+EPA\_ElecGenComb\_US\_raw.kml on 2019-03-31.
+
+\subsubsection{Data Content
+Information}\label{data-content-information-4}
+
+The dataset is a kml file that contains point location for the top 8
+major point-source sectors for PM2.5 in the US. The data is in WGS84
+lat/long coordinates.
+
+All data sets, variable, and files are named according to the following
+naming convention: \emph{databasename\_datatype\_details\_stage.format},
+where:
+
+\begin{itemize}
+\item
+  databasename refers to the database from where the data originated
+\item
+  datatype is a description of data
+\item
+  details are additional descriptive details, particularly important for
+  processed data
+\item
+  stage refers to the stage in data management pipelines (e.g., raw,
+  cleaned, temp or processed)
+\end{itemize}
+
+\subsection{Analized data structure}\label{analized-data-structure}
+
+With these datasets an exploratory data analysis was done and for the
+study. The datasets were wrangled and a file called
+PM2.5\_Full\_Elev\_utm.shp was created, which has the data structure
+shown in Table \ref{tab:tab2}.
+
+\begin{table}[ht]
+\centering
+\begingroup\fontsize{9pt}{10pt}\selectfont
+\begin{tabular}{p{0.6in}p{0.65in}p{0.55in}p{2in}p{1.8in}}
+  \hline
+Variable & Units & N.Elements & Range & Source.File \\ 
+  \hline
+Date & YY-mm-dd & 343 & From 2018-01-01 to 2018-12-09 & EPAair\_PM25\_NC2018\_raw.csv \\ 
+  Site\_ID & - & 24 & - & EPAair\_PM25\_NC2018\_raw.csv \\ 
+  COUNTY & - & 21 & - & EPAair\_PM25\_NC2018\_raw.csv \\ 
+  Population & People & 21 & From 5,507 to 1,034,290 & https://en.wikipedia.org/ \\ 
+  Zone & - & 3 & Coastal, Piedmont, and Mountains & NC County Maps \\ 
+  PM2\_5 & ug/m3 & 6499 & From -2.5 to 34.2 & EPAair\_PM25\_NC2018\_raw.csv \\ 
+  PM10 & ug/m3 & 926 & From 0 to 35 & EPAair\_PM10\_NC2018\_raw.csv \\ 
+  TAVG & Farenheit & 4011 & From 11 to 87 & NOAA\_TAVG\_NC2018\_raw.csv \\ 
+  Emiss\_Dist & meters & 24 & From 813.5 to 81800.9 & Self made \\ 
+  Elevation & meters & 24 & From 0.04 to 1418.8 & Package elevatr \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{Summary of data structure} 
+\label{tab:tab2}
+\end{table}
+
+\newpage
+
+\section{Exploratory Data Analysis and
+Wrangling}\label{exploratory-data-analysis-and-wrangling}
+
+Upload PM2.5 and PM10 2018 data raw data files associated with EPA Air
+dataset.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{EPA_AQPM25_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/EPAair_PM25_NC2018_raw.csv"}\NormalTok{)}
+\NormalTok{EPA_AQPM10_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/EPAair_PM10_NC2018_raw.csv"}\NormalTok{)}
+
+\CommentTok{#Formatting Dates}
+\NormalTok{EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%y"}\NormalTok{)}
+\NormalTok{EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
+
+\CommentTok{#Selecting Columns}
+\NormalTok{EPA_AQ_PM25_NC2018_Temp <-}\StringTok{ }\KeywordTok{select}\NormalTok{(EPA_AQPM25_NC2018_raw, Date, Site.ID,}
+\NormalTok{                                Daily.Mean.PM2.}\FloatTok{5.}\NormalTok{Concentration, AQS_PARAMETER_DESC,}
+\NormalTok{                                COUNTY}\OperatorTok{:}\NormalTok{SITE_LONGITUDE)}
+
+\CommentTok{#Changing column name}
+\KeywordTok{colnames}\NormalTok{(EPA_AQ_PM25_NC2018_Temp)[}\KeywordTok{colnames}\NormalTok{(EPA_AQ_PM25_NC2018_Temp)}
+                                \OperatorTok{==}\StringTok{"Daily.Mean.PM2.5.Concentration"}\NormalTok{]<-}\StringTok{"Daily.Mean.Concentration"}
+
+\CommentTok{#Selecting Columns}
+\NormalTok{EPA_AQ_PM10_NC2018_Temp <-}\StringTok{ }\KeywordTok{select}\NormalTok{(EPA_AQPM10_NC2018_raw, Date, Site.ID,}
+\NormalTok{                                Daily.Mean.PM10.Concentration, AQS_PARAMETER_DESC,}
+\NormalTok{                                COUNTY}\OperatorTok{:}\NormalTok{SITE_LONGITUDE)}
+
+\CommentTok{#Changing column name}
+\KeywordTok{colnames}\NormalTok{(EPA_AQ_PM10_NC2018_Temp)[}\KeywordTok{colnames}\NormalTok{(EPA_AQ_PM10_NC2018_Temp)}
+                                \OperatorTok{==}\StringTok{"Daily.Mean.PM10.Concentration"}\NormalTok{]<-}\StringTok{"Daily.Mean.Concentration"}
+
+\CommentTok{#Create AQS_PARAMETER_DESC Column with Contaminant description.}
+\NormalTok{EPA_AQ_PM25_NC2018_Temp}\OperatorTok{$}\NormalTok{AQS_PARAMETER_DESC <-}\StringTok{ "PM2.5"}
+\NormalTok{EPA_AQ_PM10_NC2018_Temp}\OperatorTok{$}\NormalTok{AQS_PARAMETER_DESC <-}\StringTok{ "PM10"}
+
+\CommentTok{#Eliminates duplicate dates}
+\NormalTok{EPA_AQ_PM25_NC2018_Cleaned <-}\StringTok{ }\NormalTok{EPA_AQ_PM25_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM25_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
+
+\NormalTok{EPA_AQ_PM10_NC2018_Cleaned <-}\StringTok{ }\NormalTok{EPA_AQ_PM10_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM10_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
+
+\CommentTok{# Combine the data.}
+\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Cleaned <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(EPA_AQ_PM25_NC2018_Cleaned, EPA_AQ_PM10_NC2018_Cleaned)}
+
+\CommentTok{#Save the data in the processed folder}
+\KeywordTok{write.csv}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Cleaned,}
+         \StringTok{"./Data/Processed/EPA_AQ_PM2.5PM10_NC2018_Cleaned.csv"}\NormalTok{)}
+
+\CommentTok{#Spread PM2.5 and PM10}
+\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread <-}\StringTok{ }
+\StringTok{  }\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Cleaned }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{spread}\NormalTok{(AQS_PARAMETER_DESC, Daily.Mean.Concentration)}
+
+\CommentTok{#Remove rows without PM2.5 data}
+\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread <-}\StringTok{ }\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread[}\OperatorTok{!}\KeywordTok{is.na}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread}\OperatorTok{$}\NormalTok{PM2.}\DecValTok{5}\NormalTok{),]}
+
+\CommentTok{#Convert the dataset to a spatially enabled "sf" data frame}
+\NormalTok{PM2.5_PM10_sf <-}\StringTok{ }\KeywordTok{st_as_sf}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread,}\DataTypeTok{coords =} \KeywordTok{c}\NormalTok{(}\StringTok{'SITE_LONGITUDE'}\NormalTok{,}\StringTok{'SITE_LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{)}
+
+\CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
+\NormalTok{PM2.5_PM10_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(PM2.5_PM10_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+See in \autoref{PM2.5Stations} the locations of the PM2.5 monitoring
+stations.
+
+In the next chunk I am getting the list of North Carolina Counties and
+Population from an URL.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#North Carolina Counties}
+\NormalTok{url <-}\StringTok{ "https://en.wikipedia.org/wiki/List_of_counties_in_North_Carolina"}
+\NormalTok{webpage <-}\StringTok{ }\KeywordTok{read_html}\NormalTok{(url)}
+
+\NormalTok{County_Name <-}\StringTok{ }\NormalTok{webpage }\OperatorTok{%>%}\StringTok{ }\KeywordTok{html_nodes}\NormalTok{(}\StringTok{"th:nth-child(1)"}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{html_text}\NormalTok{()}
+\NormalTok{County_Population <-}\StringTok{ }\NormalTok{webpage }\OperatorTok{%>%}\StringTok{ }\KeywordTok{html_nodes}\NormalTok{(}\StringTok{"tr :nth-child(7)"}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{html_text}\NormalTok{() }
+
+\CommentTok{#Remove unwanted info and characters}
+\NormalTok{County_Info <-}\StringTok{ }\KeywordTok{data_frame}\NormalTok{(}\DataTypeTok{County =}\NormalTok{ County_Name[}\DecValTok{9}\OperatorTok{:}\DecValTok{108}\NormalTok{])}
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County, }\StringTok{" County"}\NormalTok{, }\StringTok{""}\NormalTok{)}
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County, }\StringTok{"}\CharTok{\textbackslash{}n}\StringTok{"}\NormalTok{, }\StringTok{""}\NormalTok{)}
+
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Population <-}\StringTok{ }\OtherTok{NULL}
+
+\NormalTok{Population <-}\StringTok{ }\KeywordTok{data_frame}\NormalTok{(}\DataTypeTok{Population=}\NormalTok{County_Population[}\DecValTok{2}\OperatorTok{:}\DecValTok{101}\NormalTok{])}
+
+\NormalTok{County_Info <-}\StringTok{ }\KeywordTok{cbind}\NormalTok{(County_Info, Population)}
+
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Population <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{Population,}\StringTok{","}\NormalTok{,}\StringTok{""}\NormalTok{)}
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Population <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{Population,}\StringTok{","}\NormalTok{,}\StringTok{""}\NormalTok{)}
+
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Population <-}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{Population) }
+\end{Highlighting}
+\end{Shaded}
+
+In the next chunk I am assigning the corresponding zone to each county.
+Info from: Rudersdorf, Amy. 2010. ``NC County Maps.'' Government \&
+Heritage Library, State Library of North Carolina.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#North Carolina Zones}
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Zone<-}\KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Ashe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alleghany'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilkes'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Watauga'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Avery'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caldwell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mitchell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Burke'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yancey'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'McDowell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rutherford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Madison'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Buncombe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Polk'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Henderson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Haywood'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Transylvania'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Swain'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jackson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Graham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Macon'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cherokee'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Clay'}\NormalTok{,}\StringTok{'Mountains'}\NormalTok{,}
+                         \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Surry'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stokes'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rockingham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caswell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Person'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Granville'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Vance'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Warren'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yadkin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Forsyth'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Guilford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alamance'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Orange'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Durham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Franklin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alexander'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Iredell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davie'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rowan'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davidson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Randolph'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chatham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wake'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Catawba'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cleveland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lincoln'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gaston'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mecklenburg'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cabarrus'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stanly'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Union'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Montgomery'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Anson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Moore'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lee'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Richmond'}\NormalTok{,}\StringTok{'Piedmont'}\NormalTok{,}
+                                \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Scotland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hoke'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Harnett'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Johnston'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Nash'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Halifax'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Northampton'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Robeson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cumberland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Sampson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wayne'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Edgecombe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Columbus'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bladen'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Brunswick'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'New Hanover'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pender'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Duplin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Onslow'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lenoir'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jones'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Carteret'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Greene'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Craven'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pitt'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pamlico'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Beaufort'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Martin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bertie'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hyde'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Dare'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Tyrrell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Washington'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hertford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gates'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Currituck'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Camden'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pasquotank'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Perquimans'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chowan'}\NormalTok{,}\StringTok{'Coastal'}\NormalTok{,}\StringTok{'NoInfo'}\NormalTok{)))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM2.5_PM10_Info_sf_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_sf_utm }\OperatorTok{%>%}
+\KeywordTok{left_join}\NormalTok{(County_Info, }\DataTypeTok{by =} \KeywordTok{c}\NormalTok{(}\StringTok{"COUNTY"}\NormalTok{=}\StringTok{"County"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+In the next chunk I am reading the USA county shapefile, sub-setting for
+NC.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{counties_sf<-}\StringTok{ }\KeywordTok{st_read}\NormalTok{(}\StringTok{'./Data/Spatial/cb_2017_us_county_20m.shp'}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{filter}\NormalTok{(STATEFP }\OperatorTok{==}\StringTok{ }\DecValTok{37}\NormalTok{) }\CommentTok{#Filter for just NC Counties}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Reading layer `cb_2017_us_county_20m' from data source `C:\Users\Felipe\OneDrive - Duke University\1. DUKE\1. Ramos 2 Semestre\EOS-872 Env. Data Analytics\DataAnalytics_FinalProject\Data\Spatial\cb_2017_us_county_20m.shp' using driver `ESRI Shapefile'
+## Simple feature collection with 3220 features and 9 fields
+## geometry type:  MULTIPOLYGON
+## dimension:      XY
+## bbox:           xmin: -179.1743 ymin: 17.91377 xmax: 179.7739 ymax: 71.35256
+## epsg (SRID):    4269
+## proj4string:    +proj=longlat +datum=NAD83 +no_defs
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#CRS}
+\KeywordTok{st_crs}\NormalTok{(counties_sf) }\CommentTok{#crs=4269 = NAD83.}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Coordinate Reference System:
+##   EPSG: 4269 
+##   proj4string: "+proj=longlat +datum=NAD83 +no_defs"
+\end{verbatim}
+
+Converting the counties\_sf to UTM Zone 17
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
+\NormalTok{counties_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(counties_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
+
+\CommentTok{#Join the two datasets using "NAME" from the left dataset and "County" from the right}
+\CommentTok{#counties_sf_utm_join <- counties_sf_utm %>% }
+\CommentTok{#  left_join(y = County_Info,by = c("NAME" =  "County"))}
+
+\CommentTok{#counties_sf_utm_simple <- select(counties_sf_utm_join, NAME, Zone, Population, geometry)}
+\end{Highlighting}
+\end{Shaded}
+
+Read the 2018 Air Temperature data.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Read the 2018 Air Temperature data}
+\NormalTok{NOAA_DTAVG_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/NOAA_TAVG_NC2018_raw.csv"}\NormalTok{)}
+
+\CommentTok{#Remove stations without Temperature information}
+\NormalTok{NOAA_DTAVG_NC2018_Complete <-}\StringTok{ }\KeywordTok{na.omit}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
+
+\CommentTok{#Convert the dataset to a spatially enabled "sf" data frame}
+\NormalTok{NOAA_DTAVG_NC2018_sf <-}\StringTok{ }\KeywordTok{st_as_sf}\NormalTok{(NOAA_DTAVG_NC2018_Complete,}\DataTypeTok{coords =} \KeywordTok{c}\NormalTok{(}\StringTok{'LONGITUDE'}\NormalTok{,}\StringTok{'LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{) }
+
+\CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(NOAA_DTAVG_NC2018_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
+
+\CommentTok{#Formatting dates}
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE, }\DataTypeTok{format =} \StringTok{"%d/%m/%Y"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+The 2018 Air Temperature data does not have County information, so the
+location is used to locate the county of each station.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Adding the county and zone information to the Temperature dataframe}
+
+\CommentTok{#Index of the matching feature}
+\NormalTok{county_index <-}\StringTok{ }\KeywordTok{st_nearest_feature}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, counties_sf_utm)}
+
+\CommentTok{#Eliminates geo info}
+\NormalTok{aux1 <-}\StringTok{ }\KeywordTok{st_set_geometry}\NormalTok{(counties_sf_utm[county_index,}\StringTok{"NAME"}\NormalTok{], }\DataTypeTok{value=}\OtherTok{NULL}\NormalTok{)}
+
+\CommentTok{#adds the columns}
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{COUNTY <-}\StringTok{ }\NormalTok{aux1}\OperatorTok{$}\NormalTok{NAME}
+
+\CommentTok{#Reordering}
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm <-}\StringTok{ }\NormalTok{NOAA_DTAVG_NC2018_sf_utm[,}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{,}\DecValTok{5}\NormalTok{,}\DecValTok{7}\NormalTok{,}\DecValTok{6}\NormalTok{)]}
+\end{Highlighting}
+\end{Shaded}
+
+For each PM2.5 Station we assign the Temperature of the nearest
+Temperature Station.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Use again PM2.5_Stations with only the PM2.5 station info}
+\CommentTok{#Data frame with only the PM2.5 station info}
+\NormalTok{PM2.5_Stations <-}\StringTok{ }\NormalTok{PM2.5_PM10_Info_sf_utm }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{select}\NormalTok{(Site.ID, geometry) }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{subset}\NormalTok{(}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(Site.ID))}
+
+\CommentTok{#Distances bewteen the PM2.5 stations and the Temperature Stations}
+\NormalTok{Nearest <-}\StringTok{ }\KeywordTok{st_nearest_feature}\NormalTok{(PM2.5_Stations, NOAA_DTAVG_NC2018_sf_utm)}
+
+\NormalTok{a <-}\StringTok{ }\KeywordTok{length}\NormalTok{(}\KeywordTok{unique}\NormalTok{(PM2.5_Stations}\OperatorTok{$}\NormalTok{Site.ID))}
+
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{NAME <-}\StringTok{ }\KeywordTok{as.character}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{NAME)}
+
+\CommentTok{#Assingning the nearest Temperature Station to each PM2.5 station.}
+\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\OperatorTok{:}\NormalTok{a)\{}
+\NormalTok{  PM2.5_Stations}\OperatorTok{$}\NormalTok{Temp_Est[i] <-}\StringTok{ }\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{NAME[Nearest[i]]}
+\NormalTok{\}}
+
+\CommentTok{#Drop the geo data}
+\NormalTok{aux2 <-}\StringTok{ }\KeywordTok{st_set_geometry}\NormalTok{(PM2.5_Stations, }\DataTypeTok{value=}\OtherTok{NULL}\NormalTok{)}
+
+\CommentTok{#Left_join the data}
+\NormalTok{PM2.5_PM10_Temp_sf_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_Info_sf_utm }\OperatorTok{%>%}
+\KeywordTok{left_join}\NormalTok{(aux2)}
+
+\CommentTok{#Assingning the Temperature of the nearest Temperature Station to each PM2.5 station.}
+
+\CommentTok{#Drops the geo data}
+\NormalTok{aux3 <-}\StringTok{ }\KeywordTok{st_set_geometry}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\DataTypeTok{value=}\OtherTok{NULL}\NormalTok{)}
+
+\CommentTok{#Left_join the data}
+\NormalTok{PM2.5_PM10_Temp_sf_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_Temp_sf_utm }\OperatorTok{%>%}
+\KeywordTok{left_join}\NormalTok{(aux3, }\DataTypeTok{by =} \KeywordTok{c}\NormalTok{(}\StringTok{"Temp_Est"}\NormalTok{=}\StringTok{"NAME"}\NormalTok{, }\StringTok{"Date"}\NormalTok{=}\StringTok{"DATE"}\NormalTok{, }\StringTok{"COUNTY"}\NormalTok{)) }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{select}\NormalTok{(Date,Site.ID,COUNTY,Population,Zone,PM2.}\DecValTok{5}\NormalTok{,PM10,TAVG,geometry)}
+\end{Highlighting}
+\end{Shaded}
+
+Read the Electricity Generation via Combustion data.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{EPA_US_CombEmissions <-}\StringTok{ }\KeywordTok{st_read}\NormalTok{(}\StringTok{"./Data/Raw/EPA_ElecGenComb_US_raw.kml"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Reading layer `Electricity Generation via Combustion' from data source `C:\Users\Felipe\OneDrive - Duke University\1. DUKE\1. Ramos 2 Semestre\EOS-872 Env. Data Analytics\DataAnalytics_FinalProject\Data\Raw\EPA_ElecGenComb_US_raw.kml' using driver `KML'
+## Simple feature collection with 2042 features and 2 fields
+## geometry type:  POINT
+## dimension:      XYZ
+## bbox:           xmin: -176.6593 ymin: 19.63283 xmax: -67.00325 ymax: 71.29221
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{st_crs}\NormalTok{(EPA_US_CombEmissions) }\CommentTok{#crs=4326 = WGS 84}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Coordinate Reference System:
+##   EPSG: 4326 
+##   proj4string: "+proj=longlat +datum=WGS84 +no_defs"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
+\NormalTok{EPA_US_CombEmissions_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(EPA_US_CombEmissions, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
+
+\CommentTok{#Clip the EPA_US_CombEmissions data set by the NC State boundary dataset}
+
+\CommentTok{#First create a State_sf file}
+\CommentTok{#Aggregate the data using group_by and summarize, just as you would a non-spatial dataframe}
+\NormalTok{state_sf_utm <-}\StringTok{ }\KeywordTok{st_union}\NormalTok{(counties_sf_utm)}
+
+\CommentTok{#Eliminate the emission points outside NC}
+\NormalTok{EPA_NC_CombEmissions_utm <-}\StringTok{ }\KeywordTok{st_intersection}\NormalTok{(EPA_US_CombEmissions_utm,state_sf_utm) }
+\end{Highlighting}
+\end{Shaded}
+
+Distance between PM2.5 stations and Electricity Generation via
+Combustion points
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Distances between PM2.5 stations and Electricity Generation via Combustion points}
+\NormalTok{Distances <-}\StringTok{ }\KeywordTok{st_distance}\NormalTok{(PM2.5_Stations, EPA_NC_CombEmissions_utm)}
+
+\NormalTok{a <-}\StringTok{ }\KeywordTok{length}\NormalTok{(}\KeywordTok{unique}\NormalTok{(PM2.5_Stations}\OperatorTok{$}\NormalTok{Site.ID))}
+
+\CommentTok{#Determining the minimum distance of each PM2.5 station to a combustion point in meters.}
+\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\OperatorTok{:}\NormalTok{a)\{}
+\NormalTok{  PM2.5_Stations}\OperatorTok{$}\NormalTok{Emiss_Dist[i] <-}\StringTok{ }\KeywordTok{min}\NormalTok{(Distances[i,])}
+\NormalTok{\}}
+
+\CommentTok{#Filling the PM2.5_PM10_Temp_sf_utm file with the distances}
+
+\CommentTok{#Drops the geo data}
+\NormalTok{aux4 <-}\StringTok{ }\NormalTok{PM2.5_Stations }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{st_set_geometry}\NormalTok{(}\DataTypeTok{value=}\OtherTok{NULL}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{select}\NormalTok{(Site.ID,Emiss_Dist)}
+
+\CommentTok{#Left_join the data}
+\NormalTok{PM2.5_Full_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_Temp_sf_utm }\OperatorTok{%>%}
+\KeywordTok{left_join}\NormalTok{(aux4, }\DataTypeTok{by =} \KeywordTok{c}\NormalTok{(}\StringTok{"Site.ID"}\NormalTok{)) }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{select}\NormalTok{(Date,Site.ID,COUNTY,Population,Zone,PM2.}\DecValTok{5}\NormalTok{,PM10,TAVG,Emiss_Dist,geometry)}
+\end{Highlighting}
+\end{Shaded}
+
+Elevations for the PM2.5 Stations
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{prj_dd <-}\StringTok{ "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"}
+\NormalTok{PM2.5_Full_Elev_utm <-}\StringTok{ }\KeywordTok{get_elev_point}\NormalTok{(PM2.5_Full_utm, }\DataTypeTok{prj =}\NormalTok{ prj_dd, }\DataTypeTok{src =} \StringTok{"epqs"}\NormalTok{)}
+
+\KeywordTok{st_write}\NormalTok{(PM2.5_Full_Elev_utm,}
+         \StringTok{"./Data/Processed/PM2.5_Full_Elev_utm.shp"}\NormalTok{, }\DataTypeTok{driver =} \StringTok{"ESRI Shapefile"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM2.5_Full_Elev_utm <-}\StringTok{ }\KeywordTok{st_read}\NormalTok{(}\StringTok{'./Data/Processed/PM2.5_Full_Elev_utm.shp'}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Reading layer `PM2.5_Full_Elev_utm' from data source `C:\Users\Felipe\OneDrive - Duke University\1. DUKE\1. Ramos 2 Semestre\EOS-872 Env. Data Analytics\DataAnalytics_FinalProject\Data\Processed\PM2.5_Full_Elev_utm.shp' using driver `ESRI Shapefile'
+## Simple feature collection with 6499 features and 11 fields
+## geometry type:  POINT
+## dimension:      XY
+## bbox:           xmin: 278314.3 ymin: 3807066 xmax: 935107.5 ymax: 3996722
+## epsg (SRID):    NA
+## proj4string:    +proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs
+\end{verbatim}
+
+The next chunk is to start looking at the data
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#Spatially}
+\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{annotation_map_tile}\NormalTok{(}\DataTypeTok{zoom =} \DecValTok{7}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ counties_sf_utm_simple, }\DataTypeTok{color =} \StringTok{'Black'}\NormalTok{, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{fill=}\NormalTok{Zone), }\DataTypeTok{alpha=}\FloatTok{0.7}\NormalTok{) }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ NOAA_DTAVG_NC2018_sf_utm, }\DataTypeTok{color =} \StringTok{'Blue'}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ EPA_NC_CombEmissions_utm, }\DataTypeTok{color =} \StringTok{'Black'}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_fill_brewer}\NormalTok{(}\DataTypeTok{palette =} \StringTok{"Blues"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Zoning"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Longitud"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Latitude"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Data Visualization"}\NormalTok{)}
+
+\CommentTok{#Scatterplot}
+\KeywordTok{ggplot}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{DATE, }\DataTypeTok{y=}\NormalTok{TAVG)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ ELEVATION)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Average Daily Temp °F"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\CommentTok{#labs(color = 'Station') +}
+\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Elevation (m)"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Average Temperature in North Carolina 2018"}\NormalTok{)}
+
+\KeywordTok{ggplot}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{DATE, }\DataTypeTok{y=}\NormalTok{TAVG)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Zone)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Average Daily Temp °F"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\CommentTok{#labs(color = 'Station') +}
+\StringTok{  }\KeywordTok{scale_color_brewer}\NormalTok{(}\DataTypeTok{palette =} \StringTok{"Reds"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Zone"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Average Temperature in North Carolina 2018"}\NormalTok{)}
+
+\NormalTok{PM2.5_Dist_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Emiss_Dist)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 2.5 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Dist. to combustion point (m)"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM2.5 concentration, North Carolina"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_hline}\NormalTok{(}\DataTypeTok{yintercept=}\DecValTok{12}\NormalTok{, }\DataTypeTok{linetype=}\StringTok{"dashed"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"black"}\NormalTok{, }\DataTypeTok{size =} \DecValTok{1}\NormalTok{)}
+
+\NormalTok{PM2.5_Zone_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Zone)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 2.5 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_fill_manual}\NormalTok{(}\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"yellow"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM2.5 concentration, North Carolina"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_hline}\NormalTok{(}\DataTypeTok{yintercept=}\DecValTok{12}\NormalTok{, }\DataTypeTok{linetype=}\StringTok{"dashed"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"black"}\NormalTok{, }\DataTypeTok{size =} \DecValTok{1}\NormalTok{)}
+
+\NormalTok{PM10_Dist_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM10)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Emiss_Dist)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Dist. to combustion point (m)"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
+
+\KeywordTok{grid.arrange}\NormalTok{(PM2.5_Dist_Plot, PM10_Dist_Plot, PM2.5_Zone_Plot, }\DataTypeTok{nrow =} \DecValTok{3}\NormalTok{)}
+
+\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_Temp_sf_utm_elev, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ elevation)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Elev. (m)"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
+
+\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_Temp_sf_utm_elev, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ TAVG)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Temp (°F)"}\NormalTok{)  }\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
+
+
+
+
+\CommentTok{#PM 2.5 Regulatory Standard. Based on a yearly average value set at 12 micrograms per cubic meter, ug/m3,}
+
+\CommentTok{#Plot counties with a new variable (zone)}
+\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ counties_sf_utm_simple, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{fill=}\NormalTok{Zone))}
+
+
+
+
+
+\KeywordTok{summary}\NormalTok{(PM2.5_Stations}\OperatorTok{$}\NormalTok{Emiss_Dist)}
+\end{Highlighting}
+\end{Shaded}
+
+\newpage
+
+\section{Analysis}\label{analysis}
+
+In 2012, the United States Environmental Protection Agency (USEPA)
+established two complementary primary regulatory standards for PM2.5.
+The first is based on a yearly average value and is set at 12 micrograms
+per cubic meter, ug/m3,
+
+First statistical test should look at the standard in each station.
+
+FRA: This model structure should look familiar, with a typical linear
+model structure and dataframe defined. The addition here is that we have
+defined Week as a random variable. Essentially, we are interested not in
+the specific effects of each week but in the variability among weeks, so
+we have defined it as a random effect (essentially coming from a larger
+distribution of seasonal variability).
+
+\newpage
+
+\section{Summary and Conclusions}\label{summary-and-conclusions}
+
+
+\end{document}
