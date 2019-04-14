@@ -794,37 +794,7 @@ PM2.5_Full_Elev_utm <- st_read('./Data/Processed/PM2.5_Full_Elev_utm.shp')
 
 ## Additional previsualization of the data
 
-The next chunk is to start looking at the data
-
-```{r eval=FALSE}
-#Spatially
-ggplot() + 
-  annotation_map_tile(zoom = 7) +
-  geom_sf(data = counties_sf_utm, color = 'Black', aes(fill=Zone), alpha=0.7) + 
-  geom_sf(data = NOAA_DTAVG_NC2018_sf_utm, color = 'Blue') +
-  geom_sf(data = EPA_NC_CombEmissions_utm, color = 'Black') +
-  scale_fill_brewer(palette = "Blues", name = "Zoning")  +
-  xlab(expression("Longitud")) +
-  ylab(expression("Latitude")) +
-  ggtitle("Data Visualization")
-
-#Scatterplot
-ggplot(NOAA_DTAVG_NC2018_sf_utm, aes(x=DATE, y=TAVG)) +
-  geom_point(aes(color = ELEVATION)) +
-  xlab(expression("Date")) +
-  ylab(expression("Average Daily Temp °F")) +
-  #labs(color = 'Station') +
-  scale_color_gradient(low="cyan", high="blue4", name = "Elevation (m)")  +
-  ggtitle("Average Temperature in North Carolina 2018")
-
-ggplot(NOAA_DTAVG_NC2018_sf_utm, aes(x=DATE, y=TAVG)) +
-  geom_point(aes(color = Zone)) +
-  xlab(expression("Date")) +
-  ylab(expression("Average Daily Temp °F")) +
-  #labs(color = 'Station') +
-  scale_color_brewer(palette = "Reds", name = "Zone")  +
-  ggtitle("Average Temperature in North Carolina 2018")
-
+```{r eval=FALSE, echo = FALSE, fig.cap = "Daily PM2.5 Cocentration. \\label{PM25plot}"}
 PM2.5_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
@@ -843,17 +813,7 @@ PM2.5_Zone_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
-PM10_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM10)) +
-  geom_point(aes(color = Emiss_Dist)) +
-  geom_smooth(color ="black") +
-  xlab(expression("Date")) +
-  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Dist. to combustion point (m)")  +
-  ggtitle("2018 Daily PM10 concentration, North Carolina")
-
-grid.arrange(PM2.5_Dist_Plot, PM10_Dist_Plot, PM2.5_Zone_Plot, nrow = 3)
-
-ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
+PM2.5_Elevation_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = elevation)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
@@ -861,7 +821,7 @@ ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")  +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina")
 
-ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
+PM2.5_Temp_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = TAVG)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
@@ -869,23 +829,15 @@ ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")  +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina")
 
+PM2.5_Pop_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
+  geom_point(aes(color = Population)) +
+  geom_smooth(color ="black") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Population")  +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
 
-
-
-#PM 2.5 Regulatory Standard. Based on a yearly average value set at 12 micrograms per cubic meter, ug/m3,
-
-#Plot counties with a new variable (zone)
-ggplot() + 
-  geom_sf(data = counties_sf_utm_simple, aes(fill=Zone))
-
-
-
-
-
-summary(PM2.5_Stations$Emiss_Dist)
-
-
-
+grid.arrange(PM2.5_Dist_Plot, PM2.5_Zone_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_Plot, PM2.5_Pop_Plot, nrow = 5)
 ```
 
 \newpage
