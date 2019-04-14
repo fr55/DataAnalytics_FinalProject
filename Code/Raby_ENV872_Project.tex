@@ -225,6 +225,7 @@ Date & mm/dd/YY \\
   POC & “Parameter Occurrence Code”, distinguishes different instruments that measure the same parameter at the same site. \\ 
   Daily Mean PM2.5 Concentration &  \\ 
   Units & Concentration Units \\ 
+  DAILY\_AQI\_VALUE & AQI = Air quality index \\ 
   Site Name &  \\ 
   DAILY\_OBS\_COUNT &  \\ 
   PERCENT\_COMPLETE &  \\ 
@@ -293,6 +294,7 @@ Date & mm/dd/YY \\
   POC & “Parameter Occurrence Code”, distinguishes different instruments that measure the same parameter at the same site. \\ 
   Daily Mean PM10 Concentration &  \\ 
   Units & Concentration Units \\ 
+  DAILY\_AQI\_VALUE & AQI = Air quality index \\ 
   Site Name &  \\ 
   DAILY\_OBS\_COUNT &  \\ 
   PERCENT\_COMPLETE &  \\ 
@@ -370,7 +372,7 @@ STATION & A unique code identifying the site. \\
 \label{tab:tab7}
 \end{table}
 
-\subsection{US Census Bureau Us counties
+\subsection{US Census Bureau US counties
 shapefile}\label{us-census-bureau-us-counties-shapefile}
 
 This dataset contains geographic and geometric information of all the
@@ -412,12 +414,12 @@ STATEFP & A unique number identifying the State. \\
 \label{tab:tab8}
 \end{table}
 
-\subsection{EPA major point-source sectors for PM2.5
-Dataset}\label{epa-major-point-source-sectors-for-pm2.5-dataset}
+\subsection{EPA combustion points for electricity generation in the US
+Dataset}\label{epa-combustion-points-for-electricity-generation-in-the-us-dataset}
 
-This dataset contains facility-level locations for the top 8 major
-point-source sectors for PM2.5 in the US, and it was obtained from the
-United States Environmental Protection Agency (EPA) webpage
+This dataset contains facility-level locations for combustion points for
+electricity generation in the US, and it was obtained from the United
+States Environmental Protection Agency (EPA) webpage
 \url{https://www3.epa.gov/air/emissions/where.htm}. The Top PM2.5
 emitting sectors link was selected.
 
@@ -427,9 +429,9 @@ EPA\_ElecGenComb\_US\_raw.kml on 2019-03-31.
 \subsubsection{Data Content
 Information}\label{data-content-information-4}
 
-The dataset is a kml file that contains point location for the top 8
-major point-source sectors for PM2.5 in the US. The data is in WGS84
-lat/long coordinates.
+The dataset is a kml file that contains combustion points for
+electricity generation in the US. The data is in WGS84 lat/long
+coordinates.
 
 All data sets, variable, and files are named according to the following
 naming convention: \emph{databasename\_datatype\_details\_stage.format},
@@ -484,8 +486,11 @@ Date & YY-mm-dd & 343 & From 2018-01-01 to 2018-12-09 & EPAair\_PM25\_NC2018\_ra
 \section{Exploratory Data Analysis and
 Wrangling}\label{exploratory-data-analysis-and-wrangling}
 
-Upload PM2.5 and PM10 2018 data raw data files associated with EPA Air
-dataset.
+\subsection{EPA PM2.5 and PM10
+Datasets}\label{epa-pm2.5-and-pm10-datasets}
+
+Uploading PM2.5 and PM10 2018 raw data files associated with EPA Air
+dataset and format date column.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -493,9 +498,297 @@ dataset.
 \NormalTok{EPA_AQPM10_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/EPAair_PM10_NC2018_raw.csv"}\NormalTok{)}
 
 \CommentTok{#Formatting Dates}
-\NormalTok{EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%y"}\NormalTok{)}
+\NormalTok{EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
 \NormalTok{EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
 
+Data exploration of the PM2.5 and PM10 2018 raw data files associated
+with EPA Air dataset.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dim}\NormalTok{(EPA_AQPM25_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 9644   20
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dim}\NormalTok{(EPA_AQPM10_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 2905   20
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{str}\NormalTok{(EPA_AQPM25_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 'data.frame':    9644 obs. of  20 variables:
+##  $ Date                          : Date, format: "2018-01-02" "2018-01-05" ...
+##  $ Source                        : Factor w/ 2 levels "AirNow","AQS": 2 2 2 2 2 2 2 2 2 2 ...
+##  $ Site.ID                       : int  370110002 370110002 370110002 370110002 370110002 370110002 370110002 370110002 370110002 370110002 ...
+##  $ POC                           : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ Daily.Mean.PM2.5.Concentration: num  2.9 3.7 5.3 0.8 2.5 4.5 1.8 2.5 4.2 1.7 ...
+##  $ UNITS                         : Factor w/ 1 level "ug/m3 LC": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ DAILY_AQI_VALUE               : int  12 15 22 3 10 19 8 10 18 7 ...
+##  $ Site.Name                     : Factor w/ 25 levels "","Blackstone",..: 15 15 15 15 15 15 15 15 15 15 ...
+##  $ DAILY_OBS_COUNT               : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ PERCENT_COMPLETE              : num  100 100 100 100 100 100 100 100 100 100 ...
+##  $ AQS_PARAMETER_CODE            : int  88502 88502 88502 88502 88502 88502 88502 88502 88502 88502 ...
+##  $ AQS_PARAMETER_DESC            : Factor w/ 2 levels "Acceptable PM2.5 AQI & Speciation Mass",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ CBSA_CODE                     : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ CBSA_NAME                     : Factor w/ 14 levels "","Asheville, NC",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ STATE_CODE                    : int  37 37 37 37 37 37 37 37 37 37 ...
+##  $ STATE                         : Factor w/ 1 level "North Carolina": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ COUNTY_CODE                   : int  11 11 11 11 11 11 11 11 11 11 ...
+##  $ COUNTY                        : Factor w/ 21 levels "Avery","Buncombe",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ SITE_LATITUDE                 : num  36 36 36 36 36 ...
+##  $ SITE_LONGITUDE                : num  -81.9 -81.9 -81.9 -81.9 -81.9 ...
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{str}\NormalTok{(EPA_AQPM10_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 'data.frame':    2905 obs. of  20 variables:
+##  $ Date                         : Date, format: "2018-01-01" "2018-01-02" ...
+##  $ Source                       : Factor w/ 1 level "AQS": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ Site.ID                      : int  370510009 370510009 370510009 370510009 370510009 370510009 370510009 370510009 370510009 370510009 ...
+##  $ POC                          : int  3 3 3 3 3 3 3 3 3 3 ...
+##  $ Daily.Mean.PM10.Concentration: int  3 9 15 12 12 10 9 15 22 15 ...
+##  $ UNITS                        : Factor w/ 1 level "ug/m3 SC": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ DAILY_AQI_VALUE              : int  3 8 14 11 11 9 8 14 20 14 ...
+##  $ Site.Name                    : Factor w/ 9 levels "Durham Armory",..: 9 9 9 9 9 9 9 9 9 9 ...
+##  $ DAILY_OBS_COUNT              : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ PERCENT_COMPLETE             : num  100 100 100 100 100 100 100 100 100 100 ...
+##  $ AQS_PARAMETER_CODE           : int  81102 81102 81102 81102 81102 81102 81102 81102 81102 81102 ...
+##  $ AQS_PARAMETER_DESC           : Factor w/ 1 level "PM10 Total 0-10um STP": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ CBSA_CODE                    : int  22180 22180 22180 22180 22180 22180 22180 22180 22180 22180 ...
+##  $ CBSA_NAME                    : Factor w/ 8 levels "","Charlotte-Concord-Gastonia, NC-SC",..: 4 4 4 4 4 4 4 4 4 4 ...
+##  $ STATE_CODE                   : int  37 37 37 37 37 37 37 37 37 37 ...
+##  $ STATE                        : Factor w/ 1 level "North Carolina": 1 1 1 1 1 1 1 1 1 1 ...
+##  $ COUNTY_CODE                  : int  51 51 51 51 51 51 51 51 51 51 ...
+##  $ COUNTY                       : Factor w/ 8 levels "Cumberland","Durham",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ SITE_LATITUDE                : num  35 35 35 35 35 ...
+##  $ SITE_LONGITUDE               : num  -79 -79 -79 -79 -79 ...
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{colnames}\NormalTok{(EPA_AQPM25_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##  [1] "Date"                           "Source"                        
+##  [3] "Site.ID"                        "POC"                           
+##  [5] "Daily.Mean.PM2.5.Concentration" "UNITS"                         
+##  [7] "DAILY_AQI_VALUE"                "Site.Name"                     
+##  [9] "DAILY_OBS_COUNT"                "PERCENT_COMPLETE"              
+## [11] "AQS_PARAMETER_CODE"             "AQS_PARAMETER_DESC"            
+## [13] "CBSA_CODE"                      "CBSA_NAME"                     
+## [15] "STATE_CODE"                     "STATE"                         
+## [17] "COUNTY_CODE"                    "COUNTY"                        
+## [19] "SITE_LATITUDE"                  "SITE_LONGITUDE"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{colnames}\NormalTok{(EPA_AQPM10_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##  [1] "Date"                          "Source"                       
+##  [3] "Site.ID"                       "POC"                          
+##  [5] "Daily.Mean.PM10.Concentration" "UNITS"                        
+##  [7] "DAILY_AQI_VALUE"               "Site.Name"                    
+##  [9] "DAILY_OBS_COUNT"               "PERCENT_COMPLETE"             
+## [11] "AQS_PARAMETER_CODE"            "AQS_PARAMETER_DESC"           
+## [13] "CBSA_CODE"                     "CBSA_NAME"                    
+## [15] "STATE_CODE"                    "STATE"                        
+## [17] "COUNTY_CODE"                   "COUNTY"                       
+## [19] "SITE_LATITUDE"                 "SITE_LONGITUDE"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(EPA_AQPM25_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       Date               Source        Site.ID               POC       
+##  Min.   :2018-01-01   AirNow: 873   Min.   :370110002   Min.   :1.000  
+##  1st Qu.:2018-04-04   AQS   :8771   1st Qu.:370650099   1st Qu.:3.000  
+##  Median :2018-06-27                 Median :371190041   Median :3.000  
+##  Mean   :2018-06-30                 Mean   :371023866   Mean   :2.948  
+##  3rd Qu.:2018-09-30                 3rd Qu.:371230001   3rd Qu.:3.000  
+##  Max.   :2018-12-31                 Max.   :371830021   Max.   :5.000  
+##                                                                        
+##  Daily.Mean.PM2.5.Concentration      UNITS      DAILY_AQI_VALUE
+##  Min.   :-2.80                  ug/m3 LC:9644   Min.   : 0.00  
+##  1st Qu.: 5.00                                  1st Qu.:21.00  
+##  Median : 7.20                                  Median :30.00  
+##  Mean   : 7.61                                  Mean   :31.22  
+##  3rd Qu.: 9.80                                  3rd Qu.:41.00  
+##  Max.   :34.20                                  Max.   :97.00  
+##                                                                
+##                         Site.Name    DAILY_OBS_COUNT PERCENT_COMPLETE
+##  Garinger High School        : 732   Min.   :1       Min.   :100     
+##  Millbrook School            : 722   1st Qu.:1       1st Qu.:100     
+##  Remount                     : 668   Median :1       Median :100     
+##  Montclaire Elementary School: 648   Mean   :1       Mean   :100     
+##  Hattie Avenue               : 510   3rd Qu.:1       3rd Qu.:100     
+##  Board Of Ed. Bldg.          : 478   Max.   :1       Max.   :100     
+##  (Other)                     :5886                                   
+##  AQS_PARAMETER_CODE                              AQS_PARAMETER_DESC
+##  Min.   :88101      Acceptable PM2.5 AQI & Speciation Mass:2008    
+##  1st Qu.:88101      PM2.5 - Local Conditions              :7636    
+##  Median :88101                                                     
+##  Mean   :88184                                                     
+##  3rd Qu.:88101                                                     
+##  Max.   :88502                                                     
+##                                                                    
+##    CBSA_CODE                                 CBSA_NAME      STATE_CODE
+##  Min.   :11700   Charlotte-Concord-Gastonia, NC-SC:2048   Min.   :37  
+##  1st Qu.:16740   Raleigh, NC                      :1418   1st Qu.:37  
+##  Median :24780   Winston-Salem, NC                :1323   Median :37  
+##  Mean   :29881                                    :1165   Mean   :37  
+##  3rd Qu.:40580   Asheville, NC                    : 532   3rd Qu.:37  
+##  Max.   :49180   Durham-Chapel Hill, NC           : 469   Max.   :37  
+##  NA's   :1165    (Other)                          :2689               
+##             STATE       COUNTY_CODE            COUNTY     SITE_LATITUDE  
+##  North Carolina:9644   Min.   : 11.0   Mecklenburg:2048   Min.   :34.36  
+##                        1st Qu.: 65.0   Wake       :1069   1st Qu.:35.24  
+##                        Median :119.0   Forsyth    : 876   Median :35.64  
+##                        Mean   :102.4   Buncombe   : 478   Mean   :35.58  
+##                        3rd Qu.:123.0   Durham     : 469   3rd Qu.:35.91  
+##                        Max.   :183.0   Pitt       : 461   Max.   :36.11  
+##                                        (Other)    :4243                  
+##  SITE_LONGITUDE  
+##  Min.   :-83.44  
+##  1st Qu.:-80.87  
+##  Median :-80.23  
+##  Mean   :-80.03  
+##  3rd Qu.:-78.82  
+##  Max.   :-76.21  
+## 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(EPA_AQPM10_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       Date            Source        Site.ID               POC       
+##  Min.   :2018-01-01   AQS:2905   Min.   :370510009   Min.   :1.000  
+##  1st Qu.:2018-04-07              1st Qu.:370670022   1st Qu.:3.000  
+##  Median :2018-07-02              Median :371170001   Median :3.000  
+##  Mean   :2018-07-03              Mean   :371072712   Mean   :3.172  
+##  3rd Qu.:2018-10-04              3rd Qu.:371190042   3rd Qu.:4.000  
+##  Max.   :2018-12-31              Max.   :371830014   Max.   :5.000  
+##                                                                     
+##  Daily.Mean.PM10.Concentration      UNITS      DAILY_AQI_VALUE
+##  Min.   : 0.00                 ug/m3 SC:2905   Min.   : 0.00  
+##  1st Qu.:10.00                                 1st Qu.: 9.00  
+##  Median :13.00                                 Median :12.00  
+##  Mean   :13.72                                 Mean   :12.67  
+##  3rd Qu.:17.00                                 3rd Qu.:16.00  
+##  Max.   :64.00                                 Max.   :55.00  
+##                                                               
+##                         Site.Name   DAILY_OBS_COUNT PERCENT_COMPLETE
+##  Millbrook School            :588   Min.   :1       Min.   :100     
+##  Garinger High School        :351   1st Qu.:1       1st Qu.:100     
+##  Montclaire Elementary School:344   Median :1       Median :100     
+##  Hattie Avenue               :342   Mean   :1       Mean   :100     
+##  Durham Armory               :335   3rd Qu.:1       3rd Qu.:100     
+##  William Owen School         :321   Max.   :1       Max.   :100     
+##  (Other)                     :624                                   
+##  AQS_PARAMETER_CODE             AQS_PARAMETER_DESC   CBSA_CODE    
+##  Min.   :81102      PM10 Total 0-10um STP:2905     Min.   :16740  
+##  1st Qu.:81102                                     1st Qu.:16740  
+##  Median :81102                                     Median :22180  
+##  Mean   :81102                                     Mean   :28310  
+##  3rd Qu.:81102                                     3rd Qu.:39580  
+##  Max.   :81102                                     Max.   :49180  
+##                                                    NA's   :247    
+##                              CBSA_NAME     STATE_CODE
+##  Charlotte-Concord-Gastonia, NC-SC:695   Min.   :37  
+##  Raleigh, NC                      :588   1st Qu.:37  
+##  Winston-Salem, NC                :342   Median :37  
+##  Durham-Chapel Hill, NC           :335   Mean   :37  
+##  Fayetteville, NC                 :321   3rd Qu.:37  
+##  Greensboro-High Point, NC        :320   Max.   :37  
+##  (Other)                          :304               
+##             STATE       COUNTY_CODE            COUNTY    SITE_LATITUDE  
+##  North Carolina:2905   Min.   : 51.0   Mecklenburg:695   Min.   :35.04  
+##                        1st Qu.: 67.0   Wake       :588   1st Qu.:35.24  
+##                        Median :117.0   Forsyth    :342   Median :35.86  
+##                        Mean   :107.3   Durham     :335   Mean   :35.67  
+##                        3rd Qu.:119.0   Cumberland :321   3rd Qu.:36.03  
+##                        Max.   :183.0   Guilford   :320   Max.   :36.11  
+##                                        (Other)    :304                  
+##  SITE_LONGITUDE  
+##  Min.   :-80.87  
+##  1st Qu.:-80.23  
+##  Median :-78.95  
+##  Mean   :-79.36  
+##  3rd Qu.:-78.57  
+##  Max.   :-76.91  
+## 
+\end{verbatim}
+
+Visual data exploration of the PM2.5 2018 raw data file in
+\autoref{PM2.5_freqpoly}, \autoref{PM2.5_boxplot}, and
+\autoref{PM2.5_scatterplot}.
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-11-1.pdf}
+\caption{PM2.5 NC 2018 frequency polygon. \label{PM2.5_freqpoly}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-12-1.pdf}
+\caption{PM2.5 NC 2018 boxplot. \label{PM2.5_boxplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-13-1.pdf}
+\caption{PM2.5 NC 2018 scatterplot. \label{PM2.5_scatterplot}}
+\end{figure}
+
+Visual data exploration of the PM10 2018 raw data file in
+\autoref{PM10_scatterplot}.
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-14-1.pdf}
+\caption{PM10 NC 2018 scatterplot. \label{PM10_scatterplot}}
+\end{figure}
+
+Data wrangling of the PM2.5 and PM10 2018 raw data files.
+
+\begin{Shaded}
+\begin{Highlighting}[]
 \CommentTok{#Selecting Columns}
 \NormalTok{EPA_AQ_PM25_NC2018_Temp <-}\StringTok{ }\KeywordTok{select}\NormalTok{(EPA_AQPM25_NC2018_raw, Date, Site.ID,}
 \NormalTok{                                Daily.Mean.PM2.}\FloatTok{5.}\NormalTok{Concentration, AQS_PARAMETER_DESC,}
@@ -546,11 +839,22 @@ dataset.
 \end{Highlighting}
 \end{Shaded}
 
-See in \autoref{PM2.5Stations} the locations of the PM2.5 monitoring
-stations.
+In \autoref{PM2.5Stations} is presented the locations of the PM2.5
+monitoring stations.
 
-In the next chunk I am getting the list of North Carolina Counties and
-Population from an URL.
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-16-1.pdf}
+\caption{PM2.5 NC Monitoring Stations Previsualization.
+\label{PM2.5Stations}}
+\end{figure}
+
+\subsection{North Carolina Counties Zoning, Geographic information, and
+Population
+Data}\label{north-carolina-counties-zoning-geographic-information-and-population-data}
+
+Downloading the list of North Carolina Counties and Population from a
+Wikipedia URL.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -566,8 +870,6 @@ Population from an URL.
 \NormalTok{County_Info}\OperatorTok{$}\NormalTok{County <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County, }\StringTok{" County"}\NormalTok{, }\StringTok{""}\NormalTok{)}
 \NormalTok{County_Info}\OperatorTok{$}\NormalTok{County <-}\StringTok{ }\KeywordTok{str_replace}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County, }\StringTok{"}\CharTok{\textbackslash{}n}\StringTok{"}\NormalTok{, }\StringTok{""}\NormalTok{)}
 
-\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Population <-}\StringTok{ }\OtherTok{NULL}
-
 \NormalTok{Population <-}\StringTok{ }\KeywordTok{data_frame}\NormalTok{(}\DataTypeTok{Population=}\NormalTok{County_Population[}\DecValTok{2}\OperatorTok{:}\DecValTok{101}\NormalTok{])}
 
 \NormalTok{County_Info <-}\StringTok{ }\KeywordTok{cbind}\NormalTok{(County_Info, Population)}
@@ -579,9 +881,9 @@ Population from an URL.
 \end{Highlighting}
 \end{Shaded}
 
-In the next chunk I am assigning the corresponding zone to each county.
-Info from: Rudersdorf, Amy. 2010. ``NC County Maps.'' Government \&
-Heritage Library, State Library of North Carolina.
+Assigning the corresponding zone to each county. Info from: Rudersdorf,
+Amy. 2010. ``NC County Maps.'' Government \& Heritage Library, State
+Library of North Carolina.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -592,6 +894,69 @@ Heritage Library, State Library of North Carolina.
 \end{Highlighting}
 \end{Shaded}
 
+Data exploration of the County\_Info dataframe.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dim}\NormalTok{(County_Info)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 100   3
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{str}\NormalTok{(County_Info)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 'data.frame':    100 obs. of  3 variables:
+##  $ County    : chr  "Alamance" "Alexander" "Alleghany" "Anson" ...
+##  $ Population: num  157844 37159 10935 25531 26833 ...
+##  $ Zone      : chr  "Piedmont" "Piedmont" "Mountains" "Piedmont" ...
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{colnames}\NormalTok{(County_Info)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "County"     "Population" "Zone"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(County_Info)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##     County            Population          Zone          
+##  Length:100         Min.   :   4090   Length:100        
+##  Class :character   1st Qu.:  25001   Class :character  
+##  Mode  :character   Median :  55311   Mode  :character  
+##                     Mean   : 100526                     
+##                     3rd Qu.: 114764                     
+##                     Max.   :1034290
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{unique}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{Zone)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Piedmont"  "Mountains" "Coastal"
+\end{verbatim}
+
+Adding the County Information to the PM2.5\_PM10\_sf\_utm dataframe.
+
 \begin{Shaded}
 \begin{Highlighting}[]
 \NormalTok{PM2.5_PM10_Info_sf_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_sf_utm }\OperatorTok{%>%}
@@ -599,8 +964,10 @@ Heritage Library, State Library of North Carolina.
 \end{Highlighting}
 \end{Shaded}
 
-In the next chunk I am reading the USA county shapefile, sub-setting for
-NC.
+\subsection{US Census Bureau US counties
+shapefile}\label{us-census-bureau-us-counties-shapefile-1}
+
+Reading the USA county shapefile, sub-setting for NC.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -638,22 +1005,181 @@ Converting the counties\_sf to UTM Zone 17
 \begin{Highlighting}[]
 \CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
 \NormalTok{counties_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(counties_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
-
-\CommentTok{#Join the two datasets using "NAME" from the left dataset and "County" from the right}
-\CommentTok{#counties_sf_utm_join <- counties_sf_utm %>% }
-\CommentTok{#  left_join(y = County_Info,by = c("NAME" =  "County"))}
-
-\CommentTok{#counties_sf_utm_simple <- select(counties_sf_utm_join, NAME, Zone, Population, geometry)}
 \end{Highlighting}
 \end{Shaded}
 
-Read the 2018 Air Temperature data.
+Data exploration of the County\_Info dataframe.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dim}\NormalTok{(counties_sf_utm)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 100  10
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{str}\NormalTok{(counties_sf_utm)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Classes 'sf' and 'data.frame':   100 obs. of  10 variables:
+##  $ STATEFP : Factor w/ 52 levels "01","02","04",..: 34 34 34 34 34 34 34 34 34 34 ...
+##  $ COUNTYFP: Factor w/ 325 levels "001","003","005",..: 116 71 94 54 62 125 84 102 26 19 ...
+##  $ COUNTYNS: Factor w/ 3220 levels "00023901","00025441",..: 1672 1649 1659 1639 1644 1677 1700 1664 1625 1622 ...
+##  $ AFFGEOID: Factor w/ 3220 levels "0500000US01001",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
+##  $ GEOID   : Factor w/ 3220 levels "01001","01003",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
+##  $ NAME    : Factor w/ 1910 levels "Abbeville","Acadia",..: 1765 1000 1358 721 797 1858 1214 1481 321 254 ...
+##  $ LSAD    : Factor w/ 9 levels "00","03","04",..: 5 5 5 5 5 5 5 5 5 5 ...
+##  $ ALAND   : num  6.54e+08 1.03e+09 1.69e+09 1.67e+09 1.01e+09 ...
+##  $ AWATER  : num  42187365 5900300 8248766 30723331 3981006 ...
+##  $ geometry:sfc_MULTIPOLYGON of length 100; first list element: List of 1
+##   ..$ :List of 1
+##   .. ..$ : num [1:10, 1:2] 724066 727615 739570 744478 741926 ...
+##   ..- attr(*, "class")= chr  "XY" "MULTIPOLYGON" "sfg"
+##  - attr(*, "sf_column")= chr "geometry"
+##  - attr(*, "agr")= Factor w/ 3 levels "constant","aggregate",..: NA NA NA NA NA NA NA NA NA
+##   ..- attr(*, "names")= chr  "STATEFP" "COUNTYFP" "COUNTYNS" "AFFGEOID" ...
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{colnames}\NormalTok{(counties_sf_utm)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##  [1] "STATEFP"  "COUNTYFP" "COUNTYNS" "AFFGEOID" "GEOID"    "NAME"    
+##  [7] "LSAD"     "ALAND"    "AWATER"   "geometry"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(counties_sf_utm)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##     STATEFP       COUNTYFP      COUNTYNS            AFFGEOID      GEOID   
+##  37     :100   001    : 1   01008531: 1   0500000US37001: 1   37001  : 1  
+##  01     :  0   003    : 1   01008532: 1   0500000US37003: 1   37003  : 1  
+##  02     :  0   005    : 1   01008533: 1   0500000US37005: 1   37005  : 1  
+##  04     :  0   007    : 1   01008534: 1   0500000US37007: 1   37007  : 1  
+##  05     :  0   009    : 1   01008535: 1   0500000US37009: 1   37009  : 1  
+##  06     :  0   011    : 1   01008536: 1   0500000US37011: 1   37011  : 1  
+##  (Other):  0   (Other):94   (Other) :94   (Other)       :94   (Other):94  
+##         NAME         LSAD         ALAND               AWATER         
+##  Alamance : 1   06     :100   Min.   :4.472e+08   Min.   :4.453e+05  
+##  Alexander: 1   00     :  0   1st Qu.:8.936e+08   1st Qu.:7.287e+06  
+##  Alleghany: 1   03     :  0   Median :1.192e+09   Median :1.595e+07  
+##  Anson    : 1   04     :  0   Mean   :1.259e+09   Mean   :1.347e+08  
+##  Ashe     : 1   05     :  0   3rd Qu.:1.501e+09   3rd Qu.:3.831e+07  
+##  Avery    : 1   12     :  0   Max.   :2.453e+09   Max.   :3.001e+09  
+##  (Other)  :94   (Other):  0                                          
+##           geometry  
+##  MULTIPOLYGON :100  
+##  epsg:26917   :  0  
+##  +proj=utm ...:  0  
+##                     
+##                     
+##                     
+## 
+\end{verbatim}
+
+Visual data exploration of the counties\_sf\_utm dataframe in
+\autoref{Countyplot}.
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-23-1.pdf}
+\caption{Counties exploratory map. \label{Countyplot}}
+\end{figure}
+
+\subsection{NOAA Average Temperature
+Dataset}\label{noaa-average-temperature-dataset-1}
+
+Reading the 2018 North Carolina Air Temperature data.
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{#Read the 2018 Air Temperature data}
 \NormalTok{NOAA_DTAVG_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/NOAA_TAVG_NC2018_raw.csv"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
 
+Data exploration of the NOAA\_DTAVG\_NC2018\_raw dataframe.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dim}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 283423      7
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{str}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 'data.frame':    283423 obs. of  7 variables:
+##  $ STATION  : Factor w/ 1066 levels "US1NCAG0001",..: 217 217 217 217 217 217 217 217 217 217 ...
+##  $ NAME     : Factor w/ 1063 levels "ABERDEEN 0.7 NW, NC US",..: 716 716 716 716 716 716 716 716 716 716 ...
+##  $ LATITUDE : num  34.8 34.8 34.8 34.8 34.8 ...
+##  $ LONGITUDE: num  -76.9 -76.9 -76.9 -76.9 -76.9 ...
+##  $ ELEVATION: num  8.5 8.5 8.5 8.5 8.5 8.5 8.5 8.5 8.5 8.5 ...
+##  $ DATE     : Factor w/ 365 levels "01/01/2018","01/02/2018",..: 37 133 145 205 265 277 325 337 348 14 ...
+##  $ TAVG     : int  NA NA NA NA NA NA NA NA NA NA ...
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{colnames}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "STATION"   "NAME"      "LATITUDE"  "LONGITUDE" "ELEVATION" "DATE"     
+## [7] "TAVG"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##         STATION                                NAME           LATITUDE    
+##  US1NCBC0005:   365   SPARTA 3.5 SSW, NC US      :   545   Min.   :33.88  
+##  US1NCBC0041:   365   HILLSBOROUGH 5.6 NNW, NC US:   502   1st Qu.:35.16  
+##  US1NCBK0004:   365   ADVANCE 0.2 ESE, NC US     :   365   Median :35.56  
+##  US1NCCH0004:   365   ALBEMARLE, NC US           :   365   Mean   :35.49  
+##  US1NCCS0002:   365   ARDEN 1.6 ENE, NC US       :   365   3rd Qu.:35.90  
+##  US1NCCY0003:   365   ASHEBORO 1.3 SSE, NC US    :   365   Max.   :36.56  
+##  (Other)    :281233   (Other)                    :280916                  
+##    LONGITUDE        ELEVATION              DATE             TAVG       
+##  Min.   :-84.30   Min.   :   0.0   16/04/2018:   887   Min.   : 9.00   
+##  1st Qu.:-81.67   1st Qu.:  29.3   17/05/2018:   874   1st Qu.:47.00   
+##  Median :-79.16   Median : 150.9   20/03/2018:   871   Median :63.00   
+##  Mean   :-79.70   Mean   : 279.9   12/06/2018:   870   Mean   :60.19   
+##  3rd Qu.:-78.01   3rd Qu.: 389.5   30/05/2018:   869   3rd Qu.:75.00   
+##  Max.   :-75.46   Max.   :1902.0   01/08/2018:   867   Max.   :87.00   
+##                                    (Other)   :278185   NA's   :269572
+\end{verbatim}
+
+Data wrangling of the NOAA\_DTAVG\_NC2018\_raw dataframe.
+
+\begin{Shaded}
+\begin{Highlighting}[]
 \CommentTok{#Remove stations without Temperature information}
 \NormalTok{NOAA_DTAVG_NC2018_Complete <-}\StringTok{ }\KeywordTok{na.omit}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
 
@@ -669,7 +1195,8 @@ Read the 2018 Air Temperature data.
 \end{Shaded}
 
 The 2018 Air Temperature data does not have County information, so the
-location is used to locate the county of each station.
+location is used with the counties\_sf\_utm dataframe to locate the
+county of each station.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -689,13 +1216,42 @@ location is used to locate the county of each station.
 \end{Highlighting}
 \end{Shaded}
 
-For each PM2.5 Station we assign the Temperature of the nearest
-Temperature Station.
+Visual data exploration of the 2018 North Carolina Air Temperature data
+in \autoref{Tempplot}, \autoref{Temp_freqpoly}, \autoref{Temp_boxplot},
+and \autoref{Temp_scatterplot}..
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-28-1.pdf}
+\caption{Mean Annual Temperature exploratory map. \label{Tempplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-29-1.pdf}
+\caption{Daily Mean Temperature NC 2018 frequency polygon.
+\label{Temp_freqpoly}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-30-1.pdf}
+\caption{Daily Mean Temperature NC 2018 boxplot. \label{Temp_boxplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-31-1.pdf}
+\caption{Daily Mean Temperature NC 2018 scatterplot.
+\label{Temp_scatterplot}}
+\end{figure}
+
+Next, the temperature of the nearest Temperature Station is added to
+each PM2.5 Station in the PM2.5\_PM10\_Info\_sf\_utm dataframe.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Use again PM2.5_Stations with only the PM2.5 station info}
-\CommentTok{#Data frame with only the PM2.5 station info}
+\CommentTok{#Create a Data frame with only the PM2.5 station info}
 \NormalTok{PM2.5_Stations <-}\StringTok{ }\NormalTok{PM2.5_PM10_Info_sf_utm }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{select}\NormalTok{(Site.ID, geometry) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{subset}\NormalTok{(}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(Site.ID))}
@@ -731,7 +1287,10 @@ Temperature Station.
 \end{Highlighting}
 \end{Shaded}
 
-Read the Electricity Generation via Combustion data.
+\subsection{EPA combustion points for electricity generation in the US
+Dataset}\label{epa-combustion-points-for-electricity-generation-in-the-us-dataset-1}
+
+Reading the Electricity Generation via Combustion data.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -748,6 +1307,8 @@ Read the Electricity Generation via Combustion data.
 ## epsg (SRID):    4326
 ## proj4string:    +proj=longlat +datum=WGS84 +no_defs
 \end{verbatim}
+
+Wrangling the data
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -777,8 +1338,21 @@ Read the Electricity Generation via Combustion data.
 \end{Highlighting}
 \end{Shaded}
 
-Distance between PM2.5 stations and Electricity Generation via
-Combustion points
+Visual data exploration of the EPA combustion points for electricity
+generation in the North Carolina in \autoref{Tempplot},
+\autoref{Temp_freqpoly}, \autoref{Combplot}, and
+\autoref{Temp_scatterplot}..
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-35-1.pdf}
+\caption{Combustion points for electricity generation in the North
+Carolina. \label{Combplot}}
+\end{figure}
+
+Now the distance between PM2.5 stations and Electricity Generation via
+Combustion points is determined and added to the
+PM2.5\_PM10\_Temp\_sf\_utm dataframe.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -805,6 +1379,11 @@ Combustion points
 \StringTok{  }\KeywordTok{select}\NormalTok{(Date,Site.ID,COUNTY,Population,Zone,PM2.}\DecValTok{5}\NormalTok{,PM10,TAVG,Emiss_Dist,geometry)}
 \end{Highlighting}
 \end{Shaded}
+
+Finally, using the elevatr package, elevation information is added to
+the PM 2.5 stations in the PM2.5\_Full\_utm dataframe, creating the
+PM2.5\_Full\_Elev\_utm, which is saved in the Project folder
+./Data/Processed.
 
 Elevations for the PM2.5 Stations
 
@@ -833,6 +1412,9 @@ Elevations for the PM2.5 Stations
 ## epsg (SRID):    NA
 ## proj4string:    +proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs
 \end{verbatim}
+
+\subsection{Additional previsualization of the
+data}\label{additional-previsualization-of-the-data}
 
 The next chunk is to start looking at the data
 

@@ -462,7 +462,7 @@ PM2.5_PM10_sf_utm <- st_transform(PM2.5_PM10_sf, c=26917)
 
 In \autoref{PM2.5Stations} is presented the locations of the PM2.5 monitoring stations.
 
-```{r echo = FALSE, eval = FALSE, fig.cap = "PM2.5 NC Monitoring Stations Previsualization. \\label{PM2.5Stations}"}
+```{r echo = FALSE, fig.cap = "PM2.5 NC Monitoring Stations Previsualization. \\label{PM2.5Stations}"}
 ggplot() + 
   annotation_map_tile(zoom = 7) +
   geom_sf(data = PM2.5_PM10_sf_utm, color = 'Black', alpha=0.7) + 
@@ -545,6 +545,10 @@ Converting the counties_sf to UTM Zone 17
 ```{r}
 #Convert all to UTM Zone 17 (crs = 26917)
 counties_sf_utm <- st_transform(counties_sf, c=26917)
+
+#Adding the Zone Info
+counties_sf_utm <- counties_sf_utm %>%
+left_join(County_Info, by = c("NAME"="County"))
 ```
 
 Data exploration of the County_Info dataframe.
@@ -561,11 +565,17 @@ summary(counties_sf_utm)
 
 Visual data exploration of the counties_sf_utm dataframe in \autoref{Countyplot}.
 
-```{r fig.cap = "Counties exploratory map. \\label{Countyplot}"}
+```{r echo = FALSE, fig.cap = "Counties exploratory map. \\label{Countyplot}"}
 ggplot() +
   geom_sf(data=counties_sf_utm, aes(fill=NAME)) +
   guides(fill=FALSE) +
   ggtitle("Exploratory Map")
+```
+
+```{r echo = FALSE, fig.cap = "NC Zoning exploratory map. \\label{Zoneplot}"}
+ggplot() +
+  geom_sf(data=counties_sf_utm, aes(fill=Zone)) +
+  ggtitle("Zoning Exploratory Map")
 ```
 
 ##  NOAA Average Temperature Dataset
@@ -626,7 +636,7 @@ NOAA_DTAVG_NC2018_sf_utm <- NOAA_DTAVG_NC2018_sf_utm[,c(1,2,3,4,5,7,6)]
 
 Visual data exploration of the 2018 North Carolina Air Temperature data in \autoref{Tempplot}, \autoref{Temp_freqpoly}, \autoref{Temp_boxplot}, and \autoref{Temp_scatterplot}..
 
-```{r fig.cap = "Mean Annual Temperature exploratory map. \\label{Tempplot}"}
+```{r echo = FALSE, fig.cap = "Mean Annual Temperature exploratory map. \\label{Tempplot}"}
 NOAA_DTAVG_NC2018_sf_utm_temp <- NOAA_DTAVG_NC2018_sf_utm %>%
   group_by(NAME) %>% 
   summarize(meanT = mean(TAVG))
@@ -733,12 +743,12 @@ EPA_NC_CombEmissions_utm <- st_intersection(EPA_US_CombEmissions_utm,state_sf_ut
 
 Visual data exploration of the EPA combustion points for electricity generation in the North Carolina in \autoref{Tempplot}, \autoref{Temp_freqpoly}, \autoref{Combplot}, and \autoref{Temp_scatterplot}..
 
-```{r fig.cap = "Combustion points for electricity generation in the North Carolina. \\label{Combplot}"}
+```{r echo = FALSE, fig.cap = "Combustion points for electricity generation in the North Carolina. \\label{Combplot}"}
 
 ggplot() +
   geom_sf(data = counties_sf_utm, color = 'Black', fill = "antiquewhite") + 
   geom_sf(data = EPA_NC_CombEmissions_utm) +
-    ggtitle("NC Combustion Points for Electricity Generation Exploratory Map")
+  ggtitle("NC Combustion Points for Electricity Generation Exploratory Map")
 ```
 
 Now the distance between PM2.5 stations and Electricity Generation via Combustion points is determined and added to the PM2.5_PM10_Temp_sf_utm dataframe.
@@ -790,7 +800,7 @@ The next chunk is to start looking at the data
 #Spatially
 ggplot() + 
   annotation_map_tile(zoom = 7) +
-  geom_sf(data = counties_sf_utm_simple, color = 'Black', aes(fill=Zone), alpha=0.7) + 
+  geom_sf(data = counties_sf_utm, color = 'Black', aes(fill=Zone), alpha=0.7) + 
   geom_sf(data = NOAA_DTAVG_NC2018_sf_utm, color = 'Blue') +
   geom_sf(data = EPA_NC_CombEmissions_utm, color = 'Black') +
   scale_fill_brewer(palette = "Blues", name = "Zoning")  +
@@ -815,7 +825,7 @@ ggplot(NOAA_DTAVG_NC2018_sf_utm, aes(x=DATE, y=TAVG)) +
   scale_color_brewer(palette = "Reds", name = "Zone")  +
   ggtitle("Average Temperature in North Carolina 2018")
 
-PM2.5_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
+PM2.5_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
@@ -824,7 +834,7 @@ PM2.5_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
-PM2.5_Zone_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
+PM2.5_Zone_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Zone)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
@@ -833,7 +843,7 @@ PM2.5_Zone_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM2.5)) +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
-PM10_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM10)) +
+PM10_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM10)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
@@ -843,21 +853,21 @@ PM10_Dist_Plot <- ggplot(PM2.5_PM10_sf_utm, aes(x=Date, y=PM10)) +
 
 grid.arrange(PM2.5_Dist_Plot, PM10_Dist_Plot, PM2.5_Zone_Plot, nrow = 3)
 
-ggplot(PM2.5_PM10_Temp_sf_utm_elev, aes(x=Date, y=PM2.5)) +
+ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = elevation)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
   scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")  +
-  ggtitle("2018 Daily PM10 concentration, North Carolina")
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
 
-ggplot(PM2.5_PM10_Temp_sf_utm_elev, aes(x=Date, y=PM2.5)) +
+ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = TAVG)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
   scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")  +
-  ggtitle("2018 Daily PM10 concentration, North Carolina")
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
 
 
 
@@ -877,12 +887,6 @@ summary(PM2.5_Stations$Emiss_Dist)
 
 
 ```
-
-
-
-
-
-<NECESITO LA ELEVATION DE LOS LUGARES CON INFO THE PM25>
 
 \newpage
 
