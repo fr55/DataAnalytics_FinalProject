@@ -55,6 +55,7 @@ library(tiff)
 library(gridExtra)
 library(elevatr)
 library(xtable)
+library(car)
 
 # Set your ggplot theme
 
@@ -76,7 +77,7 @@ Particulate matter with a diameter of less than 2.5 micrometers is called PM2.5,
 
 <Paragraph detailing your research question(s) and goals. What do you want to find out? Include a sentence (or a few) on the dataset you are using to answer this question - just enough to give your reader an idea of where you are going with the analysis.>
 
-This study focus on trying to understand how PM2.5 concentration in North Carolina vary with temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, and distance to combustion points for electricity generation. This last variable was included because acording to the EPA combustion for electricity generation is the major point-source sector for PM2.5 in the USA (EPA, 2019).
+This study focus on trying to understand how PM2.5 concentration in North Carolina vary with temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, and distance to combustion points for electricity generation. This last variable was included because according to the EPA combustion for electricity generation is the major point-source sector for PM2.5 in the USA (EPA, 2019).
 
 The research question is: What are the effects of temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, distance to combustion points for electricity generation, in PM2.5 concentrations within North Carolina in the year 2018? 
 
@@ -202,17 +203,20 @@ print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
 
 ## NOAA Average Temperature Dataset
 
-This dataset contains data from temperature monitoring in North Carolina in 2018, and it was obtained using the Data Search Tool in the National Center for Environmental Information of the National Oceanic and Atmospheric Administration (NOAA). Webpage https://www.ncdc.noaa.gov/cdo-web. Options showed in Table \ref{tab:tab6} were selected: XXXXXXArreglar
+This dataset contains data from temperature monitoring in North Carolina in 2018, and it was obtained using the Search Tool in the National Center for Environmental Information of the National Oceanic and Atmospheric Administration (NOAA) Webpage https://www.ncdc.noaa.gov/cdo-web. Options showed in Table \ref{tab:tab6} were selected:
 
 ```{r echo=FALSE, results="asis"}
 #Creating Table
-a <- data.frame("Option" = "Pollutant", "Selection" = "PM10")
-b <- data.frame("Option" = "Year", "Selection" = "2018")
-c <- data.frame("Option" = "Geographic Area", "Selection" = "North Carolina")
-d <- data.frame("Option" = "Monitor Site", "Selection" = "All Sites")
-e <- data.frame("Option" = "Download", "Selection" = "Download CSV (spreadsheet)")
+a <- data.frame("Option" = "Discover Data By", "Selection" = "Search Tool")
+b <- data.frame("Option" = "Weather Observation Dataset", "Selection" = "Daily Summaries")
+c <- data.frame("Option" = "Date Range", "Selection" = "2018-01-01 to 2018-12-31")
+d <- data.frame("Option" = "Search For", "Selection" = "States")
+e <- data.frame("Option" = "Search Term", "Selection" = "North Carolina")
+f <- data.frame("Option" = "Output Format", "Selection" = "Custom GHCN-Daily CSV")
+g <- data.frame("Option" = "Station Detail", "Selection" = "Station Name & Geographic Location")
+h <- data.frame("Option" = "Data Type", "Selection" = "Average Temperature. (TAVG)")
 
-summary_table <- rbind(a, b, c, d, e)
+summary_table <- rbind(a, b, c, d, e, f, g, h)
 
 xtable1 <- xtable(summary_table, label="tab:tab6", caption="Selections")
 print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
@@ -222,7 +226,7 @@ The downloaded file was saved in the project folder path ./Data/Raw/ as NOAA_TAV
 
 ### Data Content Information
 
-The dataset contains daily mean air temperature in Farenheit in 2018. Data from 39 stations in North Carolina with their location in NAD83 lat/long coordinates. No county information.
+The dataset contains daily mean air temperature in Fahrenheit in 2018. Data from 39 stations in North Carolina with their location in NAD83 lat/long coordinates. No county information.
 
 The dataset contains 7 columns, which are shown in Table \ref{tab:tab7}. Column names without description are self-explanatory.
 
@@ -245,7 +249,7 @@ print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
 
 ## US Census Bureau US counties shapefile
 
-This dataset contains geographic and geometric information of all the counties of the US. The data is in NAD83 lat/long coordinates. De file was provided by John Fay in the Environmental Data Analytics (ENV 872L) course at Duke University, Spring 2019.
+This dataset contains geographic and geometric information of all the counties of the US. The data is in NAD83 lat/long coordinates. The file was provided by John Fay in the Environmental Data Analytics (ENV 872L) course at Duke University, Spring 2019.
 
 The files containing the information were saved in the project folder path ./Data/Spatial/ as cb_2017_us_county_20m on 2019-03-28.
 
@@ -299,7 +303,7 @@ All data sets, variable, and files are named according to the following naming c
 
 <Add a table that summarizes your data structure. This table can be made in markdown text or inserted as a `kable` function in an R chunk. If the latter, do not include the code used to generate your table.>
 
-With these datasets an exploratory data analysis was done and for the study. The datasets were wrangled and a file called PM2.5_Full_Elev_utm.shp was created, which has the data structure shown in Table \ref{tab:tab2}. 
+With these datasets an exploratory data analysis was done for the study. The datasets were wrangled in a dataframe called PM2.5_Full_Elev_utm and stored in the project processed folder in a file called PM2.5_Full_Elev_utm.shp. This dataframe has the data structure shown in Table \ref{tab:tab2}.
 
 ```{r echo=FALSE, results="asis"}
 #Creating the Summary Table
@@ -464,7 +468,7 @@ In \autoref{PM2.5Stations} is presented the locations of the PM2.5 monitoring st
 
 ```{r echo = FALSE, fig.cap = "PM2.5 NC Monitoring Stations Previsualization. \\label{PM2.5Stations}"}
 ggplot() + 
-  annotation_map_tile(zoom = 7) +
+  #annotation_map_tile(zoom = 7) +
   geom_sf(data = PM2.5_PM10_sf_utm, color = 'Black', alpha=0.7) + 
   xlab(expression("Longitud")) +
   ylab(expression("Latitude")) +
@@ -794,7 +798,7 @@ PM2.5_Full_Elev_utm <- st_read('./Data/Processed/PM2.5_Full_Elev_utm.shp')
 
 ## Additional previsualization of the data
 
-```{r eval=FALSE, echo = FALSE, fig.cap = "Daily PM2.5 Cocentration. \\label{PM25plot}"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration. \\label{PM25plot}"}
 PM2.5_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
@@ -847,9 +851,126 @@ grid.arrange(PM2.5_Dist_Plot, PM2.5_Zone_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_
 
 <Include text sections to accompany these R chunks to explain the reasoning behind your workflow, rationale for your approach, and the justification of meeting or failing to meet assumptions of tests.>
 
-In 2012, the United States Environmental Protection Agency (USEPA) established two complementary primary regulatory standards for PM2.5.  The first is based on a yearly average value and is set at 12 micrograms per cubic meter, ug/m3, 
+In 2012, the United States Environmental Protection Agency (USEPA) established a complementary primary regulatory standards for PM2.5 at a concentration of 12 micrograms per cubic meter, ug/m3< therefore, the first statistical test should look at the standard in each station.
 
-First statistical test should look at the standard in each station.
+## One-sample t-test
+
+The first statistical analysis will test the null hypothesis that the mean of the PM 2.5 concentrations in North Carolina are below the regulatory standard of 12 micrograms per cubic meter for the three geographical zones (Coastal, Piedmont, and Mountains).
+
+First the assumption of normal distribution is evaluated.
+
+```{r}
+PM2.5_Coastal <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Coastal"]
+PM2.5_Coastal <- as.data.frame(PM2.5_Coastal)
+
+PM2.5_Piedmont <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Piedmont"]
+PM2.5_Piedmont <- as.data.frame(PM2.5_Piedmont)
+
+PM2.5_Mountains <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Mountains"]
+PM2.5_Mountains <- as.data.frame(PM2.5_Mountains)
+
+shapiro.test(PM2.5_Coastal$PM2.5_Coastal)
+shapiro.test(PM2.5_Piedmont$PM2.5_Piedmont)
+shapiro.test(PM2.5_Mountains$PM2.5_Mountains)
+```
+
+The Shapiro-Wilk normality test says that the PM 2.5 concentrations data in the three NC zones are significantly different from a normal distribution ( Coastal: Shapiro-Wilk normality test, W = 0.9786, p-value < 0.0001; Piedmont: Shapiro-Wilk normality test, W = 0.96427, p-value < 0.0001; Mountain: Shapiro-Wilk normality test, W = 0.95824, p-value < 0.0001).
+
+Next, a graphical analysis of the data is performed.
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal Histogram. \\label{Coasthistplot}"}
+ggplot(PM2.5_Coastal, aes(x = PM2.5_Coastal)) +
+  geom_histogram(stat = "count")
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Coastqqplot"}
+qqnorm(PM2.5_Coastal$PM2.5_Coastal); qqline(PM2.5_Coastal$PM2.5_Coastal)
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal Histogram. \\label{Piedmonthistplot}"}
+ggplot(PM2.5_Piedmont, aes(x = PM2.5_Piedmont)) +
+  geom_histogram(stat = "count")
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Piedmontqqplot"}
+qqnorm(PM2.5_Piedmont$PM2.5_Piedmont); qqline(PM2.5_Piedmont$PM2.5_Piedmont)
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal Histogram. \\label{Mounthistplot}"}
+ggplot(PM2.5_Mountains, aes(x = PM2.5_Mountains)) +
+  geom_histogram(stat = "count")
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Mountqqplot"}
+qqnorm(PM2.5_Mountains$PM2.5_Mountains); qqline(PM2.5_Mountains$PM2.5_Mountains)
+```
+
+In \autoref{Coasthistplot},\autoref{Coastqqplot}, \autoref{Piedmontqqplot}, \autoref{Piedmontqqplot}, \autoref{Mountqqplot}, and \autoref{Mountqqplot} it can be seen that the data have more than one peak, heavier tails, and longer tail to the right than a normal distribution; nevertheles, environmental data often violate the assumptions of normality and the histograms fairly resembles a bell curve, so a t-test will be performed anyway.
+
+```{r}
+t.test(PM2.5_Coastal$PM2.5_Coastal, mu = 12, alternative = "less")
+```
+
+According to the One Sample t-test, NC Coastal PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = --69.865, df =1754, p<0.0001).
+
+```{r}
+t.test(PM2.5_Piedmont$PM2.5_Piedmont, mu = 12, alternative = "less")
+```
+
+According to the One Sample t-test, NC Piedmont PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = -67.406, df = 4433, p-value < 0.0001).
+
+```{r}
+t.test(PM2.5_Mountains$PM2.5_Mountains, mu = 12, alternative = "less")
+```
+
+According to the One Sample t-test, NC Mountains PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = -53.529, df = 1270, p<0.0001).
+
+According to the data and the One sample t-tests performed, the PM 2.5 concentrations in North Carolina are below the regulatory standard of 12 micrograms per cubic meter for the three geographical zones (Coastal, Piedmont, and Mountains).
+
+## One-way ANOVA
+
+```{r}
+fligner.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+
+leveneTest(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+bartlett.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+
+```
+
+
+```{r}
+ktest_PM2.5 <- kruskal.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+ktest_PM2.5
+```
+
+```{r}
+dunnTest(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+```
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Zones Boxplot. \\label{BOX_plot}"}
+ggplot() + 
+  geom_boxplot(data = PM2.5_Full_Elev_utm, aes(x = Zone,y = PM2.5, color=Zone)) + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  xlab(expression("County")) +
+  ggtitle("Exploratory Boxplot")
+```
+
+Is higher in the piedmont. Indication that population has something to do.
+
+```{r}
+aux2 <- st_set_geometry(PM2.5_Stations, value=NULL)
+
+PopulationbyZone <-
+  PM2.5_Full_Elev_utm %>%
+  group_by(Zone) %>%
+  summarise(mean.Population = mean(Population),
+            total.Population = sum(Population))
+
+xtable1 <- xtable(summary_table, label="tab:tab1", caption="Selections")
+print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
+```
+
 
 
 FRA: This model structure should look familiar, with a typical linear model structure and dataframe defined. The addition here is that we have defined Week as a random variable. Essentially, we are interested not in the specific effects of each week but in the variability among weeks, so we have defined it as a random effect (essentially coming from a larger distribution of seasonal variability).

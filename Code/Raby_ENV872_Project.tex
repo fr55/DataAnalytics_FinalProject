@@ -1005,6 +1005,10 @@ Converting the counties\_sf to UTM Zone 17
 \begin{Highlighting}[]
 \CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
 \NormalTok{counties_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(counties_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
+
+\CommentTok{#Adding the Zone Info}
+\NormalTok{counties_sf_utm <-}\StringTok{ }\NormalTok{counties_sf_utm }\OperatorTok{%>%}
+\KeywordTok{left_join}\NormalTok{(County_Info, }\DataTypeTok{by =} \KeywordTok{c}\NormalTok{(}\StringTok{"NAME"}\NormalTok{=}\StringTok{"County"}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1017,7 +1021,7 @@ Data exploration of the County\_Info dataframe.
 \end{Shaded}
 
 \begin{verbatim}
-## [1] 100  10
+## [1] 100  12
 \end{verbatim}
 
 \begin{Shaded}
@@ -1027,22 +1031,24 @@ Data exploration of the County\_Info dataframe.
 \end{Shaded}
 
 \begin{verbatim}
-## Classes 'sf' and 'data.frame':   100 obs. of  10 variables:
-##  $ STATEFP : Factor w/ 52 levels "01","02","04",..: 34 34 34 34 34 34 34 34 34 34 ...
-##  $ COUNTYFP: Factor w/ 325 levels "001","003","005",..: 116 71 94 54 62 125 84 102 26 19 ...
-##  $ COUNTYNS: Factor w/ 3220 levels "00023901","00025441",..: 1672 1649 1659 1639 1644 1677 1700 1664 1625 1622 ...
-##  $ AFFGEOID: Factor w/ 3220 levels "0500000US01001",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
-##  $ GEOID   : Factor w/ 3220 levels "01001","01003",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
-##  $ NAME    : Factor w/ 1910 levels "Abbeville","Acadia",..: 1765 1000 1358 721 797 1858 1214 1481 321 254 ...
-##  $ LSAD    : Factor w/ 9 levels "00","03","04",..: 5 5 5 5 5 5 5 5 5 5 ...
-##  $ ALAND   : num  6.54e+08 1.03e+09 1.69e+09 1.67e+09 1.01e+09 ...
-##  $ AWATER  : num  42187365 5900300 8248766 30723331 3981006 ...
-##  $ geometry:sfc_MULTIPOLYGON of length 100; first list element: List of 1
+## Classes 'sf' and 'data.frame':   100 obs. of  12 variables:
+##  $ STATEFP   : Factor w/ 52 levels "01","02","04",..: 34 34 34 34 34 34 34 34 34 34 ...
+##  $ COUNTYFP  : Factor w/ 325 levels "001","003","005",..: 116 71 94 54 62 125 84 102 26 19 ...
+##  $ COUNTYNS  : Factor w/ 3220 levels "00023901","00025441",..: 1672 1649 1659 1639 1644 1677 1700 1664 1625 1622 ...
+##  $ AFFGEOID  : Factor w/ 3220 levels "0500000US01001",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
+##  $ GEOID     : Factor w/ 3220 levels "01001","01003",..: 1981 1944 1964 1931 1937 1988 1955 1970 1909 1904 ...
+##  $ NAME      : chr  "Vance" "Lenoir" "Pitt" "Guilford" ...
+##  $ LSAD      : Factor w/ 9 levels "00","03","04",..: 5 5 5 5 5 5 5 5 5 5 ...
+##  $ ALAND     : num  6.54e+08 1.03e+09 1.69e+09 1.67e+09 1.01e+09 ...
+##  $ AWATER    : num  42187365 5900300 8248766 30723331 3981006 ...
+##  $ Population: num  44420 57934 176484 517197 52571 ...
+##  $ Zone      : chr  "Piedmont" "Coastal" "Coastal" "Piedmont" ...
+##  $ geometry  :sfc_MULTIPOLYGON of length 100; first list element: List of 1
 ##   ..$ :List of 1
 ##   .. ..$ : num [1:10, 1:2] 724066 727615 739570 744478 741926 ...
 ##   ..- attr(*, "class")= chr  "XY" "MULTIPOLYGON" "sfg"
 ##  - attr(*, "sf_column")= chr "geometry"
-##  - attr(*, "agr")= Factor w/ 3 levels "constant","aggregate",..: NA NA NA NA NA NA NA NA NA
+##  - attr(*, "agr")= Factor w/ 3 levels "constant","aggregate",..: NA NA NA NA NA NA NA NA NA NA ...
 ##   ..- attr(*, "names")= chr  "STATEFP" "COUNTYFP" "COUNTYNS" "AFFGEOID" ...
 \end{verbatim}
 
@@ -1053,8 +1059,9 @@ Data exploration of the County\_Info dataframe.
 \end{Shaded}
 
 \begin{verbatim}
-##  [1] "STATEFP"  "COUNTYFP" "COUNTYNS" "AFFGEOID" "GEOID"    "NAME"    
-##  [7] "LSAD"     "ALAND"    "AWATER"   "geometry"
+##  [1] "STATEFP"    "COUNTYFP"   "COUNTYNS"   "AFFGEOID"   "GEOID"     
+##  [6] "NAME"       "LSAD"       "ALAND"      "AWATER"     "Population"
+## [11] "Zone"       "geometry"
 \end{verbatim}
 
 \begin{Shaded}
@@ -1072,21 +1079,21 @@ Data exploration of the County\_Info dataframe.
 ##  05     :  0   009    : 1   01008535: 1   0500000US37009: 1   37009  : 1  
 ##  06     :  0   011    : 1   01008536: 1   0500000US37011: 1   37011  : 1  
 ##  (Other):  0   (Other):94   (Other) :94   (Other)       :94   (Other):94  
-##         NAME         LSAD         ALAND               AWATER         
-##  Alamance : 1   06     :100   Min.   :4.472e+08   Min.   :4.453e+05  
-##  Alexander: 1   00     :  0   1st Qu.:8.936e+08   1st Qu.:7.287e+06  
-##  Alleghany: 1   03     :  0   Median :1.192e+09   Median :1.595e+07  
-##  Anson    : 1   04     :  0   Mean   :1.259e+09   Mean   :1.347e+08  
-##  Ashe     : 1   05     :  0   3rd Qu.:1.501e+09   3rd Qu.:3.831e+07  
-##  Avery    : 1   12     :  0   Max.   :2.453e+09   Max.   :3.001e+09  
-##  (Other)  :94   (Other):  0                                          
-##           geometry  
-##  MULTIPOLYGON :100  
-##  epsg:26917   :  0  
-##  +proj=utm ...:  0  
-##                     
-##                     
-##                     
+##      NAME                LSAD         ALAND               AWATER         
+##  Length:100         06     :100   Min.   :4.472e+08   Min.   :4.453e+05  
+##  Class :character   00     :  0   1st Qu.:8.936e+08   1st Qu.:7.287e+06  
+##  Mode  :character   03     :  0   Median :1.192e+09   Median :1.595e+07  
+##                     04     :  0   Mean   :1.259e+09   Mean   :1.347e+08  
+##                     05     :  0   3rd Qu.:1.501e+09   3rd Qu.:3.831e+07  
+##                     12     :  0   Max.   :2.453e+09   Max.   :3.001e+09  
+##                     (Other):  0                                          
+##    Population          Zone                    geometry  
+##  Min.   :   4090   Length:100         MULTIPOLYGON :100  
+##  1st Qu.:  25001   Class :character   epsg:26917   :  0  
+##  Median :  55311   Mode  :character   +proj=utm ...:  0  
+##  Mean   : 100526                                         
+##  3rd Qu.: 114764                                         
+##  Max.   :1034290                                         
 ## 
 \end{verbatim}
 
@@ -1097,6 +1104,12 @@ Visual data exploration of the counties\_sf\_utm dataframe in
 \centering
 \includegraphics{./Outputunnamed-chunk-23-1.pdf}
 \caption{Counties exploratory map. \label{Countyplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{./Outputunnamed-chunk-24-1.pdf}
+\caption{NC Zoning exploratory map. \label{Zoneplot}}
 \end{figure}
 
 \subsection{NOAA Average Temperature
@@ -1222,26 +1235,26 @@ and \autoref{Temp_scatterplot}..
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-28-1.pdf}
+\includegraphics{./Outputunnamed-chunk-29-1.pdf}
 \caption{Mean Annual Temperature exploratory map. \label{Tempplot}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-29-1.pdf}
+\includegraphics{./Outputunnamed-chunk-30-1.pdf}
 \caption{Daily Mean Temperature NC 2018 frequency polygon.
 \label{Temp_freqpoly}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-30-1.pdf}
+\includegraphics{./Outputunnamed-chunk-31-1.pdf}
 \caption{Daily Mean Temperature NC 2018 boxplot. \label{Temp_boxplot}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-31-1.pdf}
+\includegraphics{./Outputunnamed-chunk-32-1.pdf}
 \caption{Daily Mean Temperature NC 2018 scatterplot.
 \label{Temp_scatterplot}}
 \end{figure}
@@ -1345,7 +1358,7 @@ generation in the North Carolina in \autoref{Tempplot},
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-35-1.pdf}
+\includegraphics{./Outputunnamed-chunk-36-1.pdf}
 \caption{Combustion points for electricity generation in the North
 Carolina. \label{Combplot}}
 \end{figure}
@@ -1405,109 +1418,16 @@ Elevations for the PM2.5 Stations
 
 \begin{verbatim}
 ## Reading layer `PM2.5_Full_Elev_utm' from data source `C:\Users\Felipe\OneDrive - Duke University\1. DUKE\1. Ramos 2 Semestre\EOS-872 Env. Data Analytics\DataAnalytics_FinalProject\Data\Processed\PM2.5_Full_Elev_utm.shp' using driver `ESRI Shapefile'
-## Simple feature collection with 6499 features and 11 fields
+## Simple feature collection with 7460 features and 11 fields
 ## geometry type:  POINT
 ## dimension:      XY
-## bbox:           xmin: 278314.3 ymin: 3807066 xmax: 935107.5 ymax: 3996722
+## bbox:           xmin: 278314.3 ymin: 3807066 xmax: 935107.5 ymax: 3996703
 ## epsg (SRID):    NA
 ## proj4string:    +proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs
 \end{verbatim}
 
 \subsection{Additional previsualization of the
 data}\label{additional-previsualization-of-the-data}
-
-The next chunk is to start looking at the data
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\CommentTok{#Spatially}
-\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{annotation_map_tile}\NormalTok{(}\DataTypeTok{zoom =} \DecValTok{7}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ counties_sf_utm_simple, }\DataTypeTok{color =} \StringTok{'Black'}\NormalTok{, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{fill=}\NormalTok{Zone), }\DataTypeTok{alpha=}\FloatTok{0.7}\NormalTok{) }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ NOAA_DTAVG_NC2018_sf_utm, }\DataTypeTok{color =} \StringTok{'Blue'}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ EPA_NC_CombEmissions_utm, }\DataTypeTok{color =} \StringTok{'Black'}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_fill_brewer}\NormalTok{(}\DataTypeTok{palette =} \StringTok{"Blues"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Zoning"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Longitud"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Latitude"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Data Visualization"}\NormalTok{)}
-
-\CommentTok{#Scatterplot}
-\KeywordTok{ggplot}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{DATE, }\DataTypeTok{y=}\NormalTok{TAVG)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ ELEVATION)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Average Daily Temp °F"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\CommentTok{#labs(color = 'Station') +}
-\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Elevation (m)"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Average Temperature in North Carolina 2018"}\NormalTok{)}
-
-\KeywordTok{ggplot}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{DATE, }\DataTypeTok{y=}\NormalTok{TAVG)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Zone)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Average Daily Temp °F"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\CommentTok{#labs(color = 'Station') +}
-\StringTok{  }\KeywordTok{scale_color_brewer}\NormalTok{(}\DataTypeTok{palette =} \StringTok{"Reds"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Zone"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Average Temperature in North Carolina 2018"}\NormalTok{)}
-
-\NormalTok{PM2.5_Dist_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Emiss_Dist)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 2.5 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Dist. to combustion point (m)"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM2.5 concentration, North Carolina"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_hline}\NormalTok{(}\DataTypeTok{yintercept=}\DecValTok{12}\NormalTok{, }\DataTypeTok{linetype=}\StringTok{"dashed"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"black"}\NormalTok{, }\DataTypeTok{size =} \DecValTok{1}\NormalTok{)}
-
-\NormalTok{PM2.5_Zone_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Zone)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 2.5 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_fill_manual}\NormalTok{(}\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"yellow"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM2.5 concentration, North Carolina"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_hline}\NormalTok{(}\DataTypeTok{yintercept=}\DecValTok{12}\NormalTok{, }\DataTypeTok{linetype=}\StringTok{"dashed"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"black"}\NormalTok{, }\DataTypeTok{size =} \DecValTok{1}\NormalTok{)}
-
-\NormalTok{PM10_Dist_Plot <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_sf_utm, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM10)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Emiss_Dist)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Dist. to combustion point (m)"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
-
-\KeywordTok{grid.arrange}\NormalTok{(PM2.5_Dist_Plot, PM10_Dist_Plot, PM2.5_Zone_Plot, }\DataTypeTok{nrow =} \DecValTok{3}\NormalTok{)}
-
-\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_Temp_sf_utm_elev, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ elevation)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Elev. (m)"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
-
-\KeywordTok{ggplot}\NormalTok{(PM2.5_PM10_Temp_sf_utm_elev, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Date, }\DataTypeTok{y=}\NormalTok{PM2.}\DecValTok{5}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ TAVG)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{(}\DataTypeTok{color =}\StringTok{"black"}\NormalTok{) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"Date"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\KeywordTok{expression}\NormalTok{(}\StringTok{"PM 10 Concentration (\textbackslash{}U003BCg/m3)"}\NormalTok{)) }\OperatorTok{+}
-\StringTok{  }\KeywordTok{scale_color_gradient}\NormalTok{(}\DataTypeTok{low=}\StringTok{"cyan"}\NormalTok{, }\DataTypeTok{high=}\StringTok{"blue4"}\NormalTok{, }\DataTypeTok{name =} \StringTok{"Temp (°F)"}\NormalTok{)  }\OperatorTok{+}
-\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"2018 Daily PM10 concentration, North Carolina"}\NormalTok{)}
-
-
-
-
-\CommentTok{#PM 2.5 Regulatory Standard. Based on a yearly average value set at 12 micrograms per cubic meter, ug/m3,}
-
-\CommentTok{#Plot counties with a new variable (zone)}
-\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{geom_sf}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ counties_sf_utm_simple, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{fill=}\NormalTok{Zone))}
-
-
-
-
-
-\KeywordTok{summary}\NormalTok{(PM2.5_Stations}\OperatorTok{$}\NormalTok{Emiss_Dist)}
-\end{Highlighting}
-\end{Shaded}
 
 \newpage
 

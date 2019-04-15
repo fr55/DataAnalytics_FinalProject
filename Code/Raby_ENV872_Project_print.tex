@@ -1,0 +1,233 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Times New Roman}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Analysis of the effect of PM10 Concentration, Temperature, Geographic Location, Population, and distance to Electricity-Generation Combustion Points on the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.},
+            pdfauthor={Felipe Raby Amadori},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Analysis of the effect of PM10 Concentration, Temperature, Geographic
+Location, Population, and distance to Electricity-Generation Combustion
+Points on the concentration of fine particulate matter (PM2.5) in North
+Carolina during the year 2018.}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \subtitle{\url{https://github.com/fr55/DataAnalytics_FinalProject}}
+  \author{Felipe Raby Amadori}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Experimental overview. This section should be no longer than 250 words.
+\end{abstract}
+
+\newpage
+
+\tableofcontents  \newpage
+\listoftables  \newpage
+\listoffigures  \newpage
+
+\section{Research Question and
+Rationale}\label{research-question-and-rationale}
+
+Nowadays air pollution is one of the most relevant health issues in the
+world. It refers to the contamination of the air by chemicals,
+biological materials, and other types of pollutants that are harmful to
+human health. To solve the problem of air pollution, it's necessary to
+understand the problem, what are the causes, and search for solutions
+based on the findings.
+
+Particulate matter with a diameter of less than 2.5 micrometers is
+called PM2.5, and it is a extremely harmful air pollutant because it
+consists of particles with diameters that are less than or equal to 2.5
+microns in size, which can get deeply into the lung, and ultimately
+impair lung function.
+
+This study focus on trying to understand how PM2.5 concentration in
+North Carolina vary with temperature, PM10 concentration, zoning
+(piedmont, coastal, mountain), population, elevation, and distance to
+combustion points for electricity generation. This last variable was
+included because according to the EPA combustion for electricity
+generation is the major point-source sector for PM2.5 in the USA (EPA,
+2019).
+
+The research question is: What are the effects of temperature, PM10
+concentration, zoning (piedmont, coastal, mountain), population,
+elevation, distance to combustion points for electricity generation, in
+PM2.5 concentrations within North Carolina in the year 2018?
+
+\newpage
+
+\section{Dataset Information}\label{dataset-information}
+
+For the analysis the following datasets were considered:
+
+\subsection{EPA PM2.5 Dataset}\label{epa-pm2.5-dataset}
+
+This dataset contains data from air quality monitoring of PM2.5 in North
+Carolina in 2018, and it was obtained using the Download Daily Data Tool
+in the United States Environmental Protection Agency (EPA) webpage
+\url{https://www.epa.gov/outdoor-air-quality-data/download-daily-data}
+where the options showed in Table \ref{tab:tab1} were selected:
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+  \hline
+Option & Selection \\ 
+  \hline
+Pollutant & PM2.5 \\ 
+  Year & 2018 \\ 
+  Geographic Area & North Carolina \\ 
+  Monitor Site & All Sites \\ 
+  Download & Download CSV (spreadsheet) \\ 
+   \hline
+\end{tabular}
+\caption{Selections} 
+\label{tab:tab1}
+\end{table}
+
+The downloaded file was saved in the project folder path ./Data/Raw/ as
+EPAair\_PM25\_NC2018\_raw.csv on 2019-03-31.
+
+\subsubsection{Data Content Information}\label{data-content-information}
+
+The dataset contains daily mean PM2.5 concentration in ug/m3 in 2018.
+Data from 24 stations in 21 different counties of North Carolina with
+their location in NAD83 lat/long coordinates.
+
+The dataset contains 19 columns, which are shown in Table
+\ref{tab:tab3}. Column names without description are self-explanatory.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{2.5in}p{3.5in}}
+  \hline
+Column & Description \\ 
+  \hline
+Date & mm/dd/YY \\ 
+  Source & AQS (Air Quality System) \\ 
+  Site ID & A unique number identifying the site. \\ 
+  POC & “Parameter Occurrence Code”, distinguishes different instruments that measure the same parameter at the same site. \\ 
+  Daily Mean PM2.5 Concentration &  \\ 
+  Units & Concentration Units \\ 
+  DAILY\_AQI\_VALUE & AQI = Air quality index \\ 
+  Site Name &  \\ 
+  DAILY\_OBS\_COUNT &  \\ 
+  PERCENT\_COMPLETE &  \\ 
+  AQS\_PARAMETER\_CODE &  \\ 
+  AQS\_PARAMETER\_DESC &  \\ 
+  CBSA\_CODE &  \\ 
+  CBSA\_NAME &  \\ 
+  STATE\_CODE &  \\ 
+  COUNTY CODE & A unique number identifying the County. \\ 
+  COUNTY &  \\ 
+  SITE\_LATITUDE & NAD83 \\ 
+  SITE\_LONGITUDE & NAD83 \\ 
+   \hline
+\end{tabular}
+\caption{Dataset content} 
+\label{tab:tab3}
+\end{table}
+
+\subsection{EPA PM10 Dataset}\label{epa-pm10-dataset}
+
+This dataset contains data from air quality monitoring of PM10 in North
+Carolina in 2018, and it was obtained using the Download Daily Data Tool
+in the United States Environmental Protection Agency (EPA) webpage
+\url{https://www.epa.gov/outdoor-air-quality-data/download-daily-data}
+where the options showed in Table \ref{tab:tab4} were selected:
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+  \hline
+Option & Selection \\ 
+  \hline
+Pollutant & PM10 \\ 
+  Year & 2018 \\ 
+  Geographic Area & North Carolina \\ 
+  Monitor Site & All Sites \\ 
+  Download & Download CSV (spreadsheet) \\ 
+   \hline
+\end{tabular}
+\caption{Selections} 
+\label{tab:tab4}
+\end{table}
+
+
+\end{document}
