@@ -56,6 +56,9 @@ library(gridExtra)
 library(elevatr)
 library(xtable)
 library(car)
+library(corrplot)
+library(lubridate)
+library (nlme)
 
 # Set your ggplot theme
 
@@ -851,7 +854,7 @@ grid.arrange(PM2.5_Dist_Plot, PM2.5_Zone_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_
 
 <Include text sections to accompany these R chunks to explain the reasoning behind your workflow, rationale for your approach, and the justification of meeting or failing to meet assumptions of tests.>
 
-In 2012, the United States Environmental Protection Agency (USEPA) established a complementary primary regulatory standards for PM2.5 at a concentration of 12 micrograms per cubic meter, ug/m3< therefore, the first statistical test should look at the standard in each station.
+In 2012, the United States Environmental Protection Agency (USEPA) established a complementary primary regulatory standard for PM2.5 at a concentration of 12 micrograms per cubic meter, ug/m3< therefore, the first statistical test should look at the standard in each station.
 
 ## One-sample t-test
 
@@ -905,58 +908,170 @@ ggplot(PM2.5_Mountains, aes(x = PM2.5_Mountains)) +
 qqnorm(PM2.5_Mountains$PM2.5_Mountains); qqline(PM2.5_Mountains$PM2.5_Mountains)
 ```
 
-In \autoref{Coasthistplot},\autoref{Coastqqplot}, \autoref{Piedmontqqplot}, \autoref{Piedmontqqplot}, \autoref{Mountqqplot}, and \autoref{Mountqqplot} it can be seen that the data have more than one peak, heavier tails, and longer tail to the right than a normal distribution; nevertheles, environmental data often violate the assumptions of normality and the histograms fairly resembles a bell curve, so a t-test will be performed anyway.
+In \autoref{Coasthistplot},\autoref{Coastqqplot}, \autoref{Piedmontqqplot}, \autoref{Piedmontqqplot}, \autoref{Mountqqplot}, and \autoref{Mountqqplot} it can be seen that the data have more than one peak, heavier tails, and longer tail to the right than a normal distribution; nevertheless, environmental data often violate the assumptions of normality and the histograms fairly resembles a bell curve, so a t-test is performed anyway.
 
 ```{r}
 t.test(PM2.5_Coastal$PM2.5_Coastal, mu = 12, alternative = "less")
 ```
 
-According to the One Sample t-test, NC Coastal PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = --69.865, df =1754, p<0.0001).
+According to the One Sample t-test, NC Coastal PM 2.5 concentrations in 2018 were significantly lower than 12 ug/m3 (one sample t-test; t = --69.865, df =1754, p<0.0001).
 
 ```{r}
 t.test(PM2.5_Piedmont$PM2.5_Piedmont, mu = 12, alternative = "less")
 ```
 
-According to the One Sample t-test, NC Piedmont PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = -67.406, df = 4433, p-value < 0.0001).
+According to the One Sample t-test, NC Piedmont PM 2.5 concentrations in 2018 were significantly lower than 12 ug/m3 (one sample t-test; t = -67.406, df = 4433, p-value < 0.0001).
 
 ```{r}
 t.test(PM2.5_Mountains$PM2.5_Mountains, mu = 12, alternative = "less")
 ```
 
-According to the One Sample t-test, NC Mountains PM 2.5 concentrations in 2018 were significanly lower than 12 ug/m3 (one sample t-test; t = -53.529, df = 1270, p<0.0001).
+According to the One Sample t-test, NC Mountains PM 2.5 concentrations in 2018 were significantly lower than 12 ug/m3 (one sample t-test; t = -53.529, df = 1270, p<0.0001).
 
 According to the data and the One sample t-tests performed, the PM 2.5 concentrations in North Carolina are below the regulatory standard of 12 micrograms per cubic meter for the three geographical zones (Coastal, Piedmont, and Mountains).
 
-## One-way ANOVA
+In \autoref{PM2.5Standardplot} is presented a visualization of the PM 2.5 concentrations in North Carolina data in comparison with the North Carolina regulatory standard.
 
-```{r}
-fligner.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration, North Carolina. \\label{PM2.5Standardplot}"}
 
-leveneTest(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
-bartlett.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = PM2.5), alpha = 0.4) +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
+  annotate("text", x = as.Date(c("2018-04-15")), y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  scale_color_distiller(palette = "Set1") +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
+
 
 ```
 
+## One-way ANOVA
+
+Now that is known that the PM 2.5 concentrations in North Carolina in 2018 were below the regulatory standard of 12 micrograms per cubic meter for the three geographical zones, it is of interest to check if there are significant differences between the means of PM 2.5 concentrations for the same three geographical zones. 
+
+Therefore, the second statistical analysis will test the null hypothesis that the mean of the PM 2.5 concentrations in North Carolina are equal for the three geographical zones (Coastal, Piedmont, and Mountains).
+
+For this, a One-way ANOVA test is performed. This test requires a second assumption to be complied, which is that the variance of the groups is equal across groups. Taking into account that the data are not perfectly normal, to test for the homogeneity of variance across groups a Fligner-Killeen test is used. This test is a non-parametric test, which is very robust against departures from normality.
 
 ```{r}
+fligner.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+```
+
+The Fligner-Killeen test of homogeneity of variances says that the variance across groups is not homogeneous, but with a p-value close to 0.05 (med chi-squared = 7.6425, df = 2, p-value = 0.0219 < 0.05). 
+
+For this reason, for testing if there are significant differences between the means of PM 2.5 concentrations for the same three geographical zones, it is used a One-way ANOVA test and a Non-parametric equivalent of ANOVA, the Kruskal-Wallis Test.
+
+```{r}
+PM2.5.anova <- lm(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+anova(PM2.5.anova)
+
 ktest_PM2.5 <- kruskal.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
 ktest_PM2.5
 ```
 
+According to both test, there is a significant difference between the means of PM 2.5 concentrations for the same three geographical zones (ANOVA; F = 238.95, df = 7457, p<2.2e-16) and (Kruskal-Wallis chi-squared = 471.69, df = 2, p-value < 2.2e-16)
+
+To analyze which zones are different, two *post hoc* tests were used, a Tukey multiple comparisons of means test for ANOVA and a Dunn's test for Kruskal-Wallis.
+
 ```{r}
+# Run a post-hoc test for pairwise differences
+TukeyHSD(aov(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))) 
+
 dunnTest(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
 ```
 
+Both test give as a result that there is a significant difference between the means of PM 2.5 concentrations between the Piedmont and both the Mountains and the Coastal zone (TukeHSD; p-value<0.0001) and (Dunn; p-value<0.0001). There is no significant difference between the means of PM 2.5 concentrations between the Mountains and the Coastal zone (TukeHSD; p-value>0.05) and (Dunn; p-value>0.05).
+
+To explore graphically these results and present a visualization of the results of this test, in \autoref{BOX_plot}} is presented a Boxplot for the Daily PM2.5 Concentration for the three North Carolina Zones.
+
 ```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Zones Boxplot. \\label{BOX_plot}"}
 ggplot() + 
-  geom_boxplot(data = PM2.5_Full_Elev_utm, aes(x = Zone,y = PM2.5, color=Zone)) + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  geom_boxplot(data = PM2.5_Full_Elev_utm, aes(x = Zone,y = PM2.5, fill=Zone)) + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("#e66101", "#5e3c99", "deepskyblue2")) +
+  guides(fill=FALSE) +
   ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
-  xlab(expression("County")) +
-  ggtitle("Exploratory Boxplot")
+  xlab(expression("North Carolina Zone")) +
+  ggtitle("PM 2.5 Concentration by zone")
 ```
 
-Is higher in the piedmont. Indication that population has something to do.
+## Mixed-effect model
+
+Finally, to answer the specific research question of this study (What are the effects of temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, distance to combustion points for electricity generation, in PM2.5 concentrations within North Carolina in the year 2018?), an analysis of covariance (ANCOVA) test was performed.   
+
+In the model, a variable Week is created and defined as a random variable because it is not of interest the specific effects of each week on PM 2.5 concentrations but the variability among weeks. The hierarchical model is set up to deal with any variability associated with seasonality.
+
+In this study multiple multiple explanatory variables are being considered at a time in the model, so to check the model is not over-parameterized the Akaike's Information Criterion (AIC) was used.
+
+```{r}
+PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation)
+
+step(PM252018.model) # the lower AIC value the better
+
+```
+
+The variable distance to combustion emission point was dropped by the Akaike's Information Criterion (AIC). According to this result, the set of explanatory variables that are best suited to predict PM 2.5 concentration are Population, Zone, PM10, TAVG, and elevation. Next, a multiple regression is performed on the recommended set of variables.
+
+```{r}
+PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + as.factor(Zone) + PM10 + TAVG + elevation)
+anova(PM252018.model)
+```
+
+In the full model, only Zone is not statistically significant. The model is run without that variable.
+
+```{r}
+PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + PM10 + TAVG + elevation)
+summary(PM252018.model)
+```
+
+Plotting the diagnostic plots of the model in \autoref{DiagPlot}} to check the assumptions.
+
+```{r echo = FALSE, fig.cap = "Model diagnostic plots. \\label{DiagPlot}"}
+par(mfrow = c(2,2))
+plot(PM252018.model)
+```
+
+In \autoref{DiagPlot}}, in the residuals vs fitted plot it can be seen an slightly increasing variance pattern but overall we can say that the points appear to be randomly scattered around the centerline. Also, in the normal Q-Q plot the points appear to follow an straight line (except for the extremes which is common for environmental data), so the graph is accepted. In the Scale- Location plot the points appear to be randomly scattered, so there is no evidence of heteroscedasticity and the homogeneous variance assumption is met. In the Residuals versus Leverage plots we check for outliers to verify that no single data point is so influential that leaving it out changes the structure of the model. 
+
+To make the coefficients easier to manipulate, let's first save the regression coefficients from our model model4 to a variable.
+
+From the model we got that the intercept, 4.168, is the PM 2.5 mean daily concentration (ug/m3) when all the other variables are zero. We reject the null hypothesis of no effect of the explanatory variables on the response variable. 
+
+Population significantly increases the PM 2.5 mean daily concentration (ug/m3). With an increase of population by 1 the PM 2.5 concentration is increased by 1.450e-06 ug/m3 (t =  7.111, df = 1682, p < 0.001). 
+
+PM10 daily mean concentration (ug/m3) significantly increases the PM 2.5 mean daily concentration (ug/m3). With an increase of PM10 daily mean concentration by 1 ug/m3 the PM 2.5 concentration is increased by 4.709e-01 ug/m3 (t =  46.246, df = 1682, p < 0.001). 
+
+Daily Average Temperature (°F) significantly decreases the PM 2.5 mean daily concentration (ug/m3). With an increase of daily average temperature by 1 °F the PM 2.5 concentration is decreased by 3.096e-02 ug/m3 (t =  -8.546, df = 1682, p < 0.001). 
+
+Finally, elevation (meters) significantly decreases the PM 2.5 mean daily concentration (ug/m3). With an increase of elevation by 1 meter the PM 2.5 concentration is decreased by -1.281e-02 ug/m3 (t =  -14.691, df = 1682, p < 0.001). The Adjusted R-squared = 0.5696, which is the fraction of total variance explained by the model.
+
+The model explain 56.96% of the observed variance. The final linear equation to predict PM 2.5 mean daily concentration (ug/m3) from the explanatory variables is:
+
+$$ PM2.5 = \ 4.168 + \ 0.00000145*Population + \ 0.471*PM10  \ -0.03096*T° \ -0.0128*Elev + \epsilon $$
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration vs Model Variables. \\label{Final_plot}"}
+ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2.5)) +
+  geom_point(aes(color = PM2.5), alpha = 0.4) +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
+  annotate("text", x = as.Date(c("2018-04-15")), y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  xlab(expression("Date")) +
+  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  scale_color_distiller(palette = "Set1") +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
+```
+
+
+
+
+FRA: This model structure should look familiar, with a typical linear model structure and dataframe defined. The addition here is that we have defined Week as a random variable. Essentially, we are interested not in the specific effects of each week but in the variability among weeks, so we have defined it as a random effect (essentially coming from a larger distribution of seasonal variability).
+
+\newpage
+
+# Summary and Conclusions
+<Summarize your major findings from your analyses. What conclusions do you draw from your findings? Make sure to apply this to a broader application for the research question you have answered.>
+
+For conclusion. Depending in the results of the linear model we can say also that in can be piedmont because more points or more population. 
 
 ```{r}
 aux2 <- st_set_geometry(PM2.5_Stations, value=NULL)
@@ -971,14 +1086,91 @@ xtable1 <- xtable(summary_table, label="tab:tab1", caption="Selections")
 print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
 ```
 
+We can also make exploratory plots of several continuous data points to determine possible relationships, as well as covariance among explanatory variables. 
+
+```{r}
+#Drop geo info
+aux5 <- st_set_geometry(PM2.5_Full_Elev_utm, value=NULL)
+
+PM2.5_Variables <- 
+  aux5 %>%
+  select(PM2.5, Population, PM10:elevation) %>%
+  na.omit()
+
+PM2.5_VariablesCorr <- cor(PM2.5_Variables)
+corrplot(PM2.5_VariablesCorr, method = "ellipse") # without ellipse it gives you circles
+corrplot.mixed(PM2.5_VariablesCorr, upper = "ellipse")
+```
+
+We determine the degree of temporal autocorrelation in our dataset.
+
+```{r}
+PM252018.auto <- lme(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Date + Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation, random = ~1|Week)
+
+#Determine the temporal autocorrelation in the model
+ACF(PM252018.auto)
+```
+
+From the ACF output, the 2nd value is taken (0.232) to define the degree of autocorrelation. Then, a repeated measures ANOVA model is created with the defined autocorrelation structure. the model is considering temporal autocorrelation within the levels of Week, and we have retained Week as a random effect.  
+
+```{r}
+PM252018.mixed <- lme(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Date + Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation, random = ~1|Week, correlation = corAR1(form = ~ Date|Week, value = 0.2321332919), method = "REML")
+  
+class(PM2.5_Full_Elev_Week_utm$Date)  
+  
+  
+  
+  lme(data = PeterPaul.summertemp,
+                     temperature_C ~ sampledate * lakename, 
+                     random = ~1|Week,
+                     #specify autocorrelation structure of order 1 (this is the 42.3%)
+                     #sampledate is duplicated in some cases, so need to split up by lake. 
+                     #FRA: This is only beacuse R doesnt like  that the sample were taken the same time.
+                     correlation = corAR1(form = ~ sampledate/lakename|Week, value = 0.423), 
+                     # we put manually the 0.423
+                     #define method as restricted maximum likelihood
+                     method = "REML")
+summary(TempTest.mixed)
+
+#Results: Random we got a stddev. Fixed effects: lakenamePeter Lake coef --> no diff between lakes. 
+# The interaction is also not significant.
+
+# Compare the random effects model with the fixed effects model
+TempTest.fixed <- gls(data = PeterPaul.summertemp,
+                      temperature_C ~ sampledate * lakename, 
+                      method = "REML")
+summary(TempTest.fixed)
+
+# little diff results but same conclusions
+# why did we wanto to use random effect? --> We now there is variability. why dont use 
+# that for our advantage.
+
+anova(TempTest.mixed, TempTest.fixed)
+# The lower the AIC, the better.
+# The p-value tells us whether those models have a significantly different fit
+
+# FRA: the models and signif diff and the mixed is better (AIC)
+
+# Post-hoc test
+# This will yield groupings of temperature by lake for the average date value
+TempTest.posthoc = lsmeans(TempTest.mixed, ~ sampledate * lakename)
+cld(TempTest.posthoc, alpha = 0.05, Letters = letters, adjust = "tukey")
+# FRA: you want this is there is a signif diff between groups. Something about groups.
 
 
-FRA: This model structure should look familiar, with a typical linear model structure and dataframe defined. The addition here is that we have defined Week as a random variable. Essentially, we are interested not in the specific effects of each week but in the variability among weeks, so we have defined it as a random effect (essentially coming from a larger distribution of seasonal variability).
+# display our final relationship
+ggplot(PeterPaul.summertemp, aes(x = sampledate, y = temperature_C, color = lakename)) +
+  geom_point() +
+  scale_color_manual(values = c("#7fcdbb", "#253494")) +
+  geom_abline(intercept = 20.47, slope = 0.0001) #rounded coeff.
+```
 
-\newpage
+```{r}
+#Adding the Week variable
+PM2.5_Full_Elev_Week_utm <- 
+  PM2.5_Full_Elev_utm %>%
+  mutate(Week = week(Date)) %>%
+  na.omit()
 
-# Summary and Conclusions
-<Summarize your major findings from your analyses. What conclusions do you draw from your findings? Make sure to apply this to a broader application for the research question you have answered.>
-
-
-
+PM2.5_Full_Elev_Week_utm$TAVG <- as.numeric(PM2.5_Full_Elev_Week_utm$TAVG)
+```
