@@ -5,10 +5,10 @@ output:
     fig_caption: yes
     number_sections: yes
 geometry: margin=2.54cm
-title: Analysis of the effect of PM10 Concentration, Temperature, Geographic Location, Population, and distance to Electricity-Generation Combustion Points on the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.
+title: Analysis of predictors for the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.
 subtitle: https://github.com/fr55/DataAnalytics_FinalProject
 author: Felipe Raby Amadori
-abstract: "Experimental overview. This section should be no longer than 250 words."
+abstract: "In this study, the main focus was in studying PM2.5 concentrations data in North Carolina during the year 2018, and other air pollutants, meteorological, and geographical parameters. Through the analysis, it was found that there is a significant difference between the mean daily PM 2.5 concentrations in the Piedmont and both the Mountains and the Coastal zone. It was also found that there is a significant linear relationship between the concentrations of PM2.5 and the concentrations of PM10, County Population, Daily Average Temperature, and Elevation. The distance to electricity generation combustion sites was also considered, but it was found that there is not a significant relationship with PM 2.5 concentrations measured in the North Carolina EPA stations."
 fontsize: 12pt
 mainfont: Times New Roman
 editor_options: 
@@ -30,7 +30,7 @@ editor_options:
 <Setup autoreferencing for figures and tables in your document>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.path = './Output')
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 # Set your working directory
 
 setwd("C:/Users/Felipe/OneDrive - Duke University/1. DUKE/1. Ramos 2 Semestre/EOS-872 Env. Data Analytics/DataAnalytics_FinalProject")
@@ -59,6 +59,7 @@ library(car)
 library(corrplot)
 library(lubridate)
 library (nlme)
+
 
 # Set your ggplot theme
 
@@ -118,6 +119,8 @@ The dataset contains daily mean PM2.5 concentration in ug/m3 in 2018. Data from 
 
 The dataset contains 19 columns, which are shown in Table \ref{tab:tab3}. Column names without description are self-explanatory.
 
+\newpage
+
 ```{r echo=FALSE, results="asis"}
 #Creating Table
 a <- data.frame("Column" = "Date", "Description" = "mm/dd/YY")
@@ -134,14 +137,14 @@ k <- data.frame("Column" = "AQS_PARAMETER_CODE", "Description" = "")
 l <- data.frame("Column" = "AQS_PARAMETER_DESC", "Description" = "")
 m <- data.frame("Column" = "CBSA_CODE", "Description" = "")
 n <- data.frame("Column" = "CBSA_NAME", "Description" = "")
-o <- data.frame("Column" = "STATE_CODE", "Description" = "")
+o <- data.frame("Column" = "STATE_CODE", "Description" = "A unique number identifying the State.")
 g <- data.frame("Column" = "STATE", "Description" = "")
 p <- data.frame("Column" = "COUNTY CODE", "Description" = "A unique number identifying the County.")
 q <- data.frame("Column" = "COUNTY", "Description" = "")
 r <- data.frame("Column" = "SITE_LATITUDE", "Description" = "NAD83")
 s <- data.frame("Column" = "SITE_LONGITUDE", "Description" = "NAD83")
 
-summary_table <- rbind(a, b, c, d, e, f, t, h, i, j, k, l, m, n, o, p, q, r, s)
+summary_table <- rbind(a, b, c, d, e, f, t, h, i, j, k, l, m, n, o, g, p, q, r, s)
 
 xtable1 <- xtable(summary_table, label="tab:tab3", caption="Dataset content")
 align(xtable1) <- "lp{2.5in}p{3.5in}"
@@ -190,14 +193,14 @@ k <- data.frame("Column" = "AQS_PARAMETER_CODE", "Description" = "")
 l <- data.frame("Column" = "AQS_PARAMETER_DESC", "Description" = "")
 m <- data.frame("Column" = "CBSA_CODE", "Description" = "")
 n <- data.frame("Column" = "CBSA_NAME", "Description" = "")
-o <- data.frame("Column" = "STATE_CODE", "Description" = "A unique number identifying the County.")
+o <- data.frame("Column" = "STATE_CODE", "Description" = "A unique number identifying the State.")
 g <- data.frame("Column" = "STATE", "Description" = "")
 p <- data.frame("Column" = "COUNTY CODE", "Description" = "A unique number identifying the County.")
 q <- data.frame("Column" = "COUNTY", "Description" = "")
 r <- data.frame("Column" = "SITE_LATITUDE", "Description" = "NAD83")
 s <- data.frame("Column" = "SITE_LONGITUDE", "Description" = "NAD83")
 
-summary_table <- rbind(a, b, c, d, e, f, t, h, i, j, k, l, m, n, o, p, q, r, s)
+summary_table <- rbind(a, b, c, d, e, f, t, h, i, j, k, l, m, n, o, g, p, q, r, s)
 
 xtable1 <- xtable(summary_table, label="tab:tab5", caption="Dataset content")
 align(xtable1) <- "lp{2.5in}p{3.5in}"
@@ -302,6 +305,8 @@ All data sets, variable, and files are named according to the following naming c
 
 * stage refers to the stage in data management pipelines (e.g., raw, cleaned, temp or processed)
 
+* format is a non-proprietary file format (e.g., .csv, .txt) 
+
 ## Analized data structure
 
 <Add a table that summarizes your data structure. This table can be made in markdown text or inserted as a `kable` function in an R chunk. If the latter, do not include the code used to generate your table.>
@@ -355,8 +360,10 @@ EPA_AQPM25_NC2018_raw <- read.csv("./Data/Raw/EPAair_PM25_NC2018_raw.csv")
 EPA_AQPM10_NC2018_raw <- read.csv("./Data/Raw/EPAair_PM10_NC2018_raw.csv")
 
 #Formatting Dates
-EPA_AQPM25_NC2018_raw$Date <- as.Date(EPA_AQPM25_NC2018_raw$Date, format = "%m/%d/%Y")
-EPA_AQPM10_NC2018_raw$Date <- as.Date(EPA_AQPM10_NC2018_raw$Date, format = "%m/%d/%Y")
+EPA_AQPM25_NC2018_raw$Date <- as.Date(EPA_AQPM25_NC2018_raw$Date,
+                                      format = "%m/%d/%Y")
+EPA_AQPM10_NC2018_raw$Date <- as.Date(EPA_AQPM10_NC2018_raw$Date,
+                                      format = "%m/%d/%Y")
 ```
 
 Data exploration of the PM2.5 and PM10 2018 raw data files associated with EPA Air dataset.
@@ -377,12 +384,16 @@ summary(EPA_AQPM10_NC2018_raw)
 
 Visual data exploration of the PM2.5 2018 raw data file in \autoref{PM2.5_freqpoly}, \autoref{PM2.5_boxplot}, and \autoref{PM2.5_scatterplot}.
 
+\newpage
+
 ```{r echo = FALSE, fig.cap = "PM2.5 NC 2018 frequency polygon. \\label{PM2.5_freqpoly}"}
 ggplot() + 
   geom_freqpoly(data = EPA_AQPM25_NC2018_raw, aes(x = Daily.Mean.PM2.5.Concentration, color=COUNTY)) + 
   xlab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
   ggtitle("Exploratory Barplot")
 ```
+
+\newpage
 
 ```{r echo = FALSE, fig.cap = "PM2.5 NC 2018 boxplot. \\label{PM2.5_boxplot}"}
 ggplot() + 
@@ -393,6 +404,8 @@ ggplot() +
   ggtitle("Exploratory Boxplot")
 ```
 
+\newpage
+
 ```{r echo = FALSE, fig.cap = "PM2.5 NC 2018 scatterplot. \\label{PM2.5_scatterplot}"}
 ggplot(EPA_AQPM25_NC2018_raw, aes(x=Date, y=Daily.Mean.PM2.5.Concentration)) +
   geom_point(aes(color = COUNTY), alpha=0.5) +
@@ -402,6 +415,8 @@ ggplot(EPA_AQPM25_NC2018_raw, aes(x=Date, y=Daily.Mean.PM2.5.Concentration)) +
   geom_smooth(color ="black") +
   ggtitle("Exploratory Scatterplot")
 ```
+
+\newpage
 
 Visual data exploration of the PM10 2018 raw data file in \autoref{PM10_scatterplot}.
 
@@ -420,7 +435,8 @@ Data wrangling of the PM2.5 and PM10 2018 raw data files.
 ```{r}
 #Selecting Columns
 EPA_AQ_PM25_NC2018_Temp <- select(EPA_AQPM25_NC2018_raw, Date, Site.ID,
-                                Daily.Mean.PM2.5.Concentration, AQS_PARAMETER_DESC,
+                                Daily.Mean.PM2.5.Concentration,
+                                AQS_PARAMETER_DESC,
                                 COUNTY:SITE_LONGITUDE)
 
 #Changing column name
@@ -434,19 +450,22 @@ EPA_AQ_PM10_NC2018_Temp <- select(EPA_AQPM10_NC2018_raw, Date, Site.ID,
 
 #Changing column name
 colnames(EPA_AQ_PM10_NC2018_Temp)[colnames(EPA_AQ_PM10_NC2018_Temp)
-                                =="Daily.Mean.PM10.Concentration"]<-"Daily.Mean.Concentration"
+                                  =="Daily.Mean.PM10.Concentration"]<-"Daily.Mean.Concentration"
 
 #Create AQS_PARAMETER_DESC Column with Contaminant description.
 EPA_AQ_PM25_NC2018_Temp$AQS_PARAMETER_DESC <- "PM2.5"
 EPA_AQ_PM10_NC2018_Temp$AQS_PARAMETER_DESC <- "PM10"
 
 #Eliminates duplicate dates
-EPA_AQ_PM25_NC2018_Cleaned <- EPA_AQ_PM25_NC2018_Temp [!duplicated(EPA_AQ_PM25_NC2018_Temp[c(1,2)]),]
+EPA_AQ_PM25_NC2018_Cleaned <-
+  EPA_AQ_PM25_NC2018_Temp [!duplicated(EPA_AQ_PM25_NC2018_Temp[c(1,2)]),]
 
-EPA_AQ_PM10_NC2018_Cleaned <- EPA_AQ_PM10_NC2018_Temp [!duplicated(EPA_AQ_PM10_NC2018_Temp[c(1,2)]),]
+EPA_AQ_PM10_NC2018_Cleaned <- 
+  EPA_AQ_PM10_NC2018_Temp [!duplicated(EPA_AQ_PM10_NC2018_Temp[c(1,2)]),]
 
 # Combine the data.
-EPA_AQ_PM2.5PM10_NC2018_Cleaned <- rbind(EPA_AQ_PM25_NC2018_Cleaned, EPA_AQ_PM10_NC2018_Cleaned)
+EPA_AQ_PM2.5PM10_NC2018_Cleaned <-
+  rbind(EPA_AQ_PM25_NC2018_Cleaned, EPA_AQ_PM10_NC2018_Cleaned)
 
 #Save the data in the processed folder
 write.csv(EPA_AQ_PM2.5PM10_NC2018_Cleaned,
@@ -458,10 +477,12 @@ EPA_AQ_PM2.5PM10_NC2018_Spread <-
   spread(AQS_PARAMETER_DESC, Daily.Mean.Concentration)
 
 #Remove rows without PM2.5 data
-EPA_AQ_PM2.5PM10_NC2018_Spread <- EPA_AQ_PM2.5PM10_NC2018_Spread[!is.na(EPA_AQ_PM2.5PM10_NC2018_Spread$PM2.5),]
+EPA_AQ_PM2.5PM10_NC2018_Spread <- 
+  EPA_AQ_PM2.5PM10_NC2018_Spread[!is.na(EPA_AQ_PM2.5PM10_NC2018_Spread$PM2.5),]
 
 #Convert the dataset to a spatially enabled "sf" data frame
-PM2.5_PM10_sf <- st_as_sf(EPA_AQ_PM2.5PM10_NC2018_Spread,coords = c('SITE_LONGITUDE','SITE_LATITUDE'),crs=4269)
+PM2.5_PM10_sf <- st_as_sf(EPA_AQ_PM2.5PM10_NC2018_Spread,coords 
+                          = c('SITE_LONGITUDE','SITE_LATITUDE'),crs=4269)
 
 #Convert all to UTM Zone 17 (crs = 26917)
 PM2.5_PM10_sf_utm <- st_transform(PM2.5_PM10_sf, c=26917)
@@ -471,7 +492,7 @@ In \autoref{PM2.5Stations} is presented the locations of the PM2.5 monitoring st
 
 ```{r echo = FALSE, fig.cap = "PM2.5 NC Monitoring Stations Previsualization. \\label{PM2.5Stations}"}
 ggplot() + 
-  #annotation_map_tile(zoom = 7) +
+  annotation_map_tile(zoom = 7) +
   geom_sf(data = PM2.5_PM10_sf_utm, color = 'Black', alpha=0.7) + 
   xlab(expression("Longitud")) +
   ylab(expression("Latitude")) +
@@ -509,9 +530,107 @@ Assigning the corresponding zone to each county. Info from: Rudersdorf, Amy. 201
 
 ```{r}
 #North Carolina Zones
-County_Info$Zone<-ifelse(County_Info$County == 'Ashe'|County_Info$County =='Alleghany'|County_Info$County =='Wilkes'|County_Info$County =='Watauga'|County_Info$County =='Avery'|County_Info$County =='Caldwell'|County_Info$County =='Mitchell'|County_Info$County =='Burke'|County_Info$County =='Yancey'|County_Info$County =='McDowell'|County_Info$County =='Rutherford'|County_Info$County =='Madison'|County_Info$County =='Buncombe'|County_Info$County =='Polk'|County_Info$County =='Henderson'|County_Info$County =='Haywood'|County_Info$County =='Transylvania'|County_Info$County =='Swain'|County_Info$County =='Jackson'|County_Info$County =='Graham'|County_Info$County =='Macon'|County_Info$County =='Cherokee'|County_Info$County =='Clay','Mountains',
-                         ifelse(County_Info$County == 'Surry'|County_Info$County =='Stokes'|County_Info$County =='Rockingham'|County_Info$County =='Caswell'|County_Info$County =='Person'|County_Info$County =='Granville'|County_Info$County =='Vance'|County_Info$County =='Warren'|County_Info$County =='Yadkin'|County_Info$County =='Forsyth'|County_Info$County =='Guilford'|County_Info$County =='Alamance'|County_Info$County =='Orange'|County_Info$County =='Durham'|County_Info$County =='Franklin'|County_Info$County =='Alexander'|County_Info$County =='Iredell'|County_Info$County =='Davie'|County_Info$County =='Rowan'|County_Info$County =='Davidson'|County_Info$County =='Randolph'|County_Info$County =='Chatham'|County_Info$County =='Wake'|County_Info$County =='Catawba'|County_Info$County =='Cleveland'|County_Info$County =='Lincoln'|County_Info$County =='Gaston'|County_Info$County =='Mecklenburg'|County_Info$County =='Cabarrus'|County_Info$County =='Stanly'|County_Info$County =='Union'|County_Info$County =='Montgomery'|County_Info$County =='Anson'|County_Info$County =='Moore'|County_Info$County =='Lee'|County_Info$County =='Richmond','Piedmont',
-                                ifelse(County_Info$County == 'Scotland'|County_Info$County =='Hoke'|County_Info$County =='Harnett'|County_Info$County =='Johnston'|County_Info$County =='Nash'|County_Info$County =='Halifax'|County_Info$County =='Northampton'|County_Info$County =='Robeson'|County_Info$County =='Cumberland'|County_Info$County =='Sampson'|County_Info$County =='Wayne'|County_Info$County =='Wilson'|County_Info$County =='Edgecombe'|County_Info$County =='Columbus'|County_Info$County =='Bladen'|County_Info$County =='Brunswick'|County_Info$County =='New Hanover'|County_Info$County =='Pender'|County_Info$County =='Duplin'|County_Info$County =='Onslow'|County_Info$County =='Lenoir'|County_Info$County =='Jones'|County_Info$County =='Carteret'|County_Info$County =='Greene'|County_Info$County =='Craven'|County_Info$County =='Pitt'|County_Info$County =='Pamlico'|County_Info$County =='Beaufort'|County_Info$County =='Martin'|County_Info$County =='Bertie'|County_Info$County =='Hyde'|County_Info$County =='Dare'|County_Info$County =='Tyrrell'|County_Info$County =='Washington'|County_Info$County =='Hertford'|County_Info$County =='Gates'|County_Info$County =='Currituck'|County_Info$County =='Camden'|County_Info$County =='Pasquotank'|County_Info$County =='Perquimans'|County_Info$County =='Chowan','Coastal','NoInfo')))
+County_Info$Zone<-ifelse(County_Info$County == 'Ashe'
+                         |County_Info$County =='Alleghany'
+                         |County_Info$County =='Wilkes'
+                         |County_Info$County =='Watauga'
+                         |County_Info$County =='Avery'
+                         |County_Info$County =='Caldwell'
+                         |County_Info$County =='Mitchell'
+                         |County_Info$County =='Burke'
+                         |County_Info$County =='Yancey'
+                         |County_Info$County =='McDowell'
+                         |County_Info$County =='Rutherford'
+                         |County_Info$County =='Madison'
+                         |County_Info$County =='Buncombe'
+                         |County_Info$County =='Polk'
+                         |County_Info$County =='Henderson'
+                         |County_Info$County =='Haywood'
+                         |County_Info$County =='Transylvania'
+                         |County_Info$County =='Swain'
+                         |County_Info$County =='Jackson'
+                         |County_Info$County =='Graham'
+                         |County_Info$County =='Macon'
+                         |County_Info$County =='Cherokee'
+                         |County_Info$County =='Clay','Mountains',
+                         ifelse(County_Info$County == 'Surry'
+                                |County_Info$County =='Stokes'
+                                |County_Info$County =='Rockingham'
+                                |County_Info$County =='Caswell'
+                                |County_Info$County =='Person'
+                                |County_Info$County =='Granville'
+                                |County_Info$County =='Vance'
+                                |County_Info$County =='Warren'
+                                |County_Info$County =='Yadkin'
+                                |County_Info$County =='Forsyth'
+                                |County_Info$County =='Guilford'
+                                |County_Info$County =='Alamance'
+                                |County_Info$County =='Orange'
+                                |County_Info$County =='Durham'
+                                |County_Info$County =='Franklin'
+                                |County_Info$County =='Alexander'
+                                |County_Info$County =='Iredell'
+                                |County_Info$County =='Davie'
+                                |County_Info$County =='Rowan'
+                                |County_Info$County =='Davidson'
+                                |County_Info$County =='Randolph'
+                                |County_Info$County =='Chatham'
+                                |County_Info$County =='Wake'
+                                |County_Info$County =='Catawba'
+                                |County_Info$County =='Cleveland'
+                                |County_Info$County =='Lincoln'
+                                |County_Info$County =='Gaston'
+                                |County_Info$County =='Mecklenburg'
+                                |County_Info$County =='Cabarrus'
+                                |County_Info$County =='Stanly'
+                                |County_Info$County =='Union'
+                                |County_Info$County =='Montgomery'
+                                |County_Info$County =='Anson'
+                                |County_Info$County =='Moore'
+                                |County_Info$County =='Lee'
+                                |County_Info$County =='Richmond','Piedmont',
+                                
+                                ifelse(County_Info$County == 'Scotland'
+                                       |County_Info$County =='Hoke'
+                                       |County_Info$County =='Harnett'
+                                       |County_Info$County =='Johnston'
+                                       |County_Info$County =='Nash'
+                                       |County_Info$County =='Halifax'
+                                       |County_Info$County =='Northampton'
+                                       |County_Info$County =='Robeson'
+                                       |County_Info$County =='Cumberland'
+                                       |County_Info$County =='Sampson'
+                                       |County_Info$County =='Wayne'
+                                       |County_Info$County =='Wilson'
+                                       |County_Info$County =='Edgecombe'
+                                       |County_Info$County =='Columbus'
+                                       |County_Info$County =='Bladen'
+                                       |County_Info$County =='Brunswick'
+                                       |County_Info$County =='New Hanover'
+                                       |County_Info$County =='Pender'
+                                       |County_Info$County =='Duplin'
+                                       |County_Info$County =='Onslow'
+                                       |County_Info$County =='Lenoir'
+                                       |County_Info$County =='Jones'
+                                       |County_Info$County =='Carteret'
+                                       |County_Info$County =='Greene'
+                                       |County_Info$County =='Craven'
+                                       |County_Info$County =='Pitt'
+                                       |County_Info$County =='Pamlico'
+                                       |County_Info$County =='Beaufort'
+                                       |County_Info$County =='Martin'
+                                       |County_Info$County =='Bertie'
+                                       |County_Info$County =='Hyde'
+                                       |County_Info$County =='Dare'
+                                       |County_Info$County =='Tyrrell'
+                                       |County_Info$County =='Washington'
+                                       |County_Info$County =='Hertford'
+                                       |County_Info$County =='Gates'
+                                       |County_Info$County =='Currituck'
+                                       |County_Info$County =='Camden'
+                                       |County_Info$County =='Pasquotank'
+                                       |County_Info$County =='Perquimans'
+                                       |County_Info$County =='Chowan','Coastal','NoInfo')))
 ```
 
 Data exploration of the County_Info dataframe.
@@ -534,6 +653,8 @@ Adding the County Information to the PM2.5_PM10_sf_utm dataframe.
 PM2.5_PM10_Info_sf_utm <- PM2.5_PM10_sf_utm %>%
 left_join(County_Info, by = c("COUNTY"="County"))
 ```
+
+\newpage
 
 ##  US Census Bureau US counties shapefile
 
@@ -570,18 +691,20 @@ colnames(counties_sf_utm)
 summary(counties_sf_utm)
 ```
 
-Visual data exploration of the counties_sf_utm dataframe in \autoref{Countyplot}.
+Visual data exploration of the counties_sf_utm dataframe in \autoref{Countyplot} and \autoref{Zoneplot}.
 
 ```{r echo = FALSE, fig.cap = "Counties exploratory map. \\label{Countyplot}"}
 ggplot() +
-  geom_sf(data=counties_sf_utm, aes(fill=NAME)) +
+  annotation_map_tile(zoom = 7) +
+  geom_sf(data=counties_sf_utm, aes(fill=NAME), alpha=0.7) +
   guides(fill=FALSE) +
   ggtitle("Exploratory Map")
 ```
 
 ```{r echo = FALSE, fig.cap = "NC Zoning exploratory map. \\label{Zoneplot}"}
 ggplot() +
-  geom_sf(data=counties_sf_utm, aes(fill=Zone)) +
+  annotation_map_tile(zoom = 7) +
+  geom_sf(data=counties_sf_utm, aes(fill=Zone), alpha=0.7) +
   ggtitle("Zoning Exploratory Map")
 ```
 
@@ -613,13 +736,15 @@ Data wrangling of the NOAA_DTAVG_NC2018_raw dataframe.
 NOAA_DTAVG_NC2018_Complete <- na.omit(NOAA_DTAVG_NC2018_raw)
 
 #Convert the dataset to a spatially enabled "sf" data frame
-NOAA_DTAVG_NC2018_sf <- st_as_sf(NOAA_DTAVG_NC2018_Complete,coords = c('LONGITUDE','LATITUDE'),crs=4269) 
+NOAA_DTAVG_NC2018_sf <- 
+  st_as_sf(NOAA_DTAVG_NC2018_Complete,coords = c('LONGITUDE','LATITUDE'),crs=4269) 
 
 #Convert all to UTM Zone 17 (crs = 26917)
 NOAA_DTAVG_NC2018_sf_utm <- st_transform(NOAA_DTAVG_NC2018_sf, c=26917)
 
 #Formatting dates
-NOAA_DTAVG_NC2018_sf_utm$DATE <- as.Date(NOAA_DTAVG_NC2018_sf_utm$DATE, format = "%d/%m/%Y")
+NOAA_DTAVG_NC2018_sf_utm$DATE <- 
+  as.Date(NOAA_DTAVG_NC2018_sf_utm$DATE, format = "%d/%m/%Y")
 ```
 
 The 2018 Air Temperature data does not have County information, so the location is used with the counties_sf_utm dataframe to locate the county of each station.
@@ -649,7 +774,8 @@ NOAA_DTAVG_NC2018_sf_utm_temp <- NOAA_DTAVG_NC2018_sf_utm %>%
   summarize(meanT = mean(TAVG))
 
 ggplot() +
-  geom_sf(data = counties_sf_utm, color = 'Black', fill = "antiquewhite") + 
+  annotation_map_tile(zoom = 7) +
+  geom_sf(data = counties_sf_utm, color = 'Black', fill = "antiquewhite", alpha = 0.7) + 
   geom_sf(data = NOAA_DTAVG_NC2018_sf_utm_temp, aes(size = meanT, col = NAME, fill = NAME)) +
   guides(fill=FALSE, color=FALSE) +
   ggtitle("NC 2018 Temperature Exploratory Map, Mean Annual Temperature")
@@ -711,7 +837,8 @@ aux2 <- st_set_geometry(PM2.5_Stations, value=NULL)
 PM2.5_PM10_Temp_sf_utm <- PM2.5_PM10_Info_sf_utm %>%
 left_join(aux2)
 
-#Assingning the Temperature of the nearest Temperature Station to each PM2.5 station.
+#Assingning the Temperature of the nearest Temperature Station to 
+#each PM2.5 station.
 
 #Drops the geo data
 aux3 <- st_set_geometry(NOAA_DTAVG_NC2018_sf_utm, value=NULL)
@@ -741,7 +868,7 @@ EPA_US_CombEmissions_utm <- st_transform(EPA_US_CombEmissions, c=26917)
 #Clip the EPA_US_CombEmissions data set by the NC State boundary dataset
 
 #First create a State_sf file
-#Aggregate the data using group_by and summarize, just as you would a non-spatial dataframe
+#Aggregate the data using group_by and summarize
 state_sf_utm <- st_union(counties_sf_utm)
 
 #Eliminate the emission points outside NC
@@ -753,7 +880,8 @@ Visual data exploration of the EPA combustion points for electricity generation 
 ```{r echo = FALSE, fig.cap = "Combustion points for electricity generation in the North Carolina. \\label{Combplot}"}
 
 ggplot() +
-  geom_sf(data = counties_sf_utm, color = 'Black', fill = "antiquewhite") + 
+  annotation_map_tile(zoom = 7) +
+  geom_sf(data = counties_sf_utm, color = 'Black', fill = "antiquewhite", alpha=0.7) + 
   geom_sf(data = EPA_NC_CombEmissions_utm) +
   ggtitle("NC Combustion Points for Electricity Generation Exploratory Map")
 ```
@@ -761,12 +889,14 @@ ggplot() +
 Now the distance between PM2.5 stations and Electricity Generation via Combustion points is determined and added to the PM2.5_PM10_Temp_sf_utm dataframe.
 
 ```{r}
-#Distances between PM2.5 stations and Electricity Generation via Combustion points
+#Distances between PM2.5 stations and Electricity Generation 
+#via Combustion points
 Distances <- st_distance(PM2.5_Stations, EPA_NC_CombEmissions_utm)
 
 a <- length(unique(PM2.5_Stations$Site.ID))
 
-#Determining the minimum distance of each PM2.5 station to a combustion point in meters.
+#Determining the minimum distance of each PM2.5 station to 
+#a combustion point in meters.
 for (i in 1:a){
   PM2.5_Stations$Emiss_Dist[i] <- min(Distances[i,])
 }
@@ -801,12 +931,12 @@ PM2.5_Full_Elev_utm <- st_read('./Data/Processed/PM2.5_Full_Elev_utm.shp')
 
 ## Additional previsualization of the data
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration. \\label{PM25plot}"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration. \\label{PM25plot}", fig.height = 9, fig.width = 7}
 PM2.5_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
   scale_color_gradient(low="cyan", high="blue4", name = "Dist. to combustion point (m)")  +
   ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
@@ -815,35 +945,31 @@ PM2.5_Zone_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Zone)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
   scale_fill_manual("red","blue","yellow")  +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
 PM2.5_Elevation_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = elevation)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")  +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
-
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")
+  
 PM2.5_Temp_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = TAVG)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")  +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
-
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")
+  
 PM2.5_Pop_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Population)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Population")  +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
-
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_gradient(low="cyan", high="blue4", name = "Population")
+  
 grid.arrange(PM2.5_Dist_Plot, PM2.5_Zone_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_Plot, PM2.5_Pop_Plot, nrow = 5)
 ```
 
@@ -863,15 +989,17 @@ The first statistical analysis will test the null hypothesis that the mean of th
 First the assumption of normal distribution is evaluated.
 
 ```{r}
-PM2.5_Coastal <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Coastal"]
+PM2.5_Coastal <- PM2.5_Full_Elev_utm$PM2_5[PM2.5_Full_Elev_utm$Zone == "Coastal"]
 PM2.5_Coastal <- as.data.frame(PM2.5_Coastal)
 
-PM2.5_Piedmont <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Piedmont"]
+PM2.5_Piedmont <- PM2.5_Full_Elev_utm$PM2_5[PM2.5_Full_Elev_utm$Zone == "Piedmont"]
 PM2.5_Piedmont <- as.data.frame(PM2.5_Piedmont)
 
-PM2.5_Mountains <- PM2.5_Full_Elev_utm$PM2.5[PM2.5_Full_Elev_utm$Zone == "Mountains"]
+PM2.5_Mountains <- PM2.5_Full_Elev_utm$PM2_5[PM2.5_Full_Elev_utm$Zone == "Mountains"]
 PM2.5_Mountains <- as.data.frame(PM2.5_Mountains)
+```
 
+```{r}
 shapiro.test(PM2.5_Coastal$PM2.5_Coastal)
 shapiro.test(PM2.5_Piedmont$PM2.5_Piedmont)
 shapiro.test(PM2.5_Mountains$PM2.5_Mountains)
@@ -886,29 +1014,29 @@ ggplot(PM2.5_Coastal, aes(x = PM2.5_Coastal)) +
   geom_histogram(stat = "count")
 ```
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Coastqqplot"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Coastqqplot}"}
 qqnorm(PM2.5_Coastal$PM2.5_Coastal); qqline(PM2.5_Coastal$PM2.5_Coastal)
 ```
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal Histogram. \\label{Piedmonthistplot}"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Piedmont Histogram. \\label{Piedmonthistplot}"}
 ggplot(PM2.5_Piedmont, aes(x = PM2.5_Piedmont)) +
   geom_histogram(stat = "count")
 ```
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Piedmontqqplot"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Piedmont qqplot. \\label{Piedmontqqplot}"}
 qqnorm(PM2.5_Piedmont$PM2.5_Piedmont); qqline(PM2.5_Piedmont$PM2.5_Piedmont)
 ```
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal Histogram. \\label{Mounthistplot}"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Mountains Histogram. \\label{Mounthistplot}"}
 ggplot(PM2.5_Mountains, aes(x = PM2.5_Mountains)) +
   geom_histogram(stat = "count")
 ```
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Coastal qqplot. \\label{Mountqqplot"}
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Mountains qqplot. \\label{Mountqqplot}"}
 qqnorm(PM2.5_Mountains$PM2.5_Mountains); qqline(PM2.5_Mountains$PM2.5_Mountains)
 ```
 
-In \autoref{Coasthistplot},\autoref{Coastqqplot}, \autoref{Piedmontqqplot}, \autoref{Piedmontqqplot}, \autoref{Mountqqplot}, and \autoref{Mountqqplot} it can be seen that the data have more than one peak, heavier tails, and longer tail to the right than a normal distribution; nevertheless, environmental data often violate the assumptions of normality and the histograms fairly resembles a bell curve, so a t-test is performed anyway.
+In \autoref{Coasthistplot},\autoref{Coastqqplot}, \autoref{Piedmonthistplot}, \autoref{Piedmontqqplot}, \autoref{Mounthistplot}, and \autoref{Mountqqplot} it can be seen that the data have more than one peak, heavier tails, and longer tail to the right than a normal distribution; nevertheless, environmental data often violate the assumptions of normality and the histograms fairly resembles a bell curve, so a t-test is performed anyway.
 
 ```{r}
 t.test(PM2.5_Coastal$PM2.5_Coastal, mu = 12, alternative = "less")
@@ -934,8 +1062,8 @@ In \autoref{PM2.5Standardplot} is presented a visualization of the PM 2.5 concen
 
 ```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration, North Carolina. \\label{PM2.5Standardplot}"}
 
-ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2.5)) +
-  geom_point(aes(color = PM2.5), alpha = 0.4) +
+ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
+  geom_point(aes(color = PM2_5), alpha = 0.4) +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
   annotate("text", x = as.Date(c("2018-04-15")), y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
   xlab(expression("Date")) +
@@ -955,7 +1083,7 @@ Therefore, the second statistical analysis will test the null hypothesis that th
 For this, a One-way ANOVA test is performed. This test requires a second assumption to be complied, which is that the variance of the groups is equal across groups. Taking into account that the data are not perfectly normal, to test for the homogeneity of variance across groups a Fligner-Killeen test is used. This test is a non-parametric test, which is very robust against departures from normality.
 
 ```{r}
-fligner.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+fligner.test(PM2.5_Full_Elev_utm$PM2_5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
 ```
 
 The Fligner-Killeen test of homogeneity of variances says that the variance across groups is not homogeneous, but with a p-value close to 0.05 (med chi-squared = 7.6425, df = 2, p-value = 0.0219 < 0.05). 
@@ -963,10 +1091,11 @@ The Fligner-Killeen test of homogeneity of variances says that the variance acro
 For this reason, for testing if there are significant differences between the means of PM 2.5 concentrations for the same three geographical zones, it is used a One-way ANOVA test and a Non-parametric equivalent of ANOVA, the Kruskal-Wallis Test.
 
 ```{r}
-PM2.5.anova <- lm(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+PM2.5.anova <- lm(PM2.5_Full_Elev_utm$PM2_5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
 anova(PM2.5.anova)
 
-ktest_PM2.5 <- kruskal.test(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+ktest_PM2.5 <- kruskal.test(PM2.5_Full_Elev_utm$PM2_5 ~ 
+                              as.factor(PM2.5_Full_Elev_utm$Zone))
 ktest_PM2.5
 ```
 
@@ -976,9 +1105,9 @@ To analyze which zones are different, two *post hoc* tests were used, a Tukey mu
 
 ```{r}
 # Run a post-hoc test for pairwise differences
-TukeyHSD(aov(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))) 
+TukeyHSD(aov(PM2.5_Full_Elev_utm$PM2_5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))) 
 
-dunnTest(PM2.5_Full_Elev_utm$PM2.5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+dunnTest(PM2.5_Full_Elev_utm$PM2_5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
 ```
 
 Both test give as a result that there is a significant difference between the means of PM 2.5 concentrations between the Piedmont and both the Mountains and the Coastal zone (TukeHSD; p-value<0.0001) and (Dunn; p-value<0.0001). There is no significant difference between the means of PM 2.5 concentrations between the Mountains and the Coastal zone (TukeHSD; p-value>0.05) and (Dunn; p-value>0.05).
@@ -987,7 +1116,7 @@ To explore graphically these results and present a visualization of the results 
 
 ```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration Zones Boxplot. \\label{BOX_plot}"}
 ggplot() + 
-  geom_boxplot(data = PM2.5_Full_Elev_utm, aes(x = Zone,y = PM2.5, fill=Zone)) + 
+  geom_boxplot(data = PM2.5_Full_Elev_utm, aes(x = Zone,y = PM2_5, fill=Zone)) + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_fill_manual(values = c("#e66101", "#5e3c99", "deepskyblue2")) +
   guides(fill=FALSE) +
@@ -996,16 +1125,20 @@ ggplot() +
   ggtitle("PM 2.5 Concentration by zone")
 ```
 
-## Mixed-effect model
+## Linear model
 
 Finally, to answer the specific research question of this study (What are the effects of temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, distance to combustion points for electricity generation, in PM2.5 concentrations within North Carolina in the year 2018?), an analysis of covariance (ANCOVA) test was performed.   
-
-In the model, a variable Week is created and defined as a random variable because it is not of interest the specific effects of each week on PM 2.5 concentrations but the variability among weeks. The hierarchical model is set up to deal with any variability associated with seasonality.
 
 In this study multiple multiple explanatory variables are being considered at a time in the model, so to check the model is not over-parameterized the Akaike's Information Criterion (AIC) was used.
 
 ```{r}
-PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation)
+PM2.5_Full_for.model <- 
+PM2.5_Full_Elev_utm %>%
+na.exclude()
+
+PM252018.model <- 
+  lm(data = PM2.5_Full_for.model, PM2_5 ~ 
+       Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation)
 
 step(PM252018.model) # the lower AIC value the better
 
@@ -1014,14 +1147,18 @@ step(PM252018.model) # the lower AIC value the better
 The variable distance to combustion emission point was dropped by the Akaike's Information Criterion (AIC). According to this result, the set of explanatory variables that are best suited to predict PM 2.5 concentration are Population, Zone, PM10, TAVG, and elevation. Next, a multiple regression is performed on the recommended set of variables.
 
 ```{r}
-PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + as.factor(Zone) + PM10 + TAVG + elevation)
+PM252018.model <- 
+  lm(data = PM2.5_Full_for.model, PM2_5 ~ 
+       Population + as.factor(Zone) + PM10 + TAVG + elevation)
 anova(PM252018.model)
 ```
 
 In the full model, only Zone is not statistically significant. The model is run without that variable.
 
 ```{r}
-PM252018.model <- lm(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Population + PM10 + TAVG + elevation)
+PM252018.model <- 
+  lm(data = PM2.5_Full_for.model, PM2_5 ~ 
+       Population + PM10 + TAVG + elevation)
 summary(PM252018.model)
 ```
 
@@ -1048,129 +1185,66 @@ Finally, elevation (meters) significantly decreases the PM 2.5 mean daily concen
 
 The model explain 56.96% of the observed variance. The final linear equation to predict PM 2.5 mean daily concentration (ug/m3) from the explanatory variables is:
 
-$$ PM2.5 = \ 4.168 + \ 0.00000145*Population + \ 0.471*PM10  \ -0.03096*T° \ -0.0128*Elev + \epsilon $$
+$$ PM2.5 = \ 4.168 + \ 0.00000145*Population + \ 0.471*PM10  \ -0.03096*Temp \ -0.0128*Elev + \epsilon $$
 
-```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration vs Model Variables. \\label{Final_plot}"}
-ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2.5)) +
-  geom_point(aes(color = PM2.5), alpha = 0.4) +
+In \autoref{Final_plot}} is presented the Daily PM2.5 Concentration vs Model Variables.
+
+```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration vs Model Variables. \\label{Final_plot}", fig.height = 9, fig.width = 7}
+Plot1 <- ggplot(PM2.5_Full_Elev_utm, aes(x=Population, y=PM2_5)) +
+  geom_point(aes(color = PM2_5), alpha = 0.4) +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
-  annotate("text", x = as.Date(c("2018-04-15")), y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
-  xlab(expression("Date")) +
-  ylab(expression("PM 2.5 Concentration (\U003BCg/m3)")) +
+  geom_smooth(aes(x = Population, y = PM2_5),method = 'lm', se = FALSE) +
+  annotate("text", x = 750000, y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  annotate("text", x = 600000, y = 4, label = "lm()", color = "Blue") +
+  xlab(expression("County Population")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
   scale_color_distiller(palette = "Set1") +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina")
+  ggtitle("2018 Daily PM2.5 Concentration vs Model Variables")
+
+Plot2 <- ggplot(PM2.5_Full_Elev_utm, aes(x=PM10, y=PM2_5)) +
+  geom_point(aes(color = PM2_5), alpha = 0.4) +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
+  geom_smooth(aes(x = PM10, y = PM2_5),method = 'lm', se = FALSE) +
+  annotate("text", x = 45, y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  annotate("text", x = 47, y = 26, label = "lm()", color = "Blue") +
+  xlab(expression("PM 10 Concentration (\U003BCg/m3)")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_distiller(palette = "Set1")
+
+Plot3 <- ggplot(PM2.5_Full_for.model, aes(x=TAVG, y=PM2_5)) +
+  geom_point(aes(color = PM2_5), alpha = 0.4) +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
+  geom_smooth(aes(x = TAVG, y = PM2_5),method = 'lm', se = FALSE) +
+  annotate("text", x = 40, y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  annotate("text", x = 25, y = 6, label = "lm()", color = "Blue") +
+  xlab(expression("Daily Average Temperature (°F)")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_distiller(palette = "Set1")
+
+Plot4 <- ggplot(PM2.5_Full_Elev_utm, aes(x=elevation, y=PM2_5)) +
+  geom_point(aes(color = PM2_5), alpha = 0.4) +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1) +
+  geom_smooth(aes(x = elevation, y = PM2_5),method = 'lm', se = FALSE) +
+  annotate("text", x = 1000, y = 13.5, label = "NC regulatory standard = 12 ug/m3") +
+  annotate("text", x = 1200, y = 4, label = "lm()", color = "Blue") +
+  xlab(expression("Elevation (meters)")) +
+  ylab(expression("PM 2.5 (\U003BCg/m3)")) +
+  scale_color_distiller(palette = "Set1")
+
+grid.arrange(Plot1, Plot2, Plot3, Plot4, nrow = 4)
+
 ```
-
-
-
-
-FRA: This model structure should look familiar, with a typical linear model structure and dataframe defined. The addition here is that we have defined Week as a random variable. Essentially, we are interested not in the specific effects of each week but in the variability among weeks, so we have defined it as a random effect (essentially coming from a larger distribution of seasonal variability).
 
 \newpage
 
 # Summary and Conclusions
 <Summarize your major findings from your analyses. What conclusions do you draw from your findings? Make sure to apply this to a broader application for the research question you have answered.>
 
-For conclusion. Depending in the results of the linear model we can say also that in can be piedmont because more points or more population. 
+This study focused on trying to understand how PM2.5 concentration in North Carolina vary with temperature, PM10 concentration, zoning (piedmont, coastal, mountain), population, elevation, and distance to combustion points for electricity generation. The analysis performed indicated that during the year 2018, North Carolina had a mean PM 2.5 concentration below the regulatory standard of 12 micrograms per cubic meter for the three geographical zones (Coastal, Piedmont, and Mountains). Moreover, it was found that there is no significant difference between the mean PM 2.5 concentration of the Mountains and Coastal zones, yet there is a significant difference between the mean PM 2.5 concentration of these two zones and the Piedmont zone, which had a higher mean PM 2.5 concentration. This fact could be due to the fact that the piedmont area has the highest population, the biggest urban areas, and the most economic activity in North Carolina.
 
-```{r}
-aux2 <- st_set_geometry(PM2.5_Stations, value=NULL)
+The final model indicates that there are multiple independent variables that explain a significant amount of the variation of PM 2.5 concentration in North Carolina. The data of 2018 was used to obtain the best fit linear models with the considered variable. The results showed that concentrations of PM2.5 and PM10, Temperature , Elevation, and county populations have a significant  linear relationship during 2018. The model suggest that PM 2.5 concentrations increases with increase in county population and PM10 concentrations, and decreases with increases in Temperature and elevation.
 
-PopulationbyZone <-
-  PM2.5_Full_Elev_utm %>%
-  group_by(Zone) %>%
-  summarise(mean.Population = mean(Population),
-            total.Population = sum(Population))
-
-xtable1 <- xtable(summary_table, label="tab:tab1", caption="Selections")
-print.xtable(xtable1, comment=FALSE, include.rownames=FALSE)
-```
-
-We can also make exploratory plots of several continuous data points to determine possible relationships, as well as covariance among explanatory variables. 
-
-```{r}
-#Drop geo info
-aux5 <- st_set_geometry(PM2.5_Full_Elev_utm, value=NULL)
-
-PM2.5_Variables <- 
-  aux5 %>%
-  select(PM2.5, Population, PM10:elevation) %>%
-  na.omit()
-
-PM2.5_VariablesCorr <- cor(PM2.5_Variables)
-corrplot(PM2.5_VariablesCorr, method = "ellipse") # without ellipse it gives you circles
-corrplot.mixed(PM2.5_VariablesCorr, upper = "ellipse")
-```
-
-We determine the degree of temporal autocorrelation in our dataset.
-
-```{r}
-PM252018.auto <- lme(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Date + Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation, random = ~1|Week)
-
-#Determine the temporal autocorrelation in the model
-ACF(PM252018.auto)
-```
-
-From the ACF output, the 2nd value is taken (0.232) to define the degree of autocorrelation. Then, a repeated measures ANOVA model is created with the defined autocorrelation structure. the model is considering temporal autocorrelation within the levels of Week, and we have retained Week as a random effect.  
-
-```{r}
-PM252018.mixed <- lme(data = PM2.5_Full_Elev_Week_utm, PM2.5 ~ Date + Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + elevation, random = ~1|Week, correlation = corAR1(form = ~ Date|Week, value = 0.2321332919), method = "REML")
-  
-class(PM2.5_Full_Elev_Week_utm$Date)  
-  
-  
-  
-  lme(data = PeterPaul.summertemp,
-                     temperature_C ~ sampledate * lakename, 
-                     random = ~1|Week,
-                     #specify autocorrelation structure of order 1 (this is the 42.3%)
-                     #sampledate is duplicated in some cases, so need to split up by lake. 
-                     #FRA: This is only beacuse R doesnt like  that the sample were taken the same time.
-                     correlation = corAR1(form = ~ sampledate/lakename|Week, value = 0.423), 
-                     # we put manually the 0.423
-                     #define method as restricted maximum likelihood
-                     method = "REML")
-summary(TempTest.mixed)
-
-#Results: Random we got a stddev. Fixed effects: lakenamePeter Lake coef --> no diff between lakes. 
-# The interaction is also not significant.
-
-# Compare the random effects model with the fixed effects model
-TempTest.fixed <- gls(data = PeterPaul.summertemp,
-                      temperature_C ~ sampledate * lakename, 
-                      method = "REML")
-summary(TempTest.fixed)
-
-# little diff results but same conclusions
-# why did we wanto to use random effect? --> We now there is variability. why dont use 
-# that for our advantage.
-
-anova(TempTest.mixed, TempTest.fixed)
-# The lower the AIC, the better.
-# The p-value tells us whether those models have a significantly different fit
-
-# FRA: the models and signif diff and the mixed is better (AIC)
-
-# Post-hoc test
-# This will yield groupings of temperature by lake for the average date value
-TempTest.posthoc = lsmeans(TempTest.mixed, ~ sampledate * lakename)
-cld(TempTest.posthoc, alpha = 0.05, Letters = letters, adjust = "tukey")
-# FRA: you want this is there is a signif diff between groups. Something about groups.
+Variables such as population, elevation, temperature, and PM 10 can be used to estimate PM 2.5 concentration levels in North Carolina, which can be an important tool in health management and disease prevention. With proper information managers can prepare for high concentration events, warn the population, take measures to lower concentrations, and mitigate the harmful effects that high PM2.5 concentrations have on human health.
 
 
-# display our final relationship
-ggplot(PeterPaul.summertemp, aes(x = sampledate, y = temperature_C, color = lakename)) +
-  geom_point() +
-  scale_color_manual(values = c("#7fcdbb", "#253494")) +
-  geom_abline(intercept = 20.47, slope = 0.0001) #rounded coeff.
-```
 
-```{r}
-#Adding the Week variable
-PM2.5_Full_Elev_Week_utm <- 
-  PM2.5_Full_Elev_utm %>%
-  mutate(Week = week(Date)) %>%
-  na.omit()
-
-PM2.5_Full_Elev_Week_utm$TAVG <- as.numeric(PM2.5_Full_Elev_Week_utm$TAVG)
-```

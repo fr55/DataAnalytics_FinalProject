@@ -25,7 +25,7 @@
 \usepackage[margin=2.54cm]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={Analysis of the effect of PM10 Concentration, Temperature, Geographic Location, Population, and distance to Electricity-Generation Combustion Points on the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.},
+            pdftitle={Analysis of predictors for the concentration of fine particulate matter (PM2.5) in North Carolina during the year 2018.},
             pdfauthor={Felipe Raby Amadori},
             pdfborder={0 0 0},
             breaklinks=true}
@@ -115,10 +115,8 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{Analysis of the effect of PM10 Concentration, Temperature, Geographic
-Location, Population, and distance to Electricity-Generation Combustion
-Points on the concentration of fine particulate matter (PM2.5) in North
-Carolina during the year 2018.}
+  \title{Analysis of predictors for the concentration of fine particulate matter
+(PM2.5) in North Carolina during the year 2018.}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
   \subtitle{\url{https://github.com/fr55/DataAnalytics_FinalProject}}
@@ -132,7 +130,18 @@ Carolina during the year 2018.}
 \begin{document}
 \maketitle
 \begin{abstract}
-Experimental overview. This section should be no longer than 250 words.
+In this study, the main focus was in studying PM2.5 concentrations data
+in North Carolina during the year 2018, and other air pollutants,
+meteorological, and geographical parameters. Through the analysis, it
+was found that there is a significant difference between the mean daily
+PM 2.5 concentrations in the Piedmont and both the Mountains and the
+Coastal zone. It was also found that there is a significant linear
+relationship between the concentrations of PM2.5 and the concentrations
+of PM10, County Population, Daily Average Temperature, and Elevation.
+The distance to electricity generation combustion sites was also
+considered, but it was found that there is not a significant
+relationship with PM 2.5 concentrations measured in the North Carolina
+EPA stations.
 \end{abstract}
 
 \newpage
@@ -161,7 +170,7 @@ This study focus on trying to understand how PM2.5 concentration in
 North Carolina vary with temperature, PM10 concentration, zoning
 (piedmont, coastal, mountain), population, elevation, and distance to
 combustion points for electricity generation. This last variable was
-included because acording to the EPA combustion for electricity
+included because according to the EPA combustion for electricity
 generation is the major point-source sector for PM2.5 in the USA (EPA,
 2019).
 
@@ -213,6 +222,8 @@ their location in NAD83 lat/long coordinates.
 The dataset contains 19 columns, which are shown in Table
 \ref{tab:tab3}. Column names without description are self-explanatory.
 
+\newpage
+
 \begin{table}[ht]
 \centering
 \begin{tabular}{p{2.5in}p{3.5in}}
@@ -233,7 +244,8 @@ Date & mm/dd/YY \\
   AQS\_PARAMETER\_DESC &  \\ 
   CBSA\_CODE &  \\ 
   CBSA\_NAME &  \\ 
-  STATE\_CODE &  \\ 
+  STATE\_CODE & A unique number identifying the State. \\ 
+  STATE &  \\ 
   COUNTY CODE & A unique number identifying the County. \\ 
   COUNTY &  \\ 
   SITE\_LATITUDE & NAD83 \\ 
@@ -302,7 +314,8 @@ Date & mm/dd/YY \\
   AQS\_PARAMETER\_DESC &  \\ 
   CBSA\_CODE &  \\ 
   CBSA\_NAME &  \\ 
-  STATE\_CODE & A unique number identifying the County. \\ 
+  STATE\_CODE & A unique number identifying the State. \\ 
+  STATE &  \\ 
   COUNTY CODE & A unique number identifying the County. \\ 
   COUNTY &  \\ 
   SITE\_LATITUDE & NAD83 \\ 
@@ -317,11 +330,11 @@ Date & mm/dd/YY \\
 Dataset}\label{noaa-average-temperature-dataset}
 
 This dataset contains data from temperature monitoring in North Carolina
-in 2018, and it was obtained using the Data Search Tool in the National
+in 2018, and it was obtained using the Search Tool in the National
 Center for Environmental Information of the National Oceanic and
-Atmospheric Administration (NOAA). Webpage
+Atmospheric Administration (NOAA) Webpage
 \url{https://www.ncdc.noaa.gov/cdo-web}. Options showed in Table
-\ref{tab:tab6} were selected: XXXXXXArreglar
+\ref{tab:tab6} were selected:
 
 \begin{table}[ht]
 \centering
@@ -329,11 +342,14 @@ Atmospheric Administration (NOAA). Webpage
   \hline
 Option & Selection \\ 
   \hline
-Pollutant & PM10 \\ 
-  Year & 2018 \\ 
-  Geographic Area & North Carolina \\ 
-  Monitor Site & All Sites \\ 
-  Download & Download CSV (spreadsheet) \\ 
+Discover Data By & Search Tool \\ 
+  Weather Observation Dataset & Daily Summaries \\ 
+  Date Range & 2018-01-01 to 2018-12-31 \\ 
+  Search For & States \\ 
+  Search Term & North Carolina \\ 
+  Output Format & Custom GHCN-Daily CSV \\ 
+  Station Detail & Station Name \& Geographic Location \\ 
+  Data Type & Average Temperature. (TAVG) \\ 
    \hline
 \end{tabular}
 \caption{Selections} 
@@ -346,7 +362,7 @@ NOAA\_TAVG\_NC2018\_raw.csv on 2019-03-28.
 \subsubsection{Data Content
 Information}\label{data-content-information-2}
 
-The dataset contains daily mean air temperature in Farenheit in 2018.
+The dataset contains daily mean air temperature in Fahrenheit in 2018.
 Data from 39 stations in North Carolina with their location in NAD83
 lat/long coordinates. No county information.
 
@@ -376,7 +392,7 @@ STATION & A unique code identifying the site. \\
 shapefile}\label{us-census-bureau-us-counties-shapefile}
 
 This dataset contains geographic and geometric information of all the
-counties of the US. The data is in NAD83 lat/long coordinates. De file
+counties of the US. The data is in NAD83 lat/long coordinates. The file
 was provided by John Fay in the Environmental Data Analytics (ENV 872L)
 course at Duke University, Spring 2019.
 
@@ -448,14 +464,17 @@ where:
 \item
   stage refers to the stage in data management pipelines (e.g., raw,
   cleaned, temp or processed)
+\item
+  format is a non-proprietary file format (e.g., .csv, .txt)
 \end{itemize}
 
 \subsection{Analized data structure}\label{analized-data-structure}
 
-With these datasets an exploratory data analysis was done and for the
-study. The datasets were wrangled and a file called
-PM2.5\_Full\_Elev\_utm.shp was created, which has the data structure
-shown in Table \ref{tab:tab2}.
+With these datasets an exploratory data analysis was done for the study.
+The datasets were wrangled in a dataframe called PM2.5\_Full\_Elev\_utm
+and stored in the project processed folder in a file called
+PM2.5\_Full\_Elev\_utm.shp. This dataframe has the data structure shown
+in Table \ref{tab:tab2}.
 
 \begin{table}[ht]
 \centering
@@ -498,8 +517,10 @@ dataset and format date column.
 \NormalTok{EPA_AQPM10_NC2018_raw <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./Data/Raw/EPAair_PM10_NC2018_raw.csv"}\NormalTok{)}
 
 \CommentTok{#Formatting Dates}
-\NormalTok{EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
-\NormalTok{EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date, }\DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
+\NormalTok{EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM25_NC2018_raw}\OperatorTok{$}\NormalTok{Date,}
+                                      \DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
+\NormalTok{EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(EPA_AQPM10_NC2018_raw}\OperatorTok{$}\NormalTok{Date,}
+                                      \DataTypeTok{format =} \StringTok{"%m/%d/%Y"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -758,30 +779,38 @@ Visual data exploration of the PM2.5 2018 raw data file in
 \autoref{PM2.5_freqpoly}, \autoref{PM2.5_boxplot}, and
 \autoref{PM2.5_scatterplot}.
 
+\newpage
+
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-11-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-11-1.pdf}
 \caption{PM2.5 NC 2018 frequency polygon. \label{PM2.5_freqpoly}}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics{./Outputunnamed-chunk-12-1.pdf}
-\caption{PM2.5 NC 2018 boxplot. \label{PM2.5_boxplot}}
-\end{figure}
+\newpage
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-13-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-12-1.pdf}
+\caption{PM2.5 NC 2018 boxplot. \label{PM2.5_boxplot}}
+\end{figure}
+
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-13-1.pdf}
 \caption{PM2.5 NC 2018 scatterplot. \label{PM2.5_scatterplot}}
 \end{figure}
+
+\newpage
 
 Visual data exploration of the PM10 2018 raw data file in
 \autoref{PM10_scatterplot}.
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-14-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-14-1.pdf}
 \caption{PM10 NC 2018 scatterplot. \label{PM10_scatterplot}}
 \end{figure}
 
@@ -791,7 +820,8 @@ Data wrangling of the PM2.5 and PM10 2018 raw data files.
 \begin{Highlighting}[]
 \CommentTok{#Selecting Columns}
 \NormalTok{EPA_AQ_PM25_NC2018_Temp <-}\StringTok{ }\KeywordTok{select}\NormalTok{(EPA_AQPM25_NC2018_raw, Date, Site.ID,}
-\NormalTok{                                Daily.Mean.PM2.}\FloatTok{5.}\NormalTok{Concentration, AQS_PARAMETER_DESC,}
+\NormalTok{                                Daily.Mean.PM2.}\FloatTok{5.}\NormalTok{Concentration,}
+\NormalTok{                                AQS_PARAMETER_DESC,}
 \NormalTok{                                COUNTY}\OperatorTok{:}\NormalTok{SITE_LONGITUDE)}
 
 \CommentTok{#Changing column name}
@@ -805,19 +835,22 @@ Data wrangling of the PM2.5 and PM10 2018 raw data files.
 
 \CommentTok{#Changing column name}
 \KeywordTok{colnames}\NormalTok{(EPA_AQ_PM10_NC2018_Temp)[}\KeywordTok{colnames}\NormalTok{(EPA_AQ_PM10_NC2018_Temp)}
-                                \OperatorTok{==}\StringTok{"Daily.Mean.PM10.Concentration"}\NormalTok{]<-}\StringTok{"Daily.Mean.Concentration"}
+                                  \OperatorTok{==}\StringTok{"Daily.Mean.PM10.Concentration"}\NormalTok{]<-}\StringTok{"Daily.Mean.Concentration"}
 
 \CommentTok{#Create AQS_PARAMETER_DESC Column with Contaminant description.}
 \NormalTok{EPA_AQ_PM25_NC2018_Temp}\OperatorTok{$}\NormalTok{AQS_PARAMETER_DESC <-}\StringTok{ "PM2.5"}
 \NormalTok{EPA_AQ_PM10_NC2018_Temp}\OperatorTok{$}\NormalTok{AQS_PARAMETER_DESC <-}\StringTok{ "PM10"}
 
 \CommentTok{#Eliminates duplicate dates}
-\NormalTok{EPA_AQ_PM25_NC2018_Cleaned <-}\StringTok{ }\NormalTok{EPA_AQ_PM25_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM25_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
+\NormalTok{EPA_AQ_PM25_NC2018_Cleaned <-}
+\StringTok{  }\NormalTok{EPA_AQ_PM25_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM25_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
 
-\NormalTok{EPA_AQ_PM10_NC2018_Cleaned <-}\StringTok{ }\NormalTok{EPA_AQ_PM10_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM10_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
+\NormalTok{EPA_AQ_PM10_NC2018_Cleaned <-}\StringTok{ }
+\StringTok{  }\NormalTok{EPA_AQ_PM10_NC2018_Temp [}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(EPA_AQ_PM10_NC2018_Temp[}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{)]),]}
 
 \CommentTok{# Combine the data.}
-\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Cleaned <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(EPA_AQ_PM25_NC2018_Cleaned, EPA_AQ_PM10_NC2018_Cleaned)}
+\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Cleaned <-}
+\StringTok{  }\KeywordTok{rbind}\NormalTok{(EPA_AQ_PM25_NC2018_Cleaned, EPA_AQ_PM10_NC2018_Cleaned)}
 
 \CommentTok{#Save the data in the processed folder}
 \KeywordTok{write.csv}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Cleaned,}
@@ -829,10 +862,12 @@ Data wrangling of the PM2.5 and PM10 2018 raw data files.
 \StringTok{  }\KeywordTok{spread}\NormalTok{(AQS_PARAMETER_DESC, Daily.Mean.Concentration)}
 
 \CommentTok{#Remove rows without PM2.5 data}
-\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread <-}\StringTok{ }\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread[}\OperatorTok{!}\KeywordTok{is.na}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread}\OperatorTok{$}\NormalTok{PM2.}\DecValTok{5}\NormalTok{),]}
+\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread <-}\StringTok{ }
+\StringTok{  }\NormalTok{EPA_AQ_PM2.5PM10_NC2018_Spread[}\OperatorTok{!}\KeywordTok{is.na}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread}\OperatorTok{$}\NormalTok{PM2.}\DecValTok{5}\NormalTok{),]}
 
 \CommentTok{#Convert the dataset to a spatially enabled "sf" data frame}
-\NormalTok{PM2.5_PM10_sf <-}\StringTok{ }\KeywordTok{st_as_sf}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread,}\DataTypeTok{coords =} \KeywordTok{c}\NormalTok{(}\StringTok{'SITE_LONGITUDE'}\NormalTok{,}\StringTok{'SITE_LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{)}
+\NormalTok{PM2.5_PM10_sf <-}\StringTok{ }\KeywordTok{st_as_sf}\NormalTok{(EPA_AQ_PM2.5PM10_NC2018_Spread,coords }
+\NormalTok{                          =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{'SITE_LONGITUDE'}\NormalTok{,}\StringTok{'SITE_LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{)}
 
 \CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
 \NormalTok{PM2.5_PM10_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(PM2.5_PM10_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
@@ -844,7 +879,7 @@ monitoring stations.
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-16-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-16-1.pdf}
 \caption{PM2.5 NC Monitoring Stations Previsualization.
 \label{PM2.5Stations}}
 \end{figure}
@@ -888,9 +923,107 @@ Library of North Carolina.
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{#North Carolina Zones}
-\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Zone<-}\KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Ashe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alleghany'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilkes'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Watauga'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Avery'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caldwell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mitchell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Burke'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yancey'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'McDowell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rutherford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Madison'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Buncombe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Polk'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Henderson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Haywood'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Transylvania'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Swain'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jackson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Graham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Macon'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cherokee'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Clay'}\NormalTok{,}\StringTok{'Mountains'}\NormalTok{,}
-                         \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Surry'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stokes'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rockingham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caswell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Person'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Granville'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Vance'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Warren'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yadkin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Forsyth'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Guilford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alamance'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Orange'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Durham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Franklin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alexander'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Iredell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davie'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rowan'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davidson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Randolph'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chatham'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wake'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Catawba'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cleveland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lincoln'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gaston'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mecklenburg'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cabarrus'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stanly'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Union'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Montgomery'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Anson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Moore'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lee'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Richmond'}\NormalTok{,}\StringTok{'Piedmont'}\NormalTok{,}
-                                \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Scotland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hoke'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Harnett'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Johnston'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Nash'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Halifax'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Northampton'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Robeson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cumberland'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Sampson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wayne'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilson'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Edgecombe'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Columbus'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bladen'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Brunswick'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'New Hanover'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pender'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Duplin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Onslow'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lenoir'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jones'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Carteret'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Greene'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Craven'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pitt'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pamlico'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Beaufort'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Martin'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bertie'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hyde'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Dare'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Tyrrell'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Washington'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hertford'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gates'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Currituck'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Camden'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pasquotank'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Perquimans'}\OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chowan'}\NormalTok{,}\StringTok{'Coastal'}\NormalTok{,}\StringTok{'NoInfo'}\NormalTok{)))}
+\NormalTok{County_Info}\OperatorTok{$}\NormalTok{Zone<-}\KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Ashe'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alleghany'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilkes'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Watauga'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Avery'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caldwell'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mitchell'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Burke'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yancey'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'McDowell'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rutherford'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Madison'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Buncombe'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Polk'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Henderson'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Haywood'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Transylvania'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Swain'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jackson'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Graham'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Macon'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cherokee'}
+                         \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Clay'}\NormalTok{,}\StringTok{'Mountains'}\NormalTok{,}
+                         \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Surry'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stokes'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rockingham'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Caswell'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Person'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Granville'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Vance'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Warren'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Yadkin'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Forsyth'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Guilford'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alamance'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Orange'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Durham'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Franklin'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Alexander'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Iredell'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davie'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Rowan'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Davidson'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Randolph'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chatham'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wake'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Catawba'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cleveland'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lincoln'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gaston'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Mecklenburg'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cabarrus'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Stanly'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Union'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Montgomery'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Anson'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Moore'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lee'}
+                                \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Richmond'}\NormalTok{,}\StringTok{'Piedmont'}\NormalTok{,}
+                                
+                                \KeywordTok{ifelse}\NormalTok{(County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{ 'Scotland'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hoke'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Harnett'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Johnston'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Nash'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Halifax'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Northampton'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Robeson'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Cumberland'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Sampson'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wayne'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Wilson'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Edgecombe'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Columbus'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bladen'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Brunswick'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'New Hanover'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pender'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Duplin'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Onslow'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Lenoir'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Jones'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Carteret'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Greene'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Craven'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pitt'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pamlico'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Beaufort'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Martin'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Bertie'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hyde'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Dare'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Tyrrell'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Washington'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Hertford'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Gates'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Currituck'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Camden'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Pasquotank'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Perquimans'}
+                                       \OperatorTok{|}\NormalTok{County_Info}\OperatorTok{$}\NormalTok{County }\OperatorTok{==}\StringTok{'Chowan'}\NormalTok{,}\StringTok{'Coastal'}\NormalTok{,}\StringTok{'NoInfo'}\NormalTok{)))}
 \end{Highlighting}
 \end{Shaded}
 
@@ -963,6 +1096,8 @@ Adding the County Information to the PM2.5\_PM10\_sf\_utm dataframe.
 \KeywordTok{left_join}\NormalTok{(County_Info, }\DataTypeTok{by =} \KeywordTok{c}\NormalTok{(}\StringTok{"COUNTY"}\NormalTok{=}\StringTok{"County"}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
+
+\newpage
 
 \subsection{US Census Bureau US counties
 shapefile}\label{us-census-bureau-us-counties-shapefile-1}
@@ -1098,17 +1233,17 @@ Data exploration of the County\_Info dataframe.
 \end{verbatim}
 
 Visual data exploration of the counties\_sf\_utm dataframe in
-\autoref{Countyplot}.
+\autoref{Countyplot} and \autoref{Zoneplot}.
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-23-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-23-1.pdf}
 \caption{Counties exploratory map. \label{Countyplot}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-24-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-24-1.pdf}
 \caption{NC Zoning exploratory map. \label{Zoneplot}}
 \end{figure}
 
@@ -1197,13 +1332,15 @@ Data wrangling of the NOAA\_DTAVG\_NC2018\_raw dataframe.
 \NormalTok{NOAA_DTAVG_NC2018_Complete <-}\StringTok{ }\KeywordTok{na.omit}\NormalTok{(NOAA_DTAVG_NC2018_raw)}
 
 \CommentTok{#Convert the dataset to a spatially enabled "sf" data frame}
-\NormalTok{NOAA_DTAVG_NC2018_sf <-}\StringTok{ }\KeywordTok{st_as_sf}\NormalTok{(NOAA_DTAVG_NC2018_Complete,}\DataTypeTok{coords =} \KeywordTok{c}\NormalTok{(}\StringTok{'LONGITUDE'}\NormalTok{,}\StringTok{'LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{) }
+\NormalTok{NOAA_DTAVG_NC2018_sf <-}\StringTok{ }
+\StringTok{  }\KeywordTok{st_as_sf}\NormalTok{(NOAA_DTAVG_NC2018_Complete,}\DataTypeTok{coords =} \KeywordTok{c}\NormalTok{(}\StringTok{'LONGITUDE'}\NormalTok{,}\StringTok{'LATITUDE'}\NormalTok{),}\DataTypeTok{crs=}\DecValTok{4269}\NormalTok{) }
 
 \CommentTok{#Convert all to UTM Zone 17 (crs = 26917)}
 \NormalTok{NOAA_DTAVG_NC2018_sf_utm <-}\StringTok{ }\KeywordTok{st_transform}\NormalTok{(NOAA_DTAVG_NC2018_sf, }\DataTypeTok{c=}\DecValTok{26917}\NormalTok{)}
 
 \CommentTok{#Formatting dates}
-\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE <-}\StringTok{ }\KeywordTok{as.Date}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE, }\DataTypeTok{format =} \StringTok{"%d/%m/%Y"}\NormalTok{)}
+\NormalTok{NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE <-}\StringTok{ }
+\StringTok{  }\KeywordTok{as.Date}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm}\OperatorTok{$}\NormalTok{DATE, }\DataTypeTok{format =} \StringTok{"%d/%m/%Y"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1235,26 +1372,26 @@ and \autoref{Temp_scatterplot}..
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-29-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-29-1.pdf}
 \caption{Mean Annual Temperature exploratory map. \label{Tempplot}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-30-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-30-1.pdf}
 \caption{Daily Mean Temperature NC 2018 frequency polygon.
 \label{Temp_freqpoly}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-31-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-31-1.pdf}
 \caption{Daily Mean Temperature NC 2018 boxplot. \label{Temp_boxplot}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-32-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-32-1.pdf}
 \caption{Daily Mean Temperature NC 2018 scatterplot.
 \label{Temp_scatterplot}}
 \end{figure}
@@ -1288,7 +1425,8 @@ each PM2.5 Station in the PM2.5\_PM10\_Info\_sf\_utm dataframe.
 \NormalTok{PM2.5_PM10_Temp_sf_utm <-}\StringTok{ }\NormalTok{PM2.5_PM10_Info_sf_utm }\OperatorTok{%>%}
 \KeywordTok{left_join}\NormalTok{(aux2)}
 
-\CommentTok{#Assingning the Temperature of the nearest Temperature Station to each PM2.5 station.}
+\CommentTok{#Assingning the Temperature of the nearest Temperature Station to }
+\CommentTok{#each PM2.5 station.}
 
 \CommentTok{#Drops the geo data}
 \NormalTok{aux3 <-}\StringTok{ }\KeywordTok{st_set_geometry}\NormalTok{(NOAA_DTAVG_NC2018_sf_utm, }\DataTypeTok{value=}\OtherTok{NULL}\NormalTok{)}
@@ -1343,7 +1481,7 @@ Wrangling the data
 \CommentTok{#Clip the EPA_US_CombEmissions data set by the NC State boundary dataset}
 
 \CommentTok{#First create a State_sf file}
-\CommentTok{#Aggregate the data using group_by and summarize, just as you would a non-spatial dataframe}
+\CommentTok{#Aggregate the data using group_by and summarize}
 \NormalTok{state_sf_utm <-}\StringTok{ }\KeywordTok{st_union}\NormalTok{(counties_sf_utm)}
 
 \CommentTok{#Eliminate the emission points outside NC}
@@ -1358,7 +1496,7 @@ generation in the North Carolina in \autoref{Tempplot},
 
 \begin{figure}
 \centering
-\includegraphics{./Outputunnamed-chunk-36-1.pdf}
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-36-1.pdf}
 \caption{Combustion points for electricity generation in the North
 Carolina. \label{Combplot}}
 \end{figure}
@@ -1369,12 +1507,14 @@ PM2.5\_PM10\_Temp\_sf\_utm dataframe.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Distances between PM2.5 stations and Electricity Generation via Combustion points}
+\CommentTok{#Distances between PM2.5 stations and Electricity Generation }
+\CommentTok{#via Combustion points}
 \NormalTok{Distances <-}\StringTok{ }\KeywordTok{st_distance}\NormalTok{(PM2.5_Stations, EPA_NC_CombEmissions_utm)}
 
 \NormalTok{a <-}\StringTok{ }\KeywordTok{length}\NormalTok{(}\KeywordTok{unique}\NormalTok{(PM2.5_Stations}\OperatorTok{$}\NormalTok{Site.ID))}
 
-\CommentTok{#Determining the minimum distance of each PM2.5 station to a combustion point in meters.}
+\CommentTok{#Determining the minimum distance of each PM2.5 station to }
+\CommentTok{#a combustion point in meters.}
 \ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\OperatorTok{:}\NormalTok{a)\{}
 \NormalTok{  PM2.5_Stations}\OperatorTok{$}\NormalTok{Emiss_Dist[i] <-}\StringTok{ }\KeywordTok{min}\NormalTok{(Distances[i,])}
 \NormalTok{\}}
@@ -1429,27 +1569,606 @@ Elevations for the PM2.5 Stations
 \subsection{Additional previsualization of the
 data}\label{additional-previsualization-of-the-data}
 
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-39-1.pdf}
+\caption{Daily PM2.5 Concentration. \label{PM25plot}}
+\end{figure}
+
 \newpage
 
 \section{Analysis}\label{analysis}
 
 In 2012, the United States Environmental Protection Agency (USEPA)
-established two complementary primary regulatory standards for PM2.5.
-The first is based on a yearly average value and is set at 12 micrograms
-per cubic meter, ug/m3,
+established a complementary primary regulatory standard for PM2.5 at a
+concentration of 12 micrograms per cubic meter, ug/m3\textless{}
+therefore, the first statistical test should look at the standard in
+each station.
 
-First statistical test should look at the standard in each station.
+\subsection{One-sample t-test}\label{one-sample-t-test}
 
-FRA: This model structure should look familiar, with a typical linear
-model structure and dataframe defined. The addition here is that we have
-defined Week as a random variable. Essentially, we are interested not in
-the specific effects of each week but in the variability among weeks, so
-we have defined it as a random effect (essentially coming from a larger
-distribution of seasonal variability).
+The first statistical analysis will test the null hypothesis that the
+mean of the PM 2.5 concentrations in North Carolina are below the
+regulatory standard of 12 micrograms per cubic meter for the three
+geographical zones (Coastal, Piedmont, and Mountains).
+
+First the assumption of normal distribution is evaluated.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM2.5_Coastal <-}\StringTok{ }\NormalTok{PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5}\NormalTok{[PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone }\OperatorTok{==}\StringTok{ "Coastal"}\NormalTok{]}
+\NormalTok{PM2.5_Coastal <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(PM2.5_Coastal)}
+
+\NormalTok{PM2.5_Piedmont <-}\StringTok{ }\NormalTok{PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5}\NormalTok{[PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone }\OperatorTok{==}\StringTok{ "Piedmont"}\NormalTok{]}
+\NormalTok{PM2.5_Piedmont <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(PM2.5_Piedmont)}
+
+\NormalTok{PM2.5_Mountains <-}\StringTok{ }\NormalTok{PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5}\NormalTok{[PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone }\OperatorTok{==}\StringTok{ "Mountains"}\NormalTok{]}
+\NormalTok{PM2.5_Mountains <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(PM2.5_Mountains)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{shapiro.test}\NormalTok{(PM2.5_Coastal}\OperatorTok{$}\NormalTok{PM2.5_Coastal)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  PM2.5_Coastal$PM2.5_Coastal
+## W = 0.9786, p-value = 1.564e-15
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{shapiro.test}\NormalTok{(PM2.5_Piedmont}\OperatorTok{$}\NormalTok{PM2.5_Piedmont)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  PM2.5_Piedmont$PM2.5_Piedmont
+## W = 0.96427, p-value < 2.2e-16
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{shapiro.test}\NormalTok{(PM2.5_Mountains}\OperatorTok{$}\NormalTok{PM2.5_Mountains)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Shapiro-Wilk normality test
+## 
+## data:  PM2.5_Mountains$PM2.5_Mountains
+## W = 0.95824, p-value < 2.2e-16
+\end{verbatim}
+
+The Shapiro-Wilk normality test says that the PM 2.5 concentrations data
+in the three NC zones are significantly different from a normal
+distribution ( Coastal: Shapiro-Wilk normality test, W = 0.9786, p-value
+\textless{} 0.0001; Piedmont: Shapiro-Wilk normality test, W = 0.96427,
+p-value \textless{} 0.0001; Mountain: Shapiro-Wilk normality test, W =
+0.95824, p-value \textless{} 0.0001).
+
+Next, a graphical analysis of the data is performed.
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-42-1.pdf}
+\caption{Daily PM2.5 Concentration Coastal Histogram.
+\label{Coasthistplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-43-1.pdf}
+\caption{Daily PM2.5 Concentration Coastal qqplot. \label{Coastqqplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-44-1.pdf}
+\caption{Daily PM2.5 Concentration Piedmont Histogram.
+\label{Piedmonthistplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-45-1.pdf}
+\caption{Daily PM2.5 Concentration Piedmont qqplot.
+\label{Piedmontqqplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-46-1.pdf}
+\caption{Daily PM2.5 Concentration Mountains Histogram.
+\label{Mounthistplot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-47-1.pdf}
+\caption{Daily PM2.5 Concentration Mountains qqplot.
+\label{Mountqqplot}}
+\end{figure}
+
+In \autoref{Coasthistplot},\autoref{Coastqqplot},
+\autoref{Piedmonthistplot}, \autoref{Piedmontqqplot},
+\autoref{Mounthistplot}, and \autoref{Mountqqplot} it can be seen that
+the data have more than one peak, heavier tails, and longer tail to the
+right than a normal distribution; nevertheless, environmental data often
+violate the assumptions of normality and the histograms fairly resembles
+a bell curve, so a t-test is performed anyway.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{t.test}\NormalTok{(PM2.5_Coastal}\OperatorTok{$}\NormalTok{PM2.5_Coastal, }\DataTypeTok{mu =} \DecValTok{12}\NormalTok{, }\DataTypeTok{alternative =} \StringTok{"less"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  One Sample t-test
+## 
+## data:  PM2.5_Coastal$PM2.5_Coastal
+## t = -69.865, df = 1754, p-value < 2.2e-16
+## alternative hypothesis: true mean is less than 12
+## 95 percent confidence interval:
+##     -Inf 6.37724
+## sample estimates:
+## mean of x 
+##  6.241595
+\end{verbatim}
+
+According to the One Sample t-test, NC Coastal PM 2.5 concentrations in
+2018 were significantly lower than 12 ug/m3 (one sample t-test; t =
+--69.865, df =1754, p\textless{}0.0001).
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{t.test}\NormalTok{(PM2.5_Piedmont}\OperatorTok{$}\NormalTok{PM2.5_Piedmont, }\DataTypeTok{mu =} \DecValTok{12}\NormalTok{, }\DataTypeTok{alternative =} \StringTok{"less"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  One Sample t-test
+## 
+## data:  PM2.5_Piedmont$PM2.5_Piedmont
+## t = -67.406, df = 4433, p-value < 2.2e-16
+## alternative hypothesis: true mean is less than 12
+## 95 percent confidence interval:
+##      -Inf 8.292637
+## sample estimates:
+## mean of x 
+##  8.199887
+\end{verbatim}
+
+According to the One Sample t-test, NC Piedmont PM 2.5 concentrations in
+2018 were significantly lower than 12 ug/m3 (one sample t-test; t =
+-67.406, df = 4433, p-value \textless{} 0.0001).
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{t.test}\NormalTok{(PM2.5_Mountains}\OperatorTok{$}\NormalTok{PM2.5_Mountains, }\DataTypeTok{mu =} \DecValTok{12}\NormalTok{, }\DataTypeTok{alternative =} \StringTok{"less"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  One Sample t-test
+## 
+## data:  PM2.5_Mountains$PM2.5_Mountains
+## t = -53.529, df = 1270, p-value < 2.2e-16
+## alternative hypothesis: true mean is less than 12
+## 95 percent confidence interval:
+##      -Inf 6.563129
+## sample estimates:
+## mean of x 
+##  6.390637
+\end{verbatim}
+
+According to the One Sample t-test, NC Mountains PM 2.5 concentrations
+in 2018 were significantly lower than 12 ug/m3 (one sample t-test; t =
+-53.529, df = 1270, p\textless{}0.0001).
+
+According to the data and the One sample t-tests performed, the PM 2.5
+concentrations in North Carolina are below the regulatory standard of 12
+micrograms per cubic meter for the three geographical zones (Coastal,
+Piedmont, and Mountains).
+
+In \autoref{PM2.5Standardplot} is presented a visualization of the PM
+2.5 concentrations in North Carolina data in comparison with the North
+Carolina regulatory standard.
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-51-1.pdf}
+\caption{Daily PM2.5 Concentration, North Carolina.
+\label{PM2.5Standardplot}}
+\end{figure}
+
+\subsection{One-way ANOVA}\label{one-way-anova}
+
+Now that is known that the PM 2.5 concentrations in North Carolina in
+2018 were below the regulatory standard of 12 micrograms per cubic meter
+for the three geographical zones, it is of interest to check if there
+are significant differences between the means of PM 2.5 concentrations
+for the same three geographical zones.
+
+Therefore, the second statistical analysis will test the null hypothesis
+that the mean of the PM 2.5 concentrations in North Carolina are equal
+for the three geographical zones (Coastal, Piedmont, and Mountains).
+
+For this, a One-way ANOVA test is performed. This test requires a second
+assumption to be complied, which is that the variance of the groups is
+equal across groups. Taking into account that the data are not perfectly
+normal, to test for the homogeneity of variance across groups a
+Fligner-Killeen test is used. This test is a non-parametric test, which
+is very robust against departures from normality.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fligner.test}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Fligner-Killeen test of homogeneity of variances
+## 
+## data:  PM2.5_Full_Elev_utm$PM2_5 by as.factor(PM2.5_Full_Elev_utm$Zone)
+## Fligner-Killeen:med chi-squared = 7.6425, df = 2, p-value = 0.0219
+\end{verbatim}
+
+The Fligner-Killeen test of homogeneity of variances says that the
+variance across groups is not homogeneous, but with a p-value close to
+0.05 (med chi-squared = 7.6425, df = 2, p-value = 0.0219 \textless{}
+0.05).
+
+For this reason, for testing if there are significant differences
+between the means of PM 2.5 concentrations for the same three
+geographical zones, it is used a One-way ANOVA test and a Non-parametric
+equivalent of ANOVA, the Kruskal-Wallis Test.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM2.}\FloatTok{5.}\NormalTok{anova <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone))}
+\KeywordTok{anova}\NormalTok{(PM2.}\FloatTok{5.}\NormalTok{anova)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: PM2.5_Full_Elev_utm$PM2_5
+##                                       Df Sum Sq Mean Sq F value    Pr(>F)
+## as.factor(PM2.5_Full_Elev_utm$Zone)    2   6480  3239.9  238.95 < 2.2e-16
+## Residuals                           7457 101110    13.6                  
+##                                        
+## as.factor(PM2.5_Full_Elev_utm$Zone) ***
+## Residuals                              
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{ktest_PM2.}\DecValTok{5}\NormalTok{ <-}\StringTok{ }\KeywordTok{kruskal.test}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }
+\StringTok{                              }\KeywordTok{as.factor}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone))}
+\NormalTok{ktest_PM2.}\DecValTok{5}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Kruskal-Wallis rank sum test
+## 
+## data:  PM2.5_Full_Elev_utm$PM2_5 by as.factor(PM2.5_Full_Elev_utm$Zone)
+## Kruskal-Wallis chi-squared = 471.69, df = 2, p-value < 2.2e-16
+\end{verbatim}
+
+According to both test, there is a significant difference between the
+means of PM 2.5 concentrations for the same three geographical zones
+(ANOVA; F = 238.95, df = 7457, p\textless{}2.2e-16) and (Kruskal-Wallis
+chi-squared = 471.69, df = 2, p-value \textless{} 2.2e-16)
+
+To analyze which zones are different, two \emph{post hoc} tests were
+used, a Tukey multiple comparisons of means test for ANOVA and a Dunn's
+test for Kruskal-Wallis.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Run a post-hoc test for pairwise differences}
+\KeywordTok{TukeyHSD}\NormalTok{(}\KeywordTok{aov}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone))) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   Tukey multiple comparisons of means
+##     95% family-wise confidence level
+## 
+## Fit: aov(formula = PM2.5_Full_Elev_utm$PM2_5 ~ as.factor(PM2.5_Full_Elev_utm$Zone))
+## 
+## $`as.factor(PM2.5_Full_Elev_utm$Zone)`
+##                         diff        lwr       upr     p adj
+## Mountains-Coastal  0.1490419 -0.1688845 0.4669682 0.5147468
+## Piedmont-Coastal   1.9582918  1.7148601 2.2017235 0.0000000
+## Piedmont-Mountains 1.8092499  1.5346120 2.0838879 0.0000000
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{dunnTest}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(PM2.5_Full_Elev_utm}\OperatorTok{$}\NormalTok{Zone))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##             Comparison           Z      P.unadj        P.adj
+## 1  Coastal - Mountains  -0.5091436 6.106516e-01 6.106516e-01
+## 2   Coastal - Piedmont -18.4333092 7.100397e-76 2.130119e-75
+## 3 Mountains - Piedmont -15.7493971 6.933918e-56 1.386784e-55
+\end{verbatim}
+
+Both test give as a result that there is a significant difference
+between the means of PM 2.5 concentrations between the Piedmont and both
+the Mountains and the Coastal zone (TukeHSD; p-value\textless{}0.0001)
+and (Dunn; p-value\textless{}0.0001). There is no significant difference
+between the means of PM 2.5 concentrations between the Mountains and the
+Coastal zone (TukeHSD; p-value\textgreater{}0.05) and (Dunn;
+p-value\textgreater{}0.05).
+
+To explore graphically these results and present a visualization of the
+results of this test, in \autoref{BOX_plot}\} is presented a Boxplot for
+the Daily PM2.5 Concentration for the three North Carolina Zones.
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-55-1.pdf}
+\caption{Daily PM2.5 Concentration Zones Boxplot. \label{BOX_plot}}
+\end{figure}
+
+\subsection{Linear model}\label{linear-model}
+
+Finally, to answer the specific research question of this study (What
+are the effects of temperature, PM10 concentration, zoning (piedmont,
+coastal, mountain), population, elevation, distance to combustion points
+for electricity generation, in PM2.5 concentrations within North
+Carolina in the year 2018?), an analysis of covariance (ANCOVA) test was
+performed.
+
+In this study multiple multiple explanatory variables are being
+considered at a time in the model, so to check the model is not
+over-parameterized the Akaike's Information Criterion (AIC) was used.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM2.5_Full_for.model <-}\StringTok{ }
+\NormalTok{PM2.5_Full_Elev_utm }\OperatorTok{%>%}
+\KeywordTok{na.exclude}\NormalTok{()}
+
+\NormalTok{PM252018.model <-}\StringTok{ }
+\StringTok{  }\KeywordTok{lm}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ PM2.5_Full_for.model, PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }
+\StringTok{       }\NormalTok{Population }\OperatorTok{+}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(Zone) }\OperatorTok{+}\StringTok{ }\NormalTok{PM10 }\OperatorTok{+}\StringTok{ }\NormalTok{TAVG }\OperatorTok{+}\StringTok{ }\NormalTok{Emiss_Dist }\OperatorTok{+}\StringTok{ }\NormalTok{elevation)}
+
+\KeywordTok{step}\NormalTok{(PM252018.model) }\CommentTok{# the lower AIC value the better}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Start:  AIC=2904.83
+## PM2_5 ~ Population + as.factor(Zone) + PM10 + TAVG + Emiss_Dist + 
+##     elevation
+## 
+##                   Df Sum of Sq     RSS    AIC
+## - Emiss_Dist       1       0.1  9361.0 2902.9
+## - as.factor(Zone)  1       9.4  9370.3 2904.5
+## <none>                          9360.9 2904.8
+## - elevation        1      43.5  9404.5 2910.7
+## - Population       1     134.6  9495.5 2926.9
+## - TAVG             1     415.7  9776.6 2976.1
+## - PM10             1   11848.9 21209.8 4282.7
+## 
+## Step:  AIC=2902.85
+## PM2_5 ~ Population + as.factor(Zone) + PM10 + TAVG + elevation
+## 
+##                   Df Sum of Sq     RSS    AIC
+## <none>                          9361.0 2902.9
+## - as.factor(Zone)  1      13.5  9374.5 2903.3
+## - Population       1     172.9  9533.9 2931.7
+## - TAVG             1     415.8  9776.9 2974.2
+## - elevation        1     429.5  9790.5 2976.5
+## - PM10             1   11851.1 21212.1 4280.8
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Call:
+## lm(formula = PM2_5 ~ Population + as.factor(Zone) + PM10 + TAVG + 
+##     elevation, data = PM2.5_Full_for.model)
+## 
+## Coefficients:
+##             (Intercept)               Population  as.factor(Zone)Piedmont  
+##               4.021e+00                1.862e-06               -5.372e-01  
+##                    PM10                     TAVG                elevation  
+##               4.728e-01               -3.138e-02               -1.133e-02
+\end{verbatim}
+
+The variable distance to combustion emission point was dropped by the
+Akaike's Information Criterion (AIC). According to this result, the set
+of explanatory variables that are best suited to predict PM 2.5
+concentration are Population, Zone, PM10, TAVG, and elevation. Next, a
+multiple regression is performed on the recommended set of variables.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM252018.model <-}\StringTok{ }
+\StringTok{  }\KeywordTok{lm}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ PM2.5_Full_for.model, PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }
+\StringTok{       }\NormalTok{Population }\OperatorTok{+}\StringTok{ }\KeywordTok{as.factor}\NormalTok{(Zone) }\OperatorTok{+}\StringTok{ }\NormalTok{PM10 }\OperatorTok{+}\StringTok{ }\NormalTok{TAVG }\OperatorTok{+}\StringTok{ }\NormalTok{elevation)}
+\KeywordTok{anova}\NormalTok{(PM252018.model)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: PM2_5
+##                   Df  Sum Sq Mean Sq   F value Pr(>F)    
+## Population         1   417.0   417.0   74.8771 <2e-16 ***
+## as.factor(Zone)    1     0.4     0.4    0.0643 0.7999    
+## PM10               1 11194.9 11194.9 2010.3200 <2e-16 ***
+## TAVG               1   428.9   428.9   77.0236 <2e-16 ***
+## elevation          1   429.5   429.5   77.1205 <2e-16 ***
+## Residuals       1681  9361.0     5.6                     
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+In the full model, only Zone is not statistically significant. The model
+is run without that variable.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PM252018.model <-}\StringTok{ }
+\StringTok{  }\KeywordTok{lm}\NormalTok{(}\DataTypeTok{data =}\NormalTok{ PM2.5_Full_for.model, PM2_}\DecValTok{5} \OperatorTok{~}\StringTok{ }
+\StringTok{       }\NormalTok{Population }\OperatorTok{+}\StringTok{ }\NormalTok{PM10 }\OperatorTok{+}\StringTok{ }\NormalTok{TAVG }\OperatorTok{+}\StringTok{ }\NormalTok{elevation)}
+\KeywordTok{summary}\NormalTok{(PM252018.model)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Call:
+## lm(formula = PM2_5 ~ Population + PM10 + TAVG + elevation, data = PM2.5_Full_for.model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -17.7054  -1.2551   0.0033   1.2707  12.1720 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)  4.168e+00  2.891e-01  14.414  < 2e-16 ***
+## Population   1.450e-06  2.039e-07   7.111  1.7e-12 ***
+## PM10         4.709e-01  1.018e-02  46.246  < 2e-16 ***
+## TAVG        -3.096e-02  3.623e-03  -8.546  < 2e-16 ***
+## elevation   -1.281e-02  8.719e-04 -14.691  < 2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.361 on 1682 degrees of freedom
+## Multiple R-squared:  0.5706, Adjusted R-squared:  0.5696 
+## F-statistic: 558.8 on 4 and 1682 DF,  p-value: < 2.2e-16
+\end{verbatim}
+
+Plotting the diagnostic plots of the model in \autoref{DiagPlot}\} to
+check the assumptions.
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-59-1.pdf}
+\caption{Model diagnostic plots. \label{DiagPlot}}
+\end{figure}
+
+In \autoref{DiagPlot}\}, in the residuals vs fitted plot it can be seen
+an slightly increasing variance pattern but overall we can say that the
+points appear to be randomly scattered around the centerline. Also, in
+the normal Q-Q plot the points appear to follow an straight line (except
+for the extremes which is common for environmental data), so the graph
+is accepted. In the Scale- Location plot the points appear to be
+randomly scattered, so there is no evidence of heteroscedasticity and
+the homogeneous variance assumption is met. In the Residuals versus
+Leverage plots we check for outliers to verify that no single data point
+is so influential that leaving it out changes the structure of the
+model.
+
+To make the coefficients easier to manipulate, let's first save the
+regression coefficients from our model model4 to a variable.
+
+From the model we got that the intercept, 4.168, is the PM 2.5 mean
+daily concentration (ug/m3) when all the other variables are zero. We
+reject the null hypothesis of no effect of the explanatory variables on
+the response variable.
+
+Population significantly increases the PM 2.5 mean daily concentration
+(ug/m3). With an increase of population by 1 the PM 2.5 concentration is
+increased by 1.450e-06 ug/m3 (t = 7.111, df = 1682, p \textless{}
+0.001).
+
+PM10 daily mean concentration (ug/m3) significantly increases the PM 2.5
+mean daily concentration (ug/m3). With an increase of PM10 daily mean
+concentration by 1 ug/m3 the PM 2.5 concentration is increased by
+4.709e-01 ug/m3 (t = 46.246, df = 1682, p \textless{} 0.001).
+
+Daily Average Temperature (°F) significantly decreases the PM 2.5 mean
+daily concentration (ug/m3). With an increase of daily average
+temperature by 1 °F the PM 2.5 concentration is decreased by 3.096e-02
+ug/m3 (t = -8.546, df = 1682, p \textless{} 0.001).
+
+Finally, elevation (meters) significantly decreases the PM 2.5 mean
+daily concentration (ug/m3). With an increase of elevation by 1 meter
+the PM 2.5 concentration is decreased by -1.281e-02 ug/m3 (t = -14.691,
+df = 1682, p \textless{} 0.001). The Adjusted R-squared = 0.5696, which
+is the fraction of total variance explained by the model.
+
+The model explain 56.96\% of the observed variance. The final linear
+equation to predict PM 2.5 mean daily concentration (ug/m3) from the
+explanatory variables is:
+
+\[ PM2.5 = \ 4.168 + \ 0.00000145*Population + \ 0.471*PM10  \ -0.03096*Temp \ -0.0128*Elev + \epsilon \]
+
+In \autoref{Final_plot}\} is presented the Daily PM2.5 Concentration vs
+Model Variables.
+
+\begin{figure}
+\centering
+\includegraphics{Raby_ENV872_Project_files/figure-latex/unnamed-chunk-60-1.pdf}
+\caption{Daily PM2.5 Concentration vs Model Variables.
+\label{Final_plot}}
+\end{figure}
 
 \newpage
 
 \section{Summary and Conclusions}\label{summary-and-conclusions}
+
+This study focused on trying to understand how PM2.5 concentration in
+North Carolina vary with temperature, PM10 concentration, zoning
+(piedmont, coastal, mountain), population, elevation, and distance to
+combustion points for electricity generation. The analysis performed
+indicated that during the year 2018, North Carolina had a mean PM 2.5
+concentration below the regulatory standard of 12 micrograms per cubic
+meter for the three geographical zones (Coastal, Piedmont, and
+Mountains). Moreover, it was found that there is no significant
+difference between the mean PM 2.5 concentration of the Mountains and
+Coastal zones, yet there is a significant difference between the mean PM
+2.5 concentration of these two zones and the Piedmont zone, which had a
+higher mean PM 2.5 concentration. This fact could be due to the fact
+that the piedmont area has the highest population, the biggest urban
+areas, and the most economic activity in North Carolina.
+
+The final model indicates that there are multiple independent variables
+that explain a significant amount of the variation of PM 2.5
+concentration in North Carolina. The data of 2018 was used to obtain the
+best fit linear models with the considered variable. The results showed
+that concentrations of PM2.5 and PM10, Temperature , Elevation, and
+county populations have a significant linear relationship during 2018.
+The model suggest that PM 2.5 concentrations increases with increase in
+county population and PM10 concentrations, and decreases with increases
+in Temperature and elevation.
+
+Variables such as population, elevation, temperature, and PM 10 can be
+used to estimate PM 2.5 concentration levels in North Carolina, which
+can be an important tool in health management and disease prevention.
+With proper information managers can prepare for high concentration
+events, warn the population, take measures to lower concentrations, and
+mitigate the harmful effects that high PM2.5 concentrations have on
+human health.
 
 
 \end{document}
