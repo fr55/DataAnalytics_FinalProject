@@ -931,46 +931,51 @@ PM2.5_Full_Elev_utm <- st_read('./Data/Processed/PM2.5_Full_Elev_utm.shp')
 
 ## Additional previsualization of the data
 
+For additional previsualization of the data and have am idea of possible trends, in Figures \autoref{PM25plot} is presented PM 2.5 daily mean concentration variation during 2018 with separate aesthetics for zone, distance to a combustion point, elevation, daily mean temperature, and population. 
+
 ```{r echo = FALSE, fig.cap = "Daily PM2.5 Concentration. \\label{PM25plot}", fig.height = 9, fig.width = 7}
 PM2.5_Dist_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Emiss_Dist)) +
   geom_smooth(color ="black") +
-  xlab(expression("Date")) +
+  xlab(expression("")) +
   ylab(expression("PM 2.5 (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Dist. to combustion point (m)")  +
-  ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
+  scale_color_gradient(low="cyan", high="blue4", name = "Dist.comb.point (m)")  +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
 PM2.5_Zone_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Zone)) +
   geom_smooth(color ="black") +
-  xlab(expression("Date")) +
+  xlab(expression("")) +
   ylab(expression("PM 2.5 (\U003BCg/m3)")) +
-  scale_fill_manual("red","blue","yellow")  +
+  scale_fill_manual("red","blue","yellow") +
+  ggtitle("2018 Daily PM2.5 concentration, North Carolina") +
   geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
 
 PM2.5_Elevation_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = elevation)) +
   geom_smooth(color ="black") +
-  xlab(expression("Date")) +
+  xlab(expression("")) +
   ylab(expression("PM 2.5 (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)")
+  scale_color_gradient(low="cyan", high="blue4", name = "Elev. (m)") +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
   
 PM2.5_Temp_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = TAVG)) +
   geom_smooth(color ="black") +
-  xlab(expression("Date")) +
+  xlab(expression("")) +
   ylab(expression("PM 2.5 (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)")
+  scale_color_gradient(low="cyan", high="blue4", name = "Temp (°F)") +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
   
 PM2.5_Pop_Plot <- ggplot(PM2.5_Full_Elev_utm, aes(x=Date, y=PM2_5)) +
   geom_point(aes(color = Population)) +
   geom_smooth(color ="black") +
   xlab(expression("Date")) +
   ylab(expression("PM 2.5 (\U003BCg/m3)")) +
-  scale_color_gradient(low="cyan", high="blue4", name = "Population")
+  scale_color_gradient(low="cyan", high="blue4", name = "Population") +
+  geom_hline(yintercept=12, linetype="dashed", color = "black", size = 1)
   
-grid.arrange(PM2.5_Dist_Plot, PM2.5_Zone_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_Plot, PM2.5_Pop_Plot, nrow = 5)
+grid.arrange(PM2.5_Zone_Plot, PM2.5_Dist_Plot, PM2.5_Elevation_Plot, PM2.5_Temp_Plot, PM2.5_Pop_Plot, nrow = 5)
 ```
 
 \newpage
